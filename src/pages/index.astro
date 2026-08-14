@@ -2,6 +2,11 @@
 import Layout from "../components/Layout.astro";
 import Ornament from "../components/Ornament.astro";
 import { withBase, SITE, BRANCHES, BRANCH_ORDER } from "../lib/site.js";
+import { stats, episodes, characters } from "../lib/portal-data.js";
+
+const s = stats();
+const nEp = episodes().length;
+const nCh = characters().length;
 
 const doors = [
   {
@@ -102,6 +107,26 @@ const doors = [
 
   <Ornament />
 
+  <section class="narrow narrow--flush" aria-labelledby="figures-h">
+    <p class="rubric">What is here</p>
+    <h2 id="figures-h">The whole thing, counted</h2>
+    <dl class="figures">
+      <div><dt>{s.units?.toLocaleString()}</dt><dd>chapters of primary text, across {s.works_readable} works</dd></div>
+      <div><dt>{nEp}</dt><dd>stories, retold and cross-referenced</dd></div>
+      <div><dt>{nCh}</dt><dd>figures, with the names each tradition gives them</dd></div>
+      <div><dt>{s.quotes}</dt><dd>quotations, every one located in its source</dd></div>
+      <div><dt>{s.glossary}</dt><dd>Middle English words, glossed where you meet them</dd></div>
+      <div><dt>7</dt><dd>throughlines tracked across the whole canon</dd></div>
+    </dl>
+    <p class="small">
+      <a href={withBase("/transmission/")}>See how a motif travelled &rarr;</a> &middot;
+      <a href={withBase("/timeline/")}>See when it was all written &rarr;</a> &middot;
+      <a href={withBase("/names/")}>One name, many mouths &rarr;</a>
+    </p>
+  </section>
+
+  <Ornament />
+
   <section class="narrow narrow--flush" aria-labelledby="method-h">
     <p class="rubric">How this is built</p>
     <h2 id="method-h">Verification is the product</h2>
@@ -193,6 +218,30 @@ const doors = [
     font-size: 0.8rem;
     letter-spacing: 0.05em;
     color: var(--rubric);
+  }
+
+  .figures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+    gap: var(--s5);
+    margin: var(--s5) 0;
+  }
+  .figures div {
+    border-top: 2px solid var(--line-strong);
+    padding-top: var(--s3);
+  }
+  .figures dt {
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    color: var(--rubric);
+    line-height: 1;
+    font-variant-numeric: lining-nums;
+  }
+  .figures dd {
+    margin: var(--s2) 0 0;
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    line-height: 1.4;
   }
 
   .branch-list {
