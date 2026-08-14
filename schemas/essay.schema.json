@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "essay.schema.json",
+  "title": "An essay drawing on the base",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "standfirst", "body"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "standfirst": { "type": "string", "minLength": 40 },
+    "body": { "type": "string", "minLength": 800 },
+    "quotes": { "type": "array", "items": { "type": "string" } }
+  }
+}

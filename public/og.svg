@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="The Arthur Portal">
+  <rect width="1200" height="630" fill="#f2ead9"/>
+  <g opacity="0.5">
+    <circle cx="600" cy="315" r="250" fill="none" stroke="#dbcfb3" stroke-width="2"/>
+    <circle cx="600" cy="315" r="215" fill="none" stroke="#dbcfb3" stroke-width="1"/>
+  </g>
+  <!-- a sword set point-down in a stone: the founding image, as a plain emblem -->
+  <g transform="translate(600 168)">
+    <path d="M0 0v250" stroke="#23201a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-48 52h96" stroke="#a8321e" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="14" r="13" fill="#9c7526"/>
+  </g>
+  <path d="M470 470c22-58 58-84 130-84s108 26 130 84z" fill="#c6b691"/>
+  <text x="600" y="546" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="54" letter-spacing="6" fill="#23201a">THE ARTHUR PORTAL</text>
+  <text x="600" y="590" text-anchor="middle" font-family="Georgia,'Times New Roman',serif"
+        font-size="25" font-style="italic" fill="#57503f">There is no “the” legend.</text>
+</svg>

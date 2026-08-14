@@ -30,6 +30,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://jd-jones-as
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(withBase("/og.svg"), Astro.site ?? "https://jd-jones-ases.github.io").href} />
+    <meta property="og:url" content={canonical.href} />
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="icon" href={withBase("/favicon.svg")} type="image/svg+xml" />

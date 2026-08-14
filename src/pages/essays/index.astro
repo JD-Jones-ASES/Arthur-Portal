@@ -1,0 +1,26 @@
+---
+import Layout from "../../components/Layout.astro";
+import { withBase } from "../../lib/site.js";
+import { essays } from "../../lib/portal-data.js";
+const all = essays();
+---
+<Layout title="Essays" description="Arguments made from the base, with every step linked to a passage you can check." current="/method">
+  <div class="page-head">
+    <span class="rubric">Essays</span>
+    <h1>Arguments from the material</h1>
+    <p class="lede">
+      The rest of this portal is arranged to be neutral between the voices. These are not: they are
+      arguments, made from a particular selection of texts, with every step linked to a passage you
+      can go and check.
+    </p>
+  </div>
+  <div class="grid">
+    {all.map((e) => (
+      <a class="card" href={withBase(`/essays/${e.id}/`)}>
+        <span class="rubric">Essay</span>
+        <h3>{e.title}</h3>
+        <p class="small">{e.standfirst}</p>
+      </a>
+    ))}
+  </div>
+</Layout>
