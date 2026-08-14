@@ -67,8 +67,14 @@ See [AGENTS.md](AGENTS.md#repo-map).
 Push to `main` → GitHub Actions builds and publishes to GitHub Pages at
 `https://jd-jones-ases.github.io/Arthur-Portal/`.
 
-> **Note.** GitHub Pages on a *private* repository requires a paid plan. The workflow is correct and
-> ready; the repository may need to be public for the deploy step to publish.
+**One-time setup.** Pages has to be switched on for the repository once, by hand:
+
+> **Settings → Pages → Build and deployment → Source: `GitHub Actions`**
+
+The workflow cannot do this for itself. Creating a Pages site requires *admin* scope, and a
+workflow's `GITHUB_TOKEN` tops out at write — `actions/configure-pages` with `enablement: true`
+returns `Resource not accessible by integration`. After that single change, every push to `main`
+builds, link-checks, accessibility-checks and publishes automatically.
 
 ## Licence
 

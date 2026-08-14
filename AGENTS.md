@@ -146,8 +146,10 @@ Themes toggle on `<html data-theme>` (`paper` | `night`), applied before first p
 Push to `main` → GitHub Actions runs `astro build` → GitHub Pages. Base path `/Arthur-Portal`
 (see `astro.config.mjs`). Generated data is committed so CI only needs to build.
 
-> **Note:** GitHub Pages on a *private* repository requires a paid plan. The workflow is correct and
-> ready; the repo may need to be made public for the deploy to publish.
+> **One-time setup:** Pages must be enabled by hand once — **Settings → Pages → Build and
+> deployment → Source: `GitHub Actions`**. The workflow cannot bootstrap this: creating a Pages
+> site needs admin scope and `GITHUB_TOKEN` only has write. Everything before that step (build,
+> link check, accessibility) already passes in CI.
 
 ## Extending it
 
