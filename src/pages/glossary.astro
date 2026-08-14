@@ -71,7 +71,7 @@ const commonest = [...entries].sort((a, b) => b.chapters - a.chapters).slice(0, 
         <dl class="gl-entries">
           {grp.items.map((e) => (
             <>
-              <dt id={encodeURIComponent(e.match)}>
+              <dt id={`term-${encodeURIComponent(e.match)}`}>
                 {e.term}
                 {e.kind === "false-friend" && <span class="gl-flag" title="A word that survives with a changed sense">false friend</span>}
               </dt>

@@ -107,7 +107,7 @@ export function GET() {
       type: "word",
       title: g.term,
       sub: g.gloss,
-      path: `glossary/#${encodeURIComponent(g.match)}`,
+      path: `glossary/#term-${encodeURIComponent(g.match)}`,
       branch: "english",
       terms: `${g.term} ${g.gloss}`.toLowerCase(),
     });

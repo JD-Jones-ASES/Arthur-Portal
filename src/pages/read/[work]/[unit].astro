@@ -32,7 +32,12 @@ const nextUnit = next ? getUnit(work.id, next) : null;
 
 const heading = u.chapter ? `${u.book}.${u.chapter}` : u.label;
 const pageTitle = `${heading} — ${work.short}`;
-const description = u.title.length > 20 ? u.title : `${work.title}, ${u.label}`;
+// A useful description for a reading page is the chapter's own opening words:
+// generated titles like "Brut, part 41 of 55" say nothing to a search result.
+const opening = (u.paragraphs[0] ?? "").replace(/\s+/g, " ").trim();
+const description = `${work.title}${u.chapter ? `, ${u.label}` : ""}. ${
+  opening.length > 150 ? opening.slice(0, 149) + "…" : opening
+}`;
 ---
 
 <Layout title={pageTitle} description={description} current="/read" branch={work.branch}>

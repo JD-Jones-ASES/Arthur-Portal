@@ -22,7 +22,9 @@
     "validate": "npm run validate:basic && npm run validate:quotes && npm run validate:rights && npm run validate:refs && npm run validate:coverage && npm run validate:text",
     "prepare:data": "npm run ingest:spine && npm run ingest:glossary && npm run ingest:quotes && npm run ingest:indexes && npm run validate",
     "check:links": "node scripts/validate/check-links.mjs",
-    "qa:shots": "node scripts/qa/screenshots.mjs"
+    "qa:shots": "node scripts/qa/screenshots.mjs",
+    "qa:a11y": "node scripts/qa/a11y.mjs",
+    "verify": "npm run build && npm run check:links && npm run qa:a11y"
   },
   "dependencies": {
     "@astrojs/svelte": "^9.0.0",
