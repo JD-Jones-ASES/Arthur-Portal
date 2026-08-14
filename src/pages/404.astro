@@ -1,0 +1,25 @@
+---
+import Layout from "../components/Layout.astro";
+import { withBase } from "../lib/site.js";
+---
+
+<Layout title="Not found" description="That page could not be found.">
+  <div class="page-head">
+    <span class="rubric">404</span>
+    <h1>That page is not on hand.</h1>
+    <p class="lede">
+      A phrase this portal uses often, and means literally: the thing you asked for is not in the
+      corpus. In this case it is simply a wrong address.
+    </p>
+  </div>
+
+  <div class="narrow">
+    <p>Try one of these instead:</p>
+    <ul>
+      <li><a href={withBase("/start/")}>Start here</a> &mdash; the legend in ten minutes</li>
+      <li><a href={withBase("/stories/")}>The stories</a> &mdash; the famous episodes</li>
+      <li><a href={withBase("/read/")}>The texts</a> &mdash; read the sources themselves</li>
+      <li><a href={withBase("/method/whats-not-here/")}>What&rsquo;s not here</a> &mdash; the honest gap list</li>
+    </ul>
+  </div>
+</Layout>

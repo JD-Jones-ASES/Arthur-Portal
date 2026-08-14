@@ -1,0 +1,32 @@
+# The gate, on every pull request and on pushes to working branches.
+#
+# Runs the schema / quote / rights / reference / coverage validators against the COMMITTED data,
+# then builds and link-checks. It deliberately does not run `prepare:data`: regenerating data is a
+# local, supervised step, and CI's job is to prove the committed data is internally consistent.
+#
+# `validate:quotes` runs without raw/restricted/ present, so the two in-copyright Vulgate quotations
+# are verified against their committed attestation record rather than against the text itself
+# (see DECISIONS.md ADR-0004).
+name: gate
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --no-audit --no-fund
+      - name: Validate data
+        run: npm run validate
+      - name: Build
+        run: npm run build
+      - name: Check internal links
+        run: npm run check:links

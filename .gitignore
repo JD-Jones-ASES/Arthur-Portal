@@ -1,0 +1,23 @@
+# Build output
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Source texts — re-fetchable from the manifest, never committed.
+# raw/restricted/ additionally holds IN-COPYRIGHT texts (the Lacy Lancelot-Grail)
+# which are used for research and quote validation but MUST NOT be redistributed.
+# See DECISIONS.md ADR-0004 and /method/sources.
+raw/
+
+# QA artefacts
+qa-shots/
+
+# Environment / editor
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

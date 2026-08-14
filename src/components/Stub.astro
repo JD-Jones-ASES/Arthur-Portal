@@ -1,0 +1,19 @@
+---
+// Placeholder for a section that is planned but not yet built. Kept deliberately
+// plain and honest — the site never pretends a page exists when it doesn't.
+const { rubric, title, body, phase } = Astro.props;
+---
+
+<div class="page-head">
+  <span class="rubric">{rubric}</span>
+  <h1>{title}</h1>
+  <p class="lede">{body}</p>
+</div>
+
+<div class="gap-note narrow">
+  <span class="gap-note__label">Under construction</span>
+  <p>
+    This section is scheduled for {phase} of the build. The rest of the portal is navigable in the
+    meantime.
+  </p>
+</div>

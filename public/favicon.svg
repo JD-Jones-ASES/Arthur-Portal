@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="The Arthur Portal">
+  <rect width="32" height="32" rx="3" fill="#f2ead9"/>
+  <!-- A sword, point down, set in a stone: the founding image of the canon,
+       drawn as a plain emblem rather than any particular illustration. -->
+  <path d="M16 4.5v15.5" stroke="#23201a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M11 9.5h10" stroke="#a8321e" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="16" cy="6.2" r="1.5" fill="#9c7526"/>
+  <path d="M7 27c1.5-4.5 4-6.5 9-6.5s7.5 2 9 6.5z" fill="#c6b691"/>
+</svg>

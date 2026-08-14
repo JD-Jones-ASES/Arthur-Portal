@@ -1,0 +1,40 @@
+{
+  "name": "arthur-portal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:preview": "LOCAL_ROOT=1 astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch:sources": "node scripts/ingest/fetch-sources.mjs",
+    "ingest:spine": "node scripts/ingest/build-spine.mjs",
+    "ingest:glossary": "node scripts/ingest/build-glossary.mjs",
+    "ingest:quotes": "node scripts/ingest/build-quote-anchors.mjs",
+    "ingest:indexes": "node scripts/ingest/build-indexes.mjs",
+    "validate:basic": "node scripts/validate/validate-basic.mjs",
+    "validate:quotes": "node scripts/validate/validate-quotes.mjs",
+    "validate:rights": "node scripts/validate/validate-rights.mjs",
+    "validate:refs": "node scripts/validate/validate-refs.mjs",
+    "validate:coverage": "node scripts/validate/validate-coverage.mjs",
+    "validate:text": "node scripts/validate/scan-text.mjs",
+    "validate": "npm run validate:basic && npm run validate:quotes && npm run validate:rights && npm run validate:refs && npm run validate:coverage && npm run validate:text",
+    "prepare:data": "npm run ingest:spine && npm run ingest:glossary && npm run ingest:quotes && npm run ingest:indexes && npm run validate",
+    "check:links": "node scripts/validate/check-links.mjs",
+    "qa:shots": "node scripts/qa/screenshots.mjs"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^9.0.0",
+    "astro": "^7.0.0",
+    "svelte": "^5.56.3"
+  },
+  "devDependencies": {
+    "@fontsource-variable/eb-garamond": "^5.2.5",
+    "@fontsource/cinzel": "^5.2.5",
+    "@fontsource/im-fell-english-sc": "^5.2.5",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "playwright-core": "^1.62.1"
+  }
+}

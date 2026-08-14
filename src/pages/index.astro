@@ -1,0 +1,222 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import { withBase, SITE, BRANCHES, BRANCH_ORDER } from "../lib/site.js";
+
+const doors = [
+  {
+    href: "/stories/",
+    rubric: "The stories",
+    title: "What actually happens",
+    body:
+      "The famous episodes, retold plainly — the sword in the stone, the Dolorous Stroke, the " +
+      "green girdle, Camlann — and then broken open to show which authors tell them, and how " +
+      "sharply they disagree.",
+  },
+  {
+    href: "/grail/",
+    rubric: "The Grail",
+    title: "Follow the thread",
+    body:
+      "Chrétien invented it and stopped mid-sentence. Everyone since has been answering an " +
+      "unfinished poem. Five incompatible Grails, the questers who reach or fail them, and a " +
+      "guided read of the quest itself.",
+  },
+  {
+    href: "/knights/",
+    rubric: "The knights",
+    title: "Follow a life",
+    body:
+      "Dossiers for the whole company — with the names each tradition gives them, the kin that " +
+      "damns them, and an itinerary that walks you through one knight's entire arc in the " +
+      "primary text.",
+  },
+];
+---
+
+<Layout title={null} current="">
+  <section class="hero">
+    <p class="rubric">The Matter of Britain</p>
+    <h1>There is no <em>the</em> legend.</h1>
+    <p class="lede">
+      Twelve authors across five centuries inherited the same handful of objects &mdash; a sword, a
+      table, a grail, a betrayal, a wound, a prophecy &mdash; and each re-cut them to mean something
+      different. Geoffrey&rsquo;s conqueror-king is not Malory&rsquo;s elected boy. Wolfram&rsquo;s
+      Grail, a stone that heals by pity, is not the Vulgate&rsquo;s holy vessel that judges by
+      purity. <strong>The disagreements are not corruptions of a lost original. They are the
+      material.</strong>
+    </p>
+    <p class="lede">
+      This portal lines the versions up so you can read the stories, follow the threads, and always
+      know whose Arthur you are reading.
+    </p>
+    <p class="cluster hero__cta">
+      <a class="btn" href={withBase("/start/")}>Start here</a>
+      <a class="btn btn--ghost" href={withBase("/read/")}>Read the texts</a>
+    </p>
+  </section>
+
+  <Ornament />
+
+  <section aria-labelledby="doors-h">
+    <h2 id="doors-h" class="visually-hidden">Three ways in</h2>
+    <div class="grid grid--doors">
+      {
+        doors.map((d) => (
+          <a class="card door" href={withBase(d.href)}>
+            <span class="rubric">{d.rubric}</span>
+            <h3>{d.title}</h3>
+            <p>{d.body}</p>
+            <span class="door__go" aria-hidden="true">Enter &rarr;</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush" aria-labelledby="branches-h">
+    <p class="rubric">The traditions</p>
+    <h2 id="branches-h">One inheritance, many hands</h2>
+    <p>
+      Every voice on this site belongs to a manuscript tradition, and every tradition carries one
+      colour throughout &mdash; on a quote, in the margin of a chapter, on a timeline. You should
+      never be able to read a claim here without seeing whose it is.
+    </p>
+    <ul class="branch-list">
+      {
+        BRANCH_ORDER.map((id) => (
+          <li data-branch={id}>
+            <span class="chip"><span class="chip__dot" />{BRANCHES[id].label}</span>
+            <span class="branch-list__blurb">{BRANCHES[id].blurb}</span>
+            <span class="branch-list__span muted small">{BRANCHES[id].span}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="small muted">
+      <a href={withBase("/library/")}>Meet the voices &rarr;</a>
+    </p>
+  </section>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush" aria-labelledby="method-h">
+    <p class="rubric">How this is built</p>
+    <h2 id="method-h">Verification is the product</h2>
+    <p>
+      Every quotation is located in its source text by an automated gate before it can be published;
+      the build fails if one cannot be found. Every claim names the voice that makes it. And every
+      motif is asked the question this canon exists to pose: <em>what does it cost?</em> The Grail
+      that empties the fellowship, the oath that breeds the violence it forbids, the foreknowledge
+      that saves no one.
+    </p>
+    <p>
+      Where the material is missing &mdash; and it often is &mdash; the gap is printed rather than
+      papered over. <a href={withBase("/method/whats-not-here/")}>What&rsquo;s not here</a> is a page,
+      not an omission.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding: var(--s9) 0 var(--s7);
+    max-width: 48rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.2rem, 1.4rem + 3.4vw, 4rem);
+    margin-bottom: var(--s5);
+  }
+  .hero h1 em {
+    color: var(--rubric);
+    font-style: italic;
+  }
+  .hero .lede + .lede {
+    margin-top: var(--s4);
+  }
+  .hero__cta {
+    margin-top: var(--s6);
+    gap: var(--s3);
+  }
+
+  .btn {
+    display: inline-block;
+    font-family: var(--font-ui);
+    font-size: 0.86rem;
+    letter-spacing: 0.04em;
+    padding: var(--s3) var(--s5);
+    border-radius: var(--radius);
+    background: var(--rubric);
+    color: var(--paper-raised);
+    border: 1px solid var(--rubric);
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: var(--rubric-soft);
+    border-color: var(--rubric-soft);
+  }
+  .btn--ghost {
+    background: transparent;
+    color: var(--ink);
+    border-color: var(--line-strong);
+  }
+  .btn--ghost:hover {
+    background: var(--paper-raised);
+    border-color: var(--ink-faint);
+  }
+
+  .grid--doors {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  }
+  .door {
+    display: flex;
+    flex-direction: column;
+    padding: var(--s6);
+  }
+  .door .rubric {
+    display: block;
+    margin-bottom: var(--s3);
+  }
+  .door h3 {
+    margin: 0 0 var(--s3);
+    font-size: 1.32rem;
+  }
+  .door p {
+    color: var(--ink-soft);
+    flex: 1;
+  }
+  .door__go {
+    margin-top: var(--s5);
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    color: var(--rubric);
+  }
+
+  .branch-list {
+    list-style: none;
+    margin: var(--s5) 0;
+    padding: 0;
+  }
+  .branch-list li {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: var(--s2) var(--s4);
+    padding: var(--s3) 0;
+    border-bottom: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .branch-list__span {
+    grid-column: 2;
+  }
+  @media (max-width: 620px) {
+    .branch-list li {
+      grid-template-columns: 1fr;
+    }
+    .branch-list__span {
+      grid-column: 1;
+    }
+  }
+</style>

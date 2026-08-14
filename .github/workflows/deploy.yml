@@ -1,0 +1,49 @@
+# Build the static Astro site and deploy it to GitHub Pages.
+#
+# Pure `astro build` — generated data (derived/, data/indexes/, …) is committed, so CI does NOT run
+# `prepare:data`. Project base is /Arthur-Portal (see astro.config.mjs).
+#
+# NOTE: GitHub Pages on a private repository requires a paid plan. If the repo is private this
+# workflow will build successfully but the deploy step will not publish.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
+      - run: npm run check:links
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

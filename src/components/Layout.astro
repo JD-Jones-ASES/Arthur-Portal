@@ -1,0 +1,56 @@
+---
+import "../styles/portal.css";
+import Nav from "./Nav.astro";
+import Footer from "./Footer.astro";
+import { SITE, withBase } from "../lib/site.js";
+
+const {
+  title,
+  description = SITE.description,
+  current = "",
+  branch = null,
+  wide = false,
+} = Astro.props;
+
+const fullTitle = title ? `${title} — ${SITE.name}` : SITE.name;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://jd-jones-ases.github.io");
+---
+
+<!doctype html>
+<html lang="en" data-theme="paper">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href={withBase("/favicon.svg")} type="image/svg+xml" />
+    <link rel="sitemap" href={withBase("/sitemap.xml")} />
+
+    <script is:inline>
+      // No-flash theme: apply the stored preference before first paint.
+      try {
+        var t = localStorage.getItem("arthur-theme");
+        if (t) document.documentElement.dataset.theme = t;
+        else if (window.matchMedia("(prefers-color-scheme: dark)").matches)
+          document.documentElement.dataset.theme = "night";
+      } catch (e) {}
+    </script>
+  </head>
+
+  <body data-branch={branch ?? undefined}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Nav current={current} />
+    <main id="main" class={wide ? "" : "wrap"}>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,69 @@
+---
+import { withBase, SITE, NAV } from "../lib/site.js";
+
+const { current = "" } = Astro.props;
+---
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href={withBase("/")}>
+      <span class="brand__mark" aria-hidden="true">✠</span>{SITE.short}
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      {
+        NAV.map((item) => (
+          <a
+            href={withBase(item.href)}
+            aria-current={current === item.match ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="header-tools">
+      <button
+        class="icon-btn"
+        id="search-open"
+        type="button"
+        aria-label="Search the portal"
+        title="Search (press /)"
+      >
+        Search
+      </button>
+      <button
+        class="icon-btn"
+        id="theme-toggle"
+        type="button"
+        aria-label="Switch between parchment and night"
+        title="Switch theme"
+      >
+        <span id="theme-toggle-label">Night</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script is:inline>
+  (function () {
+    var btn = document.getElementById("theme-toggle");
+    var label = document.getElementById("theme-toggle-label");
+    function sync() {
+      var night = document.documentElement.dataset.theme === "night";
+      if (label) label.textContent = night ? "Parchment" : "Night";
+    }
+    sync();
+    if (btn) {
+      btn.addEventListener("click", function () {
+        var next = document.documentElement.dataset.theme === "night" ? "paper" : "night";
+        document.documentElement.dataset.theme = next;
+        try {
+          localStorage.setItem("arthur-theme", next);
+        } catch (e) {}
+        sync();
+      });
+    }
+  })();
+</script>

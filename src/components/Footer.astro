@@ -1,0 +1,51 @@
+---
+import { withBase, SITE } from "../lib/site.js";
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>Read</h3>
+        <ul>
+          <li><a href={withBase("/start/")}>Start here</a></li>
+          <li><a href={withBase("/stories/")}>The stories</a></li>
+          <li><a href={withBase("/read/")}>The texts</a></li>
+          <li><a href={withBase("/quotes/")}>The quote ledger</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow</h3>
+        <ul>
+          <li><a href={withBase("/grail/")}>The Grail</a></li>
+          <li><a href={withBase("/knights/")}>The knights</a></li>
+          <li><a href={withBase("/throughlines/")}>The throughlines</a></li>
+          <li><a href={withBase("/compare/")}>The crosswalk</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Sources</h3>
+        <ul>
+          <li><a href={withBase("/library/")}>The voices</a></li>
+          <li><a href={withBase("/method/sources/")}>Texts &amp; translators</a></li>
+          <li><a href={withBase("/method/whats-not-here/")}>What&rsquo;s not here</a></li>
+          <li><a href={withBase("/method/")}>Method</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>About</h3>
+        <ul>
+          <li><a href={withBase("/about/")}>Colophon</a></li>
+          <li><a href={SITE.repo}>Source code</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-colophon">
+      Built on a quote-validated research base. Every quotation on this site is located in its source
+      text by an automated gate before it can be published, and every claim is attributed to the
+      voice that makes it &mdash; because there is no <em>the</em> legend, only the versions that
+      disagree. Primary texts are public domain; the apparatus is original work.
+    </p>
+  </div>
+</footer>

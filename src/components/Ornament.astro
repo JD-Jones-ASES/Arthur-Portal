@@ -1,0 +1,9 @@
+---
+// The house section divider: a fleuron flanked by fading hairlines.
+// Decorative only — hidden from assistive technology.
+const { mark = "❧", tight = false } = Astro.props;
+---
+
+<div class={`ornament${tight ? " ornament--tight" : ""}`} role="presentation">
+  <span class="ornament__mark" aria-hidden="true">{mark}</span>
+</div>
