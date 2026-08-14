@@ -1,0 +1,59 @@
+{
+  "id": "knight-of-the-cart",
+  "title": "The Knight of the Cart",
+  "act": "flowering",
+  "order": 18,
+  "branch": "french",
+  "summary": "Lancelot hesitates two steps before disgracing himself for the queen — and that hesitation is the only fault the poem finds in him.",
+  "retelling": "Chrétien de Troyes wrote *Lancelot, or the Knight of the Cart* around 1177, and in it he invented the love affair that would eventually destroy Camelot.\n\nThe queen has been carried off. A knight — unnamed for most of the poem — is pursuing her, has lost his horse, and comes upon a dwarf driving a cart. In twelfth-century France a cart is not neutral transport: it is what criminals are carried in on the way to execution, and to be seen in one is a disgrace a knight does not recover from. The dwarf will tell him where the queen is, on condition that he climbs in.\n\nHe takes two steps before he does it.\n\nChrétien is exact about the mechanics of those two steps, and the sentence is the foundation of the entire courtly-love tradition: *Reason, which dares thus speak to him, reaches only his lips, but not his heart; but love is enclosed within his heart, bidding him and urging him to mount at once upon the cart.*\n\nReason gets as far as the lips. Love is in the heart. Love wins.\n\nAnd the poem's judgement is not that he should have listened to reason. When he finally reaches Guinevere, she refuses to speak to him — and the reason, when she eventually gives it, is the two steps. He hesitated. That is his failing.\n\nThis is the moment adultery enters the Matter of Britain, and it enters as a virtue: the proof of the greatest knight in the world. Everything afterwards — the Vulgate making it disqualify him from the Grail, Malory writing the war it causes, Tennyson putting the queen on the floor — is an argument with a poem that thought it was paying a compliment.",
+  "voices": [
+    {
+      "voice": "chretien",
+      "term": "the two steps, and the shame overruled",
+      "take": "Reason reaches the lips and not the heart. The hesitation, not the disgrace, is the fault — and the queen says so.",
+      "quote_id": "chretien-love-over-shame"
+    },
+    {
+      "voice": "vulgate",
+      "term": "mutual, and fatal",
+      "take": "The cycle makes the love mutual and then makes it structural: it is why he is the best knight and why he cannot achieve the Grail.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "malory",
+      "term": "the same story, told as a rescue",
+      "take": "Malory retells the abduction in Book XIX with the cart much reduced and the shame largely gone — and then defends the old love outright.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "gottfried",
+      "term": "the version with no choice in it",
+      "take": "Gottfried's lovers drink a potion. Chretien's choose, deliberately, against reason — which is precisely what makes them culpable and admirable at once.",
+      "quote_id": "gottfried-love-potion"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "chretien-4-2",
+      "why": "The cart, the two steps, and reason reaching only his lips."
+    },
+    {
+      "unit": "malory-19-1",
+      "why": "Malory's version of the abduction, three centuries later."
+    }
+  ],
+  "cost": "A poem written to flatter a patron installs, at the centre of the legend, a love that every later author will have to either condemn or excuse — and that will eventually be given the whole kingdom to pay for it.",
+  "cuts": [
+    "courtly-love",
+    "the-fellowship"
+  ],
+  "characters": [
+    "lancelot",
+    "guinevere"
+  ],
+  "related": [
+    "tristram-and-isoude",
+    "the-queen-taken",
+    "poisoned-apple"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "lancelot-fails",
+  "title": "Lancelot at the chapel",
+  "act": "grail",
+  "order": 30,
+  "branch": "french",
+  "summary": "The best knight in the world lies half asleep while the Grail heals a sick man in front of him, and cannot move.",
+  "retelling": "Lancelot, riding the quest, comes to a stone cross by a ruined chapel and lies down to sleep in his armour beside his horse.\n\nHalf asleep, he sees a sick knight carried up on a litter, complaining of his pain. And then the candlestick and the Grail come out of the chapel of their own accord, and the sick man drags himself to the vessel, touches it, kisses it, and is healed — gets up, entirely well, and gives thanks.\n\nLancelot lies there through all of it and does not move. Not out of choice: he cannot.\n\nThe healed knight sees him lying there in his armour and says out loud, to a squire, that this must be some man who is in deadly sin and unconfessed, since the holy vessel came and he did not stir — and takes Lancelot's horse and helm and sword, and goes.\n\nLancelot wakes and cannot decide whether it was a dream. Then he hears a voice: harder than stone, more bitter than wood, more naked and barren than the fig tree, and it tells him to withdraw from this holy place.\n\nWhat he does next is why this sequence is the best thing in the Grail quest. He does not argue. He goes to a hermit and makes the first full confession of his life — that he has loved the queen for twenty-four years, that everything he has done in arms he did for her, and that he has never asked God for anything. He weeps. He is told he may go no further and that his son will achieve what he cannot.\n\nAnd he accepts it, and keeps riding, and gets closer than anyone but the three — as far as the door of the chamber where the Grail is, where a voice tells him not to enter and he enters anyway, and is struck down by a blast of fire and lies in a coma for twenty-four days. One for each year.\n\nHe wakes and says he has seen more than any tongue may tell. Then he goes home.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the greatest knight, stopped at a door",
+      "take": "He cannot move while the vessel heals a man in front of him, confesses everything, accepts the verdict, and still goes further than anyone else who fails.",
+      "quote_id": "malory-grail-empties-fellowship"
+    },
+    {
+      "voice": "vulgate",
+      "term": "disqualified by the thing that made him",
+      "take": "The love that makes him supreme in arms is precisely what shuts him out of the sacred. The cycle built this outcome into its premises.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "purity, and no appeal",
+      "take": "The Queste's terms are unappealable: cleansed and purged, or nothing. Lancelot's twenty-four years are not extenuating, they are the charge.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "wolfram",
+      "term": "failure as something you return from",
+      "take": "Wolfram's hero fails at the Grail, loses his faith, and is allowed to come back and succeed. The French tradition offers Lancelot no such road.",
+      "quote_id": "wolfram-anfortas-wounded"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-13-19",
+      "why": "The chapel, the healed knight, and the voice that sends him away."
+    },
+    {
+      "unit": "malory-13-20",
+      "why": "The confession — twenty-four years, and the first time he asks for anything."
+    }
+  ],
+  "cost": "The best knight alive is told, correctly, that the thing which made him the best knight alive disqualifies him from the highest thing there is. He agrees, and keeps going, and it changes nothing.",
+  "cuts": [
+    "the-grail",
+    "courtly-love"
+  ],
+  "characters": [
+    "lancelot",
+    "galahad"
+  ],
+  "related": [
+    "grail-enters-camelot",
+    "elaine-and-galahad",
+    "corbenic"
+  ]
+}

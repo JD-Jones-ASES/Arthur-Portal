@@ -1,0 +1,240 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import Heraldry from "../../components/Heraldry.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import {
+  characters, characterById, episodeById, cutById, quoteById, units as getUnits, workById,
+} from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+export function getStaticPaths() {
+  return characters().map((c) => ({ params: { knight: c.id }, props: { knight: c } }));
+}
+
+const { knight: k } = Astro.props;
+
+const arc = (k.arc ?? [])
+  .map((a) => ({ ...a, ep: episodeById(a.episode) }))
+  .filter((a) => a.ep)
+  .sort((a, b) => a.ep.order - b.ep.order);
+const followable = arc.length >= 3;
+
+const kin = (k.kin ?? []).map((x) => ({ ...x, rec: x.id ? characterById(x.id) : null }));
+const quotes = (k.quotes ?? []).map((q) => quoteById(q)).filter(Boolean);
+const throughlines = (k.cuts ?? []).map((c) => cutById(c)).filter(Boolean);
+
+// The first passage of each arc stop, so "follow" lands in the primary text.
+const stops = arc.map((a) => {
+  const p = (a.ep.passages ?? [])[0];
+  if (!p) return { ...a, work: null, unit: null };
+  const work = workById(p.unit.split("-").slice(0, -2).join("-"));
+  return { ...a, work, unit: work ? getUnits(work.id)[p.unit] : null };
+});
+---
+
+<Layout
+  title={k.name}
+  description={k.one_line}
+  current="/knights"
+  branch={k.branch ?? k.traditions[0]}
+>
+  <div class="page-head knight-head">
+    <div class="knight-head__arms">
+      <Heraldry blazon={k.blazon ?? null} name={k.name} size={104} />
+    </div>
+    <div>
+      <span class="rubric">{k.role}{k.house ? ` · house of ${k.house}` : ""}</span>
+      <h1>{k.name}</h1>
+      <p class="lede">{k.one_line}</p>
+      {k.blazon && (
+        <p class="small muted knight-head__blazon">
+          <em>{k.blazon.text}</em> &mdash; {k.blazon.source}
+        </p>
+      )}
+    </div>
+  </div>
+
+  <div class="knight-grid">
+    <div>
+      <div class="prose" set:html={mdToHtml(k.dossier)} />
+
+      {k.cost && (
+        <div class="cost">
+          <span class="cost__label">What it costs</span>
+          <p>{k.cost}</p>
+        </div>
+      )}
+
+      {k.divergence && (
+        <div class="divergence__note">
+          <span class="divergence__note-label">Where the traditions disagree</span>
+          <p>{k.divergence}</p>
+        </div>
+      )}
+
+      {k.gap_note && (
+        <div class="gap-note">
+          <span class="gap-note__label">A note on the evidence</span>
+          <p>{k.gap_note}</p>
+        </div>
+      )}
+
+      {arc.length > 0 && (
+        <section class="follow" id="follow">
+          <h2>
+            {followable ? "Follow " + k.name : "Where " + k.name + " appears"}
+          </h2>
+          {followable ? (
+            <p class="lede">
+              {k.name}&rsquo;s arc in order &mdash; {arc.length} stops, each linking to the story and
+              straight into the primary text.
+            </p>
+          ) : (
+            <p class="muted">
+              {k.name} appears in {arc.length === 1 ? "a single episode" : `${arc.length} episodes`}.
+              A short arc is a fact about the figure, not a gap in the record.
+            </p>
+          )}
+          <ol class="follow-list">
+            {stops.map((s, i) => (
+              <li>
+                <span class="follow-list__n">{i + 1}</span>
+                <div class="follow-list__body">
+                  <a class="follow-list__title" href={withBase(`/stories/${s.ep.id}/`)}>{s.ep.title}</a>
+                  {s.note && <p class="follow-list__note">{s.note}</p>}
+                  {s.unit && (
+                    <p class="small">
+                      <a href={withBase(`/read/${s.work.id}/${s.unit.id}/`)}>
+                        {s.work.short}{s.unit.label && s.unit.label !== s.unit.title ? ` ${s.unit.label}` : ""} &rarr;
+                      </a>
+                    </p>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {quotes.length > 0 && (
+        <section>
+          <h2>Quoted</h2>
+          {quotes.map((q) => (
+            <div class="quote" data-branch={q.branch ?? undefined}>
+              <p class="quote__text">&ldquo;{q.text}&rdquo;</p>
+              <span class="quote__attr">
+                <a href={withBase(`/quotes/#${q.id}`)}>{q.work_title}{q.anchor_label && q.anchor_label !== "?" ? `, ${q.anchor_label}` : ""}</a>
+                {q.spine && (
+                  <> &middot; <a href={withBase(`/read/${q.work}/${q.spine.unit}/#p${q.spine.paragraph}`)}>read in place</a></>
+                )}
+              </span>
+            </div>
+          ))}
+        </section>
+      )}
+    </div>
+
+    <aside class="knight-aside">
+      {k.aka?.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">One name, many mouths</h2>
+          <ul class="aka-list">
+            {k.aka.map((a) => (
+              <li data-branch={a.tradition}>
+                <span class="chip"><span class="chip__dot" />{BRANCHES[a.tradition]?.label ?? a.tradition}</span>
+                <strong>{a.form}</strong>
+                {a.note && <span class="small muted"> &mdash; {a.note}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="margin-block">
+        <h2 class="rubric">Appears in</h2>
+        <ul class="chip-list">
+          {k.traditions.map((t) => (
+            <li data-branch={t}><span class="chip"><span class="chip__dot" />{BRANCHES[t].label}</span></li>
+          ))}
+        </ul>
+        {k.first_text && <p class="small muted">First in: {k.first_text}</p>}
+      </section>
+
+      {kin.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Kin</h2>
+          <dl class="facts">
+            {kin.map((x) => (
+              <>
+                <dt>{x.relation}</dt>
+                <dd>
+                  {x.rec ? <a href={withBase(`/knights/${x.rec.id}/`)}>{x.label}</a> : x.label}
+                  {x.note && <div class="small muted">{x.note}</div>}
+                </dd>
+              </>
+            ))}
+          </dl>
+        </section>
+      )}
+
+      {throughlines.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Throughlines</h2>
+          <ul class="margin-list margin-list--tight">
+            {throughlines.map((c) => (
+              <li><a href={withBase(`/throughlines/${c.id}/`)}>{c.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+</Layout>
+
+<style>
+  .knight-head { display: flex; gap: var(--s6); align-items: flex-start; flex-wrap: wrap; }
+  .knight-head__arms { flex: none; padding-top: var(--s5); }
+  .knight-head__blazon { margin-top: var(--s3); }
+
+  .knight-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) minmax(13rem, 17rem);
+    gap: var(--s7);
+    align-items: start;
+  }
+  @media (max-width: 1000px) { .knight-grid { grid-template-columns: 1fr; gap: var(--s6); } }
+  .knight-aside {
+    position: sticky;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s5);
+    font-size: 0.92rem;
+  }
+  @media (max-width: 1000px) { .knight-aside { position: static; border-top: 1px solid var(--line); padding-top: var(--s5); } }
+
+  .aka-list, .chip-list { list-style: none; margin: var(--s3) 0 0; padding: 0; }
+  .aka-list li { margin-bottom: var(--s3); line-height: 1.4; }
+  .aka-list .chip { margin-right: 0.4em; }
+  .chip-list { display: flex; flex-wrap: wrap; gap: var(--s2); }
+
+  .follow { margin-top: var(--s7); }
+  .follow-list { list-style: none; margin: var(--s5) 0 0; padding: 0; counter-reset: stop; }
+  .follow-list li {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: var(--s4);
+    padding: var(--s3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .follow-list__n {
+    font-family: var(--font-rubric);
+    font-size: 0.86rem;
+    color: var(--branch);
+    padding-top: 0.15em;
+  }
+  .follow-list__title { font-family: var(--font-display); font-size: 1.02rem; }
+  .follow-list__note { margin: var(--s1) 0; color: var(--ink-soft); font-size: 0.94rem; }
+  .margin-list--tight li { margin-bottom: var(--s2); }
+</style>

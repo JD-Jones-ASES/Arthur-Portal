@@ -1,0 +1,69 @@
+{
+  "id": "grail-enters-camelot",
+  "title": "The Grail enters the hall",
+  "act": "grail",
+  "order": 29,
+  "branch": "english",
+  "summary": "The vessel comes into Camelot in glory — and in the same chapter the king is grieving the vow it provoked.",
+  "retelling": "It happens at supper, at Pentecost, with the whole fellowship seated.\n\nThere is a crack of thunder loud enough that the hall seems about to fall, and then a sunbeam seven times clearer than daylight, and every knight in the room is struck dumb and can see the others made more beautiful than they were.\n\nThen: *there entered into the hall the Holy Grail covered with white samite, but there was none might see it, nor who bare it.* The hall fills with sweet odours, and every knight is served with whatever food and drink he loves best in the world. And the vessel goes out again, and nobody sees where.\n\nGawain stands up first. He vows to labour in the quest a twelvemonth and a day, and never to return until he has seen the Grail more openly than it has been seen here — and when the rest of the fellowship hear him, most of them stand up and vow the same.\n\nAnd then Malory does the thing that no other author in the tradition does. He turns the camera onto Arthur, and Arthur is not exalted. He is furious and heartbroken, and he says so to Gawain's face:\n\n*Ye have nigh slain me with the avow and promise that ye have made; for through you ye have bereft me the fairest fellowship and the truest of knighthood that ever were seen together in any realm of the world.*\n\nThe apparition and the death warrant of the Round Table are in the same chapter, four paragraphs apart.\n\nA hundred and fifty knights ride out. Fewer than half come back. Malory has Arthur say, watching them go, that he will never see them all together again — and he never does.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "glory, and the bill, in one chapter",
+      "take": "Covered with white samite, unseen and unattributable — and within the same chapter Arthur is telling Gawain the vow has nearly killed him.",
+      "quote_id": "malory-grail-empties-fellowship"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the quest as an examination",
+      "take": "The Queste frames the same moment as the beginning of a sorting, and does not mourn what it sorts away.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the vessel above all earthly things",
+      "take": "The cycle establishes the Grail as the supreme object, prized above the sword — which is precisely why a kingdom cannot compete with it.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    },
+    {
+      "voice": "tennyson",
+      "term": "a collective error",
+      "take": "Tennyson makes the quest a mass enthusiasm that empties the hall of the men who were needed at home — Arthur's grief promoted into the poem's own verdict.",
+      "gap_note": "Reception rather than medieval witness."
+    },
+    {
+      "voice": "wolfram",
+      "term": "no hall to empty",
+      "take": "Wolfram's Grail is kept by its own household and reached by one man asking one question. It never comes to court and never costs a fellowship anything.",
+      "quote_id": "wolfram-anfortas-wounded"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-13-7",
+      "why": "The thunder, the sunbeam, the vessel, the vow, and Arthur's answer — all in one chapter."
+    },
+    {
+      "unit": "idylls-8-1",
+      "why": "Tennyson's Holy Grail, where the quest is read as the thing that ruined the order."
+    }
+  ],
+  "cost": "The highest good empties the good-enough world. The fellowship rides out whole and comes back broken, and the king who watches it leave says plainly that the vow has nearly killed him.",
+  "cuts": [
+    "the-grail",
+    "the-fellowship"
+  ],
+  "characters": [
+    "arthur",
+    "gawain",
+    "galahad",
+    "lancelot"
+  ],
+  "related": [
+    "siege-perilous",
+    "lancelot-fails",
+    "corbenic",
+    "tennysons-camelot"
+  ],
+  "divergence": "The Queste presents this as the beginning of the highest adventure in the world. Malory copies the scene almost exactly and frames it as a bereavement."
+}

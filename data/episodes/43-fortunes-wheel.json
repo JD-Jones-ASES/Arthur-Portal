@@ -1,0 +1,50 @@
+{
+  "id": "fortunes-wheel",
+  "title": "The dream of Fortune's wheel",
+  "act": "fall",
+  "order": 43,
+  "branch": "english",
+  "summary": "Arthur dreams that he is carried to the top of a wheel and thrown down, and understands what is about to happen.",
+  "retelling": "On the night before the last battle Arthur has two dreams, and Malory gives them both.\n\nIn the first he is sitting on a scaffold in a chair fastened to a wheel, in the richest cloth of gold that could be made, and beneath him is deep black water full of serpents and worms and wild beasts. And the wheel turns, and he falls among them, and every beast takes him by a limb.\n\nIn the second, Gawain comes to him with a company of fair ladies, and tells him that if he fights Mordred tomorrow he will be killed and most of his people with him. The ladies, Gawain says, are women he fought for in righteous quarrels, and God has given them leave to bring him to warn the king. Take a treaty, he says. Offer anything. Delay a month, and Lancelot will come with his knights, and then you will win.\n\nArthur wakes and takes the advice. He sends bishops to negotiate, and Mordred agrees to terms — lands in Cornwall and Kent now, the whole realm after Arthur's death. The treaty is made, and both sides are drawn up in the field to conclude it, and both kings have given exactly the same order to their armies: if you see any sword drawn, come on fiercely and slay that traitor, for I in no wise trust him.\n\nThe image of the wheel is not Malory's; it is the heart of the alliterative *Morte Arthure*, where Arthur sees Fortune raise him to the summit of the world and then turn, and the poem's whole argument is that this is what happens to men who rise. It is the chronicle tradition's theory of the fall — not sin, not adultery, simply altitude.\n\nMalory keeps the dream and puts it beside a warning that could have worked. Both are true at once, which is what makes his ending so much harder than either source.",
+  "voices": [
+    {
+      "voice": "mortes",
+      "term": "he falls because he rose",
+      "take": "The alliterative Morte makes Fortune's wheel the mechanism of the whole tragedy: no moral cause is needed beyond having reached the top.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote at length."
+    },
+    {
+      "voice": "malory",
+      "term": "the wheel, and a warning that might have worked",
+      "take": "Malory keeps the dream and adds Gawain's ghost with practical advice — take a treaty, wait a month, Lancelot is coming. Arthur takes it. It still fails.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no wheel, no warning",
+      "take": "Geoffrey's Arthur simply returns and fights. The dream apparatus belongs to the later tradition's need to make the fall mean something.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-3",
+      "why": "The wheel, the black water, and Gawain's ghost with a month's delay."
+    }
+  ],
+  "cost": "He is warned, accurately and in time, and he acts on the warning correctly, and it makes no difference at all. This is the last time the book demonstrates its central proposition about foreknowledge.",
+  "cuts": [
+    "foreknowledge-and-doom",
+    "once-and-future"
+  ],
+  "characters": [
+    "arthur",
+    "gawain",
+    "mordred"
+  ],
+  "related": [
+    "camlann",
+    "merlins-prophecies",
+    "the-roman-war"
+  ]
+}

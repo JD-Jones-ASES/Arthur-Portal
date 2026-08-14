@@ -1,0 +1,58 @@
+{
+  "id": "benwick-and-gawains-death",
+  "title": "Benwick, and the death of Gawain",
+  "act": "fall",
+  "order": 41,
+  "branch": "english",
+  "summary": "Arthur besieges his best knight abroad while his son takes the crown at home — and Gawain dies asking Lancelot to come.",
+  "retelling": "Arthur takes the army to France and besieges Lancelot at Benwick, and Lancelot will not come out. He is asked repeatedly by his own household why he does not fight, and his answer is always the same: he will not make war on the king who made him a knight.\n\nGawain rides to the gates daily and shouts for him. Eventually Lancelot is shamed into single combat, twice. Gawain has a gift — his strength increases for three hours toward noon — and Lancelot, knowing it, simply defends himself and covers up until the hour passes, and then puts him down. He does not kill him. Both times he steps back and lets him live, and both times Gawain, on the ground, tells him that he will never yield and to come back and finish it.\n\nThen the letters arrive from England. Mordred has produced forged evidence that Arthur is dead, has himself crowned at Canterbury, and is preparing to marry Guinevere.\n\nThe army sails home. Mordred meets them at Dover with an army of his own, and in the fighting on the beach Gawain is struck on the old wound Lancelot gave him, and it kills him.\n\nHe dies writing a letter. It is addressed to Lancelot, and Malory gives it in full: Gawain names himself the cause of his own death, says the wound was of Lancelot's hand and that he sought it, forgives him entirely, and begs him to come back over the sea and visit his tomb — and to come with his knights and rescue the king, who is *full straitly bestad* with a false traitor, his own son.\n\nThe man whose grief drove the whole war spends his last hour trying to undo it, and it is too late by about three weeks.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "forgiveness, three weeks late",
+      "take": "Gawain dies of a wound he asked for, writing to forgive the man who gave it and to beg him to come and save the king. Nothing in the book is sadder or more useless.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "the war of return",
+      "take": "Geoffrey has the same shape without the quarrel: Arthur is abroad, the crown is taken, and the army comes back to a landing under fire.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "mortes",
+      "term": "the alliterative fall",
+      "take": "The alliterative Morte gives the campaign abroad its fullest treatment, and reads the whole disaster as the consequence of having risen too high.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-20-19",
+      "why": "The host goes over the sea, and the siege begins."
+    },
+    {
+      "unit": "malory-20-21",
+      "why": "The single combats, and Lancelot twice refusing to kill him."
+    },
+    {
+      "unit": "malory-21-2",
+      "why": "Dover, and Gawain's letter."
+    }
+  ],
+  "cost": "The king spends his army besieging his own best knight in France while his son takes England behind him, and the man who insisted on the war dies apologising for it.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "gawain",
+    "lancelot",
+    "arthur",
+    "mordred"
+  ],
+  "related": [
+    "gareth-slain",
+    "the-popes-peace",
+    "camlann"
+  ]
+}

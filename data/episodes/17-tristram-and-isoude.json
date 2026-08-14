@@ -1,0 +1,60 @@
+{
+  "id": "tristram-and-isoude",
+  "title": "Tristram, Iseult, and the potion",
+  "act": "flowering",
+  "order": 17,
+  "branch": "german",
+  "summary": "Two people drink the wrong cup on a ship, and are destroyed by a love neither chose.",
+  "retelling": "Tristram is sent to Ireland to bring back Iseult as a bride for his uncle, King Mark of Cornwall. Her mother, meaning well, prepares a drink for the wedding night and entrusts it to Iseult's maid: *a love potion of such power and magic that did any two drink thereof they must needs, without will of their own, love each other above all things.*\n\nOn the ship, hot and thirsty, Tristram and Iseult drink it.\n\nGottfried von Strassburg builds his entire poem on the implication of that accident, and it is a genuinely radical argument. The Arthurian tradition's central scandal is Lancelot and Guinevere, and eight centuries of readers have argued about their guilt — did they choose, could they have done otherwise, is the love ennobling or damning? Gottfried removes the variable. Tristram and Iseult did not choose. There was no moment of decision to examine, nothing for a confessor to work with, no sin in any sense a court could recognise.\n\nAnd they are destroyed exactly as thoroughly. The deceptions, the discoveries, the exiles, the deaths — all of it happens, in the same order, with the same result.\n\nThe conclusion is uncomfortable and it is meant to be: whatever this literature's tragedy of love is about, it is not about consent.\n\nMalory pulls the whole story into the *Morte* and gives it more space than the Grail quest — a third of the book — turning Tristram into a knight of the Round Table, a hunter and a harper, and much the funniest man in it. And then he kills him in a sentence: Mark murders him from behind while he sits harping before Iseult.",
+  "voices": [
+    {
+      "voice": "gottfried",
+      "term": "love as fate, and the guilt removed",
+      "take": "The potion is an argument, not a plot device: strip out the will and the ruin is unchanged. The lovers cannot repent of what they never chose.",
+      "quote_id": "gottfried-love-potion"
+    },
+    {
+      "voice": "chretien",
+      "term": "love as worship, freely chosen",
+      "take": "Chretien's lovers choose, and the choosing is the whole value: Lancelot's two steps of hesitation are the only fault the poem finds.",
+      "quote_id": "chretien-love-over-shame"
+    },
+    {
+      "voice": "malory",
+      "term": "absorbed into the Round Table",
+      "take": "Malory makes Tristram a companion of the fellowship and gives him a third of the book — then kills him offhand, from behind, while he plays the harp.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the disqualifying passion",
+      "take": "The French cycle's version of the same problem: the love makes the knight supreme and shuts him out of the sacred.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-8-24",
+      "why": "Malory's account of the drink on the ship."
+    },
+    {
+      "unit": "malory-10-1",
+      "why": "Tristram at the height of his reputation, in the longest book of the Morte."
+    }
+  ],
+  "cost": "The control experiment for the whole tradition: remove choice, and the destruction is identical. Whatever kills these people, it is not their decision to love.",
+  "cuts": [
+    "courtly-love"
+  ],
+  "characters": [
+    "tristram",
+    "isoude",
+    "mark",
+    "palomides"
+  ],
+  "related": [
+    "knight-of-the-cart",
+    "the-queen-taken"
+  ],
+  "divergence": "Chretien's lovers choose and are ennobled. Gottfried's cannot choose and are destroyed anyway. Between them is the question of whether the tragedy is a moral one at all."
+}

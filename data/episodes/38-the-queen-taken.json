@@ -1,0 +1,67 @@
+{
+  "id": "the-queen-taken",
+  "title": "The ambush at the chamber door",
+  "act": "fall",
+  "order": 38,
+  "branch": "english",
+  "summary": "Agravaine says out loud what the court has agreed not to know, and there is no way back.",
+  "retelling": "What ends Camelot is not the affair. The affair has been going on for twenty-four years and everybody, in some sense, knows.\n\nWhat ends Camelot is somebody saying it in public.\n\nAgravaine announces to his brothers that he will no longer conceal that Lancelot lies daily and nightly by the queen, and that he will tell the king. Gawain tells him plainly not to: that Lancelot has saved the king and the queen many times, that if he is provoked he is stronger than all of them, and that no good will come of it. Gaheris and Gareth refuse to have anything to do with it and leave. Mordred stays.\n\nSo Agravaine goes to Arthur — and Arthur's response is the most revealing thing in the chapter. He does not deny it. He says he would be loth to begin such a thing unless it could be proved, because Lancelot has done so much for him and the queen, and *I am loth to think any such thing on him.* He is not being fooled. He is being asked to stop not knowing, and he does not want to.\n\nAgravaine offers proof, and once proof is offered the king cannot refuse it without admitting what he is doing.\n\nThat night twelve knights come to the chamber door. Lancelot is inside, unarmed. They shout treason loud enough for the whole castle to hear — which is the point, because once it is shouted there can be no quiet arrangement.\n\nHe lets one man in, kills him, takes his armour, opens the door and kills the rest. Agravaine dies there. Mordred escapes wounded.\n\nBy morning the queen is condemned to burn and the fellowship is split, and none of it needed to happen. The affair could have gone on for another twenty years. What could not survive was being said aloud.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the thing that could not be said",
+      "take": "Arthur is not deceived; he is protected by everybody's silence, and Agravaine removes the silence. That, not the adultery, is the fatal act.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the doom in the architecture",
+      "take": "The cycle laid this down from the beginning: the love is load-bearing, so the moment it is public the structure has to come down.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a coup, with no affair at all",
+      "take": "In Geoffrey the queen is taken by Mordred during a usurpation while Arthur is at war abroad. There is no Lancelot and nothing to conceal.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "tennyson",
+      "term": "guilt made explicit",
+      "take": "Tennyson resolves Malory's ambiguity by condemning the lovers at length, and puts most of the weight on the queen.",
+      "gap_note": "Reception rather than medieval witness."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-20-1",
+      "why": "Agravaine's announcement, and Gawain's warning."
+    },
+    {
+      "unit": "malory-20-3",
+      "why": "Arthur is loth to think any such thing on him."
+    },
+    {
+      "unit": "malory-20-4",
+      "why": "The door, and what comes through it."
+    }
+  ],
+  "cost": "A kingdom, for the sake of a fact everybody already had. The court could survive the affair; it could not survive being told about it.",
+  "cuts": [
+    "courtly-love",
+    "the-fellowship"
+  ],
+  "characters": [
+    "agravaine",
+    "lancelot",
+    "guinevere",
+    "arthur",
+    "gawain",
+    "mordred"
+  ],
+  "related": [
+    "gareth-slain",
+    "poisoned-apple",
+    "the-popes-peace"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gareth-beaumains",
+  "title": "Gareth in the kitchen",
+  "act": "flowering",
+  "order": 16,
+  "branch": "english",
+  "summary": "A young man asks for a year of food and drink, serves in the kitchen without complaint, and turns out to be Gawain's brother.",
+  "retelling": "A tall young man arrives at Arthur's court at Pentecost, leaning on the shoulders of two companions as though he cannot stand, and asks for three gifts — the first now, the other two in a year. The first is meat and drink for twelve months. Arthur, who is disappointed by so small a request, grants it and hands him to Kay.\n\nKay, who is Kay, names him *Beaumains* — fair hands — because his hands are large and white, and says a man who asks only for food is fit only for the kitchen. He puts him to work there.\n\nGareth serves for a year without complaint, and is fed scraps, and is mocked. Lancelot and Gawain are both uneasy about it and treat him kindly; neither knows who he is.\n\nAt the next Pentecost a damsel called Lynette comes asking for a champion to relieve her besieged sister, and Beaumains claims the adventure. She is appalled — a kitchen boy — and spends the entire journey telling him so, at length, in detail, and does not stop when he defeats the Black Knight, the Green Knight, the Red Knight, or the Blue. She tells him he smells of kitchen grease. He answers her, every time, with unfailing courtesy, and keeps going.\n\nHe is Gareth of Orkney, Gawain's youngest brother, and he asked for the kitchen deliberately so that nobody would advance him for his family's name.\n\nThere is no French source for this book. Malory may have written it himself. It is the warmest thing in the *Morte*, and its warmth is precisely what makes the ending unbearable: the reader who loves Gareth here is the reader who will watch Lancelot kill him, unarmed and unrecognised, in Book XX.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "worth proved without a name",
+      "take": "The one long stretch of the book with no French source behind it, and the only one that is straightforwardly happy. Malory then spends it, deliberately, on the ending.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "chretien",
+      "term": "the fair unknown",
+      "take": "The pattern is Chretien's: a young man of hidden birth, mocked at court, who proves himself on a quest with a scornful guide. Malory's contribution is the year in the kitchen and the reason for it.",
+      "gap_note": "The type is visible across Erec and the Fair Unknown romances rather than in a single quotable line."
+    },
+    {
+      "voice": "tennyson",
+      "term": "a parable of service",
+      "take": "Tennyson makes Gareth's kitchen year an allegory of humility and obedience, which is a moral the medieval book does not draw.",
+      "gap_note": "Reception rather than medieval witness."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-7-1",
+      "why": "The three gifts, the naming, and the kitchen."
+    },
+    {
+      "unit": "idylls-2-1",
+      "why": "Tennyson's retelling, where the same year becomes a lesson in obedience."
+    }
+  ],
+  "cost": "Malory builds the most likeable man in the book so that his death can do maximum damage — and it does. Gareth's killing is what makes Gawain unappeasable, and Gawain unappeasable is what loses the kingdom.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "gareth",
+    "kay",
+    "lancelot",
+    "gawain",
+    "arthur"
+  ],
+  "related": [
+    "gareth-slain",
+    "pentecostal-oath"
+  ]
+}

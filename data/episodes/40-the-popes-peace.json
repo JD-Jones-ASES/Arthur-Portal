@@ -1,0 +1,55 @@
+{
+  "id": "the-popes-peace",
+  "title": "The Pope's peace",
+  "act": "fall",
+  "order": 40,
+  "branch": "english",
+  "summary": "A negotiated settlement arrives and nearly works — and one man will not accept it.",
+  "retelling": "The war between Arthur and Lancelot goes on long enough that news of it reaches Rome, and the Pope sends a bull to the Bishop of Rochester ordering Arthur to take his queen back and make peace, on pain of interdict on the whole of England.\n\nThis is the part of the ending that gets forgotten, and it should not, because it demonstrates that the catastrophe was avoidable right up to the last moment.\n\nLancelot agrees at once and with obvious relief. He brings Guinevere back to Carlisle in a procession deliberately staged to give everyone their dignity: a hundred knights in green velvet, the horses trapped to the heels, and the queen herself in white cloth of gold. He kneels before the king and speaks in his own defence, and he speaks well — that he has always fought for the queen when nobody else would, that if she were disloyal to Arthur he never knew of it, and that Arthur knows what he owes him.\n\nArthur cannot answer, and weeps.\n\nAnd Gawain answers instead. He tells Lancelot that the king may do as he pleases with the queen, but that between Lancelot and himself there is no peace while either lives, because of Gareth and Gaheris — and that he will not be reconciled, ever.\n\nSo the settlement is honoured in exactly half: the queen goes back, and Lancelot is banished to France, and Gawain persuades Arthur to follow him there with an army.\n\nWhich takes the king and the entire military strength of England across the sea, leaving Mordred as regent.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a settlement, refused by one man",
+      "take": "The Pope orders peace and it very nearly holds. What breaks it is not policy or passion but a brother's grief, and Malory lets Lancelot make his case at length and lets it fail.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no negotiation to be had",
+      "take": "In Geoffrey there is nothing to settle: Mordred has simply taken the crown, and the response is a war of return.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the kin-network splitting",
+      "take": "The cycle's fellowship is held together by blood, and here it comes apart along exactly that seam — Gawain's kin against Lancelot's.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-20-13",
+      "why": "Gawain refuses reconciliation on the field."
+    },
+    {
+      "unit": "malory-20-15",
+      "why": "The queen delivered back, and the language Gawain used to Lancelot."
+    }
+  ],
+  "cost": "The peace holds for the queen and fails for the men, and the failure moves the entire army of England out of the country at the exact moment the crown is left with Mordred.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "lancelot",
+    "gawain",
+    "arthur",
+    "guinevere",
+    "mordred"
+  ],
+  "related": [
+    "gareth-slain",
+    "benwick-and-gawains-death",
+    "mordreds-usurpation"
+  ]
+}

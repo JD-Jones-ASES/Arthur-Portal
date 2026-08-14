@@ -1,0 +1,50 @@
+{
+  "id": "mordreds-usurpation",
+  "title": "Mordred takes the crown",
+  "act": "fall",
+  "order": 42,
+  "branch": "english",
+  "summary": "Forged letters say the king is dead, and the country believes them — and prefers the new arrangement.",
+  "retelling": "Mordred, left as regent with the whole realm in his charge, causes letters to be written as though they had come from overseas, reporting that Arthur is dead in battle with Lancelot.\n\nHe calls a parliament, has himself crowned at Canterbury, and holds a feast for fifteen days. Then he announces that he will marry Guinevere, and fixes a day, and buys the provisions.\n\nThe queen escapes him by asking leave to go to London to buy things for the wedding, and then shutting herself in the Tower with a garrison and provisions and refusing to come out. The Bishop of Canterbury threatens Mordred with excommunication and is driven into a hermitage for it.\n\nAnd then Malory writes the passage that makes this more than a plot mechanism, and it is the one place in the book where he speaks directly about his own country:\n\nThe people were so pleased with Mordred that they said with him they would be well and merrily *in all England* — and with Arthur they had never any joy but war and strife. And then Malory says the thing plainly: *Lo ye all Englishmen, see ye not what a mischief here was?* For Arthur, the most noble king that ever was, who by his knighthood had upheld the whole realm, the people were not pleased with him. This was the old custom of the country, he says, and it is still the custom, and the new is always welcome.\n\nThat is a fifteenth-century knight, writing in prison during the Wars of the Roses, breaking off his romance to say that the English will abandon a good king for a new one out of pure appetite for change.\n\nThe kingdom does not fall to a conqueror. It changes sides.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the country prefers the usurper",
+      "take": "Malory stops the narrative to address his readers directly: the people were pleased with Mordred, and that is the custom of this country, and it has not changed.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a nephew and a coup",
+      "take": "Geoffrey's Mordred is a nephew with Saxon allies who seizes crown and queen while Arthur is abroad. No forged letters and no popular consent.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the shape of the ending, fixed early",
+      "take": "Wace and Layamon carry Geoffrey's usurpation into the vernaculars, and with it the whole architecture of the fall.",
+      "quote_id": "layamon-argante-return"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-1",
+      "why": "The forged letters, the coronation, and Malory's address to all Englishmen."
+    }
+  ],
+  "cost": "The realm is not conquered. It is handed over, by people who found the reign tiring, to a man they had no particular reason to trust.",
+  "cuts": [
+    "source-of-rule",
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "mordred",
+    "guinevere",
+    "arthur"
+  ],
+  "related": [
+    "may-day-children",
+    "camlann",
+    "the-roman-war"
+  ]
+}

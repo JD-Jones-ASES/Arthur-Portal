@@ -1,0 +1,59 @@
+{
+  "id": "green-knight",
+  "title": "The beheading game",
+  "act": "flowering",
+  "order": 21,
+  "branch": "english",
+  "summary": "A green giant rides into Camelot at Christmas and offers to let any man cut off his head.",
+  "retelling": "On New Year's Day, with the court at table, a man rides into the hall on a green horse. He is entirely green — skin, hair, clothes — enormous, and handsome, and carrying a holly branch in one hand and an enormous axe in the other. He is not armoured. He has not come to fight.\n\nHe proposes a game. Any man here may strike him one blow with the axe, on the single condition that he comes to find him in a year and a day and takes one blow in return.\n\nNobody moves. The poem is unsparing about this: the greatest court in the world sits in silence, and the Green Knight begins to mock them — is this Arthur's house, whose renown runs through so many realms? Arthur, shamed, takes the axe himself, and it is at that point that Gawain rises and asks for the blow to be his, on the grounds that he is the least of the knights present and his life the least loss. It is a formal courtesy, and it is also true that somebody has to go.\n\nHe strikes, and the head comes off cleanly and rolls among the tables, and the knights kick it away from their feet.\n\nAnd then the body walks over, picks the head up by the hair, holds it up, and the head opens its eyes and speaks: he is to come to the Green Chapel next New Year's, and take what he is owed.\n\nThe court makes a joke of it and goes back to dinner. Gawain, the poem notes, has a year to think about it.",
+  "voices": [
+    {
+      "voice": "gawain-romances",
+      "term": "a contract with a year's delay",
+      "take": "The horror is structural: the debt is not violent, it is scheduled. Gawain has twelve months to walk toward it, and the poem spends the second fitt watching the seasons turn.",
+      "quote_id": "sggk-green-girdle"
+    },
+    {
+      "voice": "malory",
+      "term": "absent entirely",
+      "take": "Malory has no beheading game and no Green Knight. The finest Arthurian poem in English left no mark on the English prose tradition at all.",
+      "gap_note": "An absence rather than a position: the Gawain poem survives in one manuscript and was effectively unread for four centuries."
+    },
+    {
+      "voice": "mabinogion",
+      "term": "the older shape underneath",
+      "take": "The beheading game is Celtic in origin and appears in Irish material well before the English poem; the Welsh tales preserve the same taste for a bargain with an impossible price.",
+      "gap_note": "An analogue rather than a source: the Irish Bricriu's Feast is not in this collection."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "gawain-1-5",
+      "why": "The Green Knight rides in."
+    },
+    {
+      "unit": "gawain-1-9",
+      "why": "The challenge, and the silence of the court."
+    },
+    {
+      "unit": "gawain-1-13",
+      "why": "The blow, and the body picking up its head."
+    }
+  ],
+  "cost": "Gawain buys the court's honour back with his own life, and is given a year to think about the purchase.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "gawain",
+    "green-knight",
+    "arthur",
+    "guinevere",
+    "morgan"
+  ],
+  "related": [
+    "green-girdle",
+    "dame-ragnelle",
+    "pentecostal-oath"
+  ]
+}

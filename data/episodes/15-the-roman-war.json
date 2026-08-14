@@ -1,0 +1,60 @@
+{
+  "id": "the-roman-war",
+  "title": "The war with Rome",
+  "act": "flowering",
+  "order": 15,
+  "branch": "chronicle",
+  "summary": "Rome demands tribute; Arthur conquers most of Europe — and this, not the affair, is where the chronicle tradition puts his fall.",
+  "retelling": "Twelve ambassadors arrive from Rome to demand *truage* — tribute — which Britain has not paid since Julius Caesar. Arthur takes counsel and sends them back with a counter-claim: by the same logic, Rome owes tribute to Britain, since British kings have held the Empire before.\n\nThen he crosses the sea and takes Europe. He kills a giant on Mont St Michel who has been eating the local children; he destroys a Roman army in a pitched battle; and in Geoffrey and in the alliterative *Morte*, he is marching on Rome itself, with the city effectively his, when the news comes from home that his nephew has taken the crown and the queen.\n\nThis episode is the hinge of the *chronicle* tradition, and it is worth seeing how differently it works from the romance one. In Geoffrey and the alliterative *Morte*, Arthur is not brought down by an affair or by a Grail quest — neither exists. He is brought down by success. He goes too far, rises too high, and in the alliterative poem he is given a dream in which Fortune raises him to the top of her wheel and then turns it, and he understands what is about to happen.\n\nMalory keeps the Roman war as his Book V and then does something odd with it: he lets Arthur win, be crowned emperor by the Pope, and come home in triumph. The catastrophe is moved elsewhere entirely — to a bedchamber, sixteen books later.\n\nTwo traditions, two theories of what destroys a kingdom: overreach, or love.",
+  "voices": [
+    {
+      "voice": "geoffrey",
+      "term": "the empire, and the news from home",
+      "take": "Arthur conquers Gaul, defeats a Roman army and is advancing on Rome when Mordred's usurpation recalls him. The fall is a consequence of the campaign.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "malory",
+      "term": "a war he wins, and a triumph that leads nowhere",
+      "take": "Malory keeps the campaign, crowns Arthur emperor, and brings him home victorious — moving the catastrophe out of politics entirely and into the household.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "mortes",
+      "term": "Fortune's wheel",
+      "take": "The alliterative Morte gives the fall its clearest mechanism: a dream of the wheel, raising him to the summit and turning. He falls because he rose.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the chronicle's climax",
+      "take": "Wace and Layamon carry Geoffrey's Roman war into French and English, and it remains the centre of the story until romance displaces it.",
+      "quote_id": "wace-round-table"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-5-1",
+      "why": "The ambassadors, the demand for tribute, and Arthur's counter-claim."
+    },
+    {
+      "unit": "wace-1-21",
+      "why": "Wace's Arthur at the height of his reign, with the Round Table established."
+    }
+  ],
+  "cost": "In the chronicles the empire is the disaster: the king is furthest from home, with his whole strength abroad, at exactly the moment the crown is taken behind him.",
+  "cuts": [
+    "source-of-rule",
+    "the-fellowship"
+  ],
+  "characters": [
+    "arthur",
+    "gawain",
+    "mordred"
+  ],
+  "related": [
+    "mordreds-usurpation",
+    "fortunes-wheel"
+  ],
+  "divergence": "For Geoffrey and the alliterative Morte, Camelot falls because Arthur overreached. For Malory and the French, it falls because of a love affair. The chronicle has no affair and the romance nearly forgets the empire."
+}

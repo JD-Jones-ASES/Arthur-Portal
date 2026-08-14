@@ -1,0 +1,64 @@
+{
+  "id": "anfortas-healed",
+  "title": "The question asked",
+  "act": "grail",
+  "order": 26,
+  "branch": "german",
+  "summary": "Parzival returns, asks what ails his uncle, and the wounded king is healed — by compassion, not purity.",
+  "retelling": "It takes Parzival most of the poem to get back. In between he loses his reputation, is publicly cursed at Arthur's court by a messenger of the Grail, refuses for years to serve a God he believes has abandoned him, and eventually finds his way to a hermit, Trevrizent, who turns out to be his uncle and tells him what the Grail is, what Anfortas did, and what Parzival himself failed to do.\n\nAnfortas, he learns, was wounded because he served a love the Grail had not appointed for him — the keeper of the holy thing brought down by ordinary desire. The wound cannot kill him, because the Grail sustains him, and cannot heal, because nothing in the world will close it. The household has spent years watching him suffer and waiting for someone to come and ask.\n\nWhen Parzival finally returns to Munsalvaesche, the whole apparatus of the tradition — purity, penance, relics, virgin knights — is simply not used. He goes to his uncle and asks him what ails him.\n\nAnfortas is healed at once, and so beautiful in his recovery that Wolfram says no one was ever fairer.\n\nIt is worth putting this beside what the French were writing at the same moment. In the *Queste del Saint Graal* the quest is an examination: *no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins*, and most of the Round Table fails it, and the man who succeeds is a virgin who never needed to learn anything.\n\nWolfram's Grail is reached by a man who failed once, lost his faith, and came back. What qualifies him is not that he is clean. It is that he finally noticed somebody was in pain.",
+  "voices": [
+    {
+      "voice": "wolfram",
+      "term": "healed by being asked",
+      "take": "No relic, no penance, no purity test. A man asks his uncle what is wrong, and the wound closes.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "healed by nobody, because nobody qualifies",
+      "take": "The Queste's terms are set at the outset and never relaxed. Its hero is faultless from birth, so nothing is learned and nobody is forgiven.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "malory",
+      "term": "anointed with the blood of the spear",
+      "take": "Malory's Maimed King is healed by Galahad anointing him with blood from the spear — a sacramental cure, not a human one.",
+      "quote_id": "malory-grail-at-camelot"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the vessel above all things",
+      "take": "The French cycle's Grail is the supreme sacred object, prized above the sword itself; it is not something a nephew can talk to.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "parzival-9-11",
+      "why": "Trevrizent explains the wound, the Gral, and what the question would have done."
+    },
+    {
+      "unit": "parzival-16-2",
+      "why": "The return, and the healing."
+    },
+    {
+      "unit": "malory-17-21",
+      "why": "Malory's version: Galahad anoints the Maimed King with the blood of the spear."
+    }
+  ],
+  "cost": "Almost nothing, and that is the argument. Wolfram is the one author who lets the sacred be reached without emptying the world to get to it.",
+  "cuts": [
+    "the-grail",
+    "the-wound-and-wasteland"
+  ],
+  "characters": [
+    "percival",
+    "anfortas"
+  ],
+  "related": [
+    "parzival-at-munsalvaesche",
+    "corbenic",
+    "queste-judgment"
+  ],
+  "divergence": "Wolfram heals the wounded king with a question anyone could have asked. The Queste heals nothing and instead removes from the world everyone who is not good enough. These were written within about a decade of each other."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "amesbury",
+  "title": "Amesbury, and the death of Lancelot",
+  "act": "fall",
+  "order": 48,
+  "branch": "english",
+  "summary": "He finds her a nun, and she will not look at him — and he does not survive it long.",
+  "retelling": "Guinevere, when the news comes that Arthur is dead and Mordred with him, goes to Amesbury and takes the veil, and Malory says she wore white and black and did great penance, and that never creature could make her merry.\n\nLancelot arrives in England too late for everything. Gawain is dead, the king is dead, the fellowship is dead. He rides west, looking for her, and finds her at Amesbury.\n\nShe sees him coming across the cloister and faints. When she recovers she speaks to her sisters, in front of him, and tells them that through this man and her, all this war was wrought, and the death of the noblest knights of the world — and that through their love the most noble king that ever was is slain.\n\nThen she turns to him and asks him, for the sake of the love that was between them, never to look on her face again, and to go back to his kingdom and take a wife and pray for her.\n\nHe asks her to let him do the same as she has done — to take the same austerity of life — and she does not believe he will. He tells her that if she can do it, he can, for he never was false to his promise, and that God defend he should be false now.\n\nAnd then he asks her to kiss him once, and she says no. Never again.\n\nHe rides away, and finds the hermitage where the Bishop of Canterbury is, and puts on the habit, and stays. Later, when she dies, he buries her beside Arthur at Glastonbury, and after that he will not eat or drink, and lies on the tomb, and shrinks away.\n\nSir Ector's speech over his body is the last thing of any weight in the book, and it does not mention the queen at all. It says: thou were the courteoust knight that ever bare shield, and the truest friend to thy lover that ever bestrad horse, and the kindest man that ever struck with sword.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "an ending with no reconciliation in it",
+      "take": "She names the cost accurately and refuses him a kiss. He does what she doubted he would, and dies of it, and the eulogy praises his friendship and says nothing about the love.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "tennyson",
+      "term": "the queen on the floor",
+      "take": "Tennyson gives Arthur a long speech of forgiveness over a prostrate Guinevere, which is not in Malory and changes the moral shape of the whole ending.",
+      "gap_note": "Reception rather than medieval witness."
+    },
+    {
+      "voice": "vulgate",
+      "term": "the doom completed",
+      "take": "The cycle's premise pays out: the love that made the greatest knight is named, by the queen herself, as the cause of the deaths of the noblest knights of the world.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-9",
+      "why": "Amesbury: her speech to the nuns, and the kiss refused."
+    },
+    {
+      "unit": "malory-21-10",
+      "why": "He takes the habit at the hermitage."
+    },
+    {
+      "unit": "malory-21-12",
+      "why": "His death, and Ector's eulogy."
+    }
+  ],
+  "cost": "Both of them get exactly what the book has been arguing for since Chretien invented them — a love held to the end — and it is worth nothing to either of them, and they know it.",
+  "cuts": [
+    "courtly-love",
+    "the-fellowship"
+  ],
+  "characters": [
+    "lancelot",
+    "guinevere",
+    "bors",
+    "ector"
+  ],
+  "related": [
+    "rex-quondam",
+    "the-queen-taken",
+    "knight-of-the-cart"
+  ]
+}

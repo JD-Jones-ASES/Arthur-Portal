@@ -1,0 +1,54 @@
+{
+  "id": "merlin-and-nimue",
+  "title": "Merlin and Nimue",
+  "act": "flowering",
+  "order": 13,
+  "branch": "english",
+  "summary": "The greatest seer in the world walks into the one future he could see most clearly.",
+  "retelling": "Merlin has spent four books knowing everything. He has arranged Arthur's conception, set the test of the stone, foretold Mordred, warned Arthur about Guinevere, and told Balin what his stroke had cost.\n\nThen a damsel comes to court — one of the ladies of the lake, called Nimue — and Malory's chapter heading is blunt about what happens next: *How Merlin was assotted and doted on one of the ladies of the lake, and how he was shut in a rock under a stone and there died.*\n\nThe account is not romantic and Malory does not make it so. *Always Merlin lay about the lady to have her maidenhood, and she was ever passing weary of him, and fain would have been delivered of him, for she was afeard of him because he was a devil's son.* She is not seducing him. She is being followed by a man she cannot get rid of and is frightened of, and she makes him teach her his craft as the price of putting up with him — which he does, because he cannot help demonstrating.\n\nBefore he goes he tells Arthur the whole thing in advance: that he will shortly be put into the earth alive, and that for all his craft he cannot prevent it. Arthur, reasonably, asks why a man who can see it coming does not simply stay away. Malory does not record an answer.\n\nIn Cornwall she shows him a marvel under a great stone, and he goes in to explain it to her, and she uses the magic he taught her to close it, and he never comes out.\n\nTwo things end here. One is the man. The other is harder to notice while it is happening: the enchantment goes with him. The first four books are thick with marvels; from this chapter on, the book gets steadily more political, more domestic, more concerned with kinship and grief, until the last books contain almost no magic at all — only people making decisions, without anyone left who can tell them what those decisions will cost.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the seer destroyed by what he foresaw",
+      "take": "He announces his own end, explains that he cannot avoid it, and walks into it. Knowledge does not save, and as he goes the magic drains out of the book.",
+      "quote_id": "malory-merlin-and-nimue"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a prophet with no ending",
+      "take": "Geoffrey's Merlin is a working instrument of state and simply stops appearing. The tragic exit is a French and English addition.",
+      "quote_id": "geoffrey-boar-of-cornwall"
+    },
+    {
+      "voice": "tennyson",
+      "term": "corruption rather than exhaustion",
+      "take": "Tennyson's Vivien seduces the secret out of Merlin deliberately and out of malice — a considerably smaller story, and the one most readers have absorbed.",
+      "gap_note": "Reception rather than medieval witness; Idylls of the King is published here as reception."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-4-1",
+      "why": "The whole episode, in one chapter — including Merlin telling Arthur it will happen."
+    },
+    {
+      "unit": "idylls-6-1",
+      "why": "Tennyson's version, where Vivien is the aggressor and the story becomes a seduction."
+    }
+  ],
+  "cost": "The one man who could see what was coming is gone by Book IV, and the realm has seventeen books left to run with nobody able to warn it about anything.",
+  "cuts": [
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "merlin",
+    "nimue",
+    "arthur"
+  ],
+  "related": [
+    "merlins-prophecies",
+    "may-day-children",
+    "vortigerns-tower"
+  ],
+  "divergence": "Malory's Nimue is a woman escaping a man who will not leave her alone. Tennyson's Vivien is a seductress destroying a great mind for sport. The plot is nearly identical and the moral is reversed."
+}

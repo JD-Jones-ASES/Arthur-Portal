@@ -1,0 +1,51 @@
+{
+  "id": "perlesvaus-grail",
+  "title": "The violent Grail",
+  "act": "grail",
+  "order": 34,
+  "branch": "french",
+  "summary": "In Perlesvaus the Grail is not consoling: it is a cause, and men are killed for it.",
+  "retelling": "*Perlesvaus*, or *The High History of the Holy Graal*, is the strangest romance in the tradition and the one least like anybody's idea of what a Grail story is.\n\nIts Perceval does not fail politely and learn compassion. He avenges. The Grail here is bound up with the violent supersession of the Old Law by the New, and the book pursues that idea with a literalism that is genuinely startling: castles are taken, heads are cut off and kept, a knight rides with a cart of severed heads, and the holy is repeatedly the reason for a killing rather than a consolation after one.\n\nArthur himself is in poor condition at the start — his court has fallen off, his will has gone — and the recovery of the kingdom is presented as a matter of force applied in the right direction.\n\nIt is worth including for one reason. Set beside the others, it completes the range. Chrétien leaves the Grail undefined. The Welsh Peredur makes the failure a matter of attention. The Vulgate makes it a sacred vessel. The *Queste* makes it a judge. Wolfram makes it a stone healed by pity. Malory makes it a bereavement.\n\nAnd *Perlesvaus* makes it a weapon.\n\nThese are not six versions of one thing. They are six different answers to an unfinished poem, and any account of the Grail that can accommodate all of them has stopped meaning anything.",
+  "voices": [
+    {
+      "voice": "grail-romances",
+      "term": "the Grail as a cause worth killing for",
+      "take": "Holy violence, pursued literally: the changing of the Law enforced by force, with the vessel as its warrant.",
+      "gap_note": "Perlesvaus is published here in full but carries no validated quotation yet; the characterisation is drawn from the branches themselves."
+    },
+    {
+      "voice": "wolfram",
+      "term": "the opposite pole",
+      "take": "A stone, and a wound closed by a question asked out of pity. Between Wolfram and Perlesvaus the word 'Grail' does not describe the same kind of object at all.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "malory",
+      "term": "the English compromise",
+      "take": "Malory takes the sacred vessel and the judging quest, and adds the one thing neither French book has: an accounting of what it cost.",
+      "quote_id": "malory-grail-empties-fellowship"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "perlesvaus-1-1",
+      "why": "The opening of the High History, and its account of what the Grail is for."
+    },
+    {
+      "unit": "perlesvaus-2-1",
+      "why": "The Grail matter proper begins."
+    }
+  ],
+  "cost": "This is the version where the highest good licenses the worst behaviour, which is a cost the tradition usually keeps offstage.",
+  "cuts": [
+    "the-grail"
+  ],
+  "characters": [
+    "percival"
+  ],
+  "related": [
+    "queste-judgment",
+    "anfortas-healed",
+    "peredurs-spear"
+  ]
+}

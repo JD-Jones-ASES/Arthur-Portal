@@ -1,13 +1,116 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { episodes } from "../../lib/portal-data.js";
+
+const ACTS = [
+  { id: "before", label: "Before Arthur", blurb: "The chronicle floor: a silence, a battle list, and the moment the legend acquires a prophet." },
+  { id: "making", label: "The making of a king", blurb: "A sword, a table, an oath — and a blow that lays three kingdoms waste." },
+  { id: "flowering", label: "The flowering", blurb: "The fellowship at its height, and the loves and tests that will undo it." },
+  { id: "grail", label: "The Grail", blurb: "The highest good, and what looking for it costs the people who stay behind." },
+  { id: "fall", label: "The fall", blurb: "A word said aloud, an accident in a crowd, and an adder in a bush." },
+  { id: "after", label: "After", blurb: "What later ages did with the inheritance." },
+];
+
+const all = [...episodes()].sort((a, b) => a.order - b.order);
+const byAct = ACTS.map((a) => ({ ...a, items: all.filter((e) => e.act === a.id) })).filter((a) => a.items.length);
 ---
 
-<Layout title="The stories" current="/stories">
-  <Stub
-    rubric="The stories"
-    title="What actually happens"
-    body="The famous episodes, retold plainly, then broken open to show which voices tell them and where they disagree."
-    phase="Phase 4"
-  />
+<Layout
+  title="The stories"
+  description="The famous episodes of the Matter of Britain, retold plainly and then broken open to show which voices tell them and where they disagree."
+  current="/stories"
+>
+  <div class="page-head">
+    <span class="rubric">The stories</span>
+    <h1>What actually happens</h1>
+    <p class="lede">
+      {all.length} episodes, in the order the tradition tells them. Each one is retold plainly &mdash;
+      what happens, to whom, and in what order &mdash; and then broken open: which authors tell it,
+      how sharply their versions differ, where it sits in the primary text, and what it costs.
+    </p>
+    <p>
+      You can read straight through, or take any one of them cold.
+    </p>
+  </div>
+
+  {
+    byAct.map((act) => (
+      <section class="act" id={act.id}>
+        <div class="act__head">
+          <h2>{act.label}</h2>
+          <p class="muted">{act.blurb}</p>
+        </div>
+        <ol class="ep-list">
+          {act.items.map((e) => (
+            <li class="ep-item" data-branch={e.branch}>
+              <a href={withBase(`/stories/${e.id}/`)}>
+                <span class="ep-item__n">{String(e.order).padStart(2, "0")}</span>
+                <span class="ep-item__body">
+                  <span class="ep-item__title">{e.title}</span>
+                  <span class="ep-item__summary">{e.summary}</span>
+                  <span class="ep-item__meta">
+                    <span class="chip"><span class="chip__dot" />{BRANCHES[e.branch].label}</span>
+                    <span class="muted small">{e.voices.length} voices</span>
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))
+  }
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">A warning about order</span>
+    <h2>This is not a single story</h2>
+    <p>
+      Reading these in sequence produces something that feels like one narrative, and it is worth
+      saying plainly that no medieval author wrote it. The arc here is assembled from a Welsh tale,
+      four French romances, a German epic, two Latin chronicles, an English poem and one enormous
+      English prose book, composed across five centuries by people with incompatible ideas about
+      what the story meant.
+    </p>
+    <p>
+      Where they disagree, the disagreement is on the page. Where a version is missing, the gap is
+      named. What you should <em>not</em> take away is a smooth composite &mdash; that composite is
+      the thing this portal exists to take apart.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .act { margin-bottom: var(--s8); scroll-margin-top: 5rem; }
+  .act__head { border-bottom: 2px solid var(--line-strong); padding-bottom: var(--s2); margin-bottom: var(--s4); }
+  .act__head h2 { margin: 0 0 var(--s1); }
+  .act__head p { margin: 0; font-size: 0.94rem; }
+
+  .ep-list { list-style: none; margin: 0; padding: 0; }
+  .ep-item { border-bottom: 1px solid var(--line); }
+  .ep-item a {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: var(--s4);
+    padding: var(--s4) var(--s2);
+    text-decoration: none;
+    color: inherit;
+  }
+  .ep-item a:hover { background: var(--paper-raised); }
+  .ep-item__n {
+    font-family: var(--font-rubric);
+    font-size: 0.9rem;
+    color: var(--line-strong);
+    padding-top: 0.2em;
+  }
+  .ep-item a:hover .ep-item__n { color: var(--branch); }
+  .ep-item__title { display: block; font-family: var(--font-display); font-size: 1.1rem; margin-bottom: var(--s2); }
+  .ep-item__summary { display: block; color: var(--ink-soft); margin-bottom: var(--s2); }
+  .ep-item__meta { display: flex; gap: var(--s3); align-items: center; flex-wrap: wrap; }
+  @media (max-width: 560px) {
+    .ep-item a { grid-template-columns: 2.2rem 1fr; gap: var(--s3); }
+  }
+</style>

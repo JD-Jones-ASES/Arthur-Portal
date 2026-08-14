@@ -1,0 +1,50 @@
+{
+  "id": "dame-ragnelle",
+  "title": "Dame Ragnelle and the sovereignty riddle",
+  "act": "flowering",
+  "order": 23,
+  "branch": "english",
+  "summary": "Arthur's life depends on answering what women most desire — and the answer is sovereignty.",
+  "retelling": "Arthur, hunting alone, is cornered by an armed knight called Sir Gromer Somer Joure who has a grievance about land. Unarmed, the king cannot fight. Gromer offers him a bargain instead: his life, in exchange for the answer to a question, brought back in twelve months. *What do women most desire?*\n\nArthur and Gawain ride the country separately collecting answers and fill a book with them — beauty, flattery, wealth, a good bed, a young husband — and none of them is right, and both men know it.\n\nThen Arthur meets a woman on the road so hideous that the poem devotes a long, gleeful passage to describing her. She is Dame Ragnelle. She knows the answer, and will give it for one price: marriage to Gawain.\n\nArthur says he cannot promise another man's hand. Gawain, when he hears, agrees at once and without conditions, and says he would marry her if she were a fiend, to save his king.\n\nSo she gives it: *We desiren of men, above alle maner thyng, to have the soveraynté, withoute lesyng, of alle, bothe hyghe and lowe.*\n\nSovereignty. The word that governs the whole tradition — who rules, by what right, and over whom — turns out to be what women want, and it is a loathly lady on a roadside who says so, in a poem that is played for comedy.\n\nThere is a wedding, and it is a public humiliation, and Ragnelle eats enormously in front of the whole court. And in the bedchamber she turns beautiful, and offers Gawain a choice: fair by day and foul by night, or foul by day and fair by night.\n\nHe gives the choice back to her. He says the decision is hers.\n\nThat is the right answer — it is the same answer as the riddle — and it breaks the enchantment entirely.",
+  "voices": [
+    {
+      "voice": "gawain-romances",
+      "term": "sovereignty, relocated to the marriage bed",
+      "take": "The central political concept of the legend is answered as a riddle by a loathly lady, and the solution is to hand a woman authority over herself.",
+      "quote_id": "ragnelle-sovereignty"
+    },
+    {
+      "voice": "malory",
+      "term": "the throne version",
+      "take": "Everywhere else in the tradition sovereignty means the crown: the stone, the loan from the lake, the Grail outranking the sword. Only here is it asked as a domestic question.",
+      "quote_id": "malory-sword-in-stone"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "sovereignty as conquest",
+      "take": "For the chroniclers the question does not arise: authority is what you take and hold in the field.",
+      "quote_id": "nennius-twelve-battles"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-3-15",
+      "why": "Malory's Pentecostal Oath contains the clause about ladies and their rights — the same subject, answered institutionally rather than as a riddle."
+    }
+  ],
+  "cost": "Gawain marries the ugliest woman in England without hesitation to save his king, and is rewarded for being the one man in the poem willing to give up a decision.",
+  "cuts": [
+    "source-of-rule",
+    "the-fellowship"
+  ],
+  "characters": [
+    "gawain",
+    "ragnelle",
+    "arthur"
+  ],
+  "related": [
+    "green-girdle",
+    "green-knight"
+  ],
+  "gap_note": "The poem survives in a single blackletter scan too rough to publish as a reading text; the riddle and its answer are quoted here from a small hand-checked transcription."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rex-quondam",
+  "title": "Rex quondam, rexque futurus",
+  "act": "fall",
+  "order": 47,
+  "branch": "english",
+  "summary": "Malory gives the most famous promise in English literature, and refuses to vouch for it.",
+  "retelling": "The chapter is headed *Of the opinion of some men of the death of King Arthur*, and the word doing the work is *opinion*.\n\nMalory sets out the alternatives without choosing. Bedivere saw the ladies take him into the barge. A body was buried at the hermitage at midnight by women who did not say whose it was. Some men say the hermit knew and did not tell.\n\nAnd then he gives the belief, and he attributes it carefully: *Yet some men say in many parts of England that King Arthur is not dead, but had by the will of our Lord Jesu into another place; and men say that he shall come again, and he shall win the holy cross.*\n\nThen he declines it, in his own voice, in the flattest sentence in the book: *I will not say it shall be so, but rather I will say: here in this world he changed his life.*\n\nAnd only then does he give the line everybody remembers, with the most careful attribution he has used anywhere:\n\n*Many men say that there is written upon his tomb this verse: Hic jacet Arthurus, Rex quondam, Rexque futurus.*\n\n*Many men say.* Not: it is written. Not: I have seen it. He will not vouch for the tomb, or the inscription, or the promise.\n\nThis is the most sophisticated thing anyone in the tradition does with the return, and it is probably why it survived. A claim can be refuted. A hope that nobody has quite asserted cannot be. Geoffrey started it three centuries earlier with a subordinate clause — *for the healing of his wounds* — and Layamon passed it on with the same careful distance: *this believed the Britons.*\n\nNobody in five hundred years of this material has ever said, in their own voice, that Arthur is coming back. They have all reported that other people say so.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "reported, and pointedly not endorsed",
+      "take": "He gives the alternatives, declines them, says plainly that in this world Arthur changed his life, and only then quotes the epitaph as something many men say.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a subordinate clause",
+      "take": "Borne to Avalon for the healing of his wounds — then the crown passes to Constantine. Everything later hangs on seven words that assert nothing.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "this believed the Britons",
+      "take": "Wace first records the Breton hope and attributes it to them; Layamon does the same. Even the most enchanted version reports somebody else's faith.",
+      "quote_id": "layamon-argante-return"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-7",
+      "why": "The opinions, the refusal, and the epitaph."
+    }
+  ],
+  "cost": "The order never has to account for what it did, because it is not over. A promise deferred indefinitely is also a reckoning deferred indefinitely.",
+  "cuts": [
+    "once-and-future"
+  ],
+  "characters": [
+    "arthur",
+    "bedivere"
+  ],
+  "related": [
+    "the-passing",
+    "amesbury"
+  ],
+  "divergence": "Layamon's Britons believe he is coming back. Malory's narrator reports that many men say so and declines to be one of them. That gap is the difference between a living belief and a remembered one."
+}

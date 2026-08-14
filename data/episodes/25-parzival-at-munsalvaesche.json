@@ -1,0 +1,52 @@
+{
+  "id": "parzival-at-munsalvaesche",
+  "title": "Parzival at Munsalvaesche",
+  "act": "grail",
+  "order": 25,
+  "branch": "german",
+  "summary": "A young knight is shown a suffering king and the Grail itself, and asks nothing — because he was taught it was rude.",
+  "retelling": "Parzival, wandering, comes to a lake and a fisherman who directs him to a castle nearby. Inside he is received with enormous ceremony and a certain undertone of desperation, and brought into a hall where a man lies who cannot sit or stand comfortably — Anfortas, *the gentle monarch, who was courteous as he was bold*, whose wound has made warmth unbearable and cold unbearable too.\n\nThen comes the procession: a bleeding lance carried through the hall, at which the whole company cries out; then maidens with candles and ivory tables and a cloth of silk; and last, the Gral itself, borne by a queen, from which every man present is served whatever food and drink he desires.\n\nParzival watches all of it. He is being watched in return by everyone in the room, waiting.\n\nHe says nothing. His teacher Gurnemanz told him that a knight does not ask many questions, and he is determined to do this properly.\n\nIn the morning the castle is empty. A squire shouts abuse at him from a gate as he rides out, and the drawbridge is snatched up behind his horse's heels.\n\nIt takes him years to learn what he did. The question — *what ails thee, uncle?* — would have healed Anfortas and released the Grail household on the spot. Because he did not ask, a wounded man went on being unable to die for years, and Parzival lost his good name, his self-respect, and eventually his faith, and spent a long stretch of the poem in open resentment against God.\n\nWolfram's argument, and it is unlike anyone else's in this tradition, is that the qualification for the Grail is neither purity nor lineage nor prowess. It is noticing that somebody is in pain and saying so.",
+  "voices": [
+    {
+      "voice": "wolfram",
+      "term": "a wound, a stone, and a question of pity",
+      "take": "The Grail is a stone and the cure is compassion. The failure is not sin; it is a young man being careful about etiquette while a man in front of him is suffering.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "mabinogion",
+      "term": "the same scene, stripped bare",
+      "take": "Peredur sees a bleeding spear and a severed head and stays silent for the same reason, in a story with no theology in it at all.",
+      "quote_id": "mabinogion-peredur-spear"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "purity instead of pity",
+      "take": "The Queste's Grail cannot be reached by anyone unconfessed, and its hero needs no lesson because he was never at fault.",
+      "quote_id": "queste-judgment-purity"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "parzival-5-5",
+      "why": "Anfortas in the hall, and the state of his wound."
+    },
+    {
+      "unit": "parzival-5-6",
+      "why": "The procession, the Gral, and the question that is not asked."
+    }
+  ],
+  "cost": "Years of another man's pain, and the questioner's own faith. Wolfram is the only author who makes the cost of the Grail failure land on the person who failed rather than on a kingdom.",
+  "cuts": [
+    "the-grail",
+    "the-wound-and-wasteland"
+  ],
+  "characters": [
+    "percival",
+    "anfortas"
+  ],
+  "related": [
+    "peredurs-spear",
+    "anfortas-healed"
+  ]
+}

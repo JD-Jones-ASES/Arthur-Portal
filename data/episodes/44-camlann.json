@@ -1,0 +1,56 @@
+{
+  "id": "camlann",
+  "title": "Camlann",
+  "act": "fall",
+  "order": 44,
+  "branch": "english",
+  "summary": "A treaty is agreed. A knight is bitten by an adder and draws his sword to kill it. Both armies attack.",
+  "retelling": "The treaty has been made. Arthur and Mordred come into the field between the two hosts with fourteen men each, and wine is fetched, and they drink together.\n\nBoth armies are standing under the same order. Arthur has told his men to come on fiercely and kill Mordred if they see any sword drawn. Mordred has told his men exactly the same thing about Arthur. Neither king trusts the other, and both have prepared for treachery in the way most likely to produce it.\n\nAn adder comes out of a little heath bush and stings a knight on the foot.\n\nHe feels it, looks down, and draws his sword to kill the snake, *and thought of none other harm.*\n\nBoth hosts see a blade come out. The trumpets go, and the armies run at each other, and by the end of the day a hundred thousand men are dead on the down and the kingdom is finished.\n\nArthur, looking for Mordred among the dead, finds him leaning on his sword among a heap of bodies. Sir Lucan begs the king to leave him — the day is won, the treaty may still be saved, and Merlin's prophecy is remembered. Arthur will not. He says that whether he lives or dies, now he sees him yonder alone, he shall never escape his hands.\n\nHe runs him through with a spear, and Mordred, feeling the death-wound, thrusts himself forward up the shaft of the spear to reach him, and strikes his father through the helmet into the brain-pan.\n\nThen they both fall.\n\nEverything the book has warned about since Book I arrives on schedule, and the mechanism that delivers it is a snake in a bush and a man's reflex.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "an adder, and a reflex",
+      "take": "The kingdom ends because a knight was bitten and drew his sword without thinking. The most foretold catastrophe in literature is triggered by an accident nobody could have legislated for.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a battle, and a wound",
+      "take": "Geoffrey has the armies meet and Mordred fall, and Arthur wounded deadly — with no adder and no treaty, because his fall does not need a moral mechanism.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "mortes",
+      "term": "the wheel turning",
+      "take": "For the alliterative Morte this is simply what the top of the wheel looks like from underneath.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    },
+    {
+      "voice": "chroniclers",
+      "term": "a line in the annals",
+      "take": "The oldest record of Camlann is a single entry saying that Arthur and Medraut fell there. It does not say they were enemies.",
+      "quote_id": "nennius-twelve-battles"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-4",
+      "why": "The treaty, the adder, and the last battle."
+    }
+  ],
+  "cost": "A hundred thousand dead, a kingdom gone, and a father and son killing each other in the same movement — set off by a man protecting his own foot.",
+  "cuts": [
+    "foreknowledge-and-doom",
+    "the-fellowship"
+  ],
+  "characters": [
+    "arthur",
+    "mordred",
+    "bedivere"
+  ],
+  "related": [
+    "may-day-children",
+    "fortunes-wheel",
+    "excalibur-returned"
+  ]
+}

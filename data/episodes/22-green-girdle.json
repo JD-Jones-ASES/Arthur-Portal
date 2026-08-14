@@ -1,0 +1,62 @@
+{
+  "id": "green-girdle",
+  "title": "The green girdle",
+  "act": "flowering",
+  "order": 22,
+  "branch": "english",
+  "summary": "Gawain keeps every article of the code for a year and fails anyway, because he does not want to die.",
+  "retelling": "Gawain rides north through a winter that the poem describes at length, and on Christmas Eve, half dead with cold, he finds a castle. His host is enormous, hearty and generous, and proposes a small game to pass the days: he will go hunting each morning, and whatever he wins in the field he will give to Gawain, and whatever Gawain wins indoors he will give to his host.\n\nEach morning the host hunts — a deer, a boar, a fox — and each morning his wife comes to Gawain's bedchamber and tries to seduce him. Gawain has to refuse a determined woman without insulting her, in her own husband's house, while under an obligation of hospitality, three days running. It is a harder test than the axe, and he passes it.\n\nHe takes a kiss each day and hands the kisses on, exactly as agreed.\n\nOn the third day she offers him a green silk girdle, and he refuses that too, until she tells him what it does: *For what man soever is girded with this green lace, while he has it fastened neatly about him, there is no man under heaven who can cut him down.*\n\nHe takes it. And that evening he gives his host the third day's kisses and says nothing about the girdle.\n\nThat is the entire failure. Not lust — he refused her three times. Not treason, not cowardice; he rides to the chapel next morning and kneels for the blow. He concealed a thing he had promised to hand over, because it might stop him being killed.\n\nAt the chapel the Green Knight takes two feints and then nicks his neck, and explains: the first two blows were for the two days Gawain kept faith, the third for the day he did not. He thinks Gawain the finest knight he has met.\n\nGawain does not agree, and wears the girdle for the rest of his life as a mark of his fault. The court, when he gets home, laughs, and adopts green baldrics as a fashion.",
+  "voices": [
+    {
+      "voice": "gawain-romances",
+      "term": "the flaw no oath can reach",
+      "take": "He keeps every clause and fails at the one thing no code legislates: an ordinary man's wish not to be killed. And the court turns his shame into a fashion.",
+      "quote_id": "sggk-green-girdle"
+    },
+    {
+      "voice": "malory",
+      "term": "the code broken by the great",
+      "take": "Malory's failures of chivalry are outrages — murder, treason, cruelty. Nothing in the Morte is as small, or as human, as this.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "chretien",
+      "term": "the single conscience on trial",
+      "take": "The form is Chretien's — one knight audited against the code — carried to its sharpest possible point by an English poet two centuries later.",
+      "quote_id": "chretien-love-over-shame"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "gawain-3-15",
+      "why": "The lady explains what the girdle does."
+    },
+    {
+      "unit": "gawain-3-16",
+      "why": "He takes it — and conceals it."
+    },
+    {
+      "unit": "gawain-4-10",
+      "why": "The Green Knight's reproach, and the reckoning."
+    },
+    {
+      "unit": "gawain-4-18",
+      "why": "The court laughs and wears the lace."
+    }
+  ],
+  "cost": "An oath can forbid murder and treason. It cannot forbid being afraid of dying, and the best knight in England is undone by exactly that — then has to live in a court that finds it charming.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "gawain",
+    "green-knight",
+    "morgan"
+  ],
+  "related": [
+    "green-knight",
+    "pentecostal-oath",
+    "dame-ragnelle"
+  ],
+  "divergence": "Malory's knights break the oath by doing terrible things. The Gawain poet's hero breaks it by keeping a piece of cloth, and the poem takes that far more seriously."
+}

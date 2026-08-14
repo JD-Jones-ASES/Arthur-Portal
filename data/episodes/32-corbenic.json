@@ -1,0 +1,66 @@
+{
+  "id": "corbenic",
+  "title": "The achieving of the Grail",
+  "act": "grail",
+  "order": 32,
+  "branch": "french",
+  "summary": "Three knights reach the vessel. One dies of it, one becomes a hermit, and one goes home to tell them.",
+  "retelling": "Galahad, Percival and Bors come at last to Corbenic, and to the chamber where the Grail is kept, and to a table of silver with the vessel on it.\n\nWhat follows is a Mass. Nine knights come from three countries; a bishop is lifted from a tomb; and Malory's account is careful and strange — a figure like a child, brighter than fire, entering the bread; then a man appearing out of the vessel with the marks of the Passion on him, who feeds them each with his own hands.\n\nGalahad is then told to take the Grail to the city of Sarras, and on the way to anoint the Maimed King with the blood of the spear, which he does, and Pelles is healed.\n\nAt Sarras, Galahad is made king. A year later, at the altar, he sees into the vessel — and what he says is that he has seen what tongue cannot tell and heart cannot think, and he asks to be allowed to die. He is granted it. A hand comes down and takes the Grail and the spear up to heaven, and Malory says plainly that since then there was never a man who could say he had seen it.\n\nPercival goes into a hermitage and dies inside two years.\n\nBors comes home alone.\n\nThat last fact is the one worth holding on to. The three men who succeed are removed from the world — two dead, one holy — and the only one who returns is the one who was merely good: not a virgin, not faultless, a man who had made a hard choice badly rewarded. He rides back to a court he knows is doomed, tells them what happened, and stays.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "achieved, and taken away",
+      "take": "The vessel goes up to heaven and is never seen again. Two of the three who reached it die; the survivor is the ordinary one.",
+      "quote_id": "malory-grail-empties-fellowship"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the purge completed",
+      "take": "The Queste's logic followed through: the secular order is sorted, the worthy are removed from the world, and the rest go home.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "wolfram",
+      "term": "a Grail you can live with",
+      "take": "Wolfram's hero becomes the Grail King and keeps a wife and a kingdom. Nobody has to die of it, and it does not leave the world.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the vessel's genealogy closed",
+      "take": "The cycle's Grail has come from Joseph of Arimathea to Britain and back to the East, and its story ends by being withdrawn from the world entirely.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-17-20",
+      "why": "The Mass at Corbenic, and the figure out of the vessel."
+    },
+    {
+      "unit": "malory-17-21",
+      "why": "The Maimed King anointed and healed."
+    },
+    {
+      "unit": "malory-17-22",
+      "why": "Sarras, Galahad's death, and the Grail taken up."
+    }
+  ],
+  "cost": "The quest succeeds and the world is worse off. Two of the three best men are gone, the vessel is withdrawn permanently, and the fellowship that rode out at a hundred and fifty is not a fellowship any more.",
+  "cuts": [
+    "the-grail",
+    "the-fellowship"
+  ],
+  "characters": [
+    "galahad",
+    "percival",
+    "bors",
+    "pelles"
+  ],
+  "related": [
+    "grail-enters-camelot",
+    "lancelot-fails",
+    "queste-judgment"
+  ],
+  "divergence": "Wolfram's Grail hero is crowned and lives. Malory's asks to die and is granted it, and the vessel leaves the world. One tradition thinks the sacred can be inhabited; the other thinks it can only be visited."
+}

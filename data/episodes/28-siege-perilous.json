@@ -1,0 +1,56 @@
+{
+  "id": "siege-perilous",
+  "title": "Galahad and the Siege Perilous",
+  "act": "grail",
+  "order": 28,
+  "branch": "french",
+  "summary": "A seat that kills the unworthy has a name written on it, and a sword in a floating stone waits for one hand.",
+  "retelling": "At Pentecost the knights find that gold letters have appeared on the empty seat at the Round Table — the Siege Perilous, in which no man may sit and live: *this is the siege of Galahad, the haut prince.*\n\nThen word comes of a marvel in the river: a great stone floating on the water, with a sword thrust into it and writing on the pommel saying that no man shall take it but the best knight in the world.\n\nArthur asks Lancelot to try. Lancelot refuses, and his refusal is the most important line in the chapter: he says that the sword is not his, and that whoever tries and fails will receive a wound from it that he will not soon recover. He knows. He has known since Corbenic.\n\nGawain tries anyway, at the king's urging, and cannot move it, and is told he will pay for it later — which he does, at Benwick, by Lancelot's hand.\n\nThen an old man brings in a young knight in red arms, without shield or sword, and leads him to the Siege Perilous, and lifts the cloth, and the name on it is his. He sits down and nothing happens to him. He goes to the river and takes the sword out of the stone as though it had been resting there.\n\nThe scene is deliberately constructed as a repetition. Twenty books earlier a boy pulled a sword out of a stone and became king. Now another young man does exactly the same thing, and what it establishes is not a kingdom but a hierarchy — and every knight in the hall has just been measured against him and found wanting.\n\nArthur understands immediately. Malory has him weep at the sight of Galahad, and say that he has always known that this day would come, and that it means the fellowship is finished.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a second sword in a stone, and a colder meaning",
+      "take": "The founding miracle repeated, and this time it does not make a king. It sorts a fellowship, and Arthur understands at once what that costs.",
+      "quote_id": "malory-grail-at-camelot"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the seat that measures everyone",
+      "take": "Galahad exists to be the standard. From the moment he sits down, every other knight in the hall is measurably not him.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the examination begins",
+      "take": "The Queste's terms are set here: this is not an adventure with an outcome, it is an assessment with a pass mark.",
+      "quote_id": "queste-judgment-purity"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-13-2",
+      "why": "The letters on the Siege Perilous and the sword in the floating stone."
+    },
+    {
+      "unit": "malory-13-5",
+      "why": "Galahad draws the sword."
+    }
+  ],
+  "cost": "Arthur weeps at the arrival of the best knight in the world, because he can see what the arrival means: he has been given a man who will finish the quest and empty his hall doing it.",
+  "cuts": [
+    "the-grail",
+    "source-of-rule"
+  ],
+  "characters": [
+    "galahad",
+    "lancelot",
+    "gawain",
+    "arthur"
+  ],
+  "related": [
+    "sword-in-the-stone",
+    "grail-enters-camelot",
+    "corbenic"
+  ],
+  "divergence": "The first sword in a stone makes a king out of a boy nobody knows. The second makes everybody else in the room second-rate."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "the-passing",
+  "title": "The barge, and Avalon",
+  "act": "fall",
+  "order": 46,
+  "branch": "english",
+  "summary": "A barge full of women in black hoods comes for the king — and one of them is the sister who spent the book trying to kill him.",
+  "retelling": "Bedivere carries the king down to the water on his back, and there is a barge waiting, with many fair ladies in it, and all of them wearing black hoods, and they cry and shriek when they see Arthur.\n\nThree of them are queens. One is Morgan le Fay.\n\nShe is the first to speak, and what she says is: *Ah, dear brother, why have ye tarried so long from me?*\n\nMalory offers no explanation for this and needs none. Morgan has spent seventeen books trying to kill Arthur — she stole his scabbard and threw it into a lake, she armed her lover with his own sword and sent him to fight her brother in disguise, she sent a poisoned cloak. And she is in the barge, weeping, taking his head in her lap, and telling him he has stayed too long away from her.\n\nUnderneath Malory's Morgan is Geoffrey's Morgen, chief of the nine sisters of the Isle of Apples, skilled in healing, to whom the wounded king is carried. The oldest layer of the tradition is still there, and it surfaces on the last page.\n\nArthur tells Bedivere to comfort himself as best he may, for there is no more trust to trust in him, and that he is going into the vale of Avalon to heal him of his grievous wound. And if Bedivere never hears more of him, he is to pray for his soul.\n\nThe barge goes, and Bedivere stands on the shore and cries out that he will be left alone among his enemies, and rows away nobody answers.\n\nHe walks all night through a forest and comes in the morning to a chapel between two hoary woods, and a hermit lying by a new grave, and asks who is buried there. The hermit says that a company of ladies brought a body at midnight and paid for the burial and he does not know who it was.\n\nBedivere says: that was my lord Arthur. And stays there for the rest of his life.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a barge, a grave, and no certainty",
+      "take": "The king says he goes to be healed; a body is buried at midnight by women who do not say whose it is; and the man who was there does not know either.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "borne away for healing, and not said to die",
+      "take": "Wounded deadly, carried to Avalon for the healing of his wounds, and the crown handed to Constantine. The ambiguity is deliberate and original.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "Argante, and the Britons' belief",
+      "take": "Layamon names the elf-queen who will heal him with balm and adds the crucial framing: this believed the Britons, that he will thus come.",
+      "quote_id": "layamon-argante-return"
+    },
+    {
+      "voice": "tennyson",
+      "term": "the passing as apotheosis",
+      "take": "Tennyson's version ends with the barge dwindling into light and a new sun rising — considerably more consoling than anything medieval.",
+      "gap_note": "Reception rather than medieval witness."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-6",
+      "why": "The barge, Morgan's greeting, and the grave at the hermitage."
+    },
+    {
+      "unit": "idylls-12-2",
+      "why": "Tennyson's Passing of Arthur."
+    },
+    {
+      "unit": "layamon-1-55",
+      "why": "Layamon sends the king to Argante, and says the Britons believed it."
+    }
+  ],
+  "cost": "The one witness left alive did not see anything. Everything anyone knows about the end of Arthur comes from a man who watched a boat leave and found a grave he could not identify.",
+  "cuts": [
+    "once-and-future",
+    "the-wound-and-wasteland"
+  ],
+  "characters": [
+    "arthur",
+    "bedivere",
+    "morgan",
+    "nimue"
+  ],
+  "related": [
+    "excalibur-returned",
+    "rex-quondam",
+    "morgan-and-accolon"
+  ],
+  "divergence": "Morgan le Fay spends Malory's book trying to kill her brother and is in the boat that carries him away to be healed. Neither the enmity nor the tenderness is explained, because they come from different centuries of the same tradition."
+}

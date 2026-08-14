@@ -1,0 +1,60 @@
+{
+  "id": "morgan-and-accolon",
+  "title": "Morgan le Fay and the stolen scabbard",
+  "act": "flowering",
+  "order": 14,
+  "branch": "english",
+  "summary": "Arthur's sister arranges for him to fight her lover — with his own sword in the wrong hands.",
+  "retelling": "Morgan le Fay wants her brother dead and her lover Accolon on the throne. Her method is precise and it depends on knowing what Merlin told Arthur years earlier: that the scabbard of Excalibur is worth more than the sword, because whoever wears it will lose no blood however badly he is wounded.\n\nShe takes Excalibur and its scabbard, gives both to Accolon, and has a counterfeit sword made that looks exactly like it. Then she arranges, by enchantment, for the two men to be brought to a combat neither understands, in armour that hides their faces.\n\nThe fight is horrible. Arthur strikes and his sword will not cut. Accolon strikes and Arthur bleeds from every blow, while Accolon takes no hurt at all. Arthur, cut to pieces and losing blood steadily, works out only that his sword is not his sword.\n\nNimue, watching, sees that the king will die otherwise, and uses her craft to make Excalibur fall from Accolon's hand. Arthur takes it up, recognises it, gets the scabbard back, and beats him. Dying, Accolon tells him everything.\n\nThen comes the part that matters for the whole rest of the book. Morgan, hearing that Accolon is dead, goes to where Arthur lies sleeping, takes the scabbard, rides for a day, and when she sees pursuit coming, throws it into the deepest water she can find. It is never recovered.\n\nSeventeen books later, at Camlann, Arthur takes a wound from his son's hand. There is no scabbard. He bleeds, and dies of it.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the protection removed, seventeen books early",
+      "take": "The trap fails, and the loss it causes is permanent: the one object that would have kept Arthur from bleeding to death is at the bottom of a lake from Book IV onward.",
+      "quote_id": "malory-excalibur-returned"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "a healer, not an enemy",
+      "take": "Geoffrey's Morgen is the chief of the nine sisters of Avalon and skilled in healing, and it is to her the wounded Arthur is carried. There is no enmity at all.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "gawain-romances",
+      "term": "the unseen author of the plot",
+      "take": "In Sir Gawain and the Green Knight the entire test is revealed at the end to have been Morgan's design, arranged to frighten Guinevere — and she does not appear in a single scene of it.",
+      "quote_id": "sggk-green-girdle"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-4-8",
+      "why": "Accolon wakes by a well and is set to fight a stranger."
+    },
+    {
+      "unit": "malory-4-10",
+      "why": "The false sword breaks; Arthur recovers Excalibur and Accolon confesses."
+    },
+    {
+      "unit": "malory-4-14",
+      "why": "Morgan steals the scabbard and throws it into deep water."
+    }
+  ],
+  "cost": "A plot that fails still succeeds. Arthur survives the day and loses the thing that would have saved him at the end, and neither he nor the reader is told that this is what has just happened.",
+  "cuts": [
+    "source-of-rule",
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "morgan",
+    "accolon",
+    "arthur",
+    "nimue"
+  ],
+  "related": [
+    "excalibur",
+    "camlann",
+    "the-passing"
+  ],
+  "divergence": "Geoffrey's Morgen heals Arthur. Malory's Morgan spends the book trying to kill him — and is in the barge that carries him to be healed."
+}

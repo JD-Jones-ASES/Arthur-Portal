@@ -1,0 +1,60 @@
+{
+  "id": "queste-judgment",
+  "title": "The Grail as judgment",
+  "act": "grail",
+  "order": 33,
+  "branch": "french",
+  "summary": "The French Queste sets terms at the outset and never relaxes them: this is an examination, and most of the Round Table fails.",
+  "retelling": "The *Queste del Saint Graal* is the most uncompromising book in the tradition, and it says what it is doing on the first page: *no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins. This Quest is not a quest for earthly things, but is to be the search for the deep secrets and confidences of Our Lord.*\n\nEverything follows from that sentence. The quest is not an adventure with obstacles. It is an assessment, the criteria are moral, and they are not negotiable.\n\nSo Gawain — the best-loved knight in the English tradition, the man who takes the beheading game when nobody else will — rides out, meets a hermit, and is told plainly that he will find nothing, because he has not confessed in years and does not mean to. He accepts this without much distress and goes home. He kills eighteen knights on the way, most of them companions of the Round Table, mostly by accident.\n\nLancelot is stopped at a door.\n\nAnd the man who succeeds needed no instruction, because he was never at fault. Galahad does not learn anything in the course of the quest. He is not tested in any sense that could have gone otherwise.\n\nThe book has been called cruel since the Middle Ages, and the charge is not a misreading. The secular order — the fellowship, the love, the world, the ordinary decent knights — is sacrificed so that one virgin may see God. Everything that made the Round Table worth writing about is, by this book's standards, disqualifying.\n\nWhich is exactly why the argument in this tradition is worth following. Wolfram, writing at almost the same time in Germany, has a wounded king healed by a question asked out of pity. Malory copies the *Queste* almost scene for scene into English and then frames the whole thing as a bereavement. Neither of them is contradicting the facts. They are contradicting the verdict.",
+  "voices": [
+    {
+      "voice": "grail-romances",
+      "term": "cleansed and purged, or nothing",
+      "take": "The terms are set on the first page and never relaxed. It is not a quest, it is an examination with a pass mark.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "wolfram",
+      "term": "the counter-argument, written at the same time",
+      "take": "Compassion instead of purity: a wound healed by somebody noticing it. The two books cannot both be right about what the sacred requires.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "malory",
+      "term": "the same events, mourned",
+      "take": "Malory translates the Queste closely and changes the frame: the same quest, told by a man counting what it cost.",
+      "quote_id": "malory-grail-empties-fellowship"
+    },
+    {
+      "voice": "mabinogion",
+      "term": "before any of it",
+      "take": "Peredur's silence before the bleeding spear is the same failure with no doctrine attached at all — a failure of attention, not of purity.",
+      "quote_id": "mabinogion-peredur-spear"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-16-1",
+      "why": "Gawain is told he will find nothing — the Queste's verdict on the English tradition's favourite knight."
+    },
+    {
+      "unit": "malory-13-20",
+      "why": "Lancelot's confession, and the terms he is held to."
+    }
+  ],
+  "cost": "Everything worth having, deliberately. The Queste is the one voice in this canon that thinks the cost is the point rather than the tragedy.",
+  "cuts": [
+    "the-grail"
+  ],
+  "characters": [
+    "galahad",
+    "gawain",
+    "lancelot"
+  ],
+  "related": [
+    "corbenic",
+    "anfortas-healed",
+    "grail-enters-camelot"
+  ],
+  "gap_note": "Published here in quotation only: the available scan of Comfort's translation is too uneven to set as a reading text, so the quest is read through Malory's close English rendering of it."
+}

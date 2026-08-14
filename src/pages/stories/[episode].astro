@@ -1,0 +1,174 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import Divergence from "../../components/Divergence.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import {
+  episodes, episodeById, characterById, cutById, workById, units as getUnits,
+} from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+export function getStaticPaths() {
+  return episodes().map((e) => ({ params: { episode: e.id }, props: { episode: e } }));
+}
+
+const { episode: ep } = Astro.props;
+const all = [...episodes()].sort((a, b) => a.order - b.order);
+const idx = all.findIndex((e) => e.id === ep.id);
+const prev = all[idx - 1] ?? null;
+const next = all[idx + 1] ?? null;
+
+const people = (ep.characters ?? []).map((c) => characterById(c)).filter(Boolean);
+const throughlines = (ep.cuts ?? []).map((c) => cutById(c)).filter(Boolean);
+const related = (ep.related ?? []).map((r) => episodeById(r)).filter(Boolean);
+
+const passages = (ep.passages ?? []).map((p) => {
+  const workId = p.unit.replace(/-.*$/, "");
+  // unit ids are "<work>-<part>-<n>"; the work id may itself contain a hyphen.
+  const work = workById(p.unit.split("-").slice(0, -2).join("-")) ?? workById(workId);
+  const u = work ? getUnits(work.id)[p.unit] : null;
+  return { ...p, work, unit: u };
+}).filter((p) => p.unit);
+---
+
+<Layout title={ep.title} description={ep.summary} current="/stories" branch={ep.branch}>
+  <div class="page-head">
+    <span class="rubric">
+      Story {ep.order} of {all.length} &middot; {BRANCHES[ep.branch].label}
+    </span>
+    <h1>{ep.title}</h1>
+    <p class="lede">{ep.summary}</p>
+  </div>
+
+  <div class="ep-grid">
+    <div>
+      <div class="prose dropcap-first" set:html={mdToHtml(ep.retelling)} />
+
+      <div class="cost">
+        <span class="cost__label">What it costs</span>
+        <p>{ep.cost}</p>
+      </div>
+
+      {ep.gap_note && (
+        <div class="gap-note">
+          <span class="gap-note__label">A note on the evidence</span>
+          <p>{ep.gap_note}</p>
+        </div>
+      )}
+    </div>
+
+    <aside class="ep-aside">
+      {passages.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Read it yourself</h2>
+          <ul class="margin-list">
+            {passages.map((p) => (
+              <li data-branch={p.work.branch}>
+                <a href={withBase(`/read/${p.work.id}/${p.unit.id}/`)}>
+                  <strong>{p.work.short}</strong>
+                  {p.unit.label && p.unit.label !== p.unit.title ? ` ${p.unit.label}` : ""}
+                </a>
+                <div class="small muted">{p.unit.title}</div>
+                {p.why && <div class="small ep-why">{p.why}</div>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {people.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Who is here</h2>
+          <ul class="margin-list margin-list--tight">
+            {people.map((c) => (
+              <li><a href={withBase(`/knights/${c.id}/`)}>{c.name}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {throughlines.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Throughlines</h2>
+          <ul class="margin-list margin-list--tight">
+            {throughlines.map((c) => (
+              <li><a href={withBase(`/throughlines/${c.id}/`)}>{c.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+
+  <Ornament />
+
+  <Divergence takes={ep.voices} divergence={ep.divergence} heading="In the sources" />
+
+  {related.length > 0 && (
+    <>
+      <Ornament />
+      <section class="narrow narrow--flush">
+        <span class="rubric">Reads with</span>
+        <ul class="related-list">
+          {related.map((r) => (
+            <li>
+              <a href={withBase(`/stories/${r.id}/`)}>{r.title}</a>
+              <span class="muted small"> &mdash; {r.summary}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  )}
+
+  <nav class="reader__nav" aria-label="Story navigation">
+    {prev ? (
+      <a class="reader__nav-link reader__nav-link--prev" href={withBase(`/stories/${prev.id}/`)}>
+        <span class="rubric rubric--muted">Previous</span>
+        <span class="reader__nav-title">{prev.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="reader__nav-link reader__nav-link--next" href={withBase(`/stories/${next.id}/`)}>
+        <span class="rubric rubric--muted">Next</span>
+        <span class="reader__nav-title">{next.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
+</Layout>
+
+<style>
+  .ep-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) minmax(13rem, 17rem);
+    gap: var(--s7);
+    align-items: start;
+  }
+  @media (max-width: 1000px) { .ep-grid { grid-template-columns: 1fr; gap: var(--s6); } }
+
+  .ep-aside {
+    position: sticky;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s5);
+    font-size: 0.92rem;
+  }
+  @media (max-width: 1000px) { .ep-aside { position: static; border-top: 1px solid var(--line); padding-top: var(--s5); } }
+
+  .prose { font-size: 1.06rem; line-height: 1.66; }
+  .dropcap-first :global(p:first-of-type::first-letter) {
+    float: left;
+    font-family: var(--font-display);
+    font-size: 3.1em;
+    line-height: 0.85;
+    padding: 0.05em 0.09em 0 0;
+    color: var(--rubric);
+    font-weight: 600;
+  }
+
+  .margin-list--tight li { margin-bottom: var(--s2); }
+  .ep-why { color: var(--ink-faint); font-style: italic; margin-top: var(--s1); }
+  .related-list { list-style: none; margin: var(--s4) 0 0; padding: 0; }
+  .related-list li { padding: var(--s2) 0; border-bottom: 1px solid var(--line); }
+</style>

@@ -1,13 +1,140 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import Heraldry from "../../components/Heraldry.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { characters } from "../../lib/portal-data.js";
+
+const all = characters();
+const principal = all.filter((c) => c.rank === "principal").sort((a, b) => (a.sort ?? a.name).localeCompare(b.sort ?? b.name));
+const company = all.filter((c) => c.rank !== "principal").sort((a, b) => (a.sort ?? a.name).localeCompare(b.sort ?? b.name));
+const followable = principal.filter((c) => (c.arc ?? []).length >= 3);
 ---
 
-<Layout title="Knights" current="/knights">
-  <Stub
-    rubric="The company"
-    title="Follow a life"
-    body="The Round Table and the wider company — with the names each tradition gives them, and an itinerary through their whole arc in the primary text."
-    phase="Phase 6"
-  />
+<Layout
+  title="The company"
+  description="Dossiers for the whole company of the Matter of Britain — with the names each tradition gives them, and an itinerary through their whole arc in the primary text."
+  current="/knights"
+>
+  <div class="page-head">
+    <span class="rubric">The company</span>
+    <h1>Follow a life</h1>
+    <p class="lede">
+      {all.length} figures, from the king to the loathly lady who knows what women most desire.
+      Each dossier records what the traditions disagree about rather than smoothing it &mdash;
+      because they disagree about almost everyone. Morgan le Fay is a healer in Geoffrey and an
+      assassin in Malory. Kay can hold his breath for nine days in Welsh and gets knocked off his
+      horse in French. Gawain is the finest knight in England and a spiritual write-off in the
+      <em>Queste</em>.
+    </p>
+    <p>
+      {followable.length} of them can be <strong>followed</strong> &mdash; walked through their
+      whole arc, episode by episode, into the primary text.
+    </p>
+  </div>
+
+  <section aria-labelledby="principal-h">
+    <h2 id="principal-h" class="section-head">Principal figures</h2>
+    <div class="knight-grid">
+      {
+        principal.map((c) => (
+          <a class="knight-card" data-branch={c.branch ?? c.traditions[0]} href={withBase(`/knights/${c.id}/`)}>
+            <div class="knight-card__arms">
+              <Heraldry blazon={c.blazon ?? null} name={c.name} size={62} />
+            </div>
+            <div class="knight-card__body">
+              <span class="rubric">{c.role}</span>
+              <h3>{c.name}</h3>
+              <p class="small">{c.one_line}</p>
+              {(c.arc ?? []).length >= 3 && <span class="knight-card__follow">Follow &rarr;</span>}
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <Ornament />
+
+  <section aria-labelledby="company-h">
+    <h2 id="company-h" class="section-head">The wider company</h2>
+    <ul class="company-list">
+      {
+        company.map((c) => (
+          <li data-branch={c.branch ?? c.traditions[0]}>
+            <a href={withBase(`/knights/${c.id}/`)}>{c.name}</a>
+            <span class="muted small">{c.role}</span>
+            <span class="company-list__line">{c.one_line}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">On the arms</span>
+    <h2>A word about the shields</h2>
+    <p>
+      The coats of arms shown here come from the late-medieval armorials that assigned devices to
+      the knights of the Round Table &mdash; Arthur&rsquo;s three crowns, Galahad&rsquo;s red cross
+      on white, Lancelot&rsquo;s three bends. They are a tradition, not evidence: the romances
+      themselves rarely give a knight consistent arms, and the armorials postdate the stories by a
+      century or more. Where a figure has no well-attested blazon, no arms are invented for them.
+    </p>
+    <p>
+      Every shield on this site is drawn in code from its blazon. There is no third-party artwork
+      anywhere in this portal, by design.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .section-head { border-bottom: 2px solid var(--line-strong); padding-bottom: var(--s2); margin-bottom: var(--s5); }
+
+  .knight-grid {
+    display: grid;
+    gap: var(--s4);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
+  }
+  .knight-card {
+    display: flex;
+    gap: var(--s4);
+    padding: var(--s4);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--branch);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+    text-decoration: none;
+    color: inherit;
+  }
+  .knight-card:hover { border-color: var(--branch); box-shadow: var(--shadow); }
+  .knight-card__arms { flex: none; padding-top: 0.2em; }
+  .knight-card__body { min-width: 0; }
+  .knight-card h3 { margin: var(--s1) 0 var(--s2); font-size: 1.12rem; }
+  .knight-card p { color: var(--ink-soft); margin: 0; }
+  .knight-card__follow {
+    display: inline-block;
+    margin-top: var(--s3);
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    color: var(--rubric);
+  }
+
+  .company-list { list-style: none; margin: 0; padding: 0; }
+  .company-list li {
+    display: grid;
+    grid-template-columns: 11rem 8rem 1fr;
+    gap: var(--s4);
+    align-items: baseline;
+    padding: var(--s3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .company-list a { font-family: var(--font-display); }
+  .company-list__line { color: var(--ink-soft); font-size: 0.94rem; }
+  @media (max-width: 800px) {
+    .company-list li { grid-template-columns: 1fr; gap: var(--s1); }
+  }
+</style>

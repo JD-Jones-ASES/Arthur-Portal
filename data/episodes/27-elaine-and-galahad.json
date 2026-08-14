@@ -1,0 +1,56 @@
+{
+  "id": "elaine-and-galahad",
+  "title": "Elaine of Corbenic, and the begetting of Galahad",
+  "act": "grail",
+  "order": 27,
+  "branch": "french",
+  "summary": "The Grail's own guardians deceive the best knight in the world into fathering the man who will replace him.",
+  "retelling": "Lancelot comes to Corbenic, where King Pelles keeps the Grail. Pelles knows something Lancelot does not: it has been prophesied that Lancelot and Pelles's daughter Elaine will conceive a son who will achieve the quest and heal the Maimed King.\n\nLancelot will not touch any woman but the queen. So the household arranges it.\n\nA servant brings him a ring he believes is Guinevere's, and a message that she is waiting nearby, and gives him a cup of wine that leaves him *so assotted and mad that he might make no delay*. He goes to Elaine's bed believing she is Guinevere, and the child is conceived.\n\nIn the morning the enchantment lifts. He opens a window, sees who is in the bed, takes his sword, and asks her how she has betrayed him — and she asks him to spare her life, and tells him about the child. He does spare her, and he forgives her, and he never forgives the household.\n\nIt happens a second time, later, at Camelot, and this time Guinevere finds out. She throws Lancelot out of the court in a fury, and he goes out of his mind — genuinely mad, for two years, wandering and unrecognised. It is Elaine who eventually finds him, and Elaine who has him carried into the chamber where the Grail heals him.\n\nShe loves him her whole life and he never returns it.\n\nThe important thing here is who does what. The Grail's own guardians, the holiest household in the book, produce their perfect knight by drugging a man and deceiving him into a bed. Malory does not comment on this. He simply records it, in a book he will later fill with the language of purity, and lets the reader notice that the quest for the highest thing in the world begins with a rape by deception arranged by its keepers.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a deception at the holy castle",
+      "take": "Recorded flatly and never condemned: the household that keeps the Grail drugs the best knight in the world to breed the one who will replace him.",
+      "quote_id": "malory-grail-at-camelot"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the mechanism, engineered",
+      "take": "The cycle needs a knight who is not disqualified by love, so it produces one — from the man who is, by the household that guards the vessel.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "wolfram",
+      "term": "no such thing",
+      "take": "Wolfram's Grail household has no breeding programme. Its wound is healed by a nephew asking a question, and nobody has to be deceived to make it possible.",
+      "quote_id": "wolfram-anfortas-wounded"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-11-2",
+      "why": "Corbenic, the ring, the wine, and the deception."
+    },
+    {
+      "unit": "malory-11-3",
+      "why": "Lancelot wakes, draws his sword, and is told about the child."
+    }
+  ],
+  "cost": "The quest's perfect knight is produced by a deliberate deception, and the man deceived is the one the quest will then judge and reject. Malory declines to reconcile that, and the silence is louder than an argument.",
+  "cuts": [
+    "the-grail",
+    "courtly-love"
+  ],
+  "characters": [
+    "lancelot",
+    "elaine-corbenic",
+    "pelles",
+    "galahad",
+    "guinevere"
+  ],
+  "related": [
+    "siege-perilous",
+    "lancelot-fails",
+    "corbenic"
+  ]
+}

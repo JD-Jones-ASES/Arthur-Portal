@@ -1,0 +1,55 @@
+{
+  "id": "healing-of-sir-urre",
+  "title": "The healing of Sir Urre",
+  "act": "fall",
+  "order": 37,
+  "branch": "english",
+  "summary": "The whole fellowship is named, one last time — and the man who heals the wounded knight weeps as if he had been beaten.",
+  "retelling": "A wounded knight named Urre is brought to Camelot from Hungary. His wounds will never heal until the best knight in the world searches them and salves them, and his mother has carried him through seven countries looking for the man.\n\nArthur says he will try first, not because he thinks he can, but to give the others courage. He cannot. Then every knight of the Round Table tries in turn, and Malory does something extraordinary at this point: he lists them. Names, and fathers, and deeds, and where they came from, for pages. It is the only place in the book where the fellowship is enumerated at full strength, and Malory clearly knows what he is doing, because it is the last time they will ever all be in one room.\n\nA hundred and ten knights try. None of them can do it.\n\nLancelot is not there, and is sent for, and does not want to do it — he says it would be presumption to try where such noble men have failed. Arthur tells him it is not a matter of pride, it is a matter of helping a wounded man, and orders him.\n\nSo he kneels and prays, silently, that he may be allowed to heal this man not for his own worship but for God's, and he searches the wounds, and they close.\n\nAnd then, Malory writes, Sir Lancelot wept as a child that had been beaten.\n\nHe has spent the Grail quest being told what he is. Here he is given, in front of everyone, the one thing he was refused — and the reason he weeps is that he knows precisely what it does and does not mean.\n\nThe next chapter begins the destruction of the Round Table.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the fellowship named, once, at the end",
+      "take": "A hundred and ten knights listed by name — the only muster in the book, placed immediately before the fall, and Malory knows exactly why he is doing it.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the verdict that stands",
+      "take": "Nothing here reverses the Queste. He heals a man and weeps, because being useful is not the same as being clean.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "tennyson",
+      "term": "cut",
+      "take": "Tennyson leaves this scene out. The Victorian Camelot has no room for a moment where the adulterer performs a miracle and is right to cry about it.",
+      "gap_note": "An absence in the reception rather than a position."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-19-11",
+      "why": "Arthur tries, then the whole fellowship, named one by one."
+    },
+    {
+      "unit": "malory-19-12",
+      "why": "Lancelot is ordered to try, and weeps."
+    }
+  ],
+  "cost": "Malory assembles the entire Round Table on the page for the first and last time, and then spends the next two books taking it apart.",
+  "cuts": [
+    "the-fellowship",
+    "the-grail"
+  ],
+  "characters": [
+    "lancelot",
+    "arthur",
+    "gawain",
+    "bors"
+  ],
+  "related": [
+    "pentecostal-oath",
+    "the-queen-taken",
+    "lancelot-fails"
+  ]
+}

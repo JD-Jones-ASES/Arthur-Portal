@@ -1,0 +1,61 @@
+{
+  "id": "maid-of-astolat",
+  "title": "The Fair Maid of Astolat",
+  "act": "fall",
+  "order": 36,
+  "branch": "english",
+  "summary": "A girl asks Lancelot to love her, is refused kindly, and has herself rowed to court dead with the letter in her hand.",
+  "retelling": "Lancelot, wanting to fight a tournament in disguise, lodges at Astolat and borrows a plain shield. The lord's daughter Elaine asks him to wear her token, and he agrees — because he has never worn any lady's favour in his life, and wearing one now will make him unrecognisable.\n\nShe does not know that is why.\n\nHe is badly wounded in the tournament, and she nurses him for weeks, and when he is well enough to leave she asks him to marry her. He refuses. She asks to be his mistress. He refuses that too, and then makes it worse by offering, with the best intentions in the world, to settle a thousand pounds a year on her and find her a husband — as though the problem were financial.\n\nShe asks him what she has done to deserve so little, and he has no answer, and rides away.\n\nShe stops eating. She tells her father she is dying for love of Lancelot and that she will not be talked out of it, and asks that when she is dead she be dressed in her best, laid in a barge with a letter in her right hand, and steered down the Thames to Westminster with one dumb oarsman.\n\nWhich is what happens. The barge arrives at the court; the king and queen go down to see it; and the letter is read aloud in front of everybody, and it is addressed to Lancelot and it is not bitter. It says she died for love of him, and asks him to pray for her soul and bury her.\n\nGuinevere, who caused a good deal of this by driving him to Astolat in a fit of jealousy, tells him he might have shown her some gentleness. He answers that love must arise of the heart and not by constraint, which is true, and no help.\n\nMalory buries her richly and moves on. It is the most modern-feeling episode in the book.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a refusal that kills, and no villain in it",
+      "take": "He is kind, honest, and unable to love her, and she dies of it, and his kindness makes it worse. Nobody does anything wrong and a girl is dead.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "tennyson",
+      "term": "Elaine as the poem's centre",
+      "take": "Tennyson gives her a whole idyll and turns the barge into the most famous Victorian image of the legend — sympathetic to her, and much harder on the queen.",
+      "gap_note": "Reception rather than medieval witness."
+    },
+    {
+      "voice": "chretien",
+      "term": "love as service, with no exit",
+      "take": "The courtly system Chretien invented has no provision for a woman who loves the wrong knight and no place to put her.",
+      "quote_id": "chretien-love-over-shame"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-18-9",
+      "why": "The sleeve, and why he agrees to wear it."
+    },
+    {
+      "unit": "malory-18-19",
+      "why": "The refusal, the offer of money, and her decision."
+    },
+    {
+      "unit": "malory-18-20",
+      "why": "The barge arrives at Westminster."
+    },
+    {
+      "unit": "idylls-7-1",
+      "why": "Tennyson's Lancelot and Elaine."
+    }
+  ],
+  "cost": "The courtly love that made Lancelot the best knight in the world has no room in it for anybody else's love, and the person who finds that out dies of it.",
+  "cuts": [
+    "courtly-love"
+  ],
+  "characters": [
+    "elaine-astolat",
+    "lancelot",
+    "guinevere",
+    "gawain"
+  ],
+  "related": [
+    "poisoned-apple",
+    "knight-of-the-cart"
+  ]
+}

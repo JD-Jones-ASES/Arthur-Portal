@@ -1,0 +1,49 @@
+{
+  "id": "excalibur-returned",
+  "title": "The sword goes back",
+  "act": "fall",
+  "order": 45,
+  "branch": "english",
+  "summary": "Ordered three times to throw the sword into the water, the last loyal knight cannot bring himself to do it.",
+  "retelling": "Arthur is dying. Of the whole fellowship there are two men left alive on the field — Lucan and Bedivere — and Lucan dies of his wounds while trying to lift the king.\n\nArthur tells Bedivere to take Excalibur, go to the water's edge, throw it in, and come back and tell him what he sees.\n\nBedivere goes. He looks at the sword — the pommel and haft all of precious stones — and thinks that no good can come of throwing away something so valuable, and hides it under a tree, and comes back and says he saw nothing but waves and wind.\n\nArthur knows immediately. He tells him he has lied, and sends him again.\n\nBedivere goes again, and again cannot do it — Malory says it seemed to him a sin and a shame to throw away so noble a sword — and hides it, and comes back, and lies again.\n\nAnd Arthur, dying, is furious with him in a way he has not been with anyone in the entire book: *Ah, traitor untrue, now hast thou betrayed me twice.* Twice, by the man who is the last one left.\n\nThe third time Bedivere does it. He wraps the girdle round the hilts and throws it as far into the water as he can.\n\n*And there came an arm and an hand above the water and met it, and caught it, and so shook it thrice and brandished, and then vanished away the hand with the sword in the water.*\n\nThe loan made in Book I is called in. And the thing worth noticing is how ordinary the obstacle was: not treachery, not cowardice, not a test of virtue. A grieving man looked at a beautiful object and could not see the sense in destroying it, twice, while his king lay dying twenty yards away.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the debt called in, over two lies",
+      "take": "An arm rises, catches it, shakes it three times, and takes it under. It takes three attempts because the last loyal man alive cannot bear the waste.",
+      "quote_id": "malory-excalibur-returned"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no return",
+      "take": "Geoffrey's Caliburn is simply Arthur's sword. There is no lake, no lady, no loan and nothing to give back.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the marvellous restored",
+      "take": "Layamon lets the otherworld back into the ending, with the elf-queen Argante waiting to heal the king — the same instinct that puts a hand in the water.",
+      "quote_id": "layamon-argante-return"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-21-5",
+      "why": "The three commands, the two lies, and the hand in the water."
+    }
+  ],
+  "cost": "The otherworld that armed the reign in the first book takes its property back in the last, and the man who has to hand it over cannot see why anyone would want him to.",
+  "cuts": [
+    "source-of-rule",
+    "once-and-future"
+  ],
+  "characters": [
+    "bedivere",
+    "arthur"
+  ],
+  "related": [
+    "excalibur",
+    "the-passing",
+    "camlann"
+  ]
+}

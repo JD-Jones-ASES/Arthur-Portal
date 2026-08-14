@@ -1,0 +1,51 @@
+{
+  "id": "yvain-and-the-lion",
+  "title": "Yvain and the lion",
+  "act": "flowering",
+  "order": 19,
+  "branch": "french",
+  "summary": "A knight wins a wife by killing her husband, loses her by forgetting a date, goes mad, and is rebuilt by a lion.",
+  "retelling": "*Yvain* is Chrétien's best-constructed poem and the clearest example of what romance does that chronicle cannot: it audits one conscience.\n\nYvain kills the defender of a magic fountain, pursues the dying man into his castle, and falls in love with his widow, Laudine — who, after some persuasion by her maid Lunete, marries him, largely because she needs a champion and he has just proved he is one.\n\nThen Gawain persuades him to go tourneying. Laudine gives him leave for one year exactly, and warns him that if he overstays it her love ends. He overstays it. He simply loses track.\n\nWhen her messenger denounces him in front of the whole court and takes back her ring, he goes out of his mind — literally: he strips, runs into the forest, and lives as a naked madman until a lady finds him and cures him with an ointment.\n\nWhat rebuilds him is not a quest for a relic. It is a series of jobs. He sees a lion fighting a serpent and helps the lion, which attaches itself to him permanently and fights beside him. He rescues Lunete from burning. He defends a family against a giant. He frees three hundred women held as forced labour in a textile workshop, and the poem lets them describe their conditions at length.\n\nHe becomes the Knight with the Lion, and the point of the second half is that his reputation is being rebuilt out of usefulness rather than glory.\n\nThe Welsh *Owain* tells the same story, and nobody has settled whether it is Chrétien's source or his descendant.",
+  "voices": [
+    {
+      "voice": "chretien",
+      "term": "the code audited from inside one conscience",
+      "take": "The test is not whether he breaks an oath but what keeping and losing one does to a man — and the repair is unglamorous work, not a relic.",
+      "quote_id": "chretien-love-over-shame"
+    },
+    {
+      "voice": "mabinogion",
+      "term": "the same tale in Welsh",
+      "take": "Owain, or the Lady of the Fountain, tells this story in Welsh, and the direction of borrowing has never been settled.",
+      "quote_id": "mabinogion-peredur-spear"
+    },
+    {
+      "voice": "malory",
+      "term": "absent",
+      "take": "Malory's Uwaine is Morgan le Fay's son and a minor knight of the Round Table. The lion, the fountain and the madness do not survive into the English tradition at all.",
+      "gap_note": "An absence rather than a position: Malory simply does not tell this story."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "chretien-3-13",
+      "why": "The lion and the serpent, and the beginning of the second half."
+    },
+    {
+      "unit": "mabinogion-1-1",
+      "why": "The Welsh version of the same story, told of Owain."
+    }
+  ],
+  "cost": "He wins a wife by killing her husband and loses her by forgetting a date — and the poem's answer is that a reputation can be rebuilt, but only by becoming useful to strangers.",
+  "cuts": [
+    "the-fellowship",
+    "courtly-love"
+  ],
+  "characters": [
+    "uwaine"
+  ],
+  "related": [
+    "knight-of-the-cart",
+    "culhwch-and-olwen"
+  ]
+}

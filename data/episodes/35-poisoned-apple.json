@@ -1,0 +1,56 @@
+{
+  "id": "poisoned-apple",
+  "title": "The poisoned apple",
+  "act": "fall",
+  "order": 35,
+  "branch": "english",
+  "summary": "A knight dies at the queen's dinner, and there is nobody left willing to fight for her.",
+  "retelling": "After the Grail quest the survivors come home, and Malory's sentence about what happens next is one of the quietest and worst in the book: Lancelot begins to resort unto Queen Guinevere again, and forgot the promise and the perfection that he made in the quest.\n\nThe queen gives a private dinner for twenty-four knights, partly to show that she favours the whole fellowship and not only Lancelot. One of the guests, Sir Pinel, means to poison Gawain, who is known to love fruit, in revenge for the murder of Lamorak. He poisons an apple.\n\nGawain does not take it. Sir Patrise does, and swells, and bursts, and dies at the table.\n\nAnd every knight present turns on the queen, because it was her dinner and her fruit. Mador de la Porte accuses her of murder before the king. The law is trial by combat, and Arthur — who is the judge and cannot be her champion — asks who will fight for her, and the hall is silent. Every man there has just watched a guest die at her hand as far as they can tell, and Gawain, whose name is attached to the poisoning, will not.\n\nShe is condemned to burn unless a champion appears.\n\nBors is eventually persuaded, reluctantly and on condition that no better knight comes. Lancelot arrives at the last possible moment and destroys Mador in the field, and Nimue arrives afterwards and names the real poisoner.\n\nThe point of the episode is not the mystery. It is the count of hands. The queen of England stands accused of murder and the finest fellowship in the world will not lift a finger for her, and the only man who will is the one whose loyalty is exactly the thing that is destroying the court.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a silent hall, and one champion",
+      "take": "Nobody will fight for the queen but the man who should not. The court's obligation to her has already quietly transferred to one knight, and everyone can feel it.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the fault line under load",
+      "take": "The cycle's design showing through: the fellowship's loyalties have reorganised around Lancelot, and the crown is no longer the thing that commands them.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "mortes",
+      "term": "the English route to the ending",
+      "take": "The stanzaic Morte carries this sequence into English verse before Malory, and his last books follow it closely.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-18-3",
+      "why": "The dinner, the apple, and the accusation."
+    },
+    {
+      "unit": "malory-18-7",
+      "why": "Lancelot fights Mador, and the truth comes out too late to matter."
+    }
+  ],
+  "cost": "The court discovers that its loyalty to the crown has quietly become loyalty to one knight, and nobody says so out loud for another two books.",
+  "cuts": [
+    "the-fellowship",
+    "courtly-love"
+  ],
+  "characters": [
+    "guinevere",
+    "lancelot",
+    "bors",
+    "gawain",
+    "nimue",
+    "arthur"
+  ],
+  "related": [
+    "maid-of-astolat",
+    "the-queen-taken"
+  ]
+}

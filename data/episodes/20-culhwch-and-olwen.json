@@ -1,0 +1,54 @@
+{
+  "id": "culhwch-and-olwen",
+  "title": "Culhwch and Olwen",
+  "act": "flowering",
+  "order": 20,
+  "branch": "welsh",
+  "summary": "The oldest Arthurian story: forty impossible tasks, a giant who must die at his daughter's wedding, and a boar hunted across two countries.",
+  "retelling": "This is the oldest Arthurian story that survives, and reading it after the French romances is like stepping through a wall.\n\nCulhwch is cursed by his stepmother to love Olwen, daughter of Ysbaddaden Chief Giant, whom he has never seen. He rides to Arthur's court to claim a boon — and he does not petition. He claims it as kin, by right, and when the porter tries to keep him out he threatens to give three shouts that will make every pregnant woman in the land miscarry. He is admitted.\n\nArthur here is not a sovereign presiding over a fellowship. He is the head of a war-band, and the tale's most extraordinary passage is the list of the men Culhwch invokes: over two hundred names, including one who can drink a sea dry, one whose beard is used as a leash, a man so hot he sets things alight in winter, and Cai, who can go nine nights without sleep and hold his breath nine days under water.\n\nYsbaddaden must die when his daughter marries, so he sets forty impossible bride-price tasks. Most of them are never mentioned again. The great one is the hunt for Twrch Trwyth, a king transformed into a boar, who must be run down across Ireland, Wales and Cornwall so that the comb, razor and shears between his ears can be taken to shave the giant before the wedding.\n\nMen die in that hunt. The boar is finally driven into the sea and vanishes.\n\nThere is no courtesy in this story, no fellowship, no oath, no Grail, and no interiority whatsoever. There is a young man with a claim, an enormous cast of impossible retainers, and a hunt. It is the Arthur that existed before anybody in France decided he should have a court.",
+  "voices": [
+    {
+      "voice": "mabinogion",
+      "term": "a war-band, and a boar",
+      "take": "Arthur is a resource claimed by kinship, surrounded by retainers with impossible gifts. There is no court, no code, and no interior life anywhere in it.",
+      "quote_id": "mabinogion-peredur-spear"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the war-leader, in Latin",
+      "take": "Nennius's twelve battles preserve the same kind of figure from the other direction: a leader defined by what he wins, not what he presides over.",
+      "quote_id": "nennius-twelve-battles"
+    },
+    {
+      "voice": "malory",
+      "term": "nothing survives",
+      "take": "Not one element of this story reaches the English tradition. The Welsh Arthur and Malory's are connected by a name and very little else.",
+      "gap_note": "An absence rather than a position: Malory never encountered this material."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "mabinogion-4-1",
+      "why": "The claim at the gate, and the roll of Arthur's men."
+    },
+    {
+      "unit": "mabinogion-4-6",
+      "why": "The hunting of Twrch Trwyth."
+    }
+  ],
+  "cost": "Nothing at all, and that is the point. This is the one Arthurian story with no tragedy in it — which is a measure of how much the later tradition chose to add.",
+  "cuts": [
+    "source-of-rule"
+  ],
+  "characters": [
+    "culhwch",
+    "olwen",
+    "arthur",
+    "kay"
+  ],
+  "related": [
+    "twelve-battles",
+    "peredurs-spear"
+  ],
+  "divergence": "Malory's Arthur presides over a fellowship bound by an oath. Culhwch's Arthur is a kinsman you can shout at until he lends you his men."
+}

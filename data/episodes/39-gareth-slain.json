@@ -1,0 +1,53 @@
+{
+  "id": "gareth-slain",
+  "title": "The rescue, and Gareth",
+  "act": "fall",
+  "order": 39,
+  "branch": "english",
+  "summary": "Lancelot saves the queen from the fire and kills the two men he loved most, unarmed and unrecognised.",
+  "retelling": "Guinevere is condemned to be burned, and the sentence is lawful: the charge is treason and the evidence was produced.\n\nArthur orders a guard of knights to attend the execution. Gawain refuses outright and will not be in the town. Gareth and Gaheris obey the order under protest, and go unarmed — no shields, no swords — as a public statement that they will take no part in it.\n\nLancelot's rescue party comes in fast and hard. The queen is at the stake in her shift with the fire being lit, and what follows is a slaughter in a crowd, with men in armour riding down men on foot.\n\nGareth and Gaheris are killed in it. Malory is exact about the circumstances: Lancelot was in the *heat of the battle* and did not see who they were, being unarmed and among the press, and he *smote them and slew them.*\n\nHe takes the queen away to Joyous Gard, and it is only afterwards, when the dead are counted, that he learns what he has done, and Malory has him say he would rather have lost his lands than that this had happened.\n\nAnd that is the hinge of the whole ending. Gawain — who warned Agravaine, who refused to attend, who has forgiven Lancelot everything up to this hour — receives the news, faints, and comes back a different man. He tells Arthur he will never rest until one of them has killed the other, and he means it, and he does not stop meaning it.\n\nThe adultery was survivable. Peace was possible; the Pope will shortly order one, and it will nearly work. What is not survivable is two unarmed brothers dead in a crowd by accident, and a third brother who cannot let it go.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the accident that cannot be forgiven",
+      "take": "Not the affair, not the treason — two unarmed men killed by mistake in a crowd, and a brother who will not be reconciled to it.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "gawain-romances",
+      "term": "the other Gawain",
+      "take": "The English poems' Gawain is the most courteous knight alive. Malory's is the man whose grief drives a war across the sea and loses a kingdom.",
+      "quote_id": "sggk-green-girdle"
+    },
+    {
+      "voice": "mortes",
+      "term": "the English source for the sequence",
+      "take": "The stanzaic Morte carries the rescue and the deaths, and Malory follows it closely.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-20-8",
+      "why": "The rescue at the stake, and the two brothers killed in the press."
+    }
+  ],
+  "cost": "Everything, by accident, in a few seconds, in a crowd. The oath's clause about mercy is not violated here — nobody had time to ask for any.",
+  "cuts": [
+    "the-fellowship",
+    "courtly-love"
+  ],
+  "characters": [
+    "lancelot",
+    "gareth",
+    "gaheris",
+    "guinevere",
+    "gawain",
+    "arthur"
+  ],
+  "related": [
+    "the-queen-taken",
+    "gareth-beaumains",
+    "benwick-and-gawains-death"
+  ]
+}

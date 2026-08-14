@@ -1,0 +1,59 @@
+{
+  "id": "percival-bors-and-the-sister",
+  "title": "Bors's choice, and Percival's sister",
+  "act": "grail",
+  "order": 31,
+  "branch": "french",
+  "summary": "A knight must choose between his brother and a stranger — and a woman gives all her blood for a lady she has never met.",
+  "retelling": "The Grail quest contains two moral problems that are better than anything else in the cycle, and neither of them is about purity.\n\nThe first belongs to Bors. Riding, he sees his brother Lionel stripped, tied on a horse, and being beaten with thorns until he bleeds — and at the same moment, in the other direction, a knight carrying off a woman who is screaming for help. He can reach one.\n\nHe chooses the woman.\n\nLionel survives, and never forgives him. Later he attacks Bors, kills a knight and a hermit who try to intervene, and Bors will not raise a weapon against his own brother. The cycle does not resolve this comfortably, and it should not: Bors made the correct decision and it cost him his brother, and the text lets both facts stand.\n\nThe second belongs to Percival's sister, who has no name of her own. She guides the three knights, explains the ship and the sword, and cuts off her hair to weave a new belt for it. Then they come to a castle with a custom: any gentlewoman who passes must give a dish of her blood to cure the lady of the house, who is sick with leprosy. The knights refuse and fight. She stops them.\n\nShe volunteers. She is bled until the vessel is full, and it is too much, and she dies of it — and the lady of the castle is cured. Before she dies she asks to be put in a boat and set adrift after them, and to be buried in the spiritual place. Her body arrives at the Grail city ahead of them and is buried there.\n\nShe achieves as much as Galahad does, at a higher price, and the text does not give her a name.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the right choice, and the brother lost",
+      "take": "Bors saves the stranger, and pays for it with his brother for the rest of the book. The text refuses to make that costless.",
+      "quote_id": "malory-grail-empties-fellowship"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "blood given, and no name recorded",
+      "take": "Percival's sister gives everything the quest demands and the Queste never names her — which is either the sharpest thing in the cycle or its worst blind spot.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "vulgate",
+      "term": "kinship as the fault line",
+      "take": "The cycle's fellowship is a web of blood loyalty, and here it is put under load: the brother, or the stranger.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-16-10",
+      "why": "Bors leaves his brother and rescues the damosel."
+    },
+    {
+      "unit": "malory-16-14",
+      "why": "Lionel comes for him, and Bors will not fight back."
+    },
+    {
+      "unit": "malory-17-11",
+      "why": "Percival's sister gives the dish of blood, and dies of it."
+    }
+  ],
+  "cost": "The one knight who comes home from the quest is the one who had to choose between his brother and a stranger, and the woman who does most for it is bled to death for a custom and never named.",
+  "cuts": [
+    "the-grail",
+    "the-fellowship"
+  ],
+  "characters": [
+    "bors",
+    "lionel",
+    "percival",
+    "percivals-sister",
+    "galahad"
+  ],
+  "related": [
+    "corbenic",
+    "lancelot-fails"
+  ]
+}

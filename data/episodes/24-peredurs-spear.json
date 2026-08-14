@@ -1,0 +1,57 @@
+{
+  "id": "peredurs-spear",
+  "title": "The bleeding spear, unasked",
+  "act": "grail",
+  "order": 24,
+  "branch": "welsh",
+  "summary": "A boy watches a bleeding spear carried through a hall and says nothing, because he was told a knight does not ask.",
+  "retelling": "Peredur, raised in a forest by a mother determined to keep him away from knighthood, has become a knight anyway, badly and by imitation. Early in his adventures he is taught by an uncle — one lesson in particular: that he should not ask about anything he sees, however strange, until somebody explains it. It is presented as good manners. Knights do not gape.\n\nThen he comes to a second uncle's hall, and while they sit at meat two youths come in carrying a spear of enormous size, *with three streams of blood flowing from the point to the ground.* Behind them come two maidens with a great salver, and on the salver a man's head, swimming in blood.\n\nThe whole company begins to wail and lament so loudly that it is painful to be among them.\n\nPeredur says nothing. He was told not to ask.\n\nThat is the oldest form of the Grail failure that survives, and it is the barest. There is no chalice, no Christian relic, no purity requirement, no theology of any kind. There is a wounded household, a display of its wound, a hall full of people crying, and a young man who has been taught that curiosity is rude — and the price of his good manners is enormous, and he spends the rest of the story finding out what it was.\n\nChrétien de Troyes tells almost exactly this scene around 1180, with a *graal* instead of a head, and dies before saying what it was. The French cycle will eventually make the vessel holy, make the failure a matter of sin, and require a virgin to fix it.\n\nBut underneath all of that is this: somebody was hurt, and showed you, and you did not ask.",
+  "voices": [
+    {
+      "voice": "mabinogion",
+      "term": "a wound displayed, and a silence",
+      "take": "No relic and no doctrine — a bleeding spear, a severed head, a hall in tears, and a boy who has been taught not to be curious.",
+      "quote_id": "mabinogion-peredur-spear"
+    },
+    {
+      "voice": "chretien",
+      "term": "the same silence, with a graal",
+      "take": "Chretien tells this scene with an undefined vessel in place of the head, and stops mid-poem. Every later Grail is an answer to what he left blank.",
+      "gap_note": "Perceval has no clean public-domain English translation, so Chretien's version is described here and never quoted."
+    },
+    {
+      "voice": "wolfram",
+      "term": "the failure given weight, and forgiven",
+      "take": "Wolfram makes the unasked question the hinge of a whole life, and then lets his hero come back years later and ask it.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the question replaced by a test",
+      "take": "By the Queste there is no question to ask: the quest is an examination of the knight's purity, and the failure is moral rather than attentive.",
+      "quote_id": "queste-judgment-purity"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "mabinogion-2-3",
+      "why": "The spear, the head, the wailing hall, and the silence."
+    },
+    {
+      "unit": "parzival-5-6",
+      "why": "Wolfram's version of the same scene at Munsalvaesche."
+    }
+  ],
+  "cost": "A country and a king, for a piece of good manners. The tradition's oldest lesson is that politeness can be a moral failure.",
+  "cuts": [
+    "the-grail"
+  ],
+  "characters": [
+    "percival"
+  ],
+  "related": [
+    "parzival-at-munsalvaesche",
+    "grail-enters-camelot"
+  ],
+  "divergence": "The Welsh failure is a failure of attention. The Queste's is a failure of purity. Between them the Grail changes from something you must notice into something you must deserve."
+}

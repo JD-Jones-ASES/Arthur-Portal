@@ -1,0 +1,61 @@
+{
+  "id": "tennysons-camelot",
+  "title": "Tennyson's Camelot",
+  "act": "after",
+  "order": 49,
+  "branch": "reception",
+  "summary": "The Victorian rereading that most people have absorbed without reading it — where the city rises, rots, and the Grail is a mistake.",
+  "retelling": "The *Idylls of the King* are not a medieval witness and are not treated as one here. They are the most influential reading of Malory ever produced, and they changed what the story is understood to be about.\n\nTennyson's move is to make Camelot a moral experiment. Arthur binds his knights by vows in order to build a civilisation out of a barbarous country, and the twelve idylls watch it decay from within as the vows fail one at a time. The frame is *civilisational decline*: a society rising and falling, rather than a fellowship and its sins. Almost every modern retelling inherits that frame from Tennyson rather than from the Middle Ages.\n\nThree changes are worth naming.\n\nThe Grail quest becomes a mistake. Malory's Arthur grieves the vow; Tennyson's poem effectively agrees with him and goes further, presenting the quest as a mass enthusiasm that empties the hall of the men who were needed at home. What is a tragedy in Malory becomes something closer to an error.\n\nGuinevere is judged. Malory refuses to condemn the love, and interrupts his own narrative to defend it. Tennyson gives Arthur a long speech of forgiveness delivered over a prostrate queen, and the effect is not mercy but sentence.\n\nAnd Arthur becomes blameless. Malory's king sleeps with his half-sister, tries to drown a shipload of infants, marries a woman he has been warned about, and refuses to let Mordred go when he could. Tennyson's is an ideal betrayed by lesser people — which is a considerably less interesting man, and the one most readers picture.\n\nNone of this is a failure of Tennyson's. It is a nineteenth-century poem doing nineteenth-century work. But it is a *version*, and the point of reading it beside the others is that it stops being the story and becomes one voice among twelve.",
+  "voices": [
+    {
+      "voice": "tennyson",
+      "term": "Camelot as a civilisation that rots",
+      "take": "Vows build a society; the vows fail; the society falls. The frame nearly every modern retelling still uses, and it is 1859, not 1469.",
+      "gap_note": "Published here in full as reception. Tennyson has no validated quotation in the ledger because the ledger covers the medieval canon."
+    },
+    {
+      "voice": "malory",
+      "term": "a fellowship and its cost",
+      "take": "Malory has no civilisation and no decline. He has a fellowship, an oath, a love, and an accounting — and he refuses to deliver the verdict Tennyson delivers.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the doom in the design",
+      "take": "The French cycle already made the ending structural. Tennyson's contribution is to make it moral, and national.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "idylls-8-1",
+      "why": "The Holy Grail: the quest read as the thing that ruined the order."
+    },
+    {
+      "unit": "idylls-11-1",
+      "why": "Guinevere, and the judgement Malory declined to make."
+    },
+    {
+      "unit": "malory-18-25",
+      "why": "Malory's answer, three centuries earlier: true love likened to summer."
+    }
+  ],
+  "cost": "The most widely absorbed version of the legend is one in which the king is blameless, the queen is guilty, and the Grail was a mistake — and almost nobody who holds those views has read either book.",
+  "cuts": [
+    "the-grail",
+    "courtly-love",
+    "the-fellowship"
+  ],
+  "characters": [
+    "arthur",
+    "guinevere",
+    "lancelot",
+    "merlin"
+  ],
+  "related": [
+    "grail-enters-camelot",
+    "amesbury",
+    "merlin-and-nimue"
+  ],
+  "divergence": "Malory defends the old love in his own voice. Tennyson condemns it in Arthur's. Between them lies the difference between a book that counts a cost and a book that assigns a blame."
+}
