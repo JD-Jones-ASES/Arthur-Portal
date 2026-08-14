@@ -24,12 +24,44 @@ import { stripGutenberg, squash } from "../lib/text.mjs";
 const ROOT = process.cwd();
 
 /**
- * Function words and words whose glossed sense is close enough to the modern one
- * that a tooltip would only get in the way. Kept deliberately short: a reader is
- * better served by too many glosses than by silently misreading a false friend.
+ * Terms that are never glossed in the reader.
+ *
+ * The glossary is a dictionary, not an annotation of each instance: it records a
+ * sense a word CAN carry in Malory. For most entries that is exactly what a
+ * reader needs. But a handful of entries are high-frequency modern words whose
+ * archaic sense is the minority use — "saw" (proverb), "took" (gave), "where"
+ * (whereas), "much" (great). Glossing every occurrence of those would put a
+ * confidently wrong note on hundreds of ordinary sentences, and a wrong gloss is
+ * far worse for a student than no gloss.
+ *
+ * So they are dropped. Everything kept is either genuinely obsolete, or a false
+ * friend whose archaic sense dominates in this book ("worship" = honour,
+ * "passing" = surpassingly, "siege" = seat, "wood" = mad).
+ *
+ * Frequencies below are the number of chapters in which the term occurs, measured
+ * over the built spine.
  */
 const STOPLIST = new Set([
+  // function words
   "at", "of", "by", "or", "so", "to", "as", "an", "and", "for", "in", "on", "up",
+  // high-frequency words whose modern sense dominates in the text itself
+  "saw",       // 344 chapters — the verb, not "proverb"
+  "other",     // 339 — "other", not "or"
+  "took",      // 316 — usually the ordinary verb
+  "where",     // 259 — usually "where", not "whereas"
+  "much",      // 207 — usually "much", not "great"
+  "till",      // 204 — the modern sense is close enough
+  "know",      // 168 — rarely "acknowledge"
+  "high",      // 101 — "the high altar" is literal; "aloud" is rare
+  "ought",     // 68 — rarely "owned"
+  "force",     // 59 — the gloss belongs to the idiom "no force"
+  "win",       // 51 — usually the ordinary verb
+  "cast",      // 49 — usually the ordinary verb
+  "tree",      // 44 — "timber" adds nothing
+  "keep",      // 88 — the gloss is for the noun; the verb dominates
+  "departed",  // 274 — "divided" is the minority sense
+  "battle",    // 169 — "division of an army" is the minority sense
+  // near-identical to the modern sense
   "allow", "amounted", "araised", "areared", "arrayed", "become", "behests",
   "within-forth", "without-forth", "actually", "at-after",
 ]);

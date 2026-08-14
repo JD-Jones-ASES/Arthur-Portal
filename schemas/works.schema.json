@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "works.schema.json",
+  "title": "Work registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "works"],
+  "properties": {
+    "schema_version": { "type": "integer" },
+    "note": { "type": "string" },
+    "works": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "short", "author", "voice", "branch", "tier", "reader", "blurb", "rights"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string", "minLength": 2 },
+          "short": { "type": "string", "minLength": 2 },
+          "author": { "type": "string" },
+          "voice": { "type": "string" },
+          "branch": { "enum": ["chronicle", "welsh", "french", "german", "english", "reception"] },
+          "composed": { "type": "string" },
+          "printed": { "type": "integer" },
+          "edition": { "type": ["string", "null"] },
+          "translator": { "type": ["string", "null"] },
+          "language": { "type": "string" },
+          "tier": { "enum": ["A", "B", "C"] },
+          "reader": { "type": "boolean" },
+          "layout": { "type": ["string", "null"] },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "file"],
+              "properties": {
+                "id": { "type": "string" },
+                "gutenberg": { "type": "integer" },
+                "file": { "type": "string" },
+                "parts": { "type": "string" }
+              }
+            }
+          },
+          "corpus": { "type": "array", "items": { "type": "string" } },
+          "restricted": { "type": "boolean" },
+          "blurb": { "type": "string", "minLength": 20 },
+          "rights": { "type": "string", "minLength": 10 },
+          "tier_note": { "type": "string" }
+        },
+        "allOf": [
+          {
+            "comment": "Tier C is never published as a reading text.",
+            "if": { "properties": { "tier": { "const": "C" } }, "required": ["tier"] },
+            "then": { "properties": { "reader": { "const": false } } }
+          },
+          {
+            "comment": "A Tier B work must explain, in the UI, why its text is second class.",
+            "if": { "properties": { "tier": { "const": "B" } }, "required": ["tier"] },
+            "then": { "required": ["tier_note"] }
+          }
+        ]
+      }
+    }
+  }
+}

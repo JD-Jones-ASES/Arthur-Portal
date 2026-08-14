@@ -14,9 +14,9 @@
   }
  ],
  "counts": {
-  "total": 652,
-  "archaic": 557,
-  "false-friend": 95
+  "total": 635,
+  "archaic": 547,
+  "false-friend": 88
  },
  "entries": [
   {
@@ -344,12 +344,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Battle",
-   "match": "battle",
-   "gloss": "division of an army",
-   "kind": "false-friend"
-  },
-  {
    "term": "Bawdy",
    "match": "bawdy",
    "gloss": "dirty",
@@ -654,18 +648,6 @@
    "match": "careful",
    "gloss": "sorrowful, full of troubles",
    "kind": "archaic"
-  },
-  {
-   "term": "Cast (of bread)",
-   "match": "cast",
-   "gloss": "loaves baked at the same time",
-   "kind": "false-friend"
-  },
-  {
-   "term": "Cast",
-   "match": "cast",
-   "gloss": "ref: v., propose",
-   "kind": "false-friend"
   },
   {
    "term": "Cedle",
@@ -977,12 +959,6 @@
    "term": "Deliverly",
    "match": "deliverly",
    "gloss": "adroitly",
-   "kind": "archaic"
-  },
-  {
-   "term": "Departed",
-   "match": "departed",
-   "gloss": "divided",
    "kind": "archaic"
   },
   {
@@ -1460,12 +1436,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Force (no)",
-   "match": "force",
-   "gloss": "no concern",
-   "kind": "false-friend"
-  },
-  {
    "term": "Fordeal",
    "match": "fordeal",
    "gloss": "advantage",
@@ -1784,12 +1754,6 @@
    "kind": "archaic"
   },
   {
-   "term": "High (on)",
-   "match": "high",
-   "gloss": "aloud",
-   "kind": "archaic"
-  },
-  {
    "term": "Higher hand",
    "match": "higher hand",
    "gloss": "the uppermost",
@@ -1904,12 +1868,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Keep",
-   "match": "keep",
-   "gloss": "sb., care",
-   "kind": "archaic"
-  },
-  {
    "term": "Kemps",
    "match": "kemps",
    "gloss": "champions",
@@ -1932,12 +1890,6 @@
    "match": "knights parters",
    "gloss": "marshals",
    "kind": "archaic"
-  },
-  {
-   "term": "Know",
-   "match": "know",
-   "gloss": "acknowledge",
-   "kind": "false-friend"
   },
   {
    "term": "Knowledging",
@@ -2294,12 +2246,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Much",
-   "match": "much",
-   "gloss": "great",
-   "kind": "archaic"
-  },
-  {
    "term": "Naked",
    "match": "naked",
    "gloss": "unarmed",
@@ -2444,21 +2390,9 @@
    "kind": "archaic"
   },
   {
-   "term": "Other",
-   "match": "other",
-   "gloss": "or",
-   "kind": "archaic"
-  },
-  {
    "term": "Ouches",
    "match": "ouches",
    "gloss": "jewels",
-   "kind": "archaic"
-  },
-  {
-   "term": "Ought",
-   "match": "ought",
-   "gloss": "owned",
    "kind": "archaic"
   },
   {
@@ -2978,12 +2912,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Saw",
-   "match": "saw",
-   "gloss": "proverb",
-   "kind": "archaic"
-  },
-  {
    "term": "Scathes",
    "match": "scathes",
    "gloss": "harms, hurts",
@@ -3398,12 +3326,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Till",
-   "match": "till",
-   "gloss": "to",
-   "kind": "archaic"
-  },
-  {
    "term": "To-brast",
    "match": "to-brast",
    "gloss": "burst",
@@ -3431,12 +3353,6 @@
    "term": "To-shivered",
    "match": "to-shivered",
    "gloss": "broken to pieces",
-   "kind": "archaic"
-  },
-  {
-   "term": "Took",
-   "match": "took",
-   "gloss": "gave",
    "kind": "archaic"
   },
   {
@@ -3485,12 +3401,6 @@
    "term": "Treatise",
    "match": "treatise",
    "gloss": "treaty",
-   "kind": "archaic"
-  },
-  {
-   "term": "Tree",
-   "match": "tree",
-   "gloss": "timber",
    "kind": "archaic"
   },
   {
@@ -3740,12 +3650,6 @@
    "kind": "archaic"
   },
   {
-   "term": "Where",
-   "match": "where",
-   "gloss": "whereas",
-   "kind": "false-friend"
-  },
-  {
    "term": "Wide-where",
    "match": "wide-where",
    "gloss": "over wide space",
@@ -3786,12 +3690,6 @@
    "match": "wimpled",
    "gloss": "with the head covered",
    "kind": "archaic"
-  },
-  {
-   "term": "Win",
-   "match": "win",
-   "gloss": "make way",
-   "kind": "false-friend"
   },
   {
    "term": "Wite",

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "quotes.schema.json",
+  "title": "Resolved quote ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "quotes"],
+  "properties": {
+    "schema_version": { "type": "integer" },
+    "note": { "type": "string" },
+    "built_at": { "type": "string" },
+    "counts": { "type": "object" },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "voice", "source", "citation", "anchor_label", "text", "tags", "validation"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "voice": { "type": "string" },
+          "source": { "type": "string" },
+          "work": { "type": ["string", "null"] },
+          "work_title": { "type": "string" },
+          "branch": { "type": ["string", "null"] },
+          "citation": { "type": "string" },
+          "anchor_label": { "type": "string" },
+          "text": { "type": "string", "minLength": 10 },
+          "tags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "restricted": { "type": "boolean" },
+          "validation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["method", "ratio", "threshold", "checked_at"],
+            "properties": {
+              "method": { "enum": ["exact", "fuzzy", "attestation"] },
+              "ratio": { "type": "number", "minimum": 0.8, "maximum": 1 },
+              "threshold": { "type": "number" },
+              "checked_at": { "type": "string" }
+            }
+          },
+          "spine": {
+            "type": ["object", "null"],
+            "additionalProperties": false,
+            "required": ["unit", "paragraph", "from", "to", "method"],
+            "properties": {
+              "unit": { "type": "string" },
+              "paragraph": { "type": "integer", "minimum": 0 },
+              "from": { "type": "integer", "minimum": 0 },
+              "to": { "type": "integer", "minimum": 1 },
+              "method": { "enum": ["exact", "fuzzy"] },
+              "ratio": { "type": "number" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
