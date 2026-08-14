@@ -1,0 +1,83 @@
+{
+  "id": "the-fall",
+  "title": "Follow the Fall",
+  "subtitle": "Malory, Books XVIII–XXI, in eighteen stops",
+  "work": "malory",
+  "blurb": "From the sentence where Lancelot goes back to the queen, to a grave nobody can identify. About four hours' reading, and the best-constructed tragedy in English before the theatre.",
+  "intro": "Read this watching for one thing: how little of it is anybody's plan. There is no villain with a design. There is an announcement that could have gone unmade, an accident in a crowd, a brother who cannot let go of a grief, and finally a snake. Malory's own first sentence about the aftermath of the Grail quest is the quietest and worst in the book — start there.",
+  "stops": [
+    {
+      "unit": "malory-18-1",
+      "note": "The opening sentence. Lancelot begins to resort unto the queen again, and forgot the promise and the perfection he made in the quest. Everything follows from one clause."
+    },
+    {
+      "unit": "malory-18-3",
+      "note": "The poisoned apple. Count the hands: the queen is accused of murder and the finest fellowship in the world will not fight for her."
+    },
+    {
+      "unit": "malory-18-7",
+      "note": "Lancelot arrives at the last possible moment. Note who could have come and did not."
+    },
+    {
+      "unit": "malory-18-9",
+      "note": "Astolat. He wears a lady's token for the first time in his life, and only because it makes him unrecognisable."
+    },
+    {
+      "unit": "malory-18-19",
+      "note": "The refusal. He is kind, honest, and unable to love her, and his offer of money and a husband makes it worse."
+    },
+    {
+      "unit": "malory-18-20",
+      "note": "The barge arrives at Westminster with the letter in her hand. Malory gives her the last word and does not editorialise."
+    },
+    {
+      "unit": "malory-18-25",
+      "note": "The digression on love. Malory stops the story to defend the thing that is destroying his kingdom, and does not apologise."
+    },
+    {
+      "unit": "malory-19-11",
+      "note": "The healing of Sir Urre. The whole fellowship named, one by one, for pages — the only muster in the book, placed here deliberately."
+    },
+    {
+      "unit": "malory-19-12",
+      "note": "Lancelot heals him and weeps as a child that had been beaten. He knows exactly what it does and does not mean."
+    },
+    {
+      "unit": "malory-20-1",
+      "note": "Agravaine announces it. Gawain tells him plainly that no good will come of it, and is right."
+    },
+    {
+      "unit": "malory-20-3",
+      "note": "Arthur is loth to think any such thing on him. He is not being deceived; he is being asked to stop not knowing."
+    },
+    {
+      "unit": "malory-20-8",
+      "note": "The rescue at the stake, and Gareth and Gaheris killed unarmed in the press. The hinge of the whole ending, and an accident."
+    },
+    {
+      "unit": "malory-20-13",
+      "note": "The Pope orders peace and it very nearly holds. Watch Gawain refuse it."
+    },
+    {
+      "unit": "malory-20-15",
+      "note": "The queen delivered back. Lancelot speaks in his own defence and speaks well, and Arthur cannot answer."
+    },
+    {
+      "unit": "malory-20-21",
+      "note": "Benwick. Lancelot twice puts Gawain down and twice declines to kill him."
+    },
+    {
+      "unit": "malory-21-1",
+      "note": "Mordred takes the crown — and Malory breaks off to address all Englishmen about a country that prefers the usurper."
+    },
+    {
+      "unit": "malory-21-3",
+      "note": "Fortune's wheel, and Gawain's ghost with practical advice: take a treaty, wait a month, Lancelot is coming. Arthur takes it."
+    },
+    {
+      "unit": "malory-21-4",
+      "note": "An adder bites a knight on the foot. He draws his sword to kill it, and thought of none other harm."
+    }
+  ],
+  "after": "Then read the last four chapters straight through — XXI.v to XXI.xii — without stopping. The sword goes back, the barge goes, and the only witness left alive did not see anything."
+}

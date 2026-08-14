@@ -1,0 +1,294 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { voiceById, quoteById, episodeById } from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+/**
+ * The same failure, told four times, with the meaning changed each time.
+ *
+ * This is the single sharpest demonstration of what this portal is for: one
+ * scene, preserved almost intact across four traditions, in which the moral
+ * content is completely rewritten while the events stay the same.
+ */
+const VERSIONS = [
+  {
+    voice: "mabinogion",
+    title: "A failure of curiosity",
+    when: "Welsh, manuscripts 13th–14th c.",
+    what: "A bleeding spear and a severed head on a salver, carried through a hall.",
+    why: "Because an uncle told him a knight does not ask questions. He is being well brought up.",
+    fault: "Good manners.",
+    cure: "None offered in the scene. He learns much later what it cost.",
+    text: "Peredur watches two youths carry a spear *with three streams of blood flowing from the point to the ground*, and then two maidens with a man's head swimming in blood, and the whole company begins wailing so loudly that it is painful to be among them.\n\nHe says nothing.\n\nThis is the version with nothing attached to it — no vessel, no relic, no theology, no purity. A wounded household displays its wound, a room full of people weeps, and a young man who has been told that curiosity is rude does as he was told.",
+    quote_id: "mabinogion-peredur-spear",
+    episode: "peredurs-spear",
+  },
+  {
+    voice: "chretien",
+    title: "A failure of attention",
+    when: "c. 1180, unfinished",
+    what: "A bleeding lance, and a graal — never explained.",
+    why: "Because Gornemant told him that talking too much is unmannerly.",
+    fault: "Taking instruction too literally.",
+    cure: "Unknown. The poem breaks off before we are told.",
+    text: "Chrétien tells almost exactly the Welsh scene and substitutes an undefined serving-dish for the head. His Perceval has been taught, by a mentor, not to ask too many questions, and applies the lesson at the worst possible moment.\n\nAnd then Chrétien died, with about nine thousand lines written and the question still unasked.\n\n**Everything downstream is an attempt to finish this.** Five separate continuations were written. So were the Vulgate, the *Queste*, Perlesvaus, and *Parzival*. The most consequential blank space in European literature is a sentence somebody did not get to.",
+    gap_note: "*Perceval* has no clean public-domain English translation, so Chrétien's version is described here from the canon and never quoted. It is the largest hole in this collection and it sits at the exact centre of the subject.",
+    episode: "peredurs-spear",
+  },
+  {
+    voice: "wolfram",
+    title: "A failure of compassion",
+    when: "c. 1205",
+    what: "The Gral, and a king who can neither sit comfortably nor die.",
+    why: "Because Gurnemanz told him that a knight does not ask many questions.",
+    fault: "Minding his manners while a man in front of him is in agony.",
+    cure: "Come back years later and ask. The king is healed on the spot.",
+    text: "Wolfram takes the same failure and gives it a moral content none of the others have. The question Parzival should have asked is not *what is that object* — it is *uncle, what ails thee?*\n\nThat changes everything. The qualification for the Grail is not lineage, not prowess, and emphatically not purity. It is noticing that somebody is suffering and saying so out loud.\n\nAnd because the fault is a human one, it can be repaired by a human. Parzival loses his reputation, loses his faith, spends years in open resentment against God — and is allowed to come back and ask. Anfortas is cured.\n\nThis is the only version in which the failure is forgivable, and it was written at the same time as the version in which nothing is.",
+    quote_id: "wolfram-anfortas-wounded",
+    episode: "anfortas-healed",
+  },
+  {
+    voice: "grail-romances",
+    title: "No question at all",
+    when: "c. 1225",
+    what: "A test.",
+    why: "There is nothing to ask. The quest is an examination of the knight, not of the object.",
+    fault: "Having lived an ordinary life.",
+    cure: "None. You either qualify or you do not.",
+    text: "The *Queste del Saint Graal* removes the question entirely, and the removal is the most radical thing in the Grail tradition.\n\nIf the terms are *cleansed and purged of all villainy and mortal sins*, then attention is irrelevant, compassion is irrelevant, and asking the right thing at the right moment cannot help you. What matters is what you already are when you arrive.\n\nSo the hero is faultless from birth and learns nothing, because there is nothing he could have learned. Gawain is told in a paragraph that he will find nothing. Lancelot is stopped at a door.\n\nMalory translates all of it closely into English and adds only a frame: he lets you watch the king grieve.",
+    quote_id: "queste-judgment-purity",
+    episode: "queste-judgment",
+  },
+];
+
+const rows = VERSIONS.map((v) => ({
+  ...v,
+  voiceRec: voiceById(v.voice),
+  quote: v.quote_id ? quoteById(v.quote_id) : null,
+  ep: v.episode ? episodeById(v.episode) : null,
+}));
+---
+
+<Layout
+  title="The unasked question"
+  description="One scene, four traditions, and four completely different accounts of what the hero did wrong."
+  current="/grail"
+>
+  <div class="page-head">
+    <span class="rubric">The Grail</span>
+    <h1>The unasked question</h1>
+    <p class="lede">
+      A young man is shown something terrible and says nothing. It is the oldest scene in the Grail
+      tradition and the most stable: the same hall, the same bleeding weapon, the same silence,
+      preserved almost intact across four traditions and two languages.
+    </p>
+    <p class="lede">
+      And each of them gives a completely different account of what he did wrong.
+      <strong>The events do not change. The fault does.</strong>
+    </p>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data uq-table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          {rows.map((r) => (
+            <th scope="col" data-branch={r.voiceRec?.branch}>
+              <a href={withBase(`/library/${r.voice}/`)}>{r.voiceRec?.short ?? r.voice}</a>
+              <span class="uq-when">{r.when}</span>
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">What he sees</th>
+          {rows.map((r) => <td data-branch={r.voiceRec?.branch}>{r.what}</td>)}
+        </tr>
+        <tr>
+          <th scope="row">Why he is silent</th>
+          {rows.map((r) => <td data-branch={r.voiceRec?.branch}>{r.why}</td>)}
+        </tr>
+        <tr>
+          <th scope="row">The fault</th>
+          {rows.map((r) => <td data-branch={r.voiceRec?.branch}><strong>{r.fault}</strong></td>)}
+        </tr>
+        <tr>
+          <th scope="row">Can it be repaired?</th>
+          {rows.map((r) => <td data-branch={r.voiceRec?.branch}>{r.cure}</td>)}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <Ornament />
+
+  <ol class="uq-list">
+    {
+      rows.map((r, i) => (
+        <li class="uq" data-branch={r.voiceRec?.branch}>
+          <div class="uq__rail"><span class="uq__n">{i + 1}</span></div>
+          <div class="uq__body">
+            <p class="uq__meta">
+              <a href={withBase(`/library/${r.voice}/`)}>{r.voiceRec?.short ?? r.voice}</a>
+              <span class="muted"> &middot; {r.when}</span>
+            </p>
+            <h2>{r.title}</h2>
+            <div set:html={mdToHtml(r.text)} />
+
+            {r.quote && (
+              <figure class="uq__quote">
+                <blockquote>&ldquo;{r.quote.text}&rdquo;</blockquote>
+                <figcaption>
+                  <a href={withBase(`/quotes/#${r.quote.id}`)}>
+                    {r.quote.work_title}{r.quote.anchor_label && r.quote.anchor_label !== "?" ? `, ${r.quote.anchor_label}` : ""}
+                  </a>
+                  {r.quote.spine && (
+                    <>
+                      {" · "}
+                      <a href={withBase(`/read/${r.quote.work}/${r.quote.spine.unit}/#p${r.quote.spine.paragraph}`)}>read in place</a>
+                    </>
+                  )}
+                </figcaption>
+              </figure>
+            )}
+
+            {r.gap_note && (
+              <p class="uq__gap">
+                <span class="uq__gap-label">No validated quotation</span>
+                <Fragment set:html={mdToHtml(r.gap_note).replace(/^<p>|<\/p>$/g, "")} />
+              </p>
+            )}
+
+            {r.ep && (
+              <p class="small"><a href={withBase(`/stories/${r.ep.id}/`)}>Read the episode: {r.ep.title} &rarr;</a></p>
+            )}
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Why this page exists</span>
+    <h2>The clearest case in the canon</h2>
+    <p>
+      Most of the disagreements on this site require you to hold two long books side by side. This
+      one does not. It is a single scene, and you can see the meaning being rewritten underneath it.
+    </p>
+    <p>
+      In Wales the boy is punished for having been well brought up. In Germany he is punished for
+      not noticing that a man is in pain &mdash; and forgiven when he finally notices. In France the
+      question is removed from the story altogether, because by then the quest has stopped being
+      about what you do and become about what you are.
+    </p>
+    <p>
+      Nobody corrupted anything. Four writers used the same scene to say four incompatible things
+      about what the sacred asks of a person, and any account of &ldquo;the myth of the unasked
+      question&rdquo; that can hold all four at once has stopped saying anything at all.
+    </p>
+    <p class="small">
+      <a href={withBase("/grail/versions/")}>The six Grails compared &rarr;</a> &middot;
+      <a href={withBase("/throughlines/the-grail/")}>The Grail as a throughline &rarr;</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .uq-table { font-size: 0.9rem; }
+  .uq-table thead th {
+    text-transform: none;
+    font-family: var(--font-display);
+    font-size: 0.98rem;
+    color: var(--branch-ink);
+    border-bottom: 2px solid var(--branch);
+    vertical-align: bottom;
+    min-width: 11rem;
+  }
+  .uq-table thead th a { color: inherit; text-decoration: none; }
+  .uq-table thead th a:hover { text-decoration: underline; }
+  .uq-when {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 0.66rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+    margin-top: 0.2em;
+    font-weight: 400;
+  }
+  .uq-table tbody th {
+    text-align: left;
+    font-family: var(--font-rubric);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    color: var(--ink);
+    white-space: nowrap;
+    background: var(--paper-sunk);
+    border-right: 1px solid var(--line-strong);
+    position: sticky;
+    left: 0;
+  }
+  .uq-table td { vertical-align: top; line-height: 1.45; }
+  .uq-table tbody tr:hover td { background: var(--branch-wash); }
+
+  .uq-list { list-style: none; margin: var(--s6) 0 0; padding: 0; }
+  .uq { display: grid; grid-template-columns: 3rem 1fr; gap: var(--s4); }
+  .uq__rail { position: relative; display: flex; justify-content: center; }
+  .uq__rail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    width: 2px;
+    background: color-mix(in srgb, var(--branch) 32%, transparent);
+  }
+  .uq:last-child .uq__rail::before { height: 2.2rem; bottom: auto; }
+  .uq__n {
+    position: relative;
+    z-index: 1;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--branch);
+    color: var(--paper-raised);
+    font-family: var(--font-rubric);
+    font-size: 0.84rem;
+    margin-top: 0.1rem;
+  }
+  .uq__body { padding-bottom: var(--s7); max-width: 42rem; }
+  .uq__meta { margin: 0 0 var(--s1); font-family: var(--font-ui); font-size: 0.74rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .uq__meta a { color: var(--branch-ink); }
+  .uq h2 { margin: 0 0 var(--s3); font-size: 1.22rem; }
+  .uq__quote { margin: var(--s4) 0; padding-left: var(--s4); border-left: 2px solid var(--branch); }
+  .uq__quote blockquote { margin: 0 0 var(--s1); padding: 0; border: 0; font-style: italic; color: var(--ink-soft); }
+  .uq__quote figcaption { font-size: 0.76rem; color: var(--ink-faint); }
+  .uq__gap {
+    margin: var(--s4) 0;
+    padding: var(--s3) var(--s4);
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--paper-sunk);
+    font-size: 0.88rem;
+    color: var(--ink-faint);
+  }
+  .uq__gap-label {
+    display: block;
+    font-family: var(--font-rubric);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: var(--s1);
+  }
+  @media (max-width: 560px) {
+    .uq { grid-template-columns: 2.2rem 1fr; gap: var(--s3); }
+    .uq__n { width: 1.8rem; height: 1.8rem; font-size: 0.74rem; }
+  }
+</style>

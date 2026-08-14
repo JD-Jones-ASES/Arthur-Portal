@@ -1,0 +1,35 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import FollowRead from "../../components/FollowRead.astro";
+import { withBase } from "../../lib/site.js";
+import { follows, workById } from "../../lib/portal-data.js";
+
+export function getStaticPaths() {
+  // The Grail quest has its own page under /grail/, where it belongs
+  // contextually; serving it here as well would duplicate it.
+  return follows()
+    .filter((f) => f.id !== "the-grail-quest")
+    .map((f) => ({ params: { follow: f.id }, props: { follow: f } }));
+}
+
+const { follow } = Astro.props;
+const work = workById(follow.work);
+---
+
+<Layout title={follow.title} description={follow.blurb} current="/read" branch={work.branch}>
+  <FollowRead follow={follow} />
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Other walks</span>
+    <h2>More guided reads</h2>
+    <p>
+      <a href={withBase("/grail/follow/")}>Follow the Grail</a> walks Malory&rsquo;s quest, Books
+      XIII&ndash;XVII. Every principal knight on <a href={withBase("/knights/")}>the roster</a> with
+      a real arc has an itinerary of their own, and
+      <a href={withBase("/paths/")}>the reading paths</a> offer six shorter routes.
+    </p>
+  </section>
+</Layout>
