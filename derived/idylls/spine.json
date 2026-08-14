@@ -1,0 +1,239 @@
+{
+  "work": "idylls",
+  "title": "Idylls of the King",
+  "tier": "A",
+  "built_at": "2026-08-14",
+  "n_parts": 12,
+  "n_units": 59,
+  "words": 83678,
+  "parts": [
+    {
+      "id": "idylls-pt-1",
+      "work": "idylls",
+      "label": "The Coming of Arthur",
+      "roman": null,
+      "n": 1,
+      "units": [
+        "idylls-1-1",
+        "idylls-1-2",
+        "idylls-1-3"
+      ]
+    },
+    {
+      "id": "idylls-pt-2",
+      "work": "idylls",
+      "label": "Gareth and Lynette",
+      "roman": null,
+      "n": 2,
+      "units": [
+        "idylls-2-1",
+        "idylls-2-2",
+        "idylls-2-3",
+        "idylls-2-4",
+        "idylls-2-5",
+        "idylls-2-6",
+        "idylls-2-7",
+        "idylls-2-8"
+      ]
+    },
+    {
+      "id": "idylls-pt-3",
+      "work": "idylls",
+      "label": "The Marriage of Geraint",
+      "roman": null,
+      "n": 3,
+      "units": [
+        "idylls-3-1",
+        "idylls-3-2",
+        "idylls-3-3",
+        "idylls-3-4",
+        "idylls-3-5"
+      ]
+    },
+    {
+      "id": "idylls-pt-4",
+      "work": "idylls",
+      "label": "Geraint and Enid",
+      "roman": null,
+      "n": 4,
+      "units": [
+        "idylls-4-1",
+        "idylls-4-2",
+        "idylls-4-3",
+        "idylls-4-4",
+        "idylls-4-5",
+        "idylls-4-6"
+      ]
+    },
+    {
+      "id": "idylls-pt-5",
+      "work": "idylls",
+      "label": "Balin and Balan",
+      "roman": null,
+      "n": 5,
+      "units": [
+        "idylls-5-1",
+        "idylls-5-2",
+        "idylls-5-3"
+      ]
+    },
+    {
+      "id": "idylls-pt-6",
+      "work": "idylls",
+      "label": "Merlin and Vivien",
+      "roman": null,
+      "n": 6,
+      "units": [
+        "idylls-6-1",
+        "idylls-6-2",
+        "idylls-6-3",
+        "idylls-6-4",
+        "idylls-6-5",
+        "idylls-6-6"
+      ]
+    },
+    {
+      "id": "idylls-pt-7",
+      "work": "idylls",
+      "label": "Lancelot and Elaine",
+      "roman": null,
+      "n": 7,
+      "units": [
+        "idylls-7-1",
+        "idylls-7-2",
+        "idylls-7-3",
+        "idylls-7-4",
+        "idylls-7-5",
+        "idylls-7-6",
+        "idylls-7-7",
+        "idylls-7-8"
+      ]
+    },
+    {
+      "id": "idylls-pt-8",
+      "work": "idylls",
+      "label": "The Holy Grail",
+      "roman": null,
+      "n": 8,
+      "units": [
+        "idylls-8-1",
+        "idylls-8-2",
+        "idylls-8-3",
+        "idylls-8-4",
+        "idylls-8-5"
+      ]
+    },
+    {
+      "id": "idylls-pt-9",
+      "work": "idylls",
+      "label": "Pelleas and Ettarre",
+      "roman": null,
+      "n": 9,
+      "units": [
+        "idylls-9-1",
+        "idylls-9-2",
+        "idylls-9-3",
+        "idylls-9-4"
+      ]
+    },
+    {
+      "id": "idylls-pt-10",
+      "work": "idylls",
+      "label": "The Last Tournament",
+      "roman": null,
+      "n": 10,
+      "units": [
+        "idylls-10-1",
+        "idylls-10-2",
+        "idylls-10-3",
+        "idylls-10-4"
+      ]
+    },
+    {
+      "id": "idylls-pt-11",
+      "work": "idylls",
+      "label": "Guinevere",
+      "roman": null,
+      "n": 11,
+      "units": [
+        "idylls-11-1",
+        "idylls-11-2",
+        "idylls-11-3",
+        "idylls-11-4"
+      ]
+    },
+    {
+      "id": "idylls-pt-12",
+      "work": "idylls",
+      "label": "The Passing of Arthur",
+      "roman": null,
+      "n": 12,
+      "units": [
+        "idylls-12-1",
+        "idylls-12-2",
+        "idylls-12-3"
+      ]
+    }
+  ],
+  "order": [
+    "idylls-1-1",
+    "idylls-1-2",
+    "idylls-1-3",
+    "idylls-2-1",
+    "idylls-2-2",
+    "idylls-2-3",
+    "idylls-2-4",
+    "idylls-2-5",
+    "idylls-2-6",
+    "idylls-2-7",
+    "idylls-2-8",
+    "idylls-3-1",
+    "idylls-3-2",
+    "idylls-3-3",
+    "idylls-3-4",
+    "idylls-3-5",
+    "idylls-4-1",
+    "idylls-4-2",
+    "idylls-4-3",
+    "idylls-4-4",
+    "idylls-4-5",
+    "idylls-4-6",
+    "idylls-5-1",
+    "idylls-5-2",
+    "idylls-5-3",
+    "idylls-6-1",
+    "idylls-6-2",
+    "idylls-6-3",
+    "idylls-6-4",
+    "idylls-6-5",
+    "idylls-6-6",
+    "idylls-7-1",
+    "idylls-7-2",
+    "idylls-7-3",
+    "idylls-7-4",
+    "idylls-7-5",
+    "idylls-7-6",
+    "idylls-7-7",
+    "idylls-7-8",
+    "idylls-8-1",
+    "idylls-8-2",
+    "idylls-8-3",
+    "idylls-8-4",
+    "idylls-8-5",
+    "idylls-9-1",
+    "idylls-9-2",
+    "idylls-9-3",
+    "idylls-9-4",
+    "idylls-10-1",
+    "idylls-10-2",
+    "idylls-10-3",
+    "idylls-10-4",
+    "idylls-11-1",
+    "idylls-11-2",
+    "idylls-11-3",
+    "idylls-11-4",
+    "idylls-12-1",
+    "idylls-12-2",
+    "idylls-12-3"
+  ]
+}

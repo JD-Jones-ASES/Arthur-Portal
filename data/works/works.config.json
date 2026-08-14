@@ -18,10 +18,23 @@
       "reader": true,
       "layout": "malory",
       "sources": [
-        { "id": "malory1", "gutenberg": 1251, "file": "malory-1.txt", "parts": "I–IX" },
-        { "id": "malory2", "gutenberg": 1252, "file": "malory-2.txt", "parts": "X–XXI" }
+        {
+          "id": "malory1",
+          "gutenberg": 1251,
+          "file": "malory-1.txt",
+          "parts": "I–IX"
+        },
+        {
+          "id": "malory2",
+          "gutenberg": 1252,
+          "file": "malory-2.txt",
+          "parts": "X–XXI"
+        }
       ],
-      "corpus": ["malory1", "malory2"],
+      "corpus": [
+        "malory1",
+        "malory2"
+      ],
       "blurb": "The keystone. A knight-prisoner compiled the French and English streams into one tragic English book and counted the cost of every motif he inherited — the only voice that touches all seven throughlines.",
       "rights": "Public domain. Project Gutenberg #1251 and #1252."
     },
@@ -38,11 +51,30 @@
       "language": "translated from Middle English",
       "tier": "A",
       "reader": true,
-      "layout": "gawain",
-      "sources": [{ "id": "gawain_weston", "gutenberg": 66084, "file": "gawain-weston.txt" }],
-      "corpus": ["sggk"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "gawain_weston",
+          "gutenberg": 66084,
+          "file": "gawain-weston.txt"
+        }
+      ],
+      "corpus": [],
       "blurb": "The whole chivalric code put on trial in one knight, one year, and one concealed green girdle — the flaw no oath can legislate away.",
-      "rights": "Public domain. Project Gutenberg #66084. The Middle English text (Morris, PG #14568) is held as the quote-validation substrate."
+      "rights": "Public domain. Project Gutenberg #66084.",
+      "parse": {
+        "bodyStart": "\\n\\s*I\\s*\\n\\n\\n\\s*\\[Illustration",
+        "bodyEnd": "\\nNotes\\n",
+        "parts": {
+          "rx": "\\n\\s{20,}(I|II|III|IV)\\s*\\n",
+          "label": "Fitt $1"
+        },
+        "units": {
+          "rx": "\\n\\n\\n([A-Z][^\\n]{4,72})\\n\\n"
+        },
+        "dropRx": "^\\[Illustration",
+        "chunkWords": 900
+      }
     },
     {
       "id": "mabinogion",
@@ -57,11 +89,28 @@
       "language": "translated from Middle Welsh",
       "tier": "A",
       "reader": true,
-      "layout": "mabinogion",
-      "sources": [{ "id": "mabinogion", "gutenberg": 5160, "file": "mabinogion.txt" }],
-      "corpus": ["mabinogion"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "mabinogion",
+          "gutenberg": 5160,
+          "file": "mabinogion.txt"
+        }
+      ],
+      "corpus": [
+        "mabinogion"
+      ],
       "blurb": "The Celtic root: a war-band Arthur surrounded by impossible tasks, and a Peredur who sees the bleeding spear go by and says nothing.",
-      "rights": "Public domain. Project Gutenberg #5160."
+      "rights": "Public domain. Project Gutenberg #5160.",
+      "parse": {
+        "bodyStart": "\\nTHE LADY OF THE FOUNTAIN\\n",
+        "bodyEnd": "\\nPWYLL PRINCE OF DYVED\\n",
+        "parts": {
+          "rx": "\\n(THE LADY OF THE FOUNTAIN|PEREDUR THE SON OF EVRAWC|GERAINT THE SON OF ERBIN|KILHWCH AND OLWEN|THE DREAM OF RHONABWY)\\n",
+          "label": "$1"
+        },
+        "chunkWords": 1100
+      }
     },
     {
       "id": "chretien",
@@ -76,11 +125,29 @@
       "language": "translated from Old French",
       "tier": "A",
       "reader": true,
-      "layout": "chretien",
-      "sources": [{ "id": "chretien", "gutenberg": 831, "file": "chretien.txt" }],
-      "corpus": ["chretien"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "chretien",
+          "gutenberg": 831,
+          "file": "chretien.txt"
+        }
+      ],
+      "corpus": [
+        "chretien"
+      ],
       "blurb": "The inventor of Arthurian romance — and, almost in passing, of the Lancelot–Guinevere love. His Grail poem, the Conte du Graal, is not here: no clean public-domain English translation exists.",
-      "rights": "Public domain. Project Gutenberg #831."
+      "rights": "Public domain. Project Gutenberg #831.",
+      "parse": {
+        "bodyStart": "\\nEREC ET ENIDE \\[11\\]\\n",
+        "bodyEnd": "\\nEnd of the Project Gutenberg",
+        "parts": {
+          "rx": "\\n(EREC ET ENIDE|CLIGÉS|YVAIN|LANCELOT)[^\\n]{0,12}\\n",
+          "label": "$1",
+          "trimAt": "\\n----Endnotes"
+        },
+        "chunkWords": 1200
+      }
     },
     {
       "id": "perlesvaus",
@@ -95,11 +162,28 @@
       "language": "translated from Old French",
       "tier": "A",
       "reader": true,
-      "layout": "perlesvaus",
-      "sources": [{ "id": "perlesvaus", "gutenberg": 750, "file": "perlesvaus.txt" }],
-      "corpus": ["perlesvaus"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "perlesvaus",
+          "gutenberg": 750,
+          "file": "perlesvaus.txt"
+        }
+      ],
+      "corpus": [
+        "perlesvaus"
+      ],
       "blurb": "The strangest and most violent of the Grail romances: a Grail bound up with bloodshed and the changing of the Law.",
-      "rights": "Public domain. Project Gutenberg #750."
+      "rights": "Public domain. Project Gutenberg #750.",
+      "parse": {
+        "bodyStart": "\\nTHE HIGH HISTORY OF THE HOLY GRAAL\\n",
+        "bodyEnd": "\\nENDNOTES:\\n",
+        "parts": {
+          "rx": "\\nBRANCH ([IVXL]+)\\.\\n",
+          "label": "Branch $1"
+        },
+        "chunkWords": 1000
+      }
     },
     {
       "id": "parzival",
@@ -114,14 +198,36 @@
       "language": "translated from Middle High German",
       "tier": "A",
       "reader": true,
-      "layout": "parzival",
+      "layout": "sectioned",
       "sources": [
-        { "id": "wolfram1", "gutenberg": 47297, "file": "parzival-1.txt", "parts": "I–IX" },
-        { "id": "wolfram2", "gutenberg": 47298, "file": "parzival-2.txt", "parts": "X–XVI" }
+        {
+          "id": "wolfram1",
+          "gutenberg": 47297,
+          "file": "parzival-1.txt",
+          "parts": "I–IX"
+        },
+        {
+          "id": "wolfram2",
+          "gutenberg": 47298,
+          "file": "parzival-2.txt",
+          "parts": "X–XVI"
+        }
       ],
-      "corpus": ["wolfram1", "wolfram2"],
+      "corpus": [
+        "wolfram1",
+        "wolfram2"
+      ],
       "blurb": "The humane counter-voice: a Grail that is a stone, and a wounded king cured not by purity or doctrine but by one question asked out of pity.",
-      "rights": "Public domain. Project Gutenberg #47297 and #47298."
+      "rights": "Public domain. Project Gutenberg #47297 and #47298.",
+      "parse": {
+        "bodyStart": "\\nBOOK [IVXL]+\\n\\n[A-ZÄÖÜ]",
+        "bodyEnd": "\\n\\s*NOTES\\n",
+        "parts": {
+          "rx": "\\nBOOK ([IVXL]+)\\n\\n([A-ZÄÖÜa-zäöü' -]+)\\n",
+          "label": "Book $1 · $2"
+        },
+        "chunkWords": 1100
+      }
     },
     {
       "id": "wace",
@@ -136,11 +242,25 @@
       "language": "translated from Norman French",
       "tier": "A",
       "reader": true,
-      "layout": "mason",
-      "sources": [{ "id": "wace", "gutenberg": 10472, "file": "wace.txt" }],
-      "corpus": ["wace"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "wace",
+          "gutenberg": 10472,
+          "file": "wace.txt"
+        }
+      ],
+      "corpus": [
+        "wace"
+      ],
       "blurb": "The chronicler who invented the Round Table — as a piece of engineering against precedence, so that no man could boast he was exalted above his fellow.",
-      "rights": "Public domain. Project Gutenberg #10472."
+      "rights": "Public domain. Project Gutenberg #10472.",
+      "parse": {
+        "bodyStart": "\\nWACE'S ROMAN DE BRUT\\n",
+        "bodyEnd": "\\nNOTES:\\n",
+        "singlePartLabel": "Roman de Brut",
+        "chunkWords": 1100
+      }
     },
     {
       "id": "layamon",
@@ -155,11 +275,24 @@
       "language": "translated from Early Middle English",
       "tier": "A",
       "reader": true,
-      "layout": "mason",
-      "sources": [{ "id": "layamon", "gutenberg": 14305, "file": "layamon.txt" }],
-      "corpus": ["layamon"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "layamon",
+          "gutenberg": 14305,
+          "file": "layamon.txt"
+        }
+      ],
+      "corpus": [
+        "layamon"
+      ],
       "blurb": "The first Arthur in English, and the first to send the wounded king to the elf-queen Argante in Avalon — with the promise that he would come again.",
-      "rights": "Public domain. Project Gutenberg #14305."
+      "rights": "Public domain. Project Gutenberg #14305.",
+      "parse": {
+        "bodyStart": "(^|\\n)LAYAMON'S BRUT\\n",
+        "singlePartLabel": "Brut",
+        "chunkWords": 1100
+      }
     },
     {
       "id": "nennius",
@@ -174,11 +307,25 @@
       "language": "translated from Latin",
       "tier": "A",
       "reader": true,
-      "layout": "nennius",
-      "sources": [{ "id": "nennius", "gutenberg": 1972, "file": "nennius.txt" }],
-      "corpus": ["nennius"],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "nennius",
+          "gutenberg": 1972,
+          "file": "nennius.txt"
+        }
+      ],
+      "corpus": [
+        "nennius"
+      ],
       "blurb": "The earliest list of Arthur's twelve battles — where legitimacy is not election or descent but simply victory.",
-      "rights": "Public domain. Project Gutenberg #1972."
+      "rights": "Public domain. Project Gutenberg #1972.",
+      "parse": {
+        "bodyStart": "\\nIII\\. THE HISTORY\\.\\n",
+        "bodyEnd": "\\nTHE GENEALOGY OF THE KINGS OF KENT\\.\\n",
+        "singlePartLabel": "The History",
+        "chunkWords": 900
+      }
     },
     {
       "id": "idylls",
@@ -193,11 +340,25 @@
       "language": "English",
       "tier": "A",
       "reader": true,
-      "layout": "idylls",
-      "sources": [{ "id": "idylls", "gutenberg": 610, "file": "idylls.txt" }],
+      "layout": "sectioned",
+      "sources": [
+        {
+          "id": "idylls",
+          "gutenberg": 610,
+          "file": "idylls.txt"
+        }
+      ],
       "corpus": [],
       "blurb": "The Victorian reception: Camelot rises and rots, and the Grail quest is the thing that ruins the order. Included as reception, not as a medieval witness.",
-      "rights": "Public domain. Project Gutenberg #610."
+      "rights": "Public domain. Project Gutenberg #610.",
+      "parse": {
+        "bodyStart": "\\n\\s+The Coming of Arthur\\n",
+        "parts": {
+          "rx": "\\n\\s{4,}(The Coming of Arthur|Gareth and Lynette|The Marriage of Geraint|Geraint and Enid|Balin and Balan|Merlin and Vivien|Lancelot and Elaine|The Holy Grail|Pelleas and Ettarre|The Last Tournament|Guinevere|The Passing of Arthur)\\s*\\n",
+          "label": "$1"
+        },
+        "chunkWords": 1400
+      }
     },
     {
       "id": "geoffrey",
@@ -214,7 +375,9 @@
       "reader": true,
       "layout": "corpus-anchors",
       "sources": [],
-      "corpus": ["geoffrey"],
+      "corpus": [
+        "geoffrey"
+      ],
       "blurb": "The founder. Turned a Welsh war-leader into a king of Britain and gave the legend its political skeleton — and Merlin's prophecies as a dynastic charter.",
       "rights": "Public domain. Text reflowed from the research base's OCR corpus; original pagination and paragraphing are lost.",
       "tier_note": "Served as excerpts sliced at the base's book/chapter anchors. The underlying text is OCR of a 1903 translation: readable and citeable, but re-flowed rather than typeset."
@@ -234,7 +397,9 @@
       "reader": false,
       "layout": "corpus-anchors",
       "sources": [],
-      "corpus": ["queste"],
+      "corpus": [
+        "queste"
+      ],
       "blurb": "The Grail as judgment: only the cleansed may approach, and the quest is a purge that sorts the saved from the damned. The take the Vulgate seeds and Malory mourns, here speaking in its own voice.",
       "rights": "Public domain. Quotations only; the OCR is too uneven for a reader.",
       "tier_note": "Searchable and quotable at short length; not published as a reading text."
@@ -254,10 +419,33 @@
       "reader": false,
       "layout": "corpus-anchors",
       "sources": [],
-      "corpus": ["tristan1", "tristan2"],
+      "corpus": [
+        "tristan1",
+        "tristan2"
+      ],
       "blurb": "The other adultery, and the one that cannot be repented — because the potion means it was never chosen.",
       "rights": "Public domain. Quotations only.",
       "tier_note": "Searchable and quotable at short length; not published as a reading text."
+    },
+    {
+      "id": "gawain-me",
+      "title": "Syr Gawayn and the Grene Kny3t",
+      "short": "Gawain (Middle English)",
+      "author": "the Gawain poet",
+      "voice": "The Gawain Romances",
+      "branch": "english",
+      "composed": "late 14th century",
+      "edition": "Richard Morris's EETS edition of the Cotton Nero A.x manuscript (1864)",
+      "language": "Middle English",
+      "tier": "C",
+      "reader": false,
+      "sources": [],
+      "corpus": [
+        "sggk"
+      ],
+      "blurb": "The poem as it survives: one manuscript, in a north-west Midland dialect, with thorns and yoghs intact.",
+      "rights": "Public domain. Project Gutenberg #14568. Held as the quotation source for the poem's own words.",
+      "tier_note": "The Middle English is quoted here but not published as a reading text: this portal serves Weston's modern prose so the poem can actually be read, and keeps the original for quotation, since a translation cannot be quoted as the poet's words."
     },
     {
       "id": "gawain-romances",
@@ -274,7 +462,10 @@
       "reader": false,
       "layout": null,
       "sources": [],
-      "corpus": ["gawain_romances", "ragnelle"],
+      "corpus": [
+        "gawain_romances",
+        "ragnelle"
+      ],
       "blurb": "The rest of Gawain's afterlife in English: the Loathly Lady who answers what women most desire, a ghost on the Tarn Wathelene, and the limits of Arthur's conquest.",
       "rights": "Public domain, but the 1839 blackletter scan is too rough to publish or quote at length.",
       "tier_note": "Madden's 1839 type — long s read as f, heavy abbreviation — defeats the quotation gate outright. The Wedding of Dame Ragnelle is quoted here from a small hand-checked transcription of the riddle and its answer; the rest of the volume is searchable but not quotable, and that is a limitation rather than a choice."
@@ -294,7 +485,9 @@
       "reader": false,
       "layout": null,
       "sources": [],
-      "corpus": ["chronicles"],
+      "corpus": [
+        "chronicles"
+      ],
       "blurb": "The oldest witness, and a famous silence: Gildas describes the British victory at Badon within living memory of it and never names Arthur.",
       "rights": "Public domain. Held for the Gildas material; Nennius and Geoffrey are published separately from better texts.",
       "tier_note": "Kept as a search and validation source only, to avoid publishing a second, inferior text of Nennius and Geoffrey alongside the ones this portal already sets."
@@ -314,7 +507,10 @@
       "reader": false,
       "layout": null,
       "sources": [],
-      "corpus": ["morte_allit", "morte_stanzaic"],
+      "corpus": [
+        "morte_allit",
+        "morte_stanzaic"
+      ],
       "blurb": "Malory's own English sources for the fall: Fortune's wheel in the alliterative poem, the love-and-death of the fellowship in the stanzaic one.",
       "rights": "Public domain, but the OCR of the Middle English is too rough to publish or to quote at length.",
       "tier_note": "Searchable in the research base; quote-pending. Named here rather than hidden."
@@ -334,7 +530,10 @@
       "reader": false,
       "layout": null,
       "sources": [],
-      "corpus": ["vulgate1", "vulgate2"],
+      "corpus": [
+        "vulgate1",
+        "vulgate2"
+      ],
       "restricted": true,
       "blurb": "The systematiser: romance welded to theology in a vast prose cycle with a doom built into its architecture. Malory's main source.",
       "rights": "IN COPYRIGHT. Used for research and quote validation only; never redistributed here. Short quotations appear under fair use with translator and locus. See DECISIONS.md ADR-0004.",

@@ -1,0 +1,102 @@
+{
+  "work": "parzival",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "parzival",
+      "part": "Book I · GAMURET",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 11 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book II · HERZELEIDE",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 10 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book III · GURNEMANZ",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 13 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book IV · KONDWIRAMUR",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 8 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book V · ANFORTAS",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 10 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book VI · ARTHUR",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 12 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book VII · OBILOT",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 11 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book VIII · ANTIKONIE",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 7 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book IX · TREVREZENT",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 16 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book X · ORGELUSE",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 10 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XI · ARNIVE",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 6 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XII · EIDEGAST",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 8 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XIII · KLINGSOR",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 10 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XIV · GRAMOFLANZ",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 11 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XV · FEIREFIS",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 10 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "parzival",
+      "part": "Book XVI · LOHENGRIN",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 14 reading unit(s) of roughly 1100 words"
+    }
+  ]
+}

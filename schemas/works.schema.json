@@ -30,6 +30,7 @@
           "tier": { "enum": ["A", "B", "C"] },
           "reader": { "type": "boolean" },
           "layout": { "type": ["string", "null"] },
+          "parse": { "type": "object", "description": "parser configuration for the sectioned layout" },
           "sources": {
             "type": "array",
             "items": {

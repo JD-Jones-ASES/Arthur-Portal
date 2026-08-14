@@ -1,0 +1,12 @@
+{
+  "work": "layamon",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "layamon",
+      "part": "Brut",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 55 reading unit(s) of roughly 1100 words"
+    }
+  ]
+}

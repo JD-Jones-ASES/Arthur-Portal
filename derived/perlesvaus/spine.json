@@ -1,0 +1,632 @@
+{
+  "work": "perlesvaus",
+  "title": "The High History of the Holy Graal",
+  "tier": "A",
+  "built_at": "2026-08-14",
+  "n_parts": 35,
+  "n_units": 152,
+  "words": 154347,
+  "parts": [
+    {
+      "id": "perlesvaus-pt-1",
+      "work": "perlesvaus",
+      "label": "Branch I",
+      "roman": null,
+      "n": 1,
+      "units": [
+        "perlesvaus-1-1",
+        "perlesvaus-1-2",
+        "perlesvaus-1-3",
+        "perlesvaus-1-4",
+        "perlesvaus-1-5",
+        "perlesvaus-1-6",
+        "perlesvaus-1-7",
+        "perlesvaus-1-8"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-2",
+      "work": "perlesvaus",
+      "label": "Branch II",
+      "roman": null,
+      "n": 2,
+      "units": [
+        "perlesvaus-2-1",
+        "perlesvaus-2-2",
+        "perlesvaus-2-3",
+        "perlesvaus-2-4",
+        "perlesvaus-2-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-3",
+      "work": "perlesvaus",
+      "label": "Branch III",
+      "roman": null,
+      "n": 3,
+      "units": [
+        "perlesvaus-3-1",
+        "perlesvaus-3-2",
+        "perlesvaus-3-3",
+        "perlesvaus-3-4",
+        "perlesvaus-3-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-4",
+      "work": "perlesvaus",
+      "label": "Branch IV",
+      "roman": null,
+      "n": 4,
+      "units": [
+        "perlesvaus-4-1",
+        "perlesvaus-4-2",
+        "perlesvaus-4-3",
+        "perlesvaus-4-4",
+        "perlesvaus-4-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-5",
+      "work": "perlesvaus",
+      "label": "Branch V",
+      "roman": null,
+      "n": 5,
+      "units": [
+        "perlesvaus-5-1",
+        "perlesvaus-5-2",
+        "perlesvaus-5-3",
+        "perlesvaus-5-4",
+        "perlesvaus-5-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-6",
+      "work": "perlesvaus",
+      "label": "Branch VI",
+      "roman": null,
+      "n": 6,
+      "units": [
+        "perlesvaus-6-1",
+        "perlesvaus-6-2",
+        "perlesvaus-6-3",
+        "perlesvaus-6-4",
+        "perlesvaus-6-5",
+        "perlesvaus-6-6",
+        "perlesvaus-6-7",
+        "perlesvaus-6-8",
+        "perlesvaus-6-9",
+        "perlesvaus-6-10"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-7",
+      "work": "perlesvaus",
+      "label": "Branch VII",
+      "roman": null,
+      "n": 7,
+      "units": [
+        "perlesvaus-7-1",
+        "perlesvaus-7-2",
+        "perlesvaus-7-3",
+        "perlesvaus-7-4",
+        "perlesvaus-7-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-8",
+      "work": "perlesvaus",
+      "label": "Branch VIII",
+      "roman": null,
+      "n": 8,
+      "units": [
+        "perlesvaus-8-1",
+        "perlesvaus-8-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-9",
+      "work": "perlesvaus",
+      "label": "Branch IX",
+      "roman": null,
+      "n": 9,
+      "units": [
+        "perlesvaus-9-1",
+        "perlesvaus-9-2",
+        "perlesvaus-9-3",
+        "perlesvaus-9-4",
+        "perlesvaus-9-5",
+        "perlesvaus-9-6"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-10",
+      "work": "perlesvaus",
+      "label": "Branch X",
+      "roman": null,
+      "n": 10,
+      "units": [
+        "perlesvaus-10-1",
+        "perlesvaus-10-2",
+        "perlesvaus-10-3",
+        "perlesvaus-10-4",
+        "perlesvaus-10-5",
+        "perlesvaus-10-6"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-11",
+      "work": "perlesvaus",
+      "label": "Branch XI",
+      "roman": null,
+      "n": 11,
+      "units": [
+        "perlesvaus-11-1",
+        "perlesvaus-11-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-12",
+      "work": "perlesvaus",
+      "label": "Branch XII",
+      "roman": null,
+      "n": 12,
+      "units": [
+        "perlesvaus-12-1",
+        "perlesvaus-12-2",
+        "perlesvaus-12-3"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-13",
+      "work": "perlesvaus",
+      "label": "Branch XIII",
+      "roman": null,
+      "n": 13,
+      "units": [
+        "perlesvaus-13-1",
+        "perlesvaus-13-2",
+        "perlesvaus-13-3",
+        "perlesvaus-13-4",
+        "perlesvaus-13-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-14",
+      "work": "perlesvaus",
+      "label": "Branch XIV",
+      "roman": null,
+      "n": 14,
+      "units": [
+        "perlesvaus-14-1",
+        "perlesvaus-14-2",
+        "perlesvaus-14-3"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-15",
+      "work": "perlesvaus",
+      "label": "Branch XV",
+      "roman": null,
+      "n": 15,
+      "units": [
+        "perlesvaus-15-1",
+        "perlesvaus-15-2",
+        "perlesvaus-15-3",
+        "perlesvaus-15-4",
+        "perlesvaus-15-5",
+        "perlesvaus-15-6",
+        "perlesvaus-15-7",
+        "perlesvaus-15-8",
+        "perlesvaus-15-9",
+        "perlesvaus-15-10"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-16",
+      "work": "perlesvaus",
+      "label": "Branch XVI",
+      "roman": null,
+      "n": 16,
+      "units": [
+        "perlesvaus-16-1"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-17",
+      "work": "perlesvaus",
+      "label": "Branch XVII",
+      "roman": null,
+      "n": 17,
+      "units": [
+        "perlesvaus-17-1",
+        "perlesvaus-17-2",
+        "perlesvaus-17-3",
+        "perlesvaus-17-4",
+        "perlesvaus-17-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-18",
+      "work": "perlesvaus",
+      "label": "Branch XVIII",
+      "roman": null,
+      "n": 18,
+      "units": [
+        "perlesvaus-18-1",
+        "perlesvaus-18-2",
+        "perlesvaus-18-3",
+        "perlesvaus-18-4",
+        "perlesvaus-18-5",
+        "perlesvaus-18-6",
+        "perlesvaus-18-7",
+        "perlesvaus-18-8"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-19",
+      "work": "perlesvaus",
+      "label": "Branch XIX",
+      "roman": null,
+      "n": 19,
+      "units": [
+        "perlesvaus-19-1",
+        "perlesvaus-19-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-20",
+      "work": "perlesvaus",
+      "label": "Branch XX",
+      "roman": null,
+      "n": 20,
+      "units": [
+        "perlesvaus-20-1",
+        "perlesvaus-20-2",
+        "perlesvaus-20-3",
+        "perlesvaus-20-4",
+        "perlesvaus-20-5"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-21",
+      "work": "perlesvaus",
+      "label": "Branch XXI",
+      "roman": null,
+      "n": 21,
+      "units": [
+        "perlesvaus-21-1",
+        "perlesvaus-21-2",
+        "perlesvaus-21-3",
+        "perlesvaus-21-4",
+        "perlesvaus-21-5",
+        "perlesvaus-21-6"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-22",
+      "work": "perlesvaus",
+      "label": "Branch XXII",
+      "roman": null,
+      "n": 22,
+      "units": [
+        "perlesvaus-22-1",
+        "perlesvaus-22-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-23",
+      "work": "perlesvaus",
+      "label": "Branch XXIII",
+      "roman": null,
+      "n": 23,
+      "units": [
+        "perlesvaus-23-1"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-24",
+      "work": "perlesvaus",
+      "label": "Branch XXIV",
+      "roman": null,
+      "n": 24,
+      "units": [
+        "perlesvaus-24-1",
+        "perlesvaus-24-2",
+        "perlesvaus-24-3",
+        "perlesvaus-24-4",
+        "perlesvaus-24-5",
+        "perlesvaus-24-6"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-25",
+      "work": "perlesvaus",
+      "label": "Branch XXV",
+      "roman": null,
+      "n": 25,
+      "units": [
+        "perlesvaus-25-1"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-26",
+      "work": "perlesvaus",
+      "label": "Branch XXVI",
+      "roman": null,
+      "n": 26,
+      "units": [
+        "perlesvaus-26-1",
+        "perlesvaus-26-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-27",
+      "work": "perlesvaus",
+      "label": "Branch XXVII",
+      "roman": null,
+      "n": 27,
+      "units": [
+        "perlesvaus-27-1",
+        "perlesvaus-27-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-28",
+      "work": "perlesvaus",
+      "label": "Branch XXVIII",
+      "roman": null,
+      "n": 28,
+      "units": [
+        "perlesvaus-28-1",
+        "perlesvaus-28-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-29",
+      "work": "perlesvaus",
+      "label": "Branch XXIX",
+      "roman": null,
+      "n": 29,
+      "units": [
+        "perlesvaus-29-1"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-30",
+      "work": "perlesvaus",
+      "label": "Branch XXX",
+      "roman": null,
+      "n": 30,
+      "units": [
+        "perlesvaus-30-1",
+        "perlesvaus-30-2",
+        "perlesvaus-30-3",
+        "perlesvaus-30-4",
+        "perlesvaus-30-5",
+        "perlesvaus-30-6"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-31",
+      "work": "perlesvaus",
+      "label": "Branch XXXI",
+      "roman": null,
+      "n": 31,
+      "units": [
+        "perlesvaus-31-1"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-32",
+      "work": "perlesvaus",
+      "label": "Branch XXXII",
+      "roman": null,
+      "n": 32,
+      "units": [
+        "perlesvaus-32-1",
+        "perlesvaus-32-2",
+        "perlesvaus-32-3",
+        "perlesvaus-32-4",
+        "perlesvaus-32-5",
+        "perlesvaus-32-6",
+        "perlesvaus-32-7"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-33",
+      "work": "perlesvaus",
+      "label": "Branch XXXIII",
+      "roman": null,
+      "n": 33,
+      "units": [
+        "perlesvaus-33-1",
+        "perlesvaus-33-2",
+        "perlesvaus-33-3"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-34",
+      "work": "perlesvaus",
+      "label": "Branch XXXIV",
+      "roman": null,
+      "n": 34,
+      "units": [
+        "perlesvaus-34-1",
+        "perlesvaus-34-2"
+      ]
+    },
+    {
+      "id": "perlesvaus-pt-35",
+      "work": "perlesvaus",
+      "label": "Branch XXXV",
+      "roman": null,
+      "n": 35,
+      "units": [
+        "perlesvaus-35-1",
+        "perlesvaus-35-2",
+        "perlesvaus-35-3",
+        "perlesvaus-35-4",
+        "perlesvaus-35-5",
+        "perlesvaus-35-6",
+        "perlesvaus-35-7",
+        "perlesvaus-35-8",
+        "perlesvaus-35-9"
+      ]
+    }
+  ],
+  "order": [
+    "perlesvaus-1-1",
+    "perlesvaus-1-2",
+    "perlesvaus-1-3",
+    "perlesvaus-1-4",
+    "perlesvaus-1-5",
+    "perlesvaus-1-6",
+    "perlesvaus-1-7",
+    "perlesvaus-1-8",
+    "perlesvaus-2-1",
+    "perlesvaus-2-2",
+    "perlesvaus-2-3",
+    "perlesvaus-2-4",
+    "perlesvaus-2-5",
+    "perlesvaus-3-1",
+    "perlesvaus-3-2",
+    "perlesvaus-3-3",
+    "perlesvaus-3-4",
+    "perlesvaus-3-5",
+    "perlesvaus-4-1",
+    "perlesvaus-4-2",
+    "perlesvaus-4-3",
+    "perlesvaus-4-4",
+    "perlesvaus-4-5",
+    "perlesvaus-5-1",
+    "perlesvaus-5-2",
+    "perlesvaus-5-3",
+    "perlesvaus-5-4",
+    "perlesvaus-5-5",
+    "perlesvaus-6-1",
+    "perlesvaus-6-2",
+    "perlesvaus-6-3",
+    "perlesvaus-6-4",
+    "perlesvaus-6-5",
+    "perlesvaus-6-6",
+    "perlesvaus-6-7",
+    "perlesvaus-6-8",
+    "perlesvaus-6-9",
+    "perlesvaus-6-10",
+    "perlesvaus-7-1",
+    "perlesvaus-7-2",
+    "perlesvaus-7-3",
+    "perlesvaus-7-4",
+    "perlesvaus-7-5",
+    "perlesvaus-8-1",
+    "perlesvaus-8-2",
+    "perlesvaus-9-1",
+    "perlesvaus-9-2",
+    "perlesvaus-9-3",
+    "perlesvaus-9-4",
+    "perlesvaus-9-5",
+    "perlesvaus-9-6",
+    "perlesvaus-10-1",
+    "perlesvaus-10-2",
+    "perlesvaus-10-3",
+    "perlesvaus-10-4",
+    "perlesvaus-10-5",
+    "perlesvaus-10-6",
+    "perlesvaus-11-1",
+    "perlesvaus-11-2",
+    "perlesvaus-12-1",
+    "perlesvaus-12-2",
+    "perlesvaus-12-3",
+    "perlesvaus-13-1",
+    "perlesvaus-13-2",
+    "perlesvaus-13-3",
+    "perlesvaus-13-4",
+    "perlesvaus-13-5",
+    "perlesvaus-14-1",
+    "perlesvaus-14-2",
+    "perlesvaus-14-3",
+    "perlesvaus-15-1",
+    "perlesvaus-15-2",
+    "perlesvaus-15-3",
+    "perlesvaus-15-4",
+    "perlesvaus-15-5",
+    "perlesvaus-15-6",
+    "perlesvaus-15-7",
+    "perlesvaus-15-8",
+    "perlesvaus-15-9",
+    "perlesvaus-15-10",
+    "perlesvaus-16-1",
+    "perlesvaus-17-1",
+    "perlesvaus-17-2",
+    "perlesvaus-17-3",
+    "perlesvaus-17-4",
+    "perlesvaus-17-5",
+    "perlesvaus-18-1",
+    "perlesvaus-18-2",
+    "perlesvaus-18-3",
+    "perlesvaus-18-4",
+    "perlesvaus-18-5",
+    "perlesvaus-18-6",
+    "perlesvaus-18-7",
+    "perlesvaus-18-8",
+    "perlesvaus-19-1",
+    "perlesvaus-19-2",
+    "perlesvaus-20-1",
+    "perlesvaus-20-2",
+    "perlesvaus-20-3",
+    "perlesvaus-20-4",
+    "perlesvaus-20-5",
+    "perlesvaus-21-1",
+    "perlesvaus-21-2",
+    "perlesvaus-21-3",
+    "perlesvaus-21-4",
+    "perlesvaus-21-5",
+    "perlesvaus-21-6",
+    "perlesvaus-22-1",
+    "perlesvaus-22-2",
+    "perlesvaus-23-1",
+    "perlesvaus-24-1",
+    "perlesvaus-24-2",
+    "perlesvaus-24-3",
+    "perlesvaus-24-4",
+    "perlesvaus-24-5",
+    "perlesvaus-24-6",
+    "perlesvaus-25-1",
+    "perlesvaus-26-1",
+    "perlesvaus-26-2",
+    "perlesvaus-27-1",
+    "perlesvaus-27-2",
+    "perlesvaus-28-1",
+    "perlesvaus-28-2",
+    "perlesvaus-29-1",
+    "perlesvaus-30-1",
+    "perlesvaus-30-2",
+    "perlesvaus-30-3",
+    "perlesvaus-30-4",
+    "perlesvaus-30-5",
+    "perlesvaus-30-6",
+    "perlesvaus-31-1",
+    "perlesvaus-32-1",
+    "perlesvaus-32-2",
+    "perlesvaus-32-3",
+    "perlesvaus-32-4",
+    "perlesvaus-32-5",
+    "perlesvaus-32-6",
+    "perlesvaus-32-7",
+    "perlesvaus-33-1",
+    "perlesvaus-33-2",
+    "perlesvaus-33-3",
+    "perlesvaus-34-1",
+    "perlesvaus-34-2",
+    "perlesvaus-35-1",
+    "perlesvaus-35-2",
+    "perlesvaus-35-3",
+    "perlesvaus-35-4",
+    "perlesvaus-35-5",
+    "perlesvaus-35-6",
+    "perlesvaus-35-7",
+    "perlesvaus-35-8",
+    "perlesvaus-35-9"
+  ]
+}

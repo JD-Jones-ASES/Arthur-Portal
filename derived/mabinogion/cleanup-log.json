@@ -1,0 +1,36 @@
+{
+  "work": "mabinogion",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "mabinogion",
+      "part": "THE LADY OF THE FOUNTAIN",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 8 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "mabinogion",
+      "part": "PEREDUR THE SON OF EVRAWC",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 13 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "mabinogion",
+      "part": "GERAINT THE SON OF ERBIN",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 12 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "mabinogion",
+      "part": "KILHWCH AND OLWEN",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 12 reading unit(s) of roughly 1100 words"
+    },
+    {
+      "work": "mabinogion",
+      "part": "THE DREAM OF RHONABWY",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 5 reading unit(s) of roughly 1100 words"
+    }
+  ]
+}

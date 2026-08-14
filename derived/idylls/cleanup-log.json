@@ -1,0 +1,78 @@
+{
+  "work": "idylls",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "idylls",
+      "part": "The Coming of Arthur",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 3 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Gareth and Lynette",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 8 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "The Marriage of Geraint",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 5 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Geraint and Enid",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 6 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Balin and Balan",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 3 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Merlin and Vivien",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 6 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Lancelot and Elaine",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 8 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "The Holy Grail",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 5 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Pelleas and Ettarre",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 4 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "The Last Tournament",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 4 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "Guinevere",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 4 reading unit(s) of roughly 1400 words"
+    },
+    {
+      "work": "idylls",
+      "part": "The Passing of Arthur",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 3 reading unit(s) of roughly 1400 words"
+    }
+  ]
+}

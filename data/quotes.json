@@ -4,7 +4,7 @@
  "built_at": "2026-08-14",
  "counts": {
   "total": 25,
-  "placed": 9,
+  "placed": 15,
   "unplaceable": 0
  },
  "quotes": [
@@ -98,7 +98,13 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "chretien-4-2",
+    "paragraph": 0,
+    "from": 4168,
+    "to": 4345,
+    "method": "exact"
+   }
   },
   {
    "id": "wolfram-anfortas-wounded",
@@ -121,7 +127,13 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "parzival-10-4",
+    "paragraph": 1,
+    "from": 1331,
+    "to": 1393,
+    "method": "exact"
+   }
   },
   {
    "id": "vulgate-lancelot-loves-queen",
@@ -450,7 +462,13 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "wace-1-18",
+    "paragraph": 3,
+    "from": 4140,
+    "to": 4339,
+    "method": "exact"
+   }
   },
   {
    "id": "nennius-twelve-battles",
@@ -473,7 +491,13 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "nennius-1-10",
+    "paragraph": 11,
+    "from": 1030,
+    "to": 1229,
+    "method": "exact"
+   }
   },
   {
    "id": "mabinogion-peredur-spear",
@@ -496,7 +520,13 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "mabinogion-2-3",
+    "paragraph": 2,
+    "from": 4610,
+    "to": 4833,
+    "method": "exact"
+   }
   },
   {
    "id": "gottfried-love-potion",
@@ -540,14 +570,20 @@
     "threshold": 0.9,
     "checked_at": "2026-08-14"
    },
-   "spine": null
+   "spine": {
+    "unit": "layamon-1-35",
+    "paragraph": 5,
+    "from": 529,
+    "to": 741,
+    "method": "exact"
+   }
   },
   {
    "id": "sggk-green-girdle",
    "voice": "The Gawain Romances",
    "source": "sggk",
-   "work": "gawain",
-   "work_title": "Sir Gawain and the Green Knight",
+   "work": "gawain-me",
+   "work_title": "Syr Gawayn and the Grene Kny3t",
    "branch": "english",
    "citation": "Sir Gawain and the Green Knight (Morris, EETS Middle English)",
    "anchor_label": "Sir Gawain and the Green Knight",

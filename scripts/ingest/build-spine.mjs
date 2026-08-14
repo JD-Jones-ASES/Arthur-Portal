@@ -18,6 +18,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { stripGutenberg, squash, toRoman, fromRoman } from "../lib/text.mjs";
+import { parseSectioned } from "../lib/parse-sectioned.mjs";
 
 const ROOT = process.cwd();
 const RAW = resolve(ROOT, "raw");
@@ -344,7 +345,7 @@ function parseMalory(sources, work) {
 
 /* ------------------------------------------------------------------- main */
 
-const LAYOUTS = { malory: parseMalory };
+const LAYOUTS = { malory: parseMalory, sectioned: parseSectioned };
 
 async function main() {
   const config = JSON.parse(await readFile(resolve(ROOT, "data/works/works.config.json"), "utf8"));

@@ -1,0 +1,30 @@
+{
+  "work": "chretien",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "chretien",
+      "part": "EREC ET ENIDE",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 22 reading unit(s) of roughly 1200 words"
+    },
+    {
+      "work": "chretien",
+      "part": "CLIGÉS",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 28 reading unit(s) of roughly 1200 words"
+    },
+    {
+      "work": "chretien",
+      "part": "YVAIN",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 25 reading unit(s) of roughly 1200 words"
+    },
+    {
+      "work": "chretien",
+      "part": "LANCELOT",
+      "issue": "editorial-divisions",
+      "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 24 reading unit(s) of roughly 1200 words"
+    }
+  ]
+}
