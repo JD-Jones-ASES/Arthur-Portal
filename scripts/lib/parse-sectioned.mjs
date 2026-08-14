@@ -25,6 +25,8 @@ import { squash, toRoman } from "./text.mjs";
 const rx = (pattern, flags = "g") => new RegExp(pattern, flags);
 
 /** Split a block into paragraphs, lifting Gutenberg italics into ranges. */
+let refsStripped = 0;
+
 function paragraphise(block, opts = {}) {
   const drop = opts.dropRx ? rx(opts.dropRx, "g") : null;
   const out = [];
@@ -37,7 +39,16 @@ function paragraphise(block, opts = {}) {
 
   if (drop) blocks = blocks.filter((p) => !(drop.lastIndex = 0, drop.test(p)));
 
-  for (const p of blocks) {
+  for (let p of blocks) {
+    // Several of these editions print the translator's endnote references inline
+    // as bracketed numbers — Comfort's Chretien does it 145 times. They are
+    // apparatus, not text, and the notes themselves are not published here, so a
+    // bare "[119]" in the middle of a sentence is pure noise for a reader.
+    // Removed here and counted in the cleanup log.
+    const before = p;
+    p = p.replace(/\s*\[\d{1,3}\]/g, "");
+    if (p !== before) refsStripped += (before.match(/\[\d{1,3}\]/g) || []).length;
+
     const ranges = [];
     let plain = "";
     let i = 0;
@@ -101,6 +112,7 @@ function chunk(paragraphs, em, target) {
 export function parseSectioned(sources, work) {
   const cfg = work.parse ?? {};
   const log = [];
+  refsStripped = 0;
   const parts = [];
   const units = {};
   let partSeq = 0;
@@ -215,6 +227,17 @@ export function parseSectioned(sources, work) {
       if (part.units.length) parts.push(part);
       else partSeq--;
     }
+  }
+
+  if (refsStripped) {
+    log.push({
+      work: work.id,
+      issue: "endnote-references-removed",
+      count: refsStripped,
+      action:
+        "the translator's inline endnote markers (bracketed numbers) were removed from the " +
+        "reading text; the notes themselves are in the source edition and are not published here",
+    });
   }
 
   return { parts, units, log };

@@ -198,5 +198,10 @@ export function stripGutenberg(raw) {
   if (start) t = t.slice(start.index + start[0].length);
   const end = t.match(/\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG EBOOK[^*]*\*\*\*/i);
   if (end) t = t.slice(0, end.index);
+  // Older Gutenberg files sign off in prose before the starred marker — "End of
+  // Project Gutenberg's Arthurian Chronicles, by Wace and Layamon" — and that
+  // sentence would otherwise land in the last chapter of the reading text.
+  const prose = t.match(/\n\s*End of (?:the )?Project Gutenberg('s|,)?[^\n]*/i);
+  if (prose) t = t.slice(0, prose.index);
   return t.trim();
 }

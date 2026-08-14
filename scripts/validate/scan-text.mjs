@@ -15,7 +15,7 @@ const CHECKS = [
   { id: "replacement-char", rx: /\ufffd/, why: "unmappable character" },
   { id: "gutenberg-leak", rx: /Project Gutenberg|www\.gutenberg\.org|START OF TH/i, why: "boilerplate not stripped" },
   { id: "italics-marker", rx: /_[A-Za-z]/, why: "Gutenberg underscore markup left in the text" },
-  { id: "page-number", rx: /\[\s*\d{1,4}\s*\]/, why: "scanned page number" },
+  { id: "endnote-ref", rx: /\[\s*\d{1,4}\s*\]/, why: "the translator's inline endnote marker, left in the reading text" },
   { id: "broken-hyphen", rx: /[a-z]-\s+[a-z]/, why: "line-break hyphen not rejoined", warn: true },
   { id: "double-space", rx: {}, why: "" },
 ];

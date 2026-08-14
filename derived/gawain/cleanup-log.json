@@ -1,5 +1,12 @@
 {
   "work": "gawain",
   "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
-  "entries": []
+  "entries": [
+    {
+      "work": "gawain",
+      "issue": "endnote-references-removed",
+      "count": 24,
+      "action": "the translator's inline endnote markers (bracketed numbers) were removed from the reading text; the notes themselves are in the source edition and are not published here"
+    }
+  ]
 }

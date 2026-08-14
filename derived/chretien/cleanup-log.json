@@ -25,6 +25,12 @@
       "part": "LANCELOT",
       "issue": "editorial-divisions",
       "action": "the source has no internal divisions here; the text was cut at paragraph boundaries into 24 reading unit(s) of roughly 1200 words"
+    },
+    {
+      "work": "chretien",
+      "issue": "endnote-references-removed",
+      "count": 145,
+      "action": "the translator's inline endnote markers (bracketed numbers) were removed from the reading text; the notes themselves are in the source edition and are not published here"
     }
   ]
 }
