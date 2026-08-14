@@ -37,7 +37,7 @@ corruptions of a lost original; they are the material.**
 | | |
 |---|---|
 | Pages | 1,346 |
-| Primary text | 1,201 reading units across 10 works, ~965,000 words |
+| Primary text | 1,201 reading units across 10 works, ~1.16 million words |
 | Stories | 49 episodes |
 | Figures | 43 dossiers |
 | Voices | 12 authors and traditions |
