@@ -1,0 +1,8230 @@
+{
+  "malory1": {
+    "author": "Malory",
+    "work": "Le Morte d'Arthur, Vol. I (Caxton / Project Gutenberg; Books I–IX)",
+    "scheme": "malory_books",
+    "cite": "Malory",
+    "chars": 878718,
+    "n_anchors": 238,
+    "anchors": [
+      {
+        "label": "IX.xxxviii",
+        "kind": "chapter",
+        "start": 26872
+      },
+      {
+        "label": "IX.xxxix",
+        "kind": "chapter",
+        "start": 26976
+      },
+      {
+        "label": "I.i",
+        "kind": "chapter",
+        "start": 45148
+      },
+      {
+        "label": "I.ii",
+        "kind": "chapter",
+        "start": 48661
+      },
+      {
+        "label": "I.iii",
+        "kind": "chapter",
+        "start": 52164
+      },
+      {
+        "label": "I.iv",
+        "kind": "chapter",
+        "start": 54587
+      },
+      {
+        "label": "I.v",
+        "kind": "chapter",
+        "start": 56395
+      },
+      {
+        "label": "I.vi",
+        "kind": "chapter",
+        "start": 61518
+      },
+      {
+        "label": "I.vii",
+        "kind": "chapter",
+        "start": 64535
+      },
+      {
+        "label": "I.viii",
+        "kind": "chapter",
+        "start": 66490
+      },
+      {
+        "label": "I.ix",
+        "kind": "chapter",
+        "start": 69743
+      },
+      {
+        "label": "I.x",
+        "kind": "chapter",
+        "start": 72213
+      },
+      {
+        "label": "I.xi",
+        "kind": "chapter",
+        "start": 78571
+      },
+      {
+        "label": "I.xii",
+        "kind": "chapter",
+        "start": 82712
+      },
+      {
+        "label": "I.xiii",
+        "kind": "chapter",
+        "start": 84993
+      },
+      {
+        "label": "I.xiv",
+        "kind": "chapter",
+        "start": 85903
+      },
+      {
+        "label": "I.xv",
+        "kind": "chapter",
+        "start": 91726
+      },
+      {
+        "label": "I.xvi",
+        "kind": "chapter",
+        "start": 96406
+      },
+      {
+        "label": "I.xvii",
+        "kind": "chapter",
+        "start": 102271
+      },
+      {
+        "label": "I.xviii",
+        "kind": "chapter",
+        "start": 108298
+      },
+      {
+        "label": "I.xix",
+        "kind": "chapter",
+        "start": 111963
+      },
+      {
+        "label": "I.xx",
+        "kind": "chapter",
+        "start": 114987
+      },
+      {
+        "label": "I.xxi",
+        "kind": "chapter",
+        "start": 118269
+      },
+      {
+        "label": "I.xxii",
+        "kind": "chapter",
+        "start": 121159
+      },
+      {
+        "label": "I.xxiii",
+        "kind": "chapter",
+        "start": 123281
+      },
+      {
+        "label": "I.xxiv",
+        "kind": "chapter",
+        "start": 128667
+      },
+      {
+        "label": "I.xxv",
+        "kind": "chapter",
+        "start": 130149
+      },
+      {
+        "label": "I.xxvi",
+        "kind": "chapter",
+        "start": 134110
+      },
+      {
+        "label": "I.xxvii",
+        "kind": "chapter",
+        "start": 135886
+      },
+      {
+        "label": "II.i",
+        "kind": "chapter",
+        "start": 137205
+      },
+      {
+        "label": "II.ii",
+        "kind": "chapter",
+        "start": 140453
+      },
+      {
+        "label": "II.iii",
+        "kind": "chapter",
+        "start": 144608
+      },
+      {
+        "label": "II.iv",
+        "kind": "chapter",
+        "start": 147896
+      },
+      {
+        "label": "II.v",
+        "kind": "chapter",
+        "start": 149336
+      },
+      {
+        "label": "II.vi",
+        "kind": "chapter",
+        "start": 152074
+      },
+      {
+        "label": "II.vii",
+        "kind": "chapter",
+        "start": 154639
+      },
+      {
+        "label": "II.viii",
+        "kind": "chapter",
+        "start": 156587
+      },
+      {
+        "label": "II.ix",
+        "kind": "chapter",
+        "start": 159473
+      },
+      {
+        "label": "II.x",
+        "kind": "chapter",
+        "start": 162333
+      },
+      {
+        "label": "II.xi",
+        "kind": "chapter",
+        "start": 166259
+      },
+      {
+        "label": "II.xii",
+        "kind": "chapter",
+        "start": 168693
+      },
+      {
+        "label": "II.xiii",
+        "kind": "chapter",
+        "start": 171174
+      },
+      {
+        "label": "II.xiv",
+        "kind": "chapter",
+        "start": 173835
+      },
+      {
+        "label": "II.xv",
+        "kind": "chapter",
+        "start": 177305
+      },
+      {
+        "label": "II.xvi",
+        "kind": "chapter",
+        "start": 178878
+      },
+      {
+        "label": "II.xvii",
+        "kind": "chapter",
+        "start": 182543
+      },
+      {
+        "label": "II.xviii",
+        "kind": "chapter",
+        "start": 185749
+      },
+      {
+        "label": "II.xix",
+        "kind": "chapter",
+        "start": 189977
+      },
+      {
+        "label": "III.i",
+        "kind": "chapter",
+        "start": 192436
+      },
+      {
+        "label": "III.ii",
+        "kind": "chapter",
+        "start": 195219
+      },
+      {
+        "label": "III.iii",
+        "kind": "chapter",
+        "start": 196918
+      },
+      {
+        "label": "III.iv",
+        "kind": "chapter",
+        "start": 200829
+      },
+      {
+        "label": "III.v",
+        "kind": "chapter",
+        "start": 202414
+      },
+      {
+        "label": "III.vi",
+        "kind": "chapter",
+        "start": 204678
+      },
+      {
+        "label": "III.vii",
+        "kind": "chapter",
+        "start": 207609
+      },
+      {
+        "label": "III.viii",
+        "kind": "chapter",
+        "start": 210461
+      },
+      {
+        "label": "III.ix",
+        "kind": "chapter",
+        "start": 213940
+      },
+      {
+        "label": "III.x",
+        "kind": "chapter",
+        "start": 216513
+      },
+      {
+        "label": "III.xi",
+        "kind": "chapter",
+        "start": 219279
+      },
+      {
+        "label": "III.xii",
+        "kind": "chapter",
+        "start": 222818
+      },
+      {
+        "label": "III.xiii",
+        "kind": "chapter",
+        "start": 226627
+      },
+      {
+        "label": "III.xiv",
+        "kind": "chapter",
+        "start": 229650
+      },
+      {
+        "label": "III.xv",
+        "kind": "chapter",
+        "start": 231816
+      },
+      {
+        "label": "IV.i",
+        "kind": "chapter",
+        "start": 234604
+      },
+      {
+        "label": "IV.ii",
+        "kind": "chapter",
+        "start": 237772
+      },
+      {
+        "label": "IV.iii",
+        "kind": "chapter",
+        "start": 240219
+      },
+      {
+        "label": "IV.iv",
+        "kind": "chapter",
+        "start": 244003
+      },
+      {
+        "label": "IV.v",
+        "kind": "chapter",
+        "start": 246631
+      },
+      {
+        "label": "IV.vi",
+        "kind": "chapter",
+        "start": 249241
+      },
+      {
+        "label": "IV.vii",
+        "kind": "chapter",
+        "start": 251981
+      },
+      {
+        "label": "IV.viii",
+        "kind": "chapter",
+        "start": 255431
+      },
+      {
+        "label": "IV.ix",
+        "kind": "chapter",
+        "start": 259415
+      },
+      {
+        "label": "IV.x",
+        "kind": "chapter",
+        "start": 262406
+      },
+      {
+        "label": "IV.xi",
+        "kind": "chapter",
+        "start": 265768
+      },
+      {
+        "label": "IV.xii",
+        "kind": "chapter",
+        "start": 268552
+      },
+      {
+        "label": "IV.xiii",
+        "kind": "chapter",
+        "start": 272116
+      },
+      {
+        "label": "IV.xiv",
+        "kind": "chapter",
+        "start": 273866
+      },
+      {
+        "label": "IV.xv",
+        "kind": "chapter",
+        "start": 277553
+      },
+      {
+        "label": "IV.xvi",
+        "kind": "chapter",
+        "start": 280477
+      },
+      {
+        "label": "IV.xvii",
+        "kind": "chapter",
+        "start": 282871
+      },
+      {
+        "label": "IV.xviii",
+        "kind": "chapter",
+        "start": 284960
+      },
+      {
+        "label": "IV.xix",
+        "kind": "chapter",
+        "start": 291547
+      },
+      {
+        "label": "IV.xx",
+        "kind": "chapter",
+        "start": 293373
+      },
+      {
+        "label": "IV.xxi",
+        "kind": "chapter",
+        "start": 297966
+      },
+      {
+        "label": "IV.xxii",
+        "kind": "chapter",
+        "start": 302236
+      },
+      {
+        "label": "IV.xxiii",
+        "kind": "chapter",
+        "start": 308929
+      },
+      {
+        "label": "IV.xxiv",
+        "kind": "chapter",
+        "start": 309846
+      },
+      {
+        "label": "IV.xxv",
+        "kind": "chapter",
+        "start": 313263
+      },
+      {
+        "label": "IV.xxvi",
+        "kind": "chapter",
+        "start": 317187
+      },
+      {
+        "label": "IV.xxvii",
+        "kind": "chapter",
+        "start": 319532
+      },
+      {
+        "label": "IV.xxviii",
+        "kind": "chapter",
+        "start": 321740
+      },
+      {
+        "label": "V.i",
+        "kind": "chapter",
+        "start": 324246
+      },
+      {
+        "label": "V.ii",
+        "kind": "chapter",
+        "start": 327407
+      },
+      {
+        "label": "V.iii",
+        "kind": "chapter",
+        "start": 332861
+      },
+      {
+        "label": "V.iv",
+        "kind": "chapter",
+        "start": 334418
+      },
+      {
+        "label": "V.v",
+        "kind": "chapter",
+        "start": 336755
+      },
+      {
+        "label": "V.vi",
+        "kind": "chapter",
+        "start": 343438
+      },
+      {
+        "label": "V.vii",
+        "kind": "chapter",
+        "start": 347499
+      },
+      {
+        "label": "V.viii",
+        "kind": "chapter",
+        "start": 349927
+      },
+      {
+        "label": "V.ix",
+        "kind": "chapter",
+        "start": 356533
+      },
+      {
+        "label": "V.x",
+        "kind": "chapter",
+        "start": 358774
+      },
+      {
+        "label": "V.xi",
+        "kind": "chapter",
+        "start": 364780
+      },
+      {
+        "label": "V.xii",
+        "kind": "chapter",
+        "start": 367641
+      },
+      {
+        "label": "VI.i",
+        "kind": "chapter",
+        "start": 373257
+      },
+      {
+        "label": "VI.ii",
+        "kind": "chapter",
+        "start": 376702
+      },
+      {
+        "label": "VI.iii",
+        "kind": "chapter",
+        "start": 379552
+      },
+      {
+        "label": "VI.iv",
+        "kind": "chapter",
+        "start": 382959
+      },
+      {
+        "label": "VI.v",
+        "kind": "chapter",
+        "start": 385634
+      },
+      {
+        "label": "VI.vi",
+        "kind": "chapter",
+        "start": 388300
+      },
+      {
+        "label": "VI.vii",
+        "kind": "chapter",
+        "start": 391289
+      },
+      {
+        "label": "VI.viii",
+        "kind": "chapter",
+        "start": 396917
+      },
+      {
+        "label": "VI.ix",
+        "kind": "chapter",
+        "start": 399827
+      },
+      {
+        "label": "VI.x",
+        "kind": "chapter",
+        "start": 403289
+      },
+      {
+        "label": "VI.xi",
+        "kind": "chapter",
+        "start": 407598
+      },
+      {
+        "label": "VI.xii",
+        "kind": "chapter",
+        "start": 414117
+      },
+      {
+        "label": "VI.xiii",
+        "kind": "chapter",
+        "start": 417922
+      },
+      {
+        "label": "VI.xiv",
+        "kind": "chapter",
+        "start": 420468
+      },
+      {
+        "label": "VI.xv",
+        "kind": "chapter",
+        "start": 423398
+      },
+      {
+        "label": "VI.xvi",
+        "kind": "chapter",
+        "start": 427686
+      },
+      {
+        "label": "VI.xvii",
+        "kind": "chapter",
+        "start": 431553
+      },
+      {
+        "label": "VI.xviii",
+        "kind": "chapter",
+        "start": 435366
+      },
+      {
+        "label": "VII.i",
+        "kind": "chapter",
+        "start": 437977
+      },
+      {
+        "label": "VII.ii",
+        "kind": "chapter",
+        "start": 442021
+      },
+      {
+        "label": "VII.iii",
+        "kind": "chapter",
+        "start": 445719
+      },
+      {
+        "label": "VII.iv",
+        "kind": "chapter",
+        "start": 447235
+      },
+      {
+        "label": "VII.v",
+        "kind": "chapter",
+        "start": 449506
+      },
+      {
+        "label": "VII.vi",
+        "kind": "chapter",
+        "start": 453970
+      },
+      {
+        "label": "VII.vii",
+        "kind": "chapter",
+        "start": 456555
+      },
+      {
+        "label": "VII.viii",
+        "kind": "chapter",
+        "start": 460348
+      },
+      {
+        "label": "VII.ix",
+        "kind": "chapter",
+        "start": 464501
+      },
+      {
+        "label": "VII.x",
+        "kind": "chapter",
+        "start": 466922
+      },
+      {
+        "label": "VII.xi",
+        "kind": "chapter",
+        "start": 470742
+      },
+      {
+        "label": "VII.xii",
+        "kind": "chapter",
+        "start": 475761
+      },
+      {
+        "label": "VII.xiii",
+        "kind": "chapter",
+        "start": 479408
+      },
+      {
+        "label": "VII.xiv",
+        "kind": "chapter",
+        "start": 482509
+      },
+      {
+        "label": "VII.xv",
+        "kind": "chapter",
+        "start": 486947
+      },
+      {
+        "label": "VII.xvi",
+        "kind": "chapter",
+        "start": 490612
+      },
+      {
+        "label": "VII.xvii",
+        "kind": "chapter",
+        "start": 493732
+      },
+      {
+        "label": "VII.xviii",
+        "kind": "chapter",
+        "start": 497839
+      },
+      {
+        "label": "VII.xix",
+        "kind": "chapter",
+        "start": 500958
+      },
+      {
+        "label": "VII.xx",
+        "kind": "chapter",
+        "start": 505049
+      },
+      {
+        "label": "VII.xxi",
+        "kind": "chapter",
+        "start": 509586
+      },
+      {
+        "label": "VII.xxii",
+        "kind": "chapter",
+        "start": 512379
+      },
+      {
+        "label": "VII.xxiii",
+        "kind": "chapter",
+        "start": 516939
+      },
+      {
+        "label": "VII.xxiv",
+        "kind": "chapter",
+        "start": 521976
+      },
+      {
+        "label": "VII.xxv",
+        "kind": "chapter",
+        "start": 523804
+      },
+      {
+        "label": "VII.xxvi",
+        "kind": "chapter",
+        "start": 527143
+      },
+      {
+        "label": "VII.xxvii",
+        "kind": "chapter",
+        "start": 533196
+      },
+      {
+        "label": "VII.xxviii",
+        "kind": "chapter",
+        "start": 537639
+      },
+      {
+        "label": "VII.xxix",
+        "kind": "chapter",
+        "start": 542275
+      },
+      {
+        "label": "VII.xxx",
+        "kind": "chapter",
+        "start": 545666
+      },
+      {
+        "label": "VII.xxxi",
+        "kind": "chapter",
+        "start": 548438
+      },
+      {
+        "label": "VII.xxxii",
+        "kind": "chapter",
+        "start": 552150
+      },
+      {
+        "label": "VII.xxxiii",
+        "kind": "chapter",
+        "start": 555644
+      },
+      {
+        "label": "VII.xxxiv",
+        "kind": "chapter",
+        "start": 560324
+      },
+      {
+        "label": "VII.xxxv",
+        "kind": "chapter",
+        "start": 563184
+      },
+      {
+        "label": "VIII.i",
+        "kind": "chapter",
+        "start": 568118
+      },
+      {
+        "label": "VIII.ii",
+        "kind": "chapter",
+        "start": 571476
+      },
+      {
+        "label": "VIII.iii",
+        "kind": "chapter",
+        "start": 575603
+      },
+      {
+        "label": "VIII.iv",
+        "kind": "chapter",
+        "start": 577573
+      },
+      {
+        "label": "VIII.v",
+        "kind": "chapter",
+        "start": 581046
+      },
+      {
+        "label": "VIII.vi",
+        "kind": "chapter",
+        "start": 585489
+      },
+      {
+        "label": "VIII.vii",
+        "kind": "chapter",
+        "start": 587106
+      },
+      {
+        "label": "VIII.viii",
+        "kind": "chapter",
+        "start": 591059
+      },
+      {
+        "label": "VIII.ix",
+        "kind": "chapter",
+        "start": 594432
+      },
+      {
+        "label": "VIII.x",
+        "kind": "chapter",
+        "start": 598321
+      },
+      {
+        "label": "VIII.xi",
+        "kind": "chapter",
+        "start": 602551
+      },
+      {
+        "label": "VIII.xii",
+        "kind": "chapter",
+        "start": 605631
+      },
+      {
+        "label": "VIII.xiii",
+        "kind": "chapter",
+        "start": 609519
+      },
+      {
+        "label": "VIII.xiv",
+        "kind": "chapter",
+        "start": 612452
+      },
+      {
+        "label": "VIII.xv",
+        "kind": "chapter",
+        "start": 615777
+      },
+      {
+        "label": "VIII.xvi",
+        "kind": "chapter",
+        "start": 619096
+      },
+      {
+        "label": "VIII.xvii",
+        "kind": "chapter",
+        "start": 622307
+      },
+      {
+        "label": "VIII.xviii",
+        "kind": "chapter",
+        "start": 625625
+      },
+      {
+        "label": "VIII.xix",
+        "kind": "chapter",
+        "start": 628500
+      },
+      {
+        "label": "VIII.xx",
+        "kind": "chapter",
+        "start": 630622
+      },
+      {
+        "label": "VIII.xxi",
+        "kind": "chapter",
+        "start": 633190
+      },
+      {
+        "label": "VIII.xxii",
+        "kind": "chapter",
+        "start": 636853
+      },
+      {
+        "label": "VIII.xxiii",
+        "kind": "chapter",
+        "start": 640304
+      },
+      {
+        "label": "VIII.xxiv",
+        "kind": "chapter",
+        "start": 643672
+      },
+      {
+        "label": "VIII.xxv",
+        "kind": "chapter",
+        "start": 646992
+      },
+      {
+        "label": "VIII.xxvi",
+        "kind": "chapter",
+        "start": 651275
+      },
+      {
+        "label": "VIII.xxvii",
+        "kind": "chapter",
+        "start": 653125
+      },
+      {
+        "label": "VIII.xxviii",
+        "kind": "chapter",
+        "start": 656994
+      },
+      {
+        "label": "VIII.xxix",
+        "kind": "chapter",
+        "start": 659216
+      },
+      {
+        "label": "VIII.xxx",
+        "kind": "chapter",
+        "start": 662018
+      },
+      {
+        "label": "VIII.xxxi",
+        "kind": "chapter",
+        "start": 666187
+      },
+      {
+        "label": "VIII.xxxii",
+        "kind": "chapter",
+        "start": 670034
+      },
+      {
+        "label": "VIII.xxxiii",
+        "kind": "chapter",
+        "start": 673062
+      },
+      {
+        "label": "VIII.xxxiv",
+        "kind": "chapter",
+        "start": 676861
+      },
+      {
+        "label": "VIII.xxxv",
+        "kind": "chapter",
+        "start": 681532
+      },
+      {
+        "label": "VIII.xxxvi",
+        "kind": "chapter",
+        "start": 684156
+      },
+      {
+        "label": "VIII.xxxvii",
+        "kind": "chapter",
+        "start": 687033
+      },
+      {
+        "label": "VIII.xxxviii",
+        "kind": "chapter",
+        "start": 689651
+      },
+      {
+        "label": "VIII.xxxix",
+        "kind": "chapter",
+        "start": 693986
+      },
+      {
+        "label": "VIII.xl",
+        "kind": "chapter",
+        "start": 698140
+      },
+      {
+        "label": "VIII.xli",
+        "kind": "chapter",
+        "start": 702694
+      },
+      {
+        "label": "IX.i",
+        "kind": "chapter",
+        "start": 706658
+      },
+      {
+        "label": "IX.ii",
+        "kind": "chapter",
+        "start": 710162
+      },
+      {
+        "label": "IX.iii",
+        "kind": "chapter",
+        "start": 713217
+      },
+      {
+        "label": "IX.iv",
+        "kind": "chapter",
+        "start": 716464
+      },
+      {
+        "label": "IX.v",
+        "kind": "chapter",
+        "start": 720757
+      },
+      {
+        "label": "IX.vi",
+        "kind": "chapter",
+        "start": 725081
+      },
+      {
+        "label": "IX.vii",
+        "kind": "chapter",
+        "start": 727959
+      },
+      {
+        "label": "IX.viii",
+        "kind": "chapter",
+        "start": 732864
+      },
+      {
+        "label": "IX.ix",
+        "kind": "chapter",
+        "start": 737044
+      },
+      {
+        "label": "IX.x",
+        "kind": "chapter",
+        "start": 738632
+      },
+      {
+        "label": "IX.xi",
+        "kind": "chapter",
+        "start": 741950
+      },
+      {
+        "label": "IX.xii",
+        "kind": "chapter",
+        "start": 743799
+      },
+      {
+        "label": "IX.xiii",
+        "kind": "chapter",
+        "start": 746869
+      },
+      {
+        "label": "IX.xiv",
+        "kind": "chapter",
+        "start": 751267
+      },
+      {
+        "label": "IX.xv",
+        "kind": "chapter",
+        "start": 754818
+      },
+      {
+        "label": "IX.xvi",
+        "kind": "chapter",
+        "start": 759025
+      },
+      {
+        "label": "IX.xvii",
+        "kind": "chapter",
+        "start": 762549
+      },
+      {
+        "label": "IX.xviii",
+        "kind": "chapter",
+        "start": 766660
+      },
+      {
+        "label": "IX.xx",
+        "kind": "chapter",
+        "start": 773964
+      },
+      {
+        "label": "IX.xxi",
+        "kind": "chapter",
+        "start": 777540
+      },
+      {
+        "label": "IX.xxii",
+        "kind": "chapter",
+        "start": 780766
+      },
+      {
+        "label": "IX.xxiii",
+        "kind": "chapter",
+        "start": 785074
+      },
+      {
+        "label": "IX.xxiv",
+        "kind": "chapter",
+        "start": 789342
+      },
+      {
+        "label": "IX.xxv",
+        "kind": "chapter",
+        "start": 793533
+      },
+      {
+        "label": "IX.xxvi",
+        "kind": "chapter",
+        "start": 796690
+      },
+      {
+        "label": "IX.xxvii",
+        "kind": "chapter",
+        "start": 799987
+      },
+      {
+        "label": "IX.xxix",
+        "kind": "chapter",
+        "start": 806515
+      },
+      {
+        "label": "IX.xxx",
+        "kind": "chapter",
+        "start": 809221
+      },
+      {
+        "label": "IX.xxxi",
+        "kind": "chapter",
+        "start": 813907
+      },
+      {
+        "label": "IX.xxxii",
+        "kind": "chapter",
+        "start": 819176
+      },
+      {
+        "label": "IX.xxxiii",
+        "kind": "chapter",
+        "start": 822211
+      },
+      {
+        "label": "IX.xxxiv",
+        "kind": "chapter",
+        "start": 826565
+      },
+      {
+        "label": "IX.xxxv",
+        "kind": "chapter",
+        "start": 830312
+      },
+      {
+        "label": "IX.xxxvi",
+        "kind": "chapter",
+        "start": 834841
+      },
+      {
+        "label": "IX.xxxvii",
+        "kind": "chapter",
+        "start": 839154
+      },
+      {
+        "label": "IX.xxviii",
+        "kind": "chapter",
+        "start": 843912
+      },
+      {
+        "label": "IX.xix",
+        "kind": "chapter",
+        "start": 848694
+      },
+      {
+        "label": "IX.xl",
+        "kind": "chapter",
+        "start": 853492
+      },
+      {
+        "label": "IX.xli",
+        "kind": "chapter",
+        "start": 857581
+      },
+      {
+        "label": "IX.xlii",
+        "kind": "chapter",
+        "start": 859327
+      },
+      {
+        "label": "IX.xliii",
+        "kind": "chapter",
+        "start": 861523
+      }
+    ]
+  },
+  "malory2": {
+    "author": "Malory",
+    "work": "Le Morte d'Arthur, Vol. II (Caxton / Project Gutenberg; Books X–XXI)",
+    "scheme": "malory_books",
+    "cite": "Malory",
+    "chars": 1004716,
+    "n_anchors": 263,
+    "anchors": [
+      {
+        "label": "X.i",
+        "kind": "chapter",
+        "start": 31148
+      },
+      {
+        "label": "X.ii",
+        "kind": "chapter",
+        "start": 35036
+      },
+      {
+        "label": "X.iii",
+        "kind": "chapter",
+        "start": 40138
+      },
+      {
+        "label": "X.iv",
+        "kind": "chapter",
+        "start": 43850
+      },
+      {
+        "label": "X.v",
+        "kind": "chapter",
+        "start": 47153
+      },
+      {
+        "label": "X.vi",
+        "kind": "chapter",
+        "start": 50534
+      },
+      {
+        "label": "X.vii",
+        "kind": "chapter",
+        "start": 54798
+      },
+      {
+        "label": "X.viii",
+        "kind": "chapter",
+        "start": 58458
+      },
+      {
+        "label": "X.ix",
+        "kind": "chapter",
+        "start": 62991
+      },
+      {
+        "label": "X.x",
+        "kind": "chapter",
+        "start": 65044
+      },
+      {
+        "label": "X.xi",
+        "kind": "chapter",
+        "start": 68045
+      },
+      {
+        "label": "X.xii",
+        "kind": "chapter",
+        "start": 71318
+      },
+      {
+        "label": "X.xiii",
+        "kind": "chapter",
+        "start": 75267
+      },
+      {
+        "label": "X.xiv",
+        "kind": "chapter",
+        "start": 79341
+      },
+      {
+        "label": "X.xv",
+        "kind": "chapter",
+        "start": 82533
+      },
+      {
+        "label": "X.xvi",
+        "kind": "chapter",
+        "start": 86435
+      },
+      {
+        "label": "X.xvii",
+        "kind": "chapter",
+        "start": 90443
+      },
+      {
+        "label": "X.xviii",
+        "kind": "chapter",
+        "start": 93947
+      },
+      {
+        "label": "X.xix",
+        "kind": "chapter",
+        "start": 97886
+      },
+      {
+        "label": "X.xx",
+        "kind": "chapter",
+        "start": 101327
+      },
+      {
+        "label": "X.xxii",
+        "kind": "chapter",
+        "start": 110207
+      },
+      {
+        "label": "X.xxiii",
+        "kind": "chapter",
+        "start": 113431
+      },
+      {
+        "label": "X.xxiv",
+        "kind": "chapter",
+        "start": 115929
+      },
+      {
+        "label": "X.xxv",
+        "kind": "chapter",
+        "start": 119703
+      },
+      {
+        "label": "X.xxvi",
+        "kind": "chapter",
+        "start": 122750
+      },
+      {
+        "label": "X.xxvii",
+        "kind": "chapter",
+        "start": 125753
+      },
+      {
+        "label": "X.xxviii",
+        "kind": "chapter",
+        "start": 128183
+      },
+      {
+        "label": "X.xxix",
+        "kind": "chapter",
+        "start": 132490
+      },
+      {
+        "label": "X.xxi",
+        "kind": "chapter",
+        "start": 136434
+      },
+      {
+        "label": "X.xxxi",
+        "kind": "chapter",
+        "start": 141944
+      },
+      {
+        "label": "X.xxxii",
+        "kind": "chapter",
+        "start": 143866
+      },
+      {
+        "label": "X.xxxiii",
+        "kind": "chapter",
+        "start": 146894
+      },
+      {
+        "label": "X.xxxiv",
+        "kind": "chapter",
+        "start": 149158
+      },
+      {
+        "label": "X.xxxv",
+        "kind": "chapter",
+        "start": 151021
+      },
+      {
+        "label": "X.xxxvi",
+        "kind": "chapter",
+        "start": 154501
+      },
+      {
+        "label": "X.xxxvii",
+        "kind": "chapter",
+        "start": 159683
+      },
+      {
+        "label": "X.xxxviii",
+        "kind": "chapter",
+        "start": 161979
+      },
+      {
+        "label": "X.xxxix",
+        "kind": "chapter",
+        "start": 166118
+      },
+      {
+        "label": "X.xl",
+        "kind": "chapter",
+        "start": 170225
+      },
+      {
+        "label": "X.xli",
+        "kind": "chapter",
+        "start": 172519
+      },
+      {
+        "label": "X.xlii",
+        "kind": "chapter",
+        "start": 176896
+      },
+      {
+        "label": "X.xliii",
+        "kind": "chapter",
+        "start": 179817
+      },
+      {
+        "label": "X.xliv",
+        "kind": "chapter",
+        "start": 181124
+      },
+      {
+        "label": "X.xlv",
+        "kind": "chapter",
+        "start": 185078
+      },
+      {
+        "label": "X.xlvi",
+        "kind": "chapter",
+        "start": 188019
+      },
+      {
+        "label": "X.xlvii",
+        "kind": "chapter",
+        "start": 191152
+      },
+      {
+        "label": "X.xlviii",
+        "kind": "chapter",
+        "start": 195359
+      },
+      {
+        "label": "X.xlix",
+        "kind": "chapter",
+        "start": 198668
+      },
+      {
+        "label": "X.l",
+        "kind": "chapter",
+        "start": 202199
+      },
+      {
+        "label": "X.li",
+        "kind": "chapter",
+        "start": 206340
+      },
+      {
+        "label": "X.lii",
+        "kind": "chapter",
+        "start": 212447
+      },
+      {
+        "label": "X.liii",
+        "kind": "chapter",
+        "start": 216379
+      },
+      {
+        "label": "X.liv",
+        "kind": "chapter",
+        "start": 223726
+      },
+      {
+        "label": "X.lv",
+        "kind": "chapter",
+        "start": 226021
+      },
+      {
+        "label": "X.lvi",
+        "kind": "chapter",
+        "start": 231900
+      },
+      {
+        "label": "X.lvii",
+        "kind": "chapter",
+        "start": 236089
+      },
+      {
+        "label": "X.lviii",
+        "kind": "chapter",
+        "start": 241282
+      },
+      {
+        "label": "X.lix",
+        "kind": "chapter",
+        "start": 244827
+      },
+      {
+        "label": "X.lx",
+        "kind": "chapter",
+        "start": 248469
+      },
+      {
+        "label": "X.lxi",
+        "kind": "chapter",
+        "start": 254254
+      },
+      {
+        "label": "X.lxii",
+        "kind": "chapter",
+        "start": 258254
+      },
+      {
+        "label": "X.lxiii",
+        "kind": "chapter",
+        "start": 262659
+      },
+      {
+        "label": "X.lxiv",
+        "kind": "chapter",
+        "start": 267137
+      },
+      {
+        "label": "X.lxv",
+        "kind": "chapter",
+        "start": 271337
+      },
+      {
+        "label": "X.lxvi",
+        "kind": "chapter",
+        "start": 276151
+      },
+      {
+        "label": "X.lxvii",
+        "kind": "chapter",
+        "start": 280445
+      },
+      {
+        "label": "X.lxviii",
+        "kind": "chapter",
+        "start": 283792
+      },
+      {
+        "label": "X.lxix",
+        "kind": "chapter",
+        "start": 288487
+      },
+      {
+        "label": "X.lxx",
+        "kind": "chapter",
+        "start": 292693
+      },
+      {
+        "label": "X.lxxi",
+        "kind": "chapter",
+        "start": 296778
+      },
+      {
+        "label": "X.lxxii",
+        "kind": "chapter",
+        "start": 301233
+      },
+      {
+        "label": "X.lxxiii",
+        "kind": "chapter",
+        "start": 303275
+      },
+      {
+        "label": "X.lxxiv",
+        "kind": "chapter",
+        "start": 308425
+      },
+      {
+        "label": "X.lxxv",
+        "kind": "chapter",
+        "start": 312986
+      },
+      {
+        "label": "X.lxxvi",
+        "kind": "chapter",
+        "start": 316189
+      },
+      {
+        "label": "X.lxxvii",
+        "kind": "chapter",
+        "start": 322404
+      },
+      {
+        "label": "X.lxxviii",
+        "kind": "chapter",
+        "start": 326427
+      },
+      {
+        "label": "X.lxxix",
+        "kind": "chapter",
+        "start": 330192
+      },
+      {
+        "label": "X.lxxx",
+        "kind": "chapter",
+        "start": 334299
+      },
+      {
+        "label": "X.lxxxi",
+        "kind": "chapter",
+        "start": 338199
+      },
+      {
+        "label": "X.lxxxii",
+        "kind": "chapter",
+        "start": 340325
+      },
+      {
+        "label": "X.lxxxiii",
+        "kind": "chapter",
+        "start": 343773
+      },
+      {
+        "label": "X.lxxxiv",
+        "kind": "chapter",
+        "start": 348299
+      },
+      {
+        "label": "X.lxxxv",
+        "kind": "chapter",
+        "start": 353051
+      },
+      {
+        "label": "X.lxxxvi",
+        "kind": "chapter",
+        "start": 356434
+      },
+      {
+        "label": "X.lxxxvii",
+        "kind": "chapter",
+        "start": 362173
+      },
+      {
+        "label": "X.lxxxviii",
+        "kind": "chapter",
+        "start": 364758
+      },
+      {
+        "label": "XI.i",
+        "kind": "chapter",
+        "start": 368600
+      },
+      {
+        "label": "XI.ii",
+        "kind": "chapter",
+        "start": 372734
+      },
+      {
+        "label": "XI.iii",
+        "kind": "chapter",
+        "start": 376483
+      },
+      {
+        "label": "XI.iv",
+        "kind": "chapter",
+        "start": 379849
+      },
+      {
+        "label": "XI.v",
+        "kind": "chapter",
+        "start": 384707
+      },
+      {
+        "label": "XI.vi",
+        "kind": "chapter",
+        "start": 387211
+      },
+      {
+        "label": "XI.vii",
+        "kind": "chapter",
+        "start": 389353
+      },
+      {
+        "label": "XI.viii",
+        "kind": "chapter",
+        "start": 392482
+      },
+      {
+        "label": "XI.ix",
+        "kind": "chapter",
+        "start": 395129
+      },
+      {
+        "label": "XI.x",
+        "kind": "chapter",
+        "start": 399136
+      },
+      {
+        "label": "XI.xi",
+        "kind": "chapter",
+        "start": 403169
+      },
+      {
+        "label": "XI.xii",
+        "kind": "chapter",
+        "start": 406562
+      },
+      {
+        "label": "XI.xiii",
+        "kind": "chapter",
+        "start": 410660
+      },
+      {
+        "label": "XI.xiv",
+        "kind": "chapter",
+        "start": 413904
+      },
+      {
+        "label": "XII.i",
+        "kind": "chapter",
+        "start": 415699
+      },
+      {
+        "label": "XII.ii",
+        "kind": "chapter",
+        "start": 419148
+      },
+      {
+        "label": "XII.iii",
+        "kind": "chapter",
+        "start": 422175
+      },
+      {
+        "label": "XII.iv",
+        "kind": "chapter",
+        "start": 425651
+      },
+      {
+        "label": "XII.v",
+        "kind": "chapter",
+        "start": 428743
+      },
+      {
+        "label": "XII.vi",
+        "kind": "chapter",
+        "start": 431535
+      },
+      {
+        "label": "XII.vii",
+        "kind": "chapter",
+        "start": 433834
+      },
+      {
+        "label": "XII.ix",
+        "kind": "chapter",
+        "start": 438869
+      },
+      {
+        "label": "XII.x",
+        "kind": "chapter",
+        "start": 442276
+      },
+      {
+        "label": "XII.xi",
+        "kind": "chapter",
+        "start": 443689
+      },
+      {
+        "label": "XII.xii",
+        "kind": "chapter",
+        "start": 446217
+      },
+      {
+        "label": "XII.xiii",
+        "kind": "chapter",
+        "start": 449229
+      },
+      {
+        "label": "XII.xiv",
+        "kind": "chapter",
+        "start": 452064
+      },
+      {
+        "label": "XIII.i",
+        "kind": "chapter",
+        "start": 456238
+      },
+      {
+        "label": "XIII.ii",
+        "kind": "chapter",
+        "start": 459519
+      },
+      {
+        "label": "XIII.iii",
+        "kind": "chapter",
+        "start": 462885
+      },
+      {
+        "label": "XIII.iv",
+        "kind": "chapter",
+        "start": 465167
+      },
+      {
+        "label": "XIII.v",
+        "kind": "chapter",
+        "start": 468068
+      },
+      {
+        "label": "XIII.vi",
+        "kind": "chapter",
+        "start": 470465
+      },
+      {
+        "label": "XIII.vii",
+        "kind": "chapter",
+        "start": 471906
+      },
+      {
+        "label": "XIII.viii",
+        "kind": "chapter",
+        "start": 475599
+      },
+      {
+        "label": "XIII.ix",
+        "kind": "chapter",
+        "start": 480932
+      },
+      {
+        "label": "XIII.x",
+        "kind": "chapter",
+        "start": 484453
+      },
+      {
+        "label": "XIII.xi",
+        "kind": "chapter",
+        "start": 487800
+      },
+      {
+        "label": "XIII.xii",
+        "kind": "chapter",
+        "start": 489926
+      },
+      {
+        "label": "XIII.xiii",
+        "kind": "chapter",
+        "start": 493293
+      },
+      {
+        "label": "XIII.xiv",
+        "kind": "chapter",
+        "start": 496541
+      },
+      {
+        "label": "XIII.xv",
+        "kind": "chapter",
+        "start": 498877
+      },
+      {
+        "label": "XIII.xvi",
+        "kind": "chapter",
+        "start": 503927
+      },
+      {
+        "label": "XIII.xvii",
+        "kind": "chapter",
+        "start": 508232
+      },
+      {
+        "label": "XIII.xviii",
+        "kind": "chapter",
+        "start": 510921
+      },
+      {
+        "label": "XIII.xix",
+        "kind": "chapter",
+        "start": 513499
+      },
+      {
+        "label": "XIII.xx",
+        "kind": "chapter",
+        "start": 516572
+      },
+      {
+        "label": "XIV.i",
+        "kind": "chapter",
+        "start": 520585
+      },
+      {
+        "label": "XIV.ii",
+        "kind": "chapter",
+        "start": 523113
+      },
+      {
+        "label": "XIV.iii",
+        "kind": "chapter",
+        "start": 525389
+      },
+      {
+        "label": "XIV.iv",
+        "kind": "chapter",
+        "start": 527859
+      },
+      {
+        "label": "XIV.v",
+        "kind": "chapter",
+        "start": 531322
+      },
+      {
+        "label": "XIV.vi",
+        "kind": "chapter",
+        "start": 533855
+      },
+      {
+        "label": "XIV.vii",
+        "kind": "chapter",
+        "start": 537181
+      },
+      {
+        "label": "XIV.viii",
+        "kind": "chapter",
+        "start": 540856
+      },
+      {
+        "label": "XIV.ix",
+        "kind": "chapter",
+        "start": 544463
+      },
+      {
+        "label": "XIV.x",
+        "kind": "chapter",
+        "start": 546736
+      },
+      {
+        "label": "XV.i",
+        "kind": "chapter",
+        "start": 549126
+      },
+      {
+        "label": "XV.ii",
+        "kind": "chapter",
+        "start": 551376
+      },
+      {
+        "label": "XV.iii",
+        "kind": "chapter",
+        "start": 554800
+      },
+      {
+        "label": "XV.iv",
+        "kind": "chapter",
+        "start": 557390
+      },
+      {
+        "label": "XV.v",
+        "kind": "chapter",
+        "start": 560215
+      },
+      {
+        "label": "XV.vi",
+        "kind": "chapter",
+        "start": 563150
+      },
+      {
+        "label": "XVI.i",
+        "kind": "chapter",
+        "start": 566772
+      },
+      {
+        "label": "XVI.ii",
+        "kind": "chapter",
+        "start": 569405
+      },
+      {
+        "label": "XVI.iii",
+        "kind": "chapter",
+        "start": 573808
+      },
+      {
+        "label": "XVI.iv",
+        "kind": "chapter",
+        "start": 577309
+      },
+      {
+        "label": "XVI.v",
+        "kind": "chapter",
+        "start": 579566
+      },
+      {
+        "label": "XVI.vi",
+        "kind": "chapter",
+        "start": 581745
+      },
+      {
+        "label": "XVI.vii",
+        "kind": "chapter",
+        "start": 584322
+      },
+      {
+        "label": "XVI.viii",
+        "kind": "chapter",
+        "start": 586833
+      },
+      {
+        "label": "XVI.ix",
+        "kind": "chapter",
+        "start": 590651
+      },
+      {
+        "label": "XVI.x",
+        "kind": "chapter",
+        "start": 593539
+      },
+      {
+        "label": "XVI.xi",
+        "kind": "chapter",
+        "start": 596614
+      },
+      {
+        "label": "XVI.xii",
+        "kind": "chapter",
+        "start": 600034
+      },
+      {
+        "label": "XVI.xiii",
+        "kind": "chapter",
+        "start": 602973
+      },
+      {
+        "label": "XVI.xiv",
+        "kind": "chapter",
+        "start": 606083
+      },
+      {
+        "label": "XVI.xv",
+        "kind": "chapter",
+        "start": 609766
+      },
+      {
+        "label": "XVI.xvi",
+        "kind": "chapter",
+        "start": 613071
+      },
+      {
+        "label": "XVI.xvii",
+        "kind": "chapter",
+        "start": 614674
+      },
+      {
+        "label": "XVII.i",
+        "kind": "chapter",
+        "start": 617461
+      },
+      {
+        "label": "XVII.ii",
+        "kind": "chapter",
+        "start": 621002
+      },
+      {
+        "label": "XVII.iii",
+        "kind": "chapter",
+        "start": 624463
+      },
+      {
+        "label": "XVII.iv",
+        "kind": "chapter",
+        "start": 628244
+      },
+      {
+        "label": "XVII.v",
+        "kind": "chapter",
+        "start": 632012
+      },
+      {
+        "label": "XVII.vi",
+        "kind": "chapter",
+        "start": 635817
+      },
+      {
+        "label": "XVII.vii",
+        "kind": "chapter",
+        "start": 638950
+      },
+      {
+        "label": "XVII.viii",
+        "kind": "chapter",
+        "start": 642752
+      },
+      {
+        "label": "XVII.ix",
+        "kind": "chapter",
+        "start": 646533
+      },
+      {
+        "label": "XVII.x",
+        "kind": "chapter",
+        "start": 649925
+      },
+      {
+        "label": "XVII.xi",
+        "kind": "chapter",
+        "start": 652813
+      },
+      {
+        "label": "XVII.xii",
+        "kind": "chapter",
+        "start": 656735
+      },
+      {
+        "label": "XVII.xiii",
+        "kind": "chapter",
+        "start": 657935
+      },
+      {
+        "label": "XVII.xiv",
+        "kind": "chapter",
+        "start": 661841
+      },
+      {
+        "label": "XVII.xv",
+        "kind": "chapter",
+        "start": 664734
+      },
+      {
+        "label": "XVII.xvi",
+        "kind": "chapter",
+        "start": 668032
+      },
+      {
+        "label": "XVII.xvii",
+        "kind": "chapter",
+        "start": 672504
+      },
+      {
+        "label": "XVII.xviii",
+        "kind": "chapter",
+        "start": 674600
+      },
+      {
+        "label": "XVII.xix",
+        "kind": "chapter",
+        "start": 677700
+      },
+      {
+        "label": "XVII.xx",
+        "kind": "chapter",
+        "start": 681006
+      },
+      {
+        "label": "XVII.xxi",
+        "kind": "chapter",
+        "start": 685002
+      },
+      {
+        "label": "XVII.xxii",
+        "kind": "chapter",
+        "start": 689152
+      },
+      {
+        "label": "XVII.xxiii",
+        "kind": "chapter",
+        "start": 692431
+      },
+      {
+        "label": "XVIII.i",
+        "kind": "chapter",
+        "start": 695252
+      },
+      {
+        "label": "XVIII.ii",
+        "kind": "chapter",
+        "start": 698690
+      },
+      {
+        "label": "XVIII.iii",
+        "kind": "chapter",
+        "start": 701483
+      },
+      {
+        "label": "XVIII.iv",
+        "kind": "chapter",
+        "start": 704634
+      },
+      {
+        "label": "XVIII.v",
+        "kind": "chapter",
+        "start": 708298
+      },
+      {
+        "label": "XVIII.vi",
+        "kind": "chapter",
+        "start": 713150
+      },
+      {
+        "label": "XVIII.vii",
+        "kind": "chapter",
+        "start": 716916
+      },
+      {
+        "label": "XVIII.viii",
+        "kind": "chapter",
+        "start": 721611
+      },
+      {
+        "label": "XVIII.ix",
+        "kind": "chapter",
+        "start": 725263
+      },
+      {
+        "label": "XVIII.x",
+        "kind": "chapter",
+        "start": 729744
+      },
+      {
+        "label": "XVIII.xi",
+        "kind": "chapter",
+        "start": 733055
+      },
+      {
+        "label": "XVIII.xii",
+        "kind": "chapter",
+        "start": 737736
+      },
+      {
+        "label": "XVIII.xiii",
+        "kind": "chapter",
+        "start": 742006
+      },
+      {
+        "label": "XVIII.xiv",
+        "kind": "chapter",
+        "start": 746758
+      },
+      {
+        "label": "XVIII.xv",
+        "kind": "chapter",
+        "start": 750686
+      },
+      {
+        "label": "XVIII.xvi",
+        "kind": "chapter",
+        "start": 754998
+      },
+      {
+        "label": "XVIII.xvii",
+        "kind": "chapter",
+        "start": 758818
+      },
+      {
+        "label": "XVIII.xviii",
+        "kind": "chapter",
+        "start": 762585
+      },
+      {
+        "label": "XVIII.xix",
+        "kind": "chapter",
+        "start": 766417
+      },
+      {
+        "label": "XVIII.xx",
+        "kind": "chapter",
+        "start": 772240
+      },
+      {
+        "label": "XVIII.xxi",
+        "kind": "chapter",
+        "start": 776819
+      },
+      {
+        "label": "XVIII.xxii",
+        "kind": "chapter",
+        "start": 780859
+      },
+      {
+        "label": "XVIII.xxiii",
+        "kind": "chapter",
+        "start": 783386
+      },
+      {
+        "label": "XVIII.xxiv",
+        "kind": "chapter",
+        "start": 789352
+      },
+      {
+        "label": "XVIII.xxv",
+        "kind": "chapter",
+        "start": 793729
+      },
+      {
+        "label": "XIX.i",
+        "kind": "chapter",
+        "start": 796270
+      },
+      {
+        "label": "XIX.ii",
+        "kind": "chapter",
+        "start": 799421
+      },
+      {
+        "label": "XIX.iii",
+        "kind": "chapter",
+        "start": 802506
+      },
+      {
+        "label": "XIX.iv",
+        "kind": "chapter",
+        "start": 806117
+      },
+      {
+        "label": "XIX.v",
+        "kind": "chapter",
+        "start": 810282
+      },
+      {
+        "label": "XIX.vi",
+        "kind": "chapter",
+        "start": 814900
+      },
+      {
+        "label": "XIX.vii",
+        "kind": "chapter",
+        "start": 819290
+      },
+      {
+        "label": "XIX.viii",
+        "kind": "chapter",
+        "start": 823641
+      },
+      {
+        "label": "XIX.ix",
+        "kind": "chapter",
+        "start": 826029
+      },
+      {
+        "label": "XIX.x",
+        "kind": "chapter",
+        "start": 831496
+      },
+      {
+        "label": "XIX.xi",
+        "kind": "chapter",
+        "start": 835443
+      },
+      {
+        "label": "XIX.xii",
+        "kind": "chapter",
+        "start": 842264
+      },
+      {
+        "label": "XIX.xiii",
+        "kind": "chapter",
+        "start": 846381
+      },
+      {
+        "label": "XX.i",
+        "kind": "chapter",
+        "start": 848558
+      },
+      {
+        "label": "XX.ii",
+        "kind": "chapter",
+        "start": 852085
+      },
+      {
+        "label": "XX.iii",
+        "kind": "chapter",
+        "start": 855852
+      },
+      {
+        "label": "XX.iv",
+        "kind": "chapter",
+        "start": 859533
+      },
+      {
+        "label": "XX.v",
+        "kind": "chapter",
+        "start": 862955
+      },
+      {
+        "label": "XX.vi",
+        "kind": "chapter",
+        "start": 867659
+      },
+      {
+        "label": "XX.vii",
+        "kind": "chapter",
+        "start": 871831
+      },
+      {
+        "label": "XX.viii",
+        "kind": "chapter",
+        "start": 876136
+      },
+      {
+        "label": "XX.ix",
+        "kind": "chapter",
+        "start": 880148
+      },
+      {
+        "label": "XX.x",
+        "kind": "chapter",
+        "start": 883933
+      },
+      {
+        "label": "XX.xi",
+        "kind": "chapter",
+        "start": 887768
+      },
+      {
+        "label": "XX.xii",
+        "kind": "chapter",
+        "start": 892998
+      },
+      {
+        "label": "XX.xiii",
+        "kind": "chapter",
+        "start": 895886
+      },
+      {
+        "label": "XX.xiv",
+        "kind": "chapter",
+        "start": 900640
+      },
+      {
+        "label": "XX.xv",
+        "kind": "chapter",
+        "start": 905168
+      },
+      {
+        "label": "XX.xvi",
+        "kind": "chapter",
+        "start": 908994
+      },
+      {
+        "label": "XX.xvii",
+        "kind": "chapter",
+        "start": 912764
+      },
+      {
+        "label": "XX.xviii",
+        "kind": "chapter",
+        "start": 918117
+      },
+      {
+        "label": "XX.xix",
+        "kind": "chapter",
+        "start": 921133
+      },
+      {
+        "label": "XX.xx",
+        "kind": "chapter",
+        "start": 925499
+      },
+      {
+        "label": "XX.xxi",
+        "kind": "chapter",
+        "start": 930627
+      },
+      {
+        "label": "XX.xxii",
+        "kind": "chapter",
+        "start": 933945
+      },
+      {
+        "label": "XXI.i",
+        "kind": "chapter",
+        "start": 939319
+      },
+      {
+        "label": "XXI.ii",
+        "kind": "chapter",
+        "start": 944133
+      },
+      {
+        "label": "XXI.iii",
+        "kind": "chapter",
+        "start": 949217
+      },
+      {
+        "label": "XXI.iv",
+        "kind": "chapter",
+        "start": 953357
+      },
+      {
+        "label": "XXI.v",
+        "kind": "chapter",
+        "start": 958724
+      },
+      {
+        "label": "XXI.vi",
+        "kind": "chapter",
+        "start": 963747
+      },
+      {
+        "label": "XXI.vii",
+        "kind": "chapter",
+        "start": 966276
+      },
+      {
+        "label": "XXI.viii",
+        "kind": "chapter",
+        "start": 967700
+      },
+      {
+        "label": "XXI.ix",
+        "kind": "chapter",
+        "start": 971856
+      },
+      {
+        "label": "XXI.x",
+        "kind": "chapter",
+        "start": 975153
+      },
+      {
+        "label": "XXI.xi",
+        "kind": "chapter",
+        "start": 979054
+      },
+      {
+        "label": "XXI.xii",
+        "kind": "chapter",
+        "start": 982091
+      },
+      {
+        "label": "XXI.xiii",
+        "kind": "chapter",
+        "start": 985876
+      }
+    ]
+  },
+  "geoffrey": {
+    "author": "Geoffrey of Monmouth",
+    "work": "The History of the Kings of Britain (full Historia, Bks I–XII on hand)",
+    "scheme": "book_chapter",
+    "cite": "Geoffrey of Monmouth",
+    "chars": 544630,
+    "n_anchors": 147,
+    "anchors": [
+      {
+        "label": "Bk I",
+        "kind": "book",
+        "start": 38342
+      },
+      {
+        "label": "Bk I, ch. I",
+        "kind": "chapter",
+        "start": 38349
+      },
+      {
+        "label": "Bk I, ch. II",
+        "kind": "chapter",
+        "start": 40498
+      },
+      {
+        "label": "Bk I, ch. V",
+        "kind": "chapter",
+        "start": 47433
+      },
+      {
+        "label": "Bk I, ch. VII",
+        "kind": "chapter",
+        "start": 50796
+      },
+      {
+        "label": "Bk I, ch. VIII",
+        "kind": "chapter",
+        "start": 53127
+      },
+      {
+        "label": "Bk I, ch. IX",
+        "kind": "chapter",
+        "start": 54949
+      },
+      {
+        "label": "Bk I, ch. XI",
+        "kind": "chapter",
+        "start": 59763
+      },
+      {
+        "label": "Bk I, ch. XII",
+        "kind": "chapter",
+        "start": 66457
+      },
+      {
+        "label": "Bk I, ch. XIII",
+        "kind": "chapter",
+        "start": 70284
+      },
+      {
+        "label": "Bk I, ch. XIV",
+        "kind": "chapter",
+        "start": 71755
+      },
+      {
+        "label": "Bk I, ch. XV",
+        "kind": "chapter",
+        "start": 77202
+      },
+      {
+        "label": "Bk I, ch. XVI",
+        "kind": "chapter",
+        "start": 81651
+      },
+      {
+        "label": "Bk I, ch. XVII",
+        "kind": "chapter",
+        "start": 84847
+      },
+      {
+        "label": "Bk I, ch. XVIII",
+        "kind": "chapter",
+        "start": 85951
+      },
+      {
+        "label": "Bk II",
+        "kind": "book",
+        "start": 86454
+      },
+      {
+        "label": "Bk II, ch. II",
+        "kind": "chapter",
+        "start": 87525
+      },
+      {
+        "label": "Bk II, ch. V",
+        "kind": "chapter",
+        "start": 90530
+      },
+      {
+        "label": "Bk II, ch. VII",
+        "kind": "chapter",
+        "start": 92884
+      },
+      {
+        "label": "Bk II, ch. VIII",
+        "kind": "chapter",
+        "start": 93701
+      },
+      {
+        "label": "Bk II, ch. X",
+        "kind": "chapter",
+        "start": 96139
+      },
+      {
+        "label": "Bk II, ch. XII",
+        "kind": "chapter",
+        "start": 105792
+      },
+      {
+        "label": "Bk II, ch. XIII",
+        "kind": "chapter",
+        "start": 110881
+      },
+      {
+        "label": "Bk II, ch. XIV",
+        "kind": "chapter",
+        "start": 111458
+      },
+      {
+        "label": "Bk II, ch. XV",
+        "kind": "chapter",
+        "start": 112381
+      },
+      {
+        "label": "Bk II, ch. XVI",
+        "kind": "chapter",
+        "start": 114643
+      },
+      {
+        "label": "Bk II, ch. XVII",
+        "kind": "chapter",
+        "start": 116019
+      },
+      {
+        "label": "Bk III",
+        "kind": "book",
+        "start": 119078
+      },
+      {
+        "label": "Bk III, ch. IV",
+        "kind": "chapter",
+        "start": 124628
+      },
+      {
+        "label": "Bk III, ch. V",
+        "kind": "chapter",
+        "start": 125378
+      },
+      {
+        "label": "Bk III, ch. VI",
+        "kind": "chapter",
+        "start": 126970
+      },
+      {
+        "label": "Bk III, ch. VM",
+        "kind": "chapter",
+        "start": 132655
+      },
+      {
+        "label": "Bk III, ch. IX",
+        "kind": "chapter",
+        "start": 133463
+      },
+      {
+        "label": "Bk III, ch. X",
+        "kind": "chapter",
+        "start": 137656
+      },
+      {
+        "label": "Bk III, ch. XI",
+        "kind": "chapter",
+        "start": 139320
+      },
+      {
+        "label": "Bk III, ch. XII",
+        "kind": "chapter",
+        "start": 140068
+      },
+      {
+        "label": "Bk III, ch. XIV",
+        "kind": "chapter",
+        "start": 141896
+      },
+      {
+        "label": "Bk III, ch. XV",
+        "kind": "chapter",
+        "start": 142670
+      },
+      {
+        "label": "Bk III, ch. XVI",
+        "kind": "chapter",
+        "start": 143756
+      },
+      {
+        "label": "Bk III, ch. XVII",
+        "kind": "chapter",
+        "start": 144725
+      },
+      {
+        "label": "Bk III, ch. XVIII",
+        "kind": "chapter",
+        "start": 147642
+      },
+      {
+        "label": "Bk III, ch. XX",
+        "kind": "chapter",
+        "start": 150616
+      },
+      {
+        "label": "Bk IV",
+        "kind": "book",
+        "start": 152567
+      },
+      {
+        "label": "Bk IV, ch. I",
+        "kind": "chapter",
+        "start": 152575
+      },
+      {
+        "label": "Bk IV, ch. II",
+        "kind": "chapter",
+        "start": 153921
+      },
+      {
+        "label": "Bk IV, ch. III",
+        "kind": "chapter",
+        "start": 155476
+      },
+      {
+        "label": "Bk IV, ch. IV",
+        "kind": "chapter",
+        "start": 159054
+      },
+      {
+        "label": "Bk IV, ch. IX",
+        "kind": "chapter",
+        "start": 168972
+      },
+      {
+        "label": "Bk IV, ch. X",
+        "kind": "chapter",
+        "start": 173635
+      },
+      {
+        "label": "Bk IV, ch. XI",
+        "kind": "chapter",
+        "start": 175116
+      },
+      {
+        "label": "Bk IV, ch. XII",
+        "kind": "chapter",
+        "start": 175930
+      },
+      {
+        "label": "Bk IV, ch. XIV",
+        "kind": "chapter",
+        "start": 178913
+      },
+      {
+        "label": "Bk IV, ch. XVI",
+        "kind": "chapter",
+        "start": 181549
+      },
+      {
+        "label": "Bk IV, ch. XVII",
+        "kind": "chapter",
+        "start": 183824
+      },
+      {
+        "label": "Bk IV, ch. XVIII",
+        "kind": "chapter",
+        "start": 185479
+      },
+      {
+        "label": "Bk IV, ch. XIX",
+        "kind": "chapter",
+        "start": 186133
+      },
+      {
+        "label": "Bk IV, ch. XX",
+        "kind": "chapter",
+        "start": 188409
+      },
+      {
+        "label": "Bk V",
+        "kind": "book",
+        "start": 188876
+      },
+      {
+        "label": "Bk V, ch. I",
+        "kind": "chapter",
+        "start": 188883
+      },
+      {
+        "label": "Bk V, ch. II",
+        "kind": "chapter",
+        "start": 189546
+      },
+      {
+        "label": "Bk V, ch. III",
+        "kind": "chapter",
+        "start": 191698
+      },
+      {
+        "label": "Bk V, ch. IV",
+        "kind": "chapter",
+        "start": 193862
+      },
+      {
+        "label": "Bk V, ch. VII",
+        "kind": "chapter",
+        "start": 201250
+      },
+      {
+        "label": "Bk V, ch. XIII",
+        "kind": "chapter",
+        "start": 216247
+      },
+      {
+        "label": "Bk V, ch. XIV",
+        "kind": "chapter",
+        "start": 217424
+      },
+      {
+        "label": "Bk V, ch. XVI",
+        "kind": "chapter",
+        "start": 219425
+      },
+      {
+        "label": "Bk VI",
+        "kind": "book",
+        "start": 222968
+      },
+      {
+        "label": "Bk VI, ch. I",
+        "kind": "chapter",
+        "start": 222976
+      },
+      {
+        "label": "Bk VI, ch. III",
+        "kind": "chapter",
+        "start": 227374
+      },
+      {
+        "label": "Bk VI, ch. IV",
+        "kind": "chapter",
+        "start": 230358
+      },
+      {
+        "label": "Bk VI, ch. V",
+        "kind": "chapter",
+        "start": 234180
+      },
+      {
+        "label": "Bk VI, ch. VII",
+        "kind": "chapter",
+        "start": 236786
+      },
+      {
+        "label": "Bk VI, ch. VIII",
+        "kind": "chapter",
+        "start": 241879
+      },
+      {
+        "label": "Bk VI, ch. X",
+        "kind": "chapter",
+        "start": 243773
+      },
+      {
+        "label": "Bk VI, ch. XI",
+        "kind": "chapter",
+        "start": 247549
+      },
+      {
+        "label": "Bk VI, ch. XII",
+        "kind": "chapter",
+        "start": 250639
+      },
+      {
+        "label": "Bk VI, ch. XIII",
+        "kind": "chapter",
+        "start": 253188
+      },
+      {
+        "label": "Bk VI, ch. XIV",
+        "kind": "chapter",
+        "start": 256845
+      },
+      {
+        "label": "Bk VI, ch. XV",
+        "kind": "chapter",
+        "start": 258694
+      },
+      {
+        "label": "Bk VI, ch. XVI",
+        "kind": "chapter",
+        "start": 262894
+      },
+      {
+        "label": "Bk VI, ch. XVIII",
+        "kind": "chapter",
+        "start": 266543
+      },
+      {
+        "label": "Bk VI, ch. XIX",
+        "kind": "chapter",
+        "start": 268640
+      },
+      {
+        "label": "Bk VII",
+        "kind": "book",
+        "start": 270661
+      },
+      {
+        "label": "Bk VII, ch. III",
+        "kind": "chapter",
+        "start": 272675
+      },
+      {
+        "label": "Bk VIII",
+        "kind": "book",
+        "start": 299366
+      },
+      {
+        "label": "Bk VIII, ch. IV",
+        "kind": "chapter",
+        "start": 306219
+      },
+      {
+        "label": "Bk VIII, ch. VI",
+        "kind": "chapter",
+        "start": 310881
+      },
+      {
+        "label": "Bk VIII, ch. VII",
+        "kind": "chapter",
+        "start": 312678
+      },
+      {
+        "label": "Bk VIII, ch. VIII",
+        "kind": "chapter",
+        "start": 313919
+      },
+      {
+        "label": "Bk VIII, ch. X",
+        "kind": "chapter",
+        "start": 317362
+      },
+      {
+        "label": "Bk VIII, ch. XIII",
+        "kind": "chapter",
+        "start": 324240
+      },
+      {
+        "label": "Bk VIII, ch. XIV",
+        "kind": "chapter",
+        "start": 325050
+      },
+      {
+        "label": "Bk VIII, ch. XV",
+        "kind": "chapter",
+        "start": 328555
+      },
+      {
+        "label": "Bk VIII, ch. XVI",
+        "kind": "chapter",
+        "start": 330047
+      },
+      {
+        "label": "Bk VIII, ch. XVII",
+        "kind": "chapter",
+        "start": 331623
+      },
+      {
+        "label": "Bk VIII, ch. XVIII",
+        "kind": "chapter",
+        "start": 332417
+      },
+      {
+        "label": "Bk VIII, ch. XIX",
+        "kind": "chapter",
+        "start": 335451
+      },
+      {
+        "label": "Bk VIII, ch. XX",
+        "kind": "chapter",
+        "start": 341797
+      },
+      {
+        "label": "Bk VIII, ch. XXI",
+        "kind": "chapter",
+        "start": 344071
+      },
+      {
+        "label": "Bk VIII, ch. XXII",
+        "kind": "chapter",
+        "start": 345709
+      },
+      {
+        "label": "Bk VIII, ch. XXIV",
+        "kind": "chapter",
+        "start": 349331
+      },
+      {
+        "label": "Bk IX",
+        "kind": "book",
+        "start": 350642
+      },
+      {
+        "label": "Bk IX, ch. I",
+        "kind": "chapter",
+        "start": 350650
+      },
+      {
+        "label": "Bk IX, ch. V",
+        "kind": "chapter",
+        "start": 362074
+      },
+      {
+        "label": "Bk IX, ch. VI",
+        "kind": "chapter",
+        "start": 363727
+      },
+      {
+        "label": "Bk IX, ch. VIII",
+        "kind": "chapter",
+        "start": 367685
+      },
+      {
+        "label": "Bk IX, ch. IX",
+        "kind": "chapter",
+        "start": 368466
+      },
+      {
+        "label": "Bk IX, ch. X",
+        "kind": "chapter",
+        "start": 369363
+      },
+      {
+        "label": "Bk IX, ch. XI",
+        "kind": "chapter",
+        "start": 370333
+      },
+      {
+        "label": "Bk IX, ch. XIII",
+        "kind": "chapter",
+        "start": 381598
+      },
+      {
+        "label": "Bk IX, ch. XIV",
+        "kind": "chapter",
+        "start": 384720
+      },
+      {
+        "label": "Bk IX, ch. XVI",
+        "kind": "chapter",
+        "start": 389527
+      },
+      {
+        "label": "Bk IX, ch. XVII",
+        "kind": "chapter",
+        "start": 392476
+      },
+      {
+        "label": "Bk IX, ch. XVIII",
+        "kind": "chapter",
+        "start": 394450
+      },
+      {
+        "label": "Bk IX, ch. XIX",
+        "kind": "chapter",
+        "start": 395829
+      },
+      {
+        "label": "Bk IX, ch. XX",
+        "kind": "chapter",
+        "start": 396676
+      },
+      {
+        "label": "Bk X",
+        "kind": "book",
+        "start": 397435
+      },
+      {
+        "label": "Bk X, ch. III",
+        "kind": "chapter",
+        "start": 399837
+      },
+      {
+        "label": "Bk X, ch. IV",
+        "kind": "chapter",
+        "start": 406868
+      },
+      {
+        "label": "Bk X, ch. V",
+        "kind": "chapter",
+        "start": 413877
+      },
+      {
+        "label": "Bk X, ch. VII",
+        "kind": "chapter",
+        "start": 419053
+      },
+      {
+        "label": "Bk X, ch. VIII",
+        "kind": "chapter",
+        "start": 421152
+      },
+      {
+        "label": "Bk X, ch. IX",
+        "kind": "chapter",
+        "start": 425111
+      },
+      {
+        "label": "Bk X, ch. X",
+        "kind": "chapter",
+        "start": 429393
+      },
+      {
+        "label": "Bk X, ch. XII",
+        "kind": "chapter",
+        "start": 434913
+      },
+      {
+        "label": "Bk X, ch. XIII",
+        "kind": "chapter",
+        "start": 435582
+      },
+      {
+        "label": "Bk XI",
+        "kind": "book",
+        "start": 437078
+      },
+      {
+        "label": "Bk XI, ch. I",
+        "kind": "chapter",
+        "start": 437086
+      },
+      {
+        "label": "Bk XI, ch. II",
+        "kind": "chapter",
+        "start": 439545
+      },
+      {
+        "label": "Bk XI, ch. III",
+        "kind": "chapter",
+        "start": 443647
+      },
+      {
+        "label": "Bk XI, ch. V",
+        "kind": "chapter",
+        "start": 445220
+      },
+      {
+        "label": "Bk XI, ch. VIII",
+        "kind": "chapter",
+        "start": 446541
+      },
+      {
+        "label": "Bk XI, ch. X",
+        "kind": "chapter",
+        "start": 449663
+      },
+      {
+        "label": "Bk XI, ch. XI",
+        "kind": "chapter",
+        "start": 451015
+      },
+      {
+        "label": "Bk XI, ch. XII",
+        "kind": "chapter",
+        "start": 451517
+      },
+      {
+        "label": "Bk XI, ch. XIII",
+        "kind": "chapter",
+        "start": 452953
+      },
+      {
+        "label": "Bk XII",
+        "kind": "book",
+        "start": 454467
+      },
+      {
+        "label": "Bk XII, ch. I",
+        "kind": "chapter",
+        "start": 454476
+      },
+      {
+        "label": "Bk XII, ch. III",
+        "kind": "chapter",
+        "start": 459040
+      },
+      {
+        "label": "Bk XII, ch. V",
+        "kind": "chapter",
+        "start": 463029
+      },
+      {
+        "label": "Bk XII, ch. XII",
+        "kind": "chapter",
+        "start": 476500
+      },
+      {
+        "label": "Bk XII, ch. XIII",
+        "kind": "chapter",
+        "start": 477556
+      },
+      {
+        "label": "Bk XII, ch. XIV",
+        "kind": "chapter",
+        "start": 479121
+      },
+      {
+        "label": "Bk XII, ch. XV",
+        "kind": "chapter",
+        "start": 479706
+      },
+      {
+        "label": "Bk XII, ch. XVI",
+        "kind": "chapter",
+        "start": 481786
+      },
+      {
+        "label": "Bk XII, ch. XVIII",
+        "kind": "chapter",
+        "start": 484482
+      },
+      {
+        "label": "Bk XII, ch. XX",
+        "kind": "chapter",
+        "start": 486457
+      }
+    ]
+  },
+  "vulgate1": {
+    "author": "The Vulgate",
+    "work": "Lancelot-Grail, Vol. I (Lacy trans.)",
+    "scheme": "bracket_num",
+    "cite": "Lancelot-Grail (Lacy)",
+    "chars": 2762007,
+    "n_anchors": 472,
+    "anchors": [
+      {
+        "label": "[3]",
+        "kind": "para",
+        "start": 114295
+      },
+      {
+        "label": "[4]",
+        "kind": "para",
+        "start": 114353
+      },
+      {
+        "label": "[5]",
+        "kind": "para",
+        "start": 115352
+      },
+      {
+        "label": "[6]",
+        "kind": "para",
+        "start": 116798
+      },
+      {
+        "label": "[7]",
+        "kind": "para",
+        "start": 117745
+      },
+      {
+        "label": "[8]",
+        "kind": "para",
+        "start": 119717
+      },
+      {
+        "label": "[9]",
+        "kind": "para",
+        "start": 120736
+      },
+      {
+        "label": "[10]",
+        "kind": "para",
+        "start": 121887
+      },
+      {
+        "label": "[13]",
+        "kind": "para",
+        "start": 125001
+      },
+      {
+        "label": "[14]",
+        "kind": "para",
+        "start": 126027
+      },
+      {
+        "label": "[15]",
+        "kind": "para",
+        "start": 127000
+      },
+      {
+        "label": "[16]",
+        "kind": "para",
+        "start": 127776
+      },
+      {
+        "label": "[17]",
+        "kind": "para",
+        "start": 128649
+      },
+      {
+        "label": "[18]",
+        "kind": "para",
+        "start": 129759
+      },
+      {
+        "label": "[19]",
+        "kind": "para",
+        "start": 130929
+      },
+      {
+        "label": "[20]",
+        "kind": "para",
+        "start": 131814
+      },
+      {
+        "label": "[21]",
+        "kind": "para",
+        "start": 132812
+      },
+      {
+        "label": "[22]",
+        "kind": "para",
+        "start": 134034
+      },
+      {
+        "label": "[23]",
+        "kind": "para",
+        "start": 135086
+      },
+      {
+        "label": "[24]",
+        "kind": "para",
+        "start": 136070
+      },
+      {
+        "label": "[25]",
+        "kind": "para",
+        "start": 137056
+      },
+      {
+        "label": "[26]",
+        "kind": "para",
+        "start": 138589
+      },
+      {
+        "label": "[27]",
+        "kind": "para",
+        "start": 140006
+      },
+      {
+        "label": "[28]",
+        "kind": "para",
+        "start": 140797
+      },
+      {
+        "label": "[29]",
+        "kind": "para",
+        "start": 141985
+      },
+      {
+        "label": "[30]",
+        "kind": "para",
+        "start": 143292
+      },
+      {
+        "label": "[31]",
+        "kind": "para",
+        "start": 144342
+      },
+      {
+        "label": "[32]",
+        "kind": "para",
+        "start": 145869
+      },
+      {
+        "label": "[33]",
+        "kind": "para",
+        "start": 146893
+      },
+      {
+        "label": "[34]",
+        "kind": "para",
+        "start": 148181
+      },
+      {
+        "label": "[35]",
+        "kind": "para",
+        "start": 149410
+      },
+      {
+        "label": "[36]",
+        "kind": "para",
+        "start": 150472
+      },
+      {
+        "label": "[37]",
+        "kind": "para",
+        "start": 151410
+      },
+      {
+        "label": "[38]",
+        "kind": "para",
+        "start": 152437
+      },
+      {
+        "label": "[39]",
+        "kind": "para",
+        "start": 153476
+      },
+      {
+        "label": "[46]",
+        "kind": "para",
+        "start": 154145
+      },
+      {
+        "label": "[47]",
+        "kind": "para",
+        "start": 155380
+      },
+      {
+        "label": "[48]",
+        "kind": "para",
+        "start": 155899
+      },
+      {
+        "label": "[49]",
+        "kind": "para",
+        "start": 156835
+      },
+      {
+        "label": "[69]",
+        "kind": "para",
+        "start": 162516
+      },
+      {
+        "label": "[70]",
+        "kind": "para",
+        "start": 163380
+      },
+      {
+        "label": "[71]",
+        "kind": "para",
+        "start": 164190
+      },
+      {
+        "label": "[72]",
+        "kind": "para",
+        "start": 165788
+      },
+      {
+        "label": "[73]",
+        "kind": "para",
+        "start": 166652
+      },
+      {
+        "label": "[74]",
+        "kind": "para",
+        "start": 166813
+      },
+      {
+        "label": "[75]",
+        "kind": "para",
+        "start": 166868
+      },
+      {
+        "label": "[76]",
+        "kind": "para",
+        "start": 166979
+      },
+      {
+        "label": "[77]",
+        "kind": "para",
+        "start": 167102
+      },
+      {
+        "label": "[78]",
+        "kind": "para",
+        "start": 167209
+      },
+      {
+        "label": "[112]",
+        "kind": "para",
+        "start": 175141
+      },
+      {
+        "label": "[113]",
+        "kind": "para",
+        "start": 176536
+      },
+      {
+        "label": "[114]",
+        "kind": "para",
+        "start": 178115
+      },
+      {
+        "label": "[115]",
+        "kind": "para",
+        "start": 179009
+      },
+      {
+        "label": "[116]",
+        "kind": "para",
+        "start": 180481
+      },
+      {
+        "label": "[117]",
+        "kind": "para",
+        "start": 181927
+      },
+      {
+        "label": "[118]",
+        "kind": "para",
+        "start": 183294
+      },
+      {
+        "label": "[119]",
+        "kind": "para",
+        "start": 184358
+      },
+      {
+        "label": "[120]",
+        "kind": "para",
+        "start": 185296
+      },
+      {
+        "label": "[121]",
+        "kind": "para",
+        "start": 186541
+      },
+      {
+        "label": "[122]",
+        "kind": "para",
+        "start": 187451
+      },
+      {
+        "label": "[123]",
+        "kind": "para",
+        "start": 188595
+      },
+      {
+        "label": "[124]",
+        "kind": "para",
+        "start": 190180
+      },
+      {
+        "label": "[125]",
+        "kind": "para",
+        "start": 190996
+      },
+      {
+        "label": "[126]",
+        "kind": "para",
+        "start": 191217
+      },
+      {
+        "label": "[127]",
+        "kind": "para",
+        "start": 191786
+      },
+      {
+        "label": "[128]",
+        "kind": "para",
+        "start": 193408
+      },
+      {
+        "label": "[129]",
+        "kind": "para",
+        "start": 194680
+      },
+      {
+        "label": "[130]",
+        "kind": "para",
+        "start": 195940
+      },
+      {
+        "label": "[131]",
+        "kind": "para",
+        "start": 197217
+      },
+      {
+        "label": "[132]",
+        "kind": "para",
+        "start": 198437
+      },
+      {
+        "label": "[133]",
+        "kind": "para",
+        "start": 199722
+      },
+      {
+        "label": "[134]",
+        "kind": "para",
+        "start": 201049
+      },
+      {
+        "label": "[135]",
+        "kind": "para",
+        "start": 202497
+      },
+      {
+        "label": "[136]",
+        "kind": "para",
+        "start": 202770
+      },
+      {
+        "label": "[137]",
+        "kind": "para",
+        "start": 203457
+      },
+      {
+        "label": "[138]",
+        "kind": "para",
+        "start": 204610
+      },
+      {
+        "label": "[139]",
+        "kind": "para",
+        "start": 205728
+      },
+      {
+        "label": "[140]",
+        "kind": "para",
+        "start": 206786
+      },
+      {
+        "label": "[141]",
+        "kind": "para",
+        "start": 207781
+      },
+      {
+        "label": "[142]",
+        "kind": "para",
+        "start": 208972
+      },
+      {
+        "label": "[143]",
+        "kind": "para",
+        "start": 209989
+      },
+      {
+        "label": "[144]",
+        "kind": "para",
+        "start": 211231
+      },
+      {
+        "label": "[145]",
+        "kind": "para",
+        "start": 212706
+      },
+      {
+        "label": "[146]",
+        "kind": "para",
+        "start": 213847
+      },
+      {
+        "label": "[147]",
+        "kind": "para",
+        "start": 215277
+      },
+      {
+        "label": "[148]",
+        "kind": "para",
+        "start": 216370
+      },
+      {
+        "label": "[149]",
+        "kind": "para",
+        "start": 217532
+      },
+      {
+        "label": "[150]",
+        "kind": "para",
+        "start": 218947
+      },
+      {
+        "label": "[151]",
+        "kind": "para",
+        "start": 220037
+      },
+      {
+        "label": "[152]",
+        "kind": "para",
+        "start": 221663
+      },
+      {
+        "label": "[153]",
+        "kind": "para",
+        "start": 222676
+      },
+      {
+        "label": "[154]",
+        "kind": "para",
+        "start": 223666
+      },
+      {
+        "label": "[155]",
+        "kind": "para",
+        "start": 224774
+      },
+      {
+        "label": "[156]",
+        "kind": "para",
+        "start": 226002
+      },
+      {
+        "label": "[157]",
+        "kind": "para",
+        "start": 227025
+      },
+      {
+        "label": "[158]",
+        "kind": "para",
+        "start": 228488
+      },
+      {
+        "label": "[159]",
+        "kind": "para",
+        "start": 229795
+      },
+      {
+        "label": "[160]",
+        "kind": "para",
+        "start": 231137
+      },
+      {
+        "label": "[161]",
+        "kind": "para",
+        "start": 232229
+      },
+      {
+        "label": "[162]",
+        "kind": "para",
+        "start": 233905
+      },
+      {
+        "label": "[163]",
+        "kind": "para",
+        "start": 235164
+      },
+      {
+        "label": "[164]",
+        "kind": "para",
+        "start": 236031
+      },
+      {
+        "label": "[165]",
+        "kind": "para",
+        "start": 237630
+      },
+      {
+        "label": "[166]",
+        "kind": "para",
+        "start": 238857
+      },
+      {
+        "label": "[167]",
+        "kind": "para",
+        "start": 239987
+      },
+      {
+        "label": "[168]",
+        "kind": "para",
+        "start": 241360
+      },
+      {
+        "label": "[169]",
+        "kind": "para",
+        "start": 242594
+      },
+      {
+        "label": "[170]",
+        "kind": "para",
+        "start": 243839
+      },
+      {
+        "label": "[171]",
+        "kind": "para",
+        "start": 245199
+      },
+      {
+        "label": "[172]",
+        "kind": "para",
+        "start": 246348
+      },
+      {
+        "label": "[173]",
+        "kind": "para",
+        "start": 247439
+      },
+      {
+        "label": "[174]",
+        "kind": "para",
+        "start": 248506
+      },
+      {
+        "label": "[175]",
+        "kind": "para",
+        "start": 249984
+      },
+      {
+        "label": "[176]",
+        "kind": "para",
+        "start": 251089
+      },
+      {
+        "label": "[177]",
+        "kind": "para",
+        "start": 252451
+      },
+      {
+        "label": "[178]",
+        "kind": "para",
+        "start": 254241
+      },
+      {
+        "label": "[179]",
+        "kind": "para",
+        "start": 255391
+      },
+      {
+        "label": "[180]",
+        "kind": "para",
+        "start": 256883
+      },
+      {
+        "label": "[181]",
+        "kind": "para",
+        "start": 258190
+      },
+      {
+        "label": "[182]",
+        "kind": "para",
+        "start": 259572
+      },
+      {
+        "label": "[183]",
+        "kind": "para",
+        "start": 260583
+      },
+      {
+        "label": "[184]",
+        "kind": "para",
+        "start": 261604
+      },
+      {
+        "label": "[185]",
+        "kind": "para",
+        "start": 263199
+      },
+      {
+        "label": "[186]",
+        "kind": "para",
+        "start": 264388
+      },
+      {
+        "label": "[187]",
+        "kind": "para",
+        "start": 266108
+      },
+      {
+        "label": "[188]",
+        "kind": "para",
+        "start": 267409
+      },
+      {
+        "label": "[189]",
+        "kind": "para",
+        "start": 268390
+      },
+      {
+        "label": "[190]",
+        "kind": "para",
+        "start": 270134
+      },
+      {
+        "label": "[191]",
+        "kind": "para",
+        "start": 271271
+      },
+      {
+        "label": "[192]",
+        "kind": "para",
+        "start": 272346
+      },
+      {
+        "label": "[193]",
+        "kind": "para",
+        "start": 273717
+      },
+      {
+        "label": "[194]",
+        "kind": "para",
+        "start": 274821
+      },
+      {
+        "label": "[195]",
+        "kind": "para",
+        "start": 276802
+      },
+      {
+        "label": "[196]",
+        "kind": "para",
+        "start": 278111
+      },
+      {
+        "label": "[197]",
+        "kind": "para",
+        "start": 279993
+      },
+      {
+        "label": "[198]",
+        "kind": "para",
+        "start": 281272
+      },
+      {
+        "label": "[199]",
+        "kind": "para",
+        "start": 282464
+      },
+      {
+        "label": "[200]",
+        "kind": "para",
+        "start": 283736
+      },
+      {
+        "label": "[201]",
+        "kind": "para",
+        "start": 284997
+      },
+      {
+        "label": "[202]",
+        "kind": "para",
+        "start": 286276
+      },
+      {
+        "label": "[203]",
+        "kind": "para",
+        "start": 287285
+      },
+      {
+        "label": "[204]",
+        "kind": "para",
+        "start": 288980
+      },
+      {
+        "label": "[205]",
+        "kind": "para",
+        "start": 290410
+      },
+      {
+        "label": "[206]",
+        "kind": "para",
+        "start": 291740
+      },
+      {
+        "label": "[207]",
+        "kind": "para",
+        "start": 292874
+      },
+      {
+        "label": "[208]",
+        "kind": "para",
+        "start": 294215
+      },
+      {
+        "label": "[209]",
+        "kind": "para",
+        "start": 295595
+      },
+      {
+        "label": "[210]",
+        "kind": "para",
+        "start": 296580
+      },
+      {
+        "label": "[211]",
+        "kind": "para",
+        "start": 297371
+      },
+      {
+        "label": "[212]",
+        "kind": "para",
+        "start": 298758
+      },
+      {
+        "label": "[213]",
+        "kind": "para",
+        "start": 300234
+      },
+      {
+        "label": "[214]",
+        "kind": "para",
+        "start": 301737
+      },
+      {
+        "label": "[215]",
+        "kind": "para",
+        "start": 302649
+      },
+      {
+        "label": "[216]",
+        "kind": "para",
+        "start": 303815
+      },
+      {
+        "label": "[217]",
+        "kind": "para",
+        "start": 305237
+      },
+      {
+        "label": "[218]",
+        "kind": "para",
+        "start": 306215
+      },
+      {
+        "label": "[219]",
+        "kind": "para",
+        "start": 307388
+      },
+      {
+        "label": "[220]",
+        "kind": "para",
+        "start": 309079
+      },
+      {
+        "label": "[221]",
+        "kind": "para",
+        "start": 310250
+      },
+      {
+        "label": "[222]",
+        "kind": "para",
+        "start": 311714
+      },
+      {
+        "label": "[223]",
+        "kind": "para",
+        "start": 313026
+      },
+      {
+        "label": "[224]",
+        "kind": "para",
+        "start": 314586
+      },
+      {
+        "label": "[225]",
+        "kind": "para",
+        "start": 315911
+      },
+      {
+        "label": "[226]",
+        "kind": "para",
+        "start": 317382
+      },
+      {
+        "label": "[228]",
+        "kind": "para",
+        "start": 319436
+      },
+      {
+        "label": "[229]",
+        "kind": "para",
+        "start": 320492
+      },
+      {
+        "label": "[230]",
+        "kind": "para",
+        "start": 321748
+      },
+      {
+        "label": "[231]",
+        "kind": "para",
+        "start": 322970
+      },
+      {
+        "label": "[232]",
+        "kind": "para",
+        "start": 324258
+      },
+      {
+        "label": "[233]",
+        "kind": "para",
+        "start": 325393
+      },
+      {
+        "label": "[234]",
+        "kind": "para",
+        "start": 327087
+      },
+      {
+        "label": "[235]",
+        "kind": "para",
+        "start": 328281
+      },
+      {
+        "label": "[236]",
+        "kind": "para",
+        "start": 329147
+      },
+      {
+        "label": "[237]",
+        "kind": "para",
+        "start": 330777
+      },
+      {
+        "label": "[238]",
+        "kind": "para",
+        "start": 331644
+      },
+      {
+        "label": "[239]",
+        "kind": "para",
+        "start": 332727
+      },
+      {
+        "label": "[240]",
+        "kind": "para",
+        "start": 334179
+      },
+      {
+        "label": "[241]",
+        "kind": "para",
+        "start": 334993
+      },
+      {
+        "label": "[242]",
+        "kind": "para",
+        "start": 336551
+      },
+      {
+        "label": "[243]",
+        "kind": "para",
+        "start": 337415
+      },
+      {
+        "label": "[244]",
+        "kind": "para",
+        "start": 338705
+      },
+      {
+        "label": "[245]",
+        "kind": "para",
+        "start": 339916
+      },
+      {
+        "label": "[246]",
+        "kind": "para",
+        "start": 340944
+      },
+      {
+        "label": "[247]",
+        "kind": "para",
+        "start": 342606
+      },
+      {
+        "label": "[248]",
+        "kind": "para",
+        "start": 343900
+      },
+      {
+        "label": "[249]",
+        "kind": "para",
+        "start": 344900
+      },
+      {
+        "label": "[250]",
+        "kind": "para",
+        "start": 345699
+      },
+      {
+        "label": "[251]",
+        "kind": "para",
+        "start": 346664
+      },
+      {
+        "label": "[252]",
+        "kind": "para",
+        "start": 347519
+      },
+      {
+        "label": "[253]",
+        "kind": "para",
+        "start": 348634
+      },
+      {
+        "label": "[254]",
+        "kind": "para",
+        "start": 350025
+      },
+      {
+        "label": "[255]",
+        "kind": "para",
+        "start": 351206
+      },
+      {
+        "label": "[256]",
+        "kind": "para",
+        "start": 352237
+      },
+      {
+        "label": "[257]",
+        "kind": "para",
+        "start": 353428
+      },
+      {
+        "label": "[258]",
+        "kind": "para",
+        "start": 355256
+      },
+      {
+        "label": "[259]",
+        "kind": "para",
+        "start": 356592
+      },
+      {
+        "label": "[260]",
+        "kind": "para",
+        "start": 358429
+      },
+      {
+        "label": "[261]",
+        "kind": "para",
+        "start": 359614
+      },
+      {
+        "label": "[262]",
+        "kind": "para",
+        "start": 360686
+      },
+      {
+        "label": "[263]",
+        "kind": "para",
+        "start": 362085
+      },
+      {
+        "label": "[264]",
+        "kind": "para",
+        "start": 363619
+      },
+      {
+        "label": "[265]",
+        "kind": "para",
+        "start": 365199
+      },
+      {
+        "label": "[266]",
+        "kind": "para",
+        "start": 366463
+      },
+      {
+        "label": "[267]",
+        "kind": "para",
+        "start": 367328
+      },
+      {
+        "label": "[268]",
+        "kind": "para",
+        "start": 368755
+      },
+      {
+        "label": "[270]",
+        "kind": "para",
+        "start": 371548
+      },
+      {
+        "label": "[271]",
+        "kind": "para",
+        "start": 372655
+      },
+      {
+        "label": "[272]",
+        "kind": "para",
+        "start": 374008
+      },
+      {
+        "label": "[273]",
+        "kind": "para",
+        "start": 375497
+      },
+      {
+        "label": "[274]",
+        "kind": "para",
+        "start": 376701
+      },
+      {
+        "label": "[275]",
+        "kind": "para",
+        "start": 377873
+      },
+      {
+        "label": "[276]",
+        "kind": "para",
+        "start": 379148
+      },
+      {
+        "label": "[277]",
+        "kind": "para",
+        "start": 380305
+      },
+      {
+        "label": "[278]",
+        "kind": "para",
+        "start": 381887
+      },
+      {
+        "label": "[279]",
+        "kind": "para",
+        "start": 383229
+      },
+      {
+        "label": "[280]",
+        "kind": "para",
+        "start": 384487
+      },
+      {
+        "label": "[281]",
+        "kind": "para",
+        "start": 385534
+      },
+      {
+        "label": "[282]",
+        "kind": "para",
+        "start": 386893
+      },
+      {
+        "label": "[283]",
+        "kind": "para",
+        "start": 388209
+      },
+      {
+        "label": "[284]",
+        "kind": "para",
+        "start": 389495
+      },
+      {
+        "label": "[285]",
+        "kind": "para",
+        "start": 390785
+      },
+      {
+        "label": "[286]",
+        "kind": "para",
+        "start": 391901
+      },
+      {
+        "label": "[287]",
+        "kind": "para",
+        "start": 393052
+      },
+      {
+        "label": "[288]",
+        "kind": "para",
+        "start": 394489
+      },
+      {
+        "label": "[289]",
+        "kind": "para",
+        "start": 395691
+      },
+      {
+        "label": "[290]",
+        "kind": "para",
+        "start": 396909
+      },
+      {
+        "label": "[291]",
+        "kind": "para",
+        "start": 397945
+      },
+      {
+        "label": "[292]",
+        "kind": "para",
+        "start": 398349
+      },
+      {
+        "label": "[293]",
+        "kind": "para",
+        "start": 399399
+      },
+      {
+        "label": "[294]",
+        "kind": "para",
+        "start": 400657
+      },
+      {
+        "label": "[295]",
+        "kind": "para",
+        "start": 402049
+      },
+      {
+        "label": "[296]",
+        "kind": "para",
+        "start": 403554
+      },
+      {
+        "label": "[297]",
+        "kind": "para",
+        "start": 404771
+      },
+      {
+        "label": "[298]",
+        "kind": "para",
+        "start": 405878
+      },
+      {
+        "label": "[299]",
+        "kind": "para",
+        "start": 407320
+      },
+      {
+        "label": "[300]",
+        "kind": "para",
+        "start": 408261
+      },
+      {
+        "label": "[301]",
+        "kind": "para",
+        "start": 409290
+      },
+      {
+        "label": "[302]",
+        "kind": "para",
+        "start": 410958
+      },
+      {
+        "label": "[303]",
+        "kind": "para",
+        "start": 412186
+      },
+      {
+        "label": "[304]",
+        "kind": "para",
+        "start": 413607
+      },
+      {
+        "label": "[305]",
+        "kind": "para",
+        "start": 414685
+      },
+      {
+        "label": "[306]",
+        "kind": "para",
+        "start": 415888
+      },
+      {
+        "label": "[307]",
+        "kind": "para",
+        "start": 417507
+      },
+      {
+        "label": "[308]",
+        "kind": "para",
+        "start": 418613
+      },
+      {
+        "label": "[309]",
+        "kind": "para",
+        "start": 419894
+      },
+      {
+        "label": "[310]",
+        "kind": "para",
+        "start": 420848
+      },
+      {
+        "label": "[311]",
+        "kind": "para",
+        "start": 422095
+      },
+      {
+        "label": "[312]",
+        "kind": "para",
+        "start": 423721
+      },
+      {
+        "label": "[313]",
+        "kind": "para",
+        "start": 424688
+      },
+      {
+        "label": "[314]",
+        "kind": "para",
+        "start": 426219
+      },
+      {
+        "label": "[315]",
+        "kind": "para",
+        "start": 427496
+      },
+      {
+        "label": "[316]",
+        "kind": "para",
+        "start": 428601
+      },
+      {
+        "label": "[317]",
+        "kind": "para",
+        "start": 430341
+      },
+      {
+        "label": "[318]",
+        "kind": "para",
+        "start": 431564
+      },
+      {
+        "label": "[319]",
+        "kind": "para",
+        "start": 432651
+      },
+      {
+        "label": "[320]",
+        "kind": "para",
+        "start": 433921
+      },
+      {
+        "label": "[321]",
+        "kind": "para",
+        "start": 435316
+      },
+      {
+        "label": "[322]",
+        "kind": "para",
+        "start": 436536
+      },
+      {
+        "label": "[323]",
+        "kind": "para",
+        "start": 437921
+      },
+      {
+        "label": "[324]",
+        "kind": "para",
+        "start": 439360
+      },
+      {
+        "label": "[325]",
+        "kind": "para",
+        "start": 440333
+      },
+      {
+        "label": "[326]",
+        "kind": "para",
+        "start": 441790
+      },
+      {
+        "label": "[327]",
+        "kind": "para",
+        "start": 442832
+      },
+      {
+        "label": "[328]",
+        "kind": "para",
+        "start": 443989
+      },
+      {
+        "label": "[329]",
+        "kind": "para",
+        "start": 445270
+      },
+      {
+        "label": "[330]",
+        "kind": "para",
+        "start": 446255
+      },
+      {
+        "label": "[331]",
+        "kind": "para",
+        "start": 447524
+      },
+      {
+        "label": "[332]",
+        "kind": "para",
+        "start": 448877
+      },
+      {
+        "label": "[333]",
+        "kind": "para",
+        "start": 450309
+      },
+      {
+        "label": "[334]",
+        "kind": "para",
+        "start": 451693
+      },
+      {
+        "label": "[335]",
+        "kind": "para",
+        "start": 453079
+      },
+      {
+        "label": "[336]",
+        "kind": "para",
+        "start": 454254
+      },
+      {
+        "label": "[337]",
+        "kind": "para",
+        "start": 455326
+      },
+      {
+        "label": "[338]",
+        "kind": "para",
+        "start": 456376
+      },
+      {
+        "label": "[339]",
+        "kind": "para",
+        "start": 457649
+      },
+      {
+        "label": "[340]",
+        "kind": "para",
+        "start": 458544
+      },
+      {
+        "label": "[341]",
+        "kind": "para",
+        "start": 459739
+      },
+      {
+        "label": "[342]",
+        "kind": "para",
+        "start": 461225
+      },
+      {
+        "label": "[343]",
+        "kind": "para",
+        "start": 462741
+      },
+      {
+        "label": "[344]",
+        "kind": "para",
+        "start": 464082
+      },
+      {
+        "label": "[345]",
+        "kind": "para",
+        "start": 465212
+      },
+      {
+        "label": "[346]",
+        "kind": "para",
+        "start": 466373
+      },
+      {
+        "label": "[347]",
+        "kind": "para",
+        "start": 467223
+      },
+      {
+        "label": "[348]",
+        "kind": "para",
+        "start": 468398
+      },
+      {
+        "label": "[349]",
+        "kind": "para",
+        "start": 469513
+      },
+      {
+        "label": "[350]",
+        "kind": "para",
+        "start": 471136
+      },
+      {
+        "label": "[351]",
+        "kind": "para",
+        "start": 472163
+      },
+      {
+        "label": "[352]",
+        "kind": "para",
+        "start": 473391
+      },
+      {
+        "label": "[353]",
+        "kind": "para",
+        "start": 474707
+      },
+      {
+        "label": "[354]",
+        "kind": "para",
+        "start": 475851
+      },
+      {
+        "label": "[355]",
+        "kind": "para",
+        "start": 477022
+      },
+      {
+        "label": "[356]",
+        "kind": "para",
+        "start": 478174
+      },
+      {
+        "label": "[357]",
+        "kind": "para",
+        "start": 479435
+      },
+      {
+        "label": "[358]",
+        "kind": "para",
+        "start": 480666
+      },
+      {
+        "label": "[359]",
+        "kind": "para",
+        "start": 481727
+      },
+      {
+        "label": "[360]",
+        "kind": "para",
+        "start": 482732
+      },
+      {
+        "label": "[361]",
+        "kind": "para",
+        "start": 484316
+      },
+      {
+        "label": "[362]",
+        "kind": "para",
+        "start": 485613
+      },
+      {
+        "label": "[363]",
+        "kind": "para",
+        "start": 487044
+      },
+      {
+        "label": "[364]",
+        "kind": "para",
+        "start": 487991
+      },
+      {
+        "label": "[365]",
+        "kind": "para",
+        "start": 489061
+      },
+      {
+        "label": "[366]",
+        "kind": "para",
+        "start": 490568
+      },
+      {
+        "label": "[367]",
+        "kind": "para",
+        "start": 491464
+      },
+      {
+        "label": "[368]",
+        "kind": "para",
+        "start": 492559
+      },
+      {
+        "label": "[369]",
+        "kind": "para",
+        "start": 493768
+      },
+      {
+        "label": "[370]",
+        "kind": "para",
+        "start": 494818
+      },
+      {
+        "label": "[371]",
+        "kind": "para",
+        "start": 495906
+      },
+      {
+        "label": "[372]",
+        "kind": "para",
+        "start": 497364
+      },
+      {
+        "label": "[373]",
+        "kind": "para",
+        "start": 498542
+      },
+      {
+        "label": "[374]",
+        "kind": "para",
+        "start": 500355
+      },
+      {
+        "label": "[375]",
+        "kind": "para",
+        "start": 501428
+      },
+      {
+        "label": "[376]",
+        "kind": "para",
+        "start": 502516
+      },
+      {
+        "label": "[377]",
+        "kind": "para",
+        "start": 503638
+      },
+      {
+        "label": "[378]",
+        "kind": "para",
+        "start": 504974
+      },
+      {
+        "label": "[379]",
+        "kind": "para",
+        "start": 506321
+      },
+      {
+        "label": "[380]",
+        "kind": "para",
+        "start": 507382
+      },
+      {
+        "label": "[381]",
+        "kind": "para",
+        "start": 508498
+      },
+      {
+        "label": "[382]",
+        "kind": "para",
+        "start": 509728
+      },
+      {
+        "label": "[383]",
+        "kind": "para",
+        "start": 510915
+      },
+      {
+        "label": "[384]",
+        "kind": "para",
+        "start": 512042
+      },
+      {
+        "label": "[385]",
+        "kind": "para",
+        "start": 513366
+      },
+      {
+        "label": "[386]",
+        "kind": "para",
+        "start": 515385
+      },
+      {
+        "label": "[387]",
+        "kind": "para",
+        "start": 516429
+      },
+      {
+        "label": "[388]",
+        "kind": "para",
+        "start": 517162
+      },
+      {
+        "label": "[389]",
+        "kind": "para",
+        "start": 518395
+      },
+      {
+        "label": "[390]",
+        "kind": "para",
+        "start": 519903
+      },
+      {
+        "label": "[391]",
+        "kind": "para",
+        "start": 521072
+      },
+      {
+        "label": "[392]",
+        "kind": "para",
+        "start": 522043
+      },
+      {
+        "label": "[394]",
+        "kind": "para",
+        "start": 525063
+      },
+      {
+        "label": "[395]",
+        "kind": "para",
+        "start": 526432
+      },
+      {
+        "label": "[396]",
+        "kind": "para",
+        "start": 527721
+      },
+      {
+        "label": "[397]",
+        "kind": "para",
+        "start": 528989
+      },
+      {
+        "label": "[398]",
+        "kind": "para",
+        "start": 530073
+      },
+      {
+        "label": "[399]",
+        "kind": "para",
+        "start": 531217
+      },
+      {
+        "label": "[400]",
+        "kind": "para",
+        "start": 532685
+      },
+      {
+        "label": "[401]",
+        "kind": "para",
+        "start": 533685
+      },
+      {
+        "label": "[402]",
+        "kind": "para",
+        "start": 535207
+      },
+      {
+        "label": "[403]",
+        "kind": "para",
+        "start": 536869
+      },
+      {
+        "label": "[404]",
+        "kind": "para",
+        "start": 538068
+      },
+      {
+        "label": "[405]",
+        "kind": "para",
+        "start": 539666
+      },
+      {
+        "label": "[406]",
+        "kind": "para",
+        "start": 540657
+      },
+      {
+        "label": "[407]",
+        "kind": "para",
+        "start": 541535
+      },
+      {
+        "label": "[408]",
+        "kind": "para",
+        "start": 542903
+      },
+      {
+        "label": "[409]",
+        "kind": "para",
+        "start": 543799
+      },
+      {
+        "label": "[410]",
+        "kind": "para",
+        "start": 544836
+      },
+      {
+        "label": "[411]",
+        "kind": "para",
+        "start": 546478
+      },
+      {
+        "label": "[412]",
+        "kind": "para",
+        "start": 547659
+      },
+      {
+        "label": "[413]",
+        "kind": "para",
+        "start": 548660
+      },
+      {
+        "label": "[414]",
+        "kind": "para",
+        "start": 549927
+      },
+      {
+        "label": "[415]",
+        "kind": "para",
+        "start": 551023
+      },
+      {
+        "label": "[416]",
+        "kind": "para",
+        "start": 552252
+      },
+      {
+        "label": "[417]",
+        "kind": "para",
+        "start": 553570
+      },
+      {
+        "label": "[418]",
+        "kind": "para",
+        "start": 554674
+      },
+      {
+        "label": "[419]",
+        "kind": "para",
+        "start": 556055
+      },
+      {
+        "label": "[420]",
+        "kind": "para",
+        "start": 557225
+      },
+      {
+        "label": "[421]",
+        "kind": "para",
+        "start": 558617
+      },
+      {
+        "label": "[422]",
+        "kind": "para",
+        "start": 559971
+      },
+      {
+        "label": "[423]",
+        "kind": "para",
+        "start": 561286
+      },
+      {
+        "label": "[424]",
+        "kind": "para",
+        "start": 562645
+      },
+      {
+        "label": "[425]",
+        "kind": "para",
+        "start": 563747
+      },
+      {
+        "label": "[426]",
+        "kind": "para",
+        "start": 565126
+      },
+      {
+        "label": "[427]",
+        "kind": "para",
+        "start": 566299
+      },
+      {
+        "label": "[428]",
+        "kind": "para",
+        "start": 567379
+      },
+      {
+        "label": "[429]",
+        "kind": "para",
+        "start": 568562
+      },
+      {
+        "label": "[430]",
+        "kind": "para",
+        "start": 569619
+      },
+      {
+        "label": "[431]",
+        "kind": "para",
+        "start": 571195
+      },
+      {
+        "label": "[432]",
+        "kind": "para",
+        "start": 572352
+      },
+      {
+        "label": "[433]",
+        "kind": "para",
+        "start": 573733
+      },
+      {
+        "label": "[434]",
+        "kind": "para",
+        "start": 575141
+      },
+      {
+        "label": "[435]",
+        "kind": "para",
+        "start": 576623
+      },
+      {
+        "label": "[436]",
+        "kind": "para",
+        "start": 578252
+      },
+      {
+        "label": "[437]",
+        "kind": "para",
+        "start": 579387
+      },
+      {
+        "label": "[438]",
+        "kind": "para",
+        "start": 580749
+      },
+      {
+        "label": "[439]",
+        "kind": "para",
+        "start": 581865
+      },
+      {
+        "label": "[440]",
+        "kind": "para",
+        "start": 582938
+      },
+      {
+        "label": "[441]",
+        "kind": "para",
+        "start": 584031
+      },
+      {
+        "label": "[442]",
+        "kind": "para",
+        "start": 585318
+      },
+      {
+        "label": "[443]",
+        "kind": "para",
+        "start": 586647
+      },
+      {
+        "label": "[444]",
+        "kind": "para",
+        "start": 587704
+      },
+      {
+        "label": "[445]",
+        "kind": "para",
+        "start": 588966
+      },
+      {
+        "label": "[446]",
+        "kind": "para",
+        "start": 590428
+      },
+      {
+        "label": "[447]",
+        "kind": "para",
+        "start": 591461
+      },
+      {
+        "label": "[448]",
+        "kind": "para",
+        "start": 592450
+      },
+      {
+        "label": "[449]",
+        "kind": "para",
+        "start": 593883
+      },
+      {
+        "label": "[450]",
+        "kind": "para",
+        "start": 595231
+      },
+      {
+        "label": "[451]",
+        "kind": "para",
+        "start": 596347
+      },
+      {
+        "label": "[452]",
+        "kind": "para",
+        "start": 597886
+      },
+      {
+        "label": "[453]",
+        "kind": "para",
+        "start": 598953
+      },
+      {
+        "label": "[454]",
+        "kind": "para",
+        "start": 600823
+      },
+      {
+        "label": "[455]",
+        "kind": "para",
+        "start": 601903
+      },
+      {
+        "label": "[456]",
+        "kind": "para",
+        "start": 603215
+      },
+      {
+        "label": "[457]",
+        "kind": "para",
+        "start": 604334
+      },
+      {
+        "label": "[458]",
+        "kind": "para",
+        "start": 605641
+      },
+      {
+        "label": "[459]",
+        "kind": "para",
+        "start": 607544
+      },
+      {
+        "label": "[460]",
+        "kind": "para",
+        "start": 609095
+      },
+      {
+        "label": "[461]",
+        "kind": "para",
+        "start": 610606
+      },
+      {
+        "label": "[462]",
+        "kind": "para",
+        "start": 612088
+      },
+      {
+        "label": "[463]",
+        "kind": "para",
+        "start": 613925
+      },
+      {
+        "label": "[464]",
+        "kind": "para",
+        "start": 615290
+      },
+      {
+        "label": "[465]",
+        "kind": "para",
+        "start": 616702
+      },
+      {
+        "label": "[466]",
+        "kind": "para",
+        "start": 617678
+      },
+      {
+        "label": "[467]",
+        "kind": "para",
+        "start": 618989
+      },
+      {
+        "label": "[468]",
+        "kind": "para",
+        "start": 619936
+      },
+      {
+        "label": "[469]",
+        "kind": "para",
+        "start": 620801
+      },
+      {
+        "label": "[470]",
+        "kind": "para",
+        "start": 622023
+      },
+      {
+        "label": "[471]",
+        "kind": "para",
+        "start": 623200
+      },
+      {
+        "label": "[472]",
+        "kind": "para",
+        "start": 624168
+      },
+      {
+        "label": "[473]",
+        "kind": "para",
+        "start": 625104
+      },
+      {
+        "label": "[474]",
+        "kind": "para",
+        "start": 626696
+      },
+      {
+        "label": "[475]",
+        "kind": "para",
+        "start": 627956
+      },
+      {
+        "label": "[476]",
+        "kind": "para",
+        "start": 629357
+      },
+      {
+        "label": "[477]",
+        "kind": "para",
+        "start": 630602
+      },
+      {
+        "label": "[478]",
+        "kind": "para",
+        "start": 632120
+      },
+      {
+        "label": "[479]",
+        "kind": "para",
+        "start": 633500
+      },
+      {
+        "label": "[480]",
+        "kind": "para",
+        "start": 634664
+      },
+      {
+        "label": "[481]",
+        "kind": "para",
+        "start": 636030
+      },
+      {
+        "label": "[482]",
+        "kind": "para",
+        "start": 637063
+      },
+      {
+        "label": "[483]",
+        "kind": "para",
+        "start": 637915
+      },
+      {
+        "label": "[484]",
+        "kind": "para",
+        "start": 639929
+      },
+      {
+        "label": "[485]",
+        "kind": "para",
+        "start": 640784
+      },
+      {
+        "label": "[486]",
+        "kind": "para",
+        "start": 642247
+      },
+      {
+        "label": "[487]",
+        "kind": "para",
+        "start": 643227
+      },
+      {
+        "label": "[488]",
+        "kind": "para",
+        "start": 644061
+      },
+      {
+        "label": "[489]",
+        "kind": "para",
+        "start": 645545
+      },
+      {
+        "label": "[490]",
+        "kind": "para",
+        "start": 646807
+      },
+      {
+        "label": "[492]",
+        "kind": "para",
+        "start": 649405
+      },
+      {
+        "label": "[493]",
+        "kind": "para",
+        "start": 650270
+      },
+      {
+        "label": "[494]",
+        "kind": "para",
+        "start": 651808
+      },
+      {
+        "label": "[495]",
+        "kind": "para",
+        "start": 653370
+      },
+      {
+        "label": "[496]",
+        "kind": "para",
+        "start": 654760
+      },
+      {
+        "label": "[497]",
+        "kind": "para",
+        "start": 655922
+      },
+      {
+        "label": "[498]",
+        "kind": "para",
+        "start": 656949
+      },
+      {
+        "label": "[499]",
+        "kind": "para",
+        "start": 658376
+      },
+      {
+        "label": "[500]",
+        "kind": "para",
+        "start": 659599
+      },
+      {
+        "label": "[501]",
+        "kind": "para",
+        "start": 661376
+      },
+      {
+        "label": "[502]",
+        "kind": "para",
+        "start": 662989
+      },
+      {
+        "label": "[503]",
+        "kind": "para",
+        "start": 664378
+      },
+      {
+        "label": "[504]",
+        "kind": "para",
+        "start": 665928
+      },
+      {
+        "label": "[505]",
+        "kind": "para",
+        "start": 667385
+      },
+      {
+        "label": "[506]",
+        "kind": "para",
+        "start": 668841
+      },
+      {
+        "label": "[507]",
+        "kind": "para",
+        "start": 670398
+      },
+      {
+        "label": "[508]",
+        "kind": "para",
+        "start": 671966
+      },
+      {
+        "label": "[510]",
+        "kind": "para",
+        "start": 674429
+      },
+      {
+        "label": "[511]",
+        "kind": "para",
+        "start": 676003
+      },
+      {
+        "label": "[512]",
+        "kind": "para",
+        "start": 677576
+      },
+      {
+        "label": "[513]",
+        "kind": "para",
+        "start": 678814
+      },
+      {
+        "label": "[514]",
+        "kind": "para",
+        "start": 679962
+      },
+      {
+        "label": "[515]",
+        "kind": "para",
+        "start": 681213
+      },
+      {
+        "label": "[516]",
+        "kind": "para",
+        "start": 682319
+      },
+      {
+        "label": "[517]",
+        "kind": "para",
+        "start": 683464
+      },
+      {
+        "label": "[518]",
+        "kind": "para",
+        "start": 684914
+      },
+      {
+        "label": "[519]",
+        "kind": "para",
+        "start": 686133
+      },
+      {
+        "label": "[520]",
+        "kind": "para",
+        "start": 687721
+      },
+      {
+        "label": "[521]",
+        "kind": "para",
+        "start": 688940
+      },
+      {
+        "label": "[522]",
+        "kind": "para",
+        "start": 689927
+      },
+      {
+        "label": "[523]",
+        "kind": "para",
+        "start": 691319
+      },
+      {
+        "label": "[524]",
+        "kind": "para",
+        "start": 692227
+      },
+      {
+        "label": "[525]",
+        "kind": "para",
+        "start": 693437
+      },
+      {
+        "label": "[526]",
+        "kind": "para",
+        "start": 694432
+      },
+      {
+        "label": "[527]",
+        "kind": "para",
+        "start": 695754
+      },
+      {
+        "label": "[528]",
+        "kind": "para",
+        "start": 697003
+      },
+      {
+        "label": "[529]",
+        "kind": "para",
+        "start": 698189
+      },
+      {
+        "label": "[530]",
+        "kind": "para",
+        "start": 699152
+      },
+      {
+        "label": "[531]",
+        "kind": "para",
+        "start": 700457
+      },
+      {
+        "label": "[532]",
+        "kind": "para",
+        "start": 701730
+      },
+      {
+        "label": "[533]",
+        "kind": "para",
+        "start": 702894
+      },
+      {
+        "label": "[534]",
+        "kind": "para",
+        "start": 704072
+      },
+      {
+        "label": "[535]",
+        "kind": "para",
+        "start": 705264
+      },
+      {
+        "label": "[536]",
+        "kind": "para",
+        "start": 706533
+      },
+      {
+        "label": "[537]",
+        "kind": "para",
+        "start": 707693
+      },
+      {
+        "label": "[538]",
+        "kind": "para",
+        "start": 708869
+      },
+      {
+        "label": "[539]",
+        "kind": "para",
+        "start": 709896
+      }
+    ]
+  },
+  "vulgate2": {
+    "author": "The Vulgate",
+    "work": "Lancelot-Grail, Vol. II (Lacy trans.)",
+    "scheme": "bracket_num",
+    "cite": "Lancelot-Grail (Lacy)",
+    "chars": 2029822,
+    "n_anchors": 485,
+    "anchors": [
+      {
+        "label": "[2]",
+        "kind": "para",
+        "start": 17779
+      },
+      {
+        "label": "[3]",
+        "kind": "para",
+        "start": 19780
+      },
+      {
+        "label": "[4]",
+        "kind": "para",
+        "start": 21131
+      },
+      {
+        "label": "[5]",
+        "kind": "para",
+        "start": 22777
+      },
+      {
+        "label": "[6]",
+        "kind": "para",
+        "start": 24169
+      },
+      {
+        "label": "[7]",
+        "kind": "para",
+        "start": 25616
+      },
+      {
+        "label": "[8]",
+        "kind": "para",
+        "start": 27328
+      },
+      {
+        "label": "[9]",
+        "kind": "para",
+        "start": 28726
+      },
+      {
+        "label": "[10]",
+        "kind": "para",
+        "start": 30005
+      },
+      {
+        "label": "[11]",
+        "kind": "para",
+        "start": 30956
+      },
+      {
+        "label": "[12]",
+        "kind": "para",
+        "start": 32700
+      },
+      {
+        "label": "[13]",
+        "kind": "para",
+        "start": 718151
+      },
+      {
+        "label": "[14]",
+        "kind": "para",
+        "start": 720002
+      },
+      {
+        "label": "[15]",
+        "kind": "para",
+        "start": 721465
+      },
+      {
+        "label": "[16]",
+        "kind": "para",
+        "start": 723332
+      },
+      {
+        "label": "[17]",
+        "kind": "para",
+        "start": 724781
+      },
+      {
+        "label": "[18]",
+        "kind": "para",
+        "start": 727280
+      },
+      {
+        "label": "[19]",
+        "kind": "para",
+        "start": 729250
+      },
+      {
+        "label": "[20]",
+        "kind": "para",
+        "start": 730520
+      },
+      {
+        "label": "[21]",
+        "kind": "para",
+        "start": 732403
+      },
+      {
+        "label": "[22]",
+        "kind": "para",
+        "start": 733827
+      },
+      {
+        "label": "[23]",
+        "kind": "para",
+        "start": 735388
+      },
+      {
+        "label": "[24]",
+        "kind": "para",
+        "start": 737034
+      },
+      {
+        "label": "[25]",
+        "kind": "para",
+        "start": 738532
+      },
+      {
+        "label": "[26]",
+        "kind": "para",
+        "start": 740156
+      },
+      {
+        "label": "[27]",
+        "kind": "para",
+        "start": 741497
+      },
+      {
+        "label": "[28]",
+        "kind": "para",
+        "start": 742877
+      },
+      {
+        "label": "[29]",
+        "kind": "para",
+        "start": 744352
+      },
+      {
+        "label": "[30]",
+        "kind": "para",
+        "start": 746224
+      },
+      {
+        "label": "[31]",
+        "kind": "para",
+        "start": 747849
+      },
+      {
+        "label": "[32]",
+        "kind": "para",
+        "start": 749560
+      },
+      {
+        "label": "[33]",
+        "kind": "para",
+        "start": 751110
+      },
+      {
+        "label": "[34]",
+        "kind": "para",
+        "start": 752988
+      },
+      {
+        "label": "[35]",
+        "kind": "para",
+        "start": 754588
+      },
+      {
+        "label": "[36]",
+        "kind": "para",
+        "start": 756362
+      },
+      {
+        "label": "[37]",
+        "kind": "para",
+        "start": 758234
+      },
+      {
+        "label": "[38]",
+        "kind": "para",
+        "start": 759600
+      },
+      {
+        "label": "[39]",
+        "kind": "para",
+        "start": 760971
+      },
+      {
+        "label": "[40]",
+        "kind": "para",
+        "start": 762455
+      },
+      {
+        "label": "[41]",
+        "kind": "para",
+        "start": 764499
+      },
+      {
+        "label": "[42]",
+        "kind": "para",
+        "start": 766018
+      },
+      {
+        "label": "[43]",
+        "kind": "para",
+        "start": 767658
+      },
+      {
+        "label": "[44]",
+        "kind": "para",
+        "start": 769068
+      },
+      {
+        "label": "[45]",
+        "kind": "para",
+        "start": 770511
+      },
+      {
+        "label": "[46]",
+        "kind": "para",
+        "start": 771945
+      },
+      {
+        "label": "[47]",
+        "kind": "para",
+        "start": 773443
+      },
+      {
+        "label": "[48]",
+        "kind": "para",
+        "start": 775118
+      },
+      {
+        "label": "[49]",
+        "kind": "para",
+        "start": 776575
+      },
+      {
+        "label": "[50]",
+        "kind": "para",
+        "start": 778216
+      },
+      {
+        "label": "[51]",
+        "kind": "para",
+        "start": 779707
+      },
+      {
+        "label": "[52]",
+        "kind": "para",
+        "start": 781287
+      },
+      {
+        "label": "[53]",
+        "kind": "para",
+        "start": 782839
+      },
+      {
+        "label": "[54]",
+        "kind": "para",
+        "start": 784724
+      },
+      {
+        "label": "[55]",
+        "kind": "para",
+        "start": 785989
+      },
+      {
+        "label": "[56]",
+        "kind": "para",
+        "start": 787544
+      },
+      {
+        "label": "[57]",
+        "kind": "para",
+        "start": 788807
+      },
+      {
+        "label": "[58]",
+        "kind": "para",
+        "start": 790170
+      },
+      {
+        "label": "[59]",
+        "kind": "para",
+        "start": 791948
+      },
+      {
+        "label": "[60]",
+        "kind": "para",
+        "start": 793480
+      },
+      {
+        "label": "[61]",
+        "kind": "para",
+        "start": 795337
+      },
+      {
+        "label": "[62]",
+        "kind": "para",
+        "start": 796815
+      },
+      {
+        "label": "[63]",
+        "kind": "para",
+        "start": 798260
+      },
+      {
+        "label": "[64]",
+        "kind": "para",
+        "start": 800021
+      },
+      {
+        "label": "[65]",
+        "kind": "para",
+        "start": 801546
+      },
+      {
+        "label": "[66]",
+        "kind": "para",
+        "start": 802994
+      },
+      {
+        "label": "[67]",
+        "kind": "para",
+        "start": 804551
+      },
+      {
+        "label": "[68]",
+        "kind": "para",
+        "start": 806364
+      },
+      {
+        "label": "[69]",
+        "kind": "para",
+        "start": 807845
+      },
+      {
+        "label": "[70]",
+        "kind": "para",
+        "start": 809157
+      },
+      {
+        "label": "[71]",
+        "kind": "para",
+        "start": 810519
+      },
+      {
+        "label": "[72]",
+        "kind": "para",
+        "start": 811842
+      },
+      {
+        "label": "[73]",
+        "kind": "para",
+        "start": 813095
+      },
+      {
+        "label": "[74]",
+        "kind": "para",
+        "start": 814320
+      },
+      {
+        "label": "[75]",
+        "kind": "para",
+        "start": 816123
+      },
+      {
+        "label": "[76]",
+        "kind": "para",
+        "start": 817421
+      },
+      {
+        "label": "[77]",
+        "kind": "para",
+        "start": 819163
+      },
+      {
+        "label": "[78]",
+        "kind": "para",
+        "start": 820580
+      },
+      {
+        "label": "[79]",
+        "kind": "para",
+        "start": 822192
+      },
+      {
+        "label": "[80]",
+        "kind": "para",
+        "start": 823412
+      },
+      {
+        "label": "[81]",
+        "kind": "para",
+        "start": 824709
+      },
+      {
+        "label": "[82]",
+        "kind": "para",
+        "start": 826016
+      },
+      {
+        "label": "[83]",
+        "kind": "para",
+        "start": 827764
+      },
+      {
+        "label": "[84]",
+        "kind": "para",
+        "start": 829343
+      },
+      {
+        "label": "[85]",
+        "kind": "para",
+        "start": 831231
+      },
+      {
+        "label": "[86]",
+        "kind": "para",
+        "start": 832880
+      },
+      {
+        "label": "[87]",
+        "kind": "para",
+        "start": 834442
+      },
+      {
+        "label": "[88]",
+        "kind": "para",
+        "start": 835928
+      },
+      {
+        "label": "[89]",
+        "kind": "para",
+        "start": 837774
+      },
+      {
+        "label": "[90]",
+        "kind": "para",
+        "start": 839184
+      },
+      {
+        "label": "[91]",
+        "kind": "para",
+        "start": 840980
+      },
+      {
+        "label": "[92]",
+        "kind": "para",
+        "start": 842485
+      },
+      {
+        "label": "[93]",
+        "kind": "para",
+        "start": 843936
+      },
+      {
+        "label": "[94]",
+        "kind": "para",
+        "start": 845465
+      },
+      {
+        "label": "[95]",
+        "kind": "para",
+        "start": 846888
+      },
+      {
+        "label": "[96]",
+        "kind": "para",
+        "start": 848414
+      },
+      {
+        "label": "[97]",
+        "kind": "para",
+        "start": 849532
+      },
+      {
+        "label": "[98]",
+        "kind": "para",
+        "start": 851041
+      },
+      {
+        "label": "[99]",
+        "kind": "para",
+        "start": 852902
+      },
+      {
+        "label": "[100]",
+        "kind": "para",
+        "start": 854490
+      },
+      {
+        "label": "[101]",
+        "kind": "para",
+        "start": 856206
+      },
+      {
+        "label": "[102]",
+        "kind": "para",
+        "start": 857651
+      },
+      {
+        "label": "[103]",
+        "kind": "para",
+        "start": 859179
+      },
+      {
+        "label": "[104]",
+        "kind": "para",
+        "start": 860524
+      },
+      {
+        "label": "[105]",
+        "kind": "para",
+        "start": 862013
+      },
+      {
+        "label": "[106]",
+        "kind": "para",
+        "start": 863701
+      },
+      {
+        "label": "[107]",
+        "kind": "para",
+        "start": 865211
+      },
+      {
+        "label": "[108]",
+        "kind": "para",
+        "start": 867263
+      },
+      {
+        "label": "[109]",
+        "kind": "para",
+        "start": 869342
+      },
+      {
+        "label": "[110]",
+        "kind": "para",
+        "start": 870546
+      },
+      {
+        "label": "[111]",
+        "kind": "para",
+        "start": 872429
+      },
+      {
+        "label": "[112]",
+        "kind": "para",
+        "start": 873809
+      },
+      {
+        "label": "[113]",
+        "kind": "para",
+        "start": 875466
+      },
+      {
+        "label": "[114]",
+        "kind": "para",
+        "start": 877053
+      },
+      {
+        "label": "[115]",
+        "kind": "para",
+        "start": 878744
+      },
+      {
+        "label": "[116]",
+        "kind": "para",
+        "start": 880135
+      },
+      {
+        "label": "[117]",
+        "kind": "para",
+        "start": 881851
+      },
+      {
+        "label": "[118]",
+        "kind": "para",
+        "start": 883114
+      },
+      {
+        "label": "[119]",
+        "kind": "para",
+        "start": 884707
+      },
+      {
+        "label": "[120]",
+        "kind": "para",
+        "start": 886211
+      },
+      {
+        "label": "[121]",
+        "kind": "para",
+        "start": 887608
+      },
+      {
+        "label": "[122]",
+        "kind": "para",
+        "start": 889009
+      },
+      {
+        "label": "[123]",
+        "kind": "para",
+        "start": 890561
+      },
+      {
+        "label": "[124]",
+        "kind": "para",
+        "start": 892142
+      },
+      {
+        "label": "[125]",
+        "kind": "para",
+        "start": 893703
+      },
+      {
+        "label": "[126]",
+        "kind": "para",
+        "start": 894992
+      },
+      {
+        "label": "[127]",
+        "kind": "para",
+        "start": 896847
+      },
+      {
+        "label": "[128]",
+        "kind": "para",
+        "start": 898251
+      },
+      {
+        "label": "[129]",
+        "kind": "para",
+        "start": 900051
+      },
+      {
+        "label": "[130]",
+        "kind": "para",
+        "start": 901856
+      },
+      {
+        "label": "[131]",
+        "kind": "para",
+        "start": 903383
+      },
+      {
+        "label": "[132]",
+        "kind": "para",
+        "start": 904477
+      },
+      {
+        "label": "[133]",
+        "kind": "para",
+        "start": 906210
+      },
+      {
+        "label": "[134]",
+        "kind": "para",
+        "start": 907666
+      },
+      {
+        "label": "[135]",
+        "kind": "para",
+        "start": 909319
+      },
+      {
+        "label": "[136]",
+        "kind": "para",
+        "start": 910715
+      },
+      {
+        "label": "[137]",
+        "kind": "para",
+        "start": 912200
+      },
+      {
+        "label": "[138]",
+        "kind": "para",
+        "start": 913540
+      },
+      {
+        "label": "[139]",
+        "kind": "para",
+        "start": 915128
+      },
+      {
+        "label": "[140]",
+        "kind": "para",
+        "start": 916373
+      },
+      {
+        "label": "[141]",
+        "kind": "para",
+        "start": 918222
+      },
+      {
+        "label": "[142]",
+        "kind": "para",
+        "start": 919535
+      },
+      {
+        "label": "[143]",
+        "kind": "para",
+        "start": 921692
+      },
+      {
+        "label": "[144]",
+        "kind": "para",
+        "start": 922937
+      },
+      {
+        "label": "[145]",
+        "kind": "para",
+        "start": 924796
+      },
+      {
+        "label": "[146]",
+        "kind": "para",
+        "start": 926061
+      },
+      {
+        "label": "[147]",
+        "kind": "para",
+        "start": 927627
+      },
+      {
+        "label": "[148]",
+        "kind": "para",
+        "start": 928958
+      },
+      {
+        "label": "[149]",
+        "kind": "para",
+        "start": 930864
+      },
+      {
+        "label": "[150]",
+        "kind": "para",
+        "start": 932570
+      },
+      {
+        "label": "[151]",
+        "kind": "para",
+        "start": 934188
+      },
+      {
+        "label": "[152]",
+        "kind": "para",
+        "start": 935513
+      },
+      {
+        "label": "[153]",
+        "kind": "para",
+        "start": 937174
+      },
+      {
+        "label": "[154]",
+        "kind": "para",
+        "start": 938442
+      },
+      {
+        "label": "[155]",
+        "kind": "para",
+        "start": 940239
+      },
+      {
+        "label": "[156]",
+        "kind": "para",
+        "start": 941420
+      },
+      {
+        "label": "[157]",
+        "kind": "para",
+        "start": 942975
+      },
+      {
+        "label": "[158]",
+        "kind": "para",
+        "start": 944158
+      },
+      {
+        "label": "[159]",
+        "kind": "para",
+        "start": 945637
+      },
+      {
+        "label": "[160]",
+        "kind": "para",
+        "start": 947347
+      },
+      {
+        "label": "[161]",
+        "kind": "para",
+        "start": 948680
+      },
+      {
+        "label": "[162]",
+        "kind": "para",
+        "start": 950268
+      },
+      {
+        "label": "[163]",
+        "kind": "para",
+        "start": 951676
+      },
+      {
+        "label": "[164]",
+        "kind": "para",
+        "start": 953264
+      },
+      {
+        "label": "[165]",
+        "kind": "para",
+        "start": 954816
+      },
+      {
+        "label": "[166]",
+        "kind": "para",
+        "start": 956129
+      },
+      {
+        "label": "[167]",
+        "kind": "para",
+        "start": 957784
+      },
+      {
+        "label": "[168]",
+        "kind": "para",
+        "start": 959132
+      },
+      {
+        "label": "[169]",
+        "kind": "para",
+        "start": 960681
+      },
+      {
+        "label": "[170]",
+        "kind": "para",
+        "start": 962134
+      },
+      {
+        "label": "[171]",
+        "kind": "para",
+        "start": 963879
+      },
+      {
+        "label": "[172]",
+        "kind": "para",
+        "start": 965368
+      },
+      {
+        "label": "[173]",
+        "kind": "para",
+        "start": 966870
+      },
+      {
+        "label": "[174]",
+        "kind": "para",
+        "start": 968109
+      },
+      {
+        "label": "[175]",
+        "kind": "para",
+        "start": 969725
+      },
+      {
+        "label": "[176]",
+        "kind": "para",
+        "start": 971282
+      },
+      {
+        "label": "[177]",
+        "kind": "para",
+        "start": 972640
+      },
+      {
+        "label": "[178]",
+        "kind": "para",
+        "start": 974291
+      },
+      {
+        "label": "[179]",
+        "kind": "para",
+        "start": 975836
+      },
+      {
+        "label": "[180]",
+        "kind": "para",
+        "start": 977132
+      },
+      {
+        "label": "[181]",
+        "kind": "para",
+        "start": 978580
+      },
+      {
+        "label": "[182]",
+        "kind": "para",
+        "start": 980043
+      },
+      {
+        "label": "[183]",
+        "kind": "para",
+        "start": 981811
+      },
+      {
+        "label": "[184]",
+        "kind": "para",
+        "start": 983167
+      },
+      {
+        "label": "[185]",
+        "kind": "para",
+        "start": 984574
+      },
+      {
+        "label": "[186]",
+        "kind": "para",
+        "start": 986024
+      },
+      {
+        "label": "[187]",
+        "kind": "para",
+        "start": 987710
+      },
+      {
+        "label": "[188]",
+        "kind": "para",
+        "start": 989242
+      },
+      {
+        "label": "[189]",
+        "kind": "para",
+        "start": 990867
+      },
+      {
+        "label": "[190]",
+        "kind": "para",
+        "start": 992390
+      },
+      {
+        "label": "[191]",
+        "kind": "para",
+        "start": 993895
+      },
+      {
+        "label": "[192]",
+        "kind": "para",
+        "start": 995359
+      },
+      {
+        "label": "[193]",
+        "kind": "para",
+        "start": 996998
+      },
+      {
+        "label": "[194]",
+        "kind": "para",
+        "start": 998223
+      },
+      {
+        "label": "[195]",
+        "kind": "para",
+        "start": 999463
+      },
+      {
+        "label": "[196]",
+        "kind": "para",
+        "start": 1000898
+      },
+      {
+        "label": "[197]",
+        "kind": "para",
+        "start": 1002363
+      },
+      {
+        "label": "[198]",
+        "kind": "para",
+        "start": 1003705
+      },
+      {
+        "label": "[199]",
+        "kind": "para",
+        "start": 1005195
+      },
+      {
+        "label": "[200]",
+        "kind": "para",
+        "start": 1006464
+      },
+      {
+        "label": "[201]",
+        "kind": "para",
+        "start": 1007880
+      },
+      {
+        "label": "[202]",
+        "kind": "para",
+        "start": 1009200
+      },
+      {
+        "label": "[203]",
+        "kind": "para",
+        "start": 1011193
+      },
+      {
+        "label": "[204]",
+        "kind": "para",
+        "start": 1012395
+      },
+      {
+        "label": "[205]",
+        "kind": "para",
+        "start": 1013733
+      },
+      {
+        "label": "[206]",
+        "kind": "para",
+        "start": 1015710
+      },
+      {
+        "label": "[207]",
+        "kind": "para",
+        "start": 1017012
+      },
+      {
+        "label": "[208]",
+        "kind": "para",
+        "start": 1018944
+      },
+      {
+        "label": "[209]",
+        "kind": "para",
+        "start": 1020673
+      },
+      {
+        "label": "[210]",
+        "kind": "para",
+        "start": 1022213
+      },
+      {
+        "label": "[211]",
+        "kind": "para",
+        "start": 1023670
+      },
+      {
+        "label": "[212]",
+        "kind": "para",
+        "start": 1025340
+      },
+      {
+        "label": "[213]",
+        "kind": "para",
+        "start": 1027015
+      },
+      {
+        "label": "[214]",
+        "kind": "para",
+        "start": 1028569
+      },
+      {
+        "label": "[215]",
+        "kind": "para",
+        "start": 1030063
+      },
+      {
+        "label": "[216]",
+        "kind": "para",
+        "start": 1031992
+      },
+      {
+        "label": "[217]",
+        "kind": "para",
+        "start": 1033565
+      },
+      {
+        "label": "[218]",
+        "kind": "para",
+        "start": 1035004
+      },
+      {
+        "label": "[219]",
+        "kind": "para",
+        "start": 1037132
+      },
+      {
+        "label": "[220]",
+        "kind": "para",
+        "start": 1038488
+      },
+      {
+        "label": "[221]",
+        "kind": "para",
+        "start": 1039979
+      },
+      {
+        "label": "[222]",
+        "kind": "para",
+        "start": 1041347
+      },
+      {
+        "label": "[223]",
+        "kind": "para",
+        "start": 1043329
+      },
+      {
+        "label": "[224]",
+        "kind": "para",
+        "start": 1044938
+      },
+      {
+        "label": "[225]",
+        "kind": "para",
+        "start": 1046554
+      },
+      {
+        "label": "[226]",
+        "kind": "para",
+        "start": 1047855
+      },
+      {
+        "label": "[227]",
+        "kind": "para",
+        "start": 1049507
+      },
+      {
+        "label": "[228]",
+        "kind": "para",
+        "start": 1051152
+      },
+      {
+        "label": "[229]",
+        "kind": "para",
+        "start": 1052869
+      },
+      {
+        "label": "[231]",
+        "kind": "para",
+        "start": 1056137
+      },
+      {
+        "label": "[232]",
+        "kind": "para",
+        "start": 1057230
+      },
+      {
+        "label": "[233]",
+        "kind": "para",
+        "start": 1059385
+      },
+      {
+        "label": "[234]",
+        "kind": "para",
+        "start": 1060523
+      },
+      {
+        "label": "[235]",
+        "kind": "para",
+        "start": 1062033
+      },
+      {
+        "label": "[236]",
+        "kind": "para",
+        "start": 1063573
+      },
+      {
+        "label": "[237]",
+        "kind": "para",
+        "start": 1065363
+      },
+      {
+        "label": "[238]",
+        "kind": "para",
+        "start": 1066764
+      },
+      {
+        "label": "[239]",
+        "kind": "para",
+        "start": 1068044
+      },
+      {
+        "label": "[240]",
+        "kind": "para",
+        "start": 1069168
+      },
+      {
+        "label": "[241]",
+        "kind": "para",
+        "start": 1070700
+      },
+      {
+        "label": "[242]",
+        "kind": "para",
+        "start": 1072292
+      },
+      {
+        "label": "[243]",
+        "kind": "para",
+        "start": 1073790
+      },
+      {
+        "label": "[244]",
+        "kind": "para",
+        "start": 1075437
+      },
+      {
+        "label": "[245]",
+        "kind": "para",
+        "start": 1076570
+      },
+      {
+        "label": "[246]",
+        "kind": "para",
+        "start": 1078266
+      },
+      {
+        "label": "[247]",
+        "kind": "para",
+        "start": 1080004
+      },
+      {
+        "label": "[248]",
+        "kind": "para",
+        "start": 1081188
+      },
+      {
+        "label": "[249]",
+        "kind": "para",
+        "start": 1082575
+      },
+      {
+        "label": "[250]",
+        "kind": "para",
+        "start": 1084164
+      },
+      {
+        "label": "[251]",
+        "kind": "para",
+        "start": 1086005
+      },
+      {
+        "label": "[252]",
+        "kind": "para",
+        "start": 1087856
+      },
+      {
+        "label": "[253]",
+        "kind": "para",
+        "start": 1089253
+      },
+      {
+        "label": "[254]",
+        "kind": "para",
+        "start": 1090946
+      },
+      {
+        "label": "[255]",
+        "kind": "para",
+        "start": 1092029
+      },
+      {
+        "label": "[256]",
+        "kind": "para",
+        "start": 1093330
+      },
+      {
+        "label": "[257]",
+        "kind": "para",
+        "start": 1094956
+      },
+      {
+        "label": "[258]",
+        "kind": "para",
+        "start": 1096430
+      },
+      {
+        "label": "[259]",
+        "kind": "para",
+        "start": 1098163
+      },
+      {
+        "label": "[260]",
+        "kind": "para",
+        "start": 1099613
+      },
+      {
+        "label": "[261]",
+        "kind": "para",
+        "start": 1101071
+      },
+      {
+        "label": "[262]",
+        "kind": "para",
+        "start": 1102380
+      },
+      {
+        "label": "[263]",
+        "kind": "para",
+        "start": 1103103
+      },
+      {
+        "label": "[264]",
+        "kind": "para",
+        "start": 1104674
+      },
+      {
+        "label": "[265]",
+        "kind": "para",
+        "start": 1106266
+      },
+      {
+        "label": "[266]",
+        "kind": "para",
+        "start": 1108047
+      },
+      {
+        "label": "[267]",
+        "kind": "para",
+        "start": 1109543
+      },
+      {
+        "label": "[268]",
+        "kind": "para",
+        "start": 1111735
+      },
+      {
+        "label": "[269]",
+        "kind": "para",
+        "start": 1113301
+      },
+      {
+        "label": "[270]",
+        "kind": "para",
+        "start": 1115079
+      },
+      {
+        "label": "[271]",
+        "kind": "para",
+        "start": 1116424
+      },
+      {
+        "label": "[272]",
+        "kind": "para",
+        "start": 1117860
+      },
+      {
+        "label": "[273]",
+        "kind": "para",
+        "start": 1119399
+      },
+      {
+        "label": "[274]",
+        "kind": "para",
+        "start": 1121081
+      },
+      {
+        "label": "[275]",
+        "kind": "para",
+        "start": 1122605
+      },
+      {
+        "label": "[276]",
+        "kind": "para",
+        "start": 1124280
+      },
+      {
+        "label": "[277]",
+        "kind": "para",
+        "start": 1125769
+      },
+      {
+        "label": "[278]",
+        "kind": "para",
+        "start": 1127324
+      },
+      {
+        "label": "[279]",
+        "kind": "para",
+        "start": 1128398
+      },
+      {
+        "label": "[280]",
+        "kind": "para",
+        "start": 1130418
+      },
+      {
+        "label": "[281]",
+        "kind": "para",
+        "start": 1131795
+      },
+      {
+        "label": "[282]",
+        "kind": "para",
+        "start": 1133341
+      },
+      {
+        "label": "[283]",
+        "kind": "para",
+        "start": 1134628
+      },
+      {
+        "label": "[284]",
+        "kind": "para",
+        "start": 1136282
+      },
+      {
+        "label": "[285]",
+        "kind": "para",
+        "start": 1138046
+      },
+      {
+        "label": "[286]",
+        "kind": "para",
+        "start": 1139675
+      },
+      {
+        "label": "[287]",
+        "kind": "para",
+        "start": 1141201
+      },
+      {
+        "label": "[288]",
+        "kind": "para",
+        "start": 1142499
+      },
+      {
+        "label": "[289]",
+        "kind": "para",
+        "start": 1144056
+      },
+      {
+        "label": "[290]",
+        "kind": "para",
+        "start": 1145966
+      },
+      {
+        "label": "[291]",
+        "kind": "para",
+        "start": 1147407
+      },
+      {
+        "label": "[292]",
+        "kind": "para",
+        "start": 1148957
+      },
+      {
+        "label": "[293]",
+        "kind": "para",
+        "start": 1150412
+      },
+      {
+        "label": "[294]",
+        "kind": "para",
+        "start": 1151855
+      },
+      {
+        "label": "[295]",
+        "kind": "para",
+        "start": 1153537
+      },
+      {
+        "label": "[296]",
+        "kind": "para",
+        "start": 1155236
+      },
+      {
+        "label": "[297]",
+        "kind": "para",
+        "start": 1156941
+      },
+      {
+        "label": "[298]",
+        "kind": "para",
+        "start": 1159018
+      },
+      {
+        "label": "[299]",
+        "kind": "para",
+        "start": 1160625
+      },
+      {
+        "label": "[300]",
+        "kind": "para",
+        "start": 1162224
+      },
+      {
+        "label": "[301]",
+        "kind": "para",
+        "start": 1163784
+      },
+      {
+        "label": "[302]",
+        "kind": "para",
+        "start": 1165610
+      },
+      {
+        "label": "[303]",
+        "kind": "para",
+        "start": 1167247
+      },
+      {
+        "label": "[304]",
+        "kind": "para",
+        "start": 1168947
+      },
+      {
+        "label": "[305]",
+        "kind": "para",
+        "start": 1170720
+      },
+      {
+        "label": "[306]",
+        "kind": "para",
+        "start": 1172129
+      },
+      {
+        "label": "[307]",
+        "kind": "para",
+        "start": 1173454
+      },
+      {
+        "label": "[308]",
+        "kind": "para",
+        "start": 1174953
+      },
+      {
+        "label": "[309]",
+        "kind": "para",
+        "start": 1176463
+      },
+      {
+        "label": "[310]",
+        "kind": "para",
+        "start": 1178085
+      },
+      {
+        "label": "[311]",
+        "kind": "para",
+        "start": 1179289
+      },
+      {
+        "label": "[312]",
+        "kind": "para",
+        "start": 1181135
+      },
+      {
+        "label": "[313]",
+        "kind": "para",
+        "start": 1182820
+      },
+      {
+        "label": "[314]",
+        "kind": "para",
+        "start": 1184695
+      },
+      {
+        "label": "[315]",
+        "kind": "para",
+        "start": 1186203
+      },
+      {
+        "label": "[316]",
+        "kind": "para",
+        "start": 1187570
+      },
+      {
+        "label": "[317]",
+        "kind": "para",
+        "start": 1189431
+      },
+      {
+        "label": "[318]",
+        "kind": "para",
+        "start": 1190773
+      },
+      {
+        "label": "[319]",
+        "kind": "para",
+        "start": 1191994
+      },
+      {
+        "label": "[320]",
+        "kind": "para",
+        "start": 1193342
+      },
+      {
+        "label": "[321]",
+        "kind": "para",
+        "start": 1194975
+      },
+      {
+        "label": "[322]",
+        "kind": "para",
+        "start": 1196101
+      },
+      {
+        "label": "[323]",
+        "kind": "para",
+        "start": 1197921
+      },
+      {
+        "label": "[324]",
+        "kind": "para",
+        "start": 1199860
+      },
+      {
+        "label": "[325]",
+        "kind": "para",
+        "start": 1201770
+      },
+      {
+        "label": "[326]",
+        "kind": "para",
+        "start": 1202935
+      },
+      {
+        "label": "[327]",
+        "kind": "para",
+        "start": 1204397
+      },
+      {
+        "label": "[328]",
+        "kind": "para",
+        "start": 1205712
+      },
+      {
+        "label": "[329]",
+        "kind": "para",
+        "start": 1207733
+      },
+      {
+        "label": "[330]",
+        "kind": "para",
+        "start": 1209395
+      },
+      {
+        "label": "[331]",
+        "kind": "para",
+        "start": 1211309
+      },
+      {
+        "label": "[333]",
+        "kind": "para",
+        "start": 1214242
+      },
+      {
+        "label": "[334]",
+        "kind": "para",
+        "start": 1215558
+      },
+      {
+        "label": "[335]",
+        "kind": "para",
+        "start": 1216944
+      },
+      {
+        "label": "[336]",
+        "kind": "para",
+        "start": 1218648
+      },
+      {
+        "label": "[337]",
+        "kind": "para",
+        "start": 1219961
+      },
+      {
+        "label": "[338]",
+        "kind": "para",
+        "start": 1221213
+      },
+      {
+        "label": "[339]",
+        "kind": "para",
+        "start": 1222892
+      },
+      {
+        "label": "[340]",
+        "kind": "para",
+        "start": 1224098
+      },
+      {
+        "label": "[341]",
+        "kind": "para",
+        "start": 1225522
+      },
+      {
+        "label": "[342]",
+        "kind": "para",
+        "start": 1226886
+      },
+      {
+        "label": "[343]",
+        "kind": "para",
+        "start": 1228573
+      },
+      {
+        "label": "[344]",
+        "kind": "para",
+        "start": 1229603
+      },
+      {
+        "label": "[345]",
+        "kind": "para",
+        "start": 1231513
+      },
+      {
+        "label": "[346]",
+        "kind": "para",
+        "start": 1233289
+      },
+      {
+        "label": "[347]",
+        "kind": "para",
+        "start": 1234974
+      },
+      {
+        "label": "[348]",
+        "kind": "para",
+        "start": 1236239
+      },
+      {
+        "label": "[349]",
+        "kind": "para",
+        "start": 1237592
+      },
+      {
+        "label": "[350]",
+        "kind": "para",
+        "start": 1239276
+      },
+      {
+        "label": "[351]",
+        "kind": "para",
+        "start": 1241215
+      },
+      {
+        "label": "[352]",
+        "kind": "para",
+        "start": 1242618
+      },
+      {
+        "label": "[353]",
+        "kind": "para",
+        "start": 1244186
+      },
+      {
+        "label": "[354]",
+        "kind": "para",
+        "start": 1245662
+      },
+      {
+        "label": "[355]",
+        "kind": "para",
+        "start": 1247339
+      },
+      {
+        "label": "[356]",
+        "kind": "para",
+        "start": 1248902
+      },
+      {
+        "label": "[357]",
+        "kind": "para",
+        "start": 1250691
+      },
+      {
+        "label": "[358]",
+        "kind": "para",
+        "start": 1252118
+      },
+      {
+        "label": "[359]",
+        "kind": "para",
+        "start": 1253385
+      },
+      {
+        "label": "[360]",
+        "kind": "para",
+        "start": 1254635
+      },
+      {
+        "label": "[361]",
+        "kind": "para",
+        "start": 1256161
+      },
+      {
+        "label": "[362]",
+        "kind": "para",
+        "start": 1258344
+      },
+      {
+        "label": "[363]",
+        "kind": "para",
+        "start": 1259917
+      },
+      {
+        "label": "[364]",
+        "kind": "para",
+        "start": 1261708
+      },
+      {
+        "label": "[365]",
+        "kind": "para",
+        "start": 1263288
+      },
+      {
+        "label": "[366]",
+        "kind": "para",
+        "start": 1264543
+      },
+      {
+        "label": "[367]",
+        "kind": "para",
+        "start": 1265942
+      },
+      {
+        "label": "[368]",
+        "kind": "para",
+        "start": 1267184
+      },
+      {
+        "label": "[369]",
+        "kind": "para",
+        "start": 1268663
+      },
+      {
+        "label": "[370]",
+        "kind": "para",
+        "start": 1270064
+      },
+      {
+        "label": "[371]",
+        "kind": "para",
+        "start": 1271684
+      },
+      {
+        "label": "[372]",
+        "kind": "para",
+        "start": 1273285
+      },
+      {
+        "label": "[373]",
+        "kind": "para",
+        "start": 1274424
+      },
+      {
+        "label": "[374]",
+        "kind": "para",
+        "start": 1275782
+      },
+      {
+        "label": "[375]",
+        "kind": "para",
+        "start": 1277220
+      },
+      {
+        "label": "[376]",
+        "kind": "para",
+        "start": 1278724
+      },
+      {
+        "label": "[377]",
+        "kind": "para",
+        "start": 1279917
+      },
+      {
+        "label": "[378]",
+        "kind": "para",
+        "start": 1281290
+      },
+      {
+        "label": "[380]",
+        "kind": "para",
+        "start": 1284288
+      },
+      {
+        "label": "[381]",
+        "kind": "para",
+        "start": 1285503
+      },
+      {
+        "label": "[382]",
+        "kind": "para",
+        "start": 1286756
+      },
+      {
+        "label": "[383]",
+        "kind": "para",
+        "start": 1288033
+      },
+      {
+        "label": "[384]",
+        "kind": "para",
+        "start": 1289671
+      },
+      {
+        "label": "[385]",
+        "kind": "para",
+        "start": 1291120
+      },
+      {
+        "label": "[386]",
+        "kind": "para",
+        "start": 1292904
+      },
+      {
+        "label": "[387]",
+        "kind": "para",
+        "start": 1294181
+      },
+      {
+        "label": "[388]",
+        "kind": "para",
+        "start": 1295720
+      },
+      {
+        "label": "[389]",
+        "kind": "para",
+        "start": 1297003
+      },
+      {
+        "label": "[390]",
+        "kind": "para",
+        "start": 1298825
+      },
+      {
+        "label": "[391]",
+        "kind": "para",
+        "start": 1300025
+      },
+      {
+        "label": "[392]",
+        "kind": "para",
+        "start": 1301455
+      },
+      {
+        "label": "[393]",
+        "kind": "para",
+        "start": 1303130
+      },
+      {
+        "label": "[394]",
+        "kind": "para",
+        "start": 1305027
+      },
+      {
+        "label": "[395]",
+        "kind": "para",
+        "start": 1306599
+      },
+      {
+        "label": "[396]",
+        "kind": "para",
+        "start": 1308274
+      },
+      {
+        "label": "[397]",
+        "kind": "para",
+        "start": 1309683
+      },
+      {
+        "label": "[398]",
+        "kind": "para",
+        "start": 1311051
+      },
+      {
+        "label": "[399]",
+        "kind": "para",
+        "start": 1312685
+      },
+      {
+        "label": "[400]",
+        "kind": "para",
+        "start": 1313256
+      },
+      {
+        "label": "[401]",
+        "kind": "para",
+        "start": 1316018
+      },
+      {
+        "label": "[402]",
+        "kind": "para",
+        "start": 1317573
+      },
+      {
+        "label": "[403]",
+        "kind": "para",
+        "start": 1319281
+      },
+      {
+        "label": "[404]",
+        "kind": "para",
+        "start": 1320878
+      },
+      {
+        "label": "[405]",
+        "kind": "para",
+        "start": 1322417
+      },
+      {
+        "label": "[406]",
+        "kind": "para",
+        "start": 1324076
+      },
+      {
+        "label": "[407]",
+        "kind": "para",
+        "start": 1325591
+      },
+      {
+        "label": "[408]",
+        "kind": "para",
+        "start": 1327223
+      },
+      {
+        "label": "[409]",
+        "kind": "para",
+        "start": 1329149
+      },
+      {
+        "label": "[410]",
+        "kind": "para",
+        "start": 1330509
+      },
+      {
+        "label": "[411]",
+        "kind": "para",
+        "start": 1332532
+      },
+      {
+        "label": "[412]",
+        "kind": "para",
+        "start": 1333982
+      },
+      {
+        "label": "[413]",
+        "kind": "para",
+        "start": 1335900
+      },
+      {
+        "label": "[414]",
+        "kind": "para",
+        "start": 1337398
+      },
+      {
+        "label": "[415]",
+        "kind": "para",
+        "start": 1339394
+      },
+      {
+        "label": "[416]",
+        "kind": "para",
+        "start": 1341070
+      },
+      {
+        "label": "[417]",
+        "kind": "para",
+        "start": 1342490
+      },
+      {
+        "label": "[418]",
+        "kind": "para",
+        "start": 1344328
+      },
+      {
+        "label": "[419]",
+        "kind": "para",
+        "start": 1345731
+      },
+      {
+        "label": "[420]",
+        "kind": "para",
+        "start": 1347392
+      },
+      {
+        "label": "[421]",
+        "kind": "para",
+        "start": 1349009
+      },
+      {
+        "label": "[422]",
+        "kind": "para",
+        "start": 1350533
+      },
+      {
+        "label": "[423]",
+        "kind": "para",
+        "start": 1351817
+      },
+      {
+        "label": "[424]",
+        "kind": "para",
+        "start": 1353220
+      },
+      {
+        "label": "[425]",
+        "kind": "para",
+        "start": 1354790
+      },
+      {
+        "label": "[426]",
+        "kind": "para",
+        "start": 1355890
+      },
+      {
+        "label": "[427]",
+        "kind": "para",
+        "start": 1357829
+      },
+      {
+        "label": "[429]",
+        "kind": "para",
+        "start": 1360784
+      },
+      {
+        "label": "[430]",
+        "kind": "para",
+        "start": 1362338
+      },
+      {
+        "label": "[431]",
+        "kind": "para",
+        "start": 1363888
+      },
+      {
+        "label": "[432]",
+        "kind": "para",
+        "start": 1365616
+      },
+      {
+        "label": "[433]",
+        "kind": "para",
+        "start": 1367367
+      },
+      {
+        "label": "[434]",
+        "kind": "para",
+        "start": 1368647
+      },
+      {
+        "label": "[435]",
+        "kind": "para",
+        "start": 1369983
+      },
+      {
+        "label": "[436]",
+        "kind": "para",
+        "start": 1370918
+      },
+      {
+        "label": "[437]",
+        "kind": "para",
+        "start": 1372826
+      },
+      {
+        "label": "[438]",
+        "kind": "para",
+        "start": 1374575
+      },
+      {
+        "label": "[439]",
+        "kind": "para",
+        "start": 1376160
+      },
+      {
+        "label": "[440]",
+        "kind": "para",
+        "start": 1378206
+      },
+      {
+        "label": "[441]",
+        "kind": "para",
+        "start": 1379696
+      },
+      {
+        "label": "[442]",
+        "kind": "para",
+        "start": 1381070
+      },
+      {
+        "label": "[443]",
+        "kind": "para",
+        "start": 1382652
+      },
+      {
+        "label": "[444]",
+        "kind": "para",
+        "start": 1383437
+      },
+      {
+        "label": "[445]",
+        "kind": "para",
+        "start": 1385610
+      },
+      {
+        "label": "[446]",
+        "kind": "para",
+        "start": 1387520
+      },
+      {
+        "label": "[447]",
+        "kind": "para",
+        "start": 1388871
+      },
+      {
+        "label": "[448]",
+        "kind": "para",
+        "start": 1390695
+      },
+      {
+        "label": "[449]",
+        "kind": "para",
+        "start": 1392131
+      },
+      {
+        "label": "[450]",
+        "kind": "para",
+        "start": 1394151
+      },
+      {
+        "label": "[451]",
+        "kind": "para",
+        "start": 1395667
+      },
+      {
+        "label": "[452]",
+        "kind": "para",
+        "start": 1396825
+      },
+      {
+        "label": "[453]",
+        "kind": "para",
+        "start": 1398279
+      },
+      {
+        "label": "[454]",
+        "kind": "para",
+        "start": 1400113
+      },
+      {
+        "label": "[455]",
+        "kind": "para",
+        "start": 1401775
+      },
+      {
+        "label": "[456]",
+        "kind": "para",
+        "start": 1403229
+      },
+      {
+        "label": "[457]",
+        "kind": "para",
+        "start": 1404538
+      },
+      {
+        "label": "[458]",
+        "kind": "para",
+        "start": 1405837
+      },
+      {
+        "label": "[459]",
+        "kind": "para",
+        "start": 1407414
+      },
+      {
+        "label": "[460]",
+        "kind": "para",
+        "start": 1408823
+      },
+      {
+        "label": "[461]",
+        "kind": "para",
+        "start": 1409905
+      },
+      {
+        "label": "[462]",
+        "kind": "para",
+        "start": 1411268
+      },
+      {
+        "label": "[463]",
+        "kind": "para",
+        "start": 1413294
+      },
+      {
+        "label": "[464]",
+        "kind": "para",
+        "start": 1414371
+      },
+      {
+        "label": "[465]",
+        "kind": "para",
+        "start": 1416275
+      },
+      {
+        "label": "[466]",
+        "kind": "para",
+        "start": 1417962
+      },
+      {
+        "label": "[467]",
+        "kind": "para",
+        "start": 1419563
+      },
+      {
+        "label": "[468]",
+        "kind": "para",
+        "start": 1420818
+      },
+      {
+        "label": "[469]",
+        "kind": "para",
+        "start": 1421959
+      },
+      {
+        "label": "[470]",
+        "kind": "para",
+        "start": 1422943
+      },
+      {
+        "label": "[471]",
+        "kind": "para",
+        "start": 1424070
+      },
+      {
+        "label": "[472]",
+        "kind": "para",
+        "start": 1425515
+      },
+      {
+        "label": "[473]",
+        "kind": "para",
+        "start": 1426920
+      },
+      {
+        "label": "[474]",
+        "kind": "para",
+        "start": 1428471
+      },
+      {
+        "label": "[475]",
+        "kind": "para",
+        "start": 1429699
+      },
+      {
+        "label": "[476]",
+        "kind": "para",
+        "start": 1431004
+      },
+      {
+        "label": "[477]",
+        "kind": "para",
+        "start": 1432372
+      },
+      {
+        "label": "[478]",
+        "kind": "para",
+        "start": 1433869
+      },
+      {
+        "label": "[479]",
+        "kind": "para",
+        "start": 1435476
+      },
+      {
+        "label": "[480]",
+        "kind": "para",
+        "start": 1436739
+      },
+      {
+        "label": "[481]",
+        "kind": "para",
+        "start": 1437769
+      },
+      {
+        "label": "[482]",
+        "kind": "para",
+        "start": 1439051
+      },
+      {
+        "label": "[483]",
+        "kind": "para",
+        "start": 1440355
+      },
+      {
+        "label": "[484]",
+        "kind": "para",
+        "start": 1441352
+      },
+      {
+        "label": "[485]",
+        "kind": "para",
+        "start": 1442485
+      },
+      {
+        "label": "[486]",
+        "kind": "para",
+        "start": 1443770
+      },
+      {
+        "label": "[487]",
+        "kind": "para",
+        "start": 1445157
+      },
+      {
+        "label": "[488]",
+        "kind": "para",
+        "start": 1446440
+      },
+      {
+        "label": "[489]",
+        "kind": "para",
+        "start": 1447633
+      },
+      {
+        "label": "[490]",
+        "kind": "para",
+        "start": 1448320
+      }
+    ]
+  },
+  "chretien": {
+    "author": "Chrétien de Troyes",
+    "work": "Four Arthurian Romances (Erec, Cligés, Yvain, Lancelot; no Perceval)",
+    "scheme": null,
+    "cite": "Chrétien de Troyes",
+    "chars": 1025152,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "wolfram1": {
+    "author": "Wolfram von Eschenbach",
+    "work": "Parzival (Vol. 1)",
+    "scheme": null,
+    "cite": "Wolfram, Parzival",
+    "chars": 745900,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "wolfram2": {
+    "author": "Wolfram von Eschenbach",
+    "work": "Parzival (Vol. 2)",
+    "scheme": null,
+    "cite": "Wolfram, Parzival",
+    "chars": 523451,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "nennius": {
+    "author": "The Chroniclers",
+    "work": "Nennius, Historia Brittonum (Giles trans.)",
+    "scheme": null,
+    "cite": "Nennius, Historia Brittonum",
+    "chars": 95868,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "chronicles": {
+    "author": "The Chroniclers",
+    "work": "Six Old English Chronicles (Giles): Gildas, Nennius, Geoffrey, Asser, et al.",
+    "scheme": null,
+    "cite": "Six Old English Chronicles (Giles)",
+    "chars": 1305772,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "wace": {
+    "author": "The Chroniclers",
+    "work": "Wace, Roman de Brut (Mason trans.)",
+    "scheme": null,
+    "cite": "Wace, Roman de Brut",
+    "chars": 346964,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "layamon": {
+    "author": "The Chroniclers",
+    "work": "Layamon, Brut (Mason trans.)",
+    "scheme": null,
+    "cite": "Layamon, Brut",
+    "chars": 397144,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "mabinogion": {
+    "author": "The Mabinogion",
+    "work": "The Mabinogion (Guest trans.): Culhwch, Peredur, Owain, Geraint, Rhonabwy",
+    "scheme": null,
+    "cite": "Mabinogion (Guest)",
+    "chars": 588241,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "tristan1": {
+    "author": "Gottfried von Strassburg",
+    "work": "Tristan (Weston trans.), Vol. 1",
+    "scheme": null,
+    "cite": "Gottfried, Tristan (Weston)",
+    "chars": 142605,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "tristan2": {
+    "author": "Gottfried von Strassburg",
+    "work": "Tristan (Weston trans.), Vol. 2",
+    "scheme": null,
+    "cite": "Gottfried, Tristan (Weston)",
+    "chars": 152817,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "perlesvaus": {
+    "author": "The Grail Romances",
+    "work": "Perlesvaus / The High History of the Holy Graal (Evans trans.)",
+    "scheme": null,
+    "cite": "Perlesvaus (Evans)",
+    "chars": 850265,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "queste": {
+    "author": "The Grail Romances",
+    "work": "The Quest of the Holy Grail / Queste del Saint Graal (Comfort trans., 1926)",
+    "scheme": null,
+    "cite": "Quest of the Holy Grail (Comfort)",
+    "chars": 636685,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "sggk": {
+    "author": "The Gawain Romances",
+    "work": "Sir Gawain and the Green Knight (Morris, EETS Middle English)",
+    "scheme": null,
+    "cite": "Sir Gawain and the Green Knight",
+    "chars": 231052,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "gawain_romances": {
+    "author": "The Gawain Romances",
+    "work": "Syr Gawayne, ed. Madden (1839): the Wedding of Dame Ragnell, Awntyrs, Golagros, Carle",
+    "scheme": null,
+    "cite": "Madden, Syr Gawayne (1839)",
+    "chars": 815390,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "morte_allit": {
+    "author": "The English Mortes",
+    "work": "The Alliterative Morte Arthure (Brock, EETS Middle English)",
+    "scheme": null,
+    "cite": "Alliterative Morte Arthure",
+    "chars": 489264,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "morte_stanzaic": {
+    "author": "The English Mortes",
+    "work": "The Stanzaic Le Morte Arthur (Hemingway, Middle English)",
+    "scheme": null,
+    "cite": "Stanzaic Le Morte Arthur",
+    "chars": 218846,
+    "n_anchors": 0,
+    "anchors": []
+  },
+  "ragnelle": {
+    "author": "The Gawain Romances",
+    "work": "The Wedding of Sir Gawain and Dame Ragnelle (Madden 1839, OCR-cleaned derivative)",
+    "scheme": null,
+    "cite": "The Wedding of Sir Gawain and Dame Ragnelle",
+    "chars": 1350,
+    "n_anchors": 0,
+    "anchors": []
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "note": "Validated quote ledger for the Arthur base. Every quote is located in its cited source by the shared engine's validate.py (de-spaced, OCR-tolerant). text = clean publishable wording (spacing fixed, words kept exact); anchor = the citation (Malory Book.chapter; Geoffrey Bk/ch; Vulgate Lacy paragraph [N]; Chrétien/Wolfram by work, EPUB best-effort, anchor '?'). tags map to docs/bases/arthur/TAGS.md. Grow with quote.py. 'status':'seed' = part of the v1 seed set. COVERAGE: the base now spans branches (see ANATOMY coverage map + ACQUISITIONS.md) — Malory = the FULL Le Morte d'Arthur (Books I–XXI); the Chroniclers (Gildas/Nennius/Wace/Layamon); the Mabinogion (Guest); the Grail romances (the Queste = Comfort, + Perlesvaus); Gottfried's Tristan; the English Mortes (Alliterative + Stanzaic); the Gawain romances (SGGK + Madden's Ragnelle/Awntyrs/Golagros/Carle). OCR policy (docs/bases/_engine/README.md): Tier-1 deterministic glyph fixes (ſ->s, ligatures) + per-source boilerplate/fuzzy_threshold clean most rough sources, validated against the real OCR; Tier-2 — for blackletter too rough for the fuzzy gate (Madden 1839's Ragnelle scored 0.000) — a provenance-stamped cleaned derivative (cleaned/ragnelle.txt) wired as its own source. Still quote-pending: the two Mortes and the other Madden romances (Awntyrs/Golagros/Carle). Gaps: Chrétien's Perceval (no clean PD English) and the Vulgate's own Queste/Mort Artu.",
+  "quotes": [
+    {
+      "id": "geoffrey-boar-of-cornwall",
+      "thinker": "Geoffrey of Monmouth",
+      "source": "geoffrey",
+      "work": "The History of the Kings of Britain",
+      "anchor": "Bk VII, ch. III",
+      "text": "the Boar of Cornwall shall bring succour and shall trample their necks beneath his feet",
+      "tags": [
+        "foreknowledge-and-doom",
+        "source-of-rule"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "Bk VII, ch. III"
+      }
+    },
+    {
+      "id": "geoffrey-caliburn-avalon",
+      "thinker": "Geoffrey of Monmouth",
+      "source": "geoffrey",
+      "work": "The History of the Kings of Britain",
+      "anchor": "Bk IX, ch. I",
+      "text": "best of swords, that was forged within the Isle of Avalon",
+      "tags": [
+        "source-of-rule",
+        "sword-and-sovereignty"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "Bk IX, ch. I"
+      }
+    },
+    {
+      "id": "geoffrey-arthur-to-avalon",
+      "thinker": "Geoffrey of Monmouth",
+      "source": "geoffrey",
+      "work": "The History of the Kings of Britain",
+      "anchor": "Bk XI, ch. II",
+      "text": "the renowned King Arthur himself was wounded deadly, and was borne thence unto the island of Avalon for the healing of his wounds",
+      "tags": [
+        "once-and-future",
+        "the-wound-and-wasteland"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "Bk XI, ch. II"
+      }
+    },
+    {
+      "id": "chretien-love-over-shame",
+      "thinker": "Chrétien de Troyes",
+      "source": "chretien",
+      "work": "Lancelot, or the Knight of the Cart (Comfort trans.)",
+      "anchor": "Lancelot (the Cart)",
+      "text": "Reason, which dares thus speak to him, reaches only his lips, but not his heart; but love is enclosed within his heart, bidding him and urging him to mount at once upon the cart",
+      "tags": [
+        "courtly-love",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "wolfram-anfortas-wounded",
+      "thinker": "Wolfram von Eschenbach",
+      "source": "wolfram2",
+      "work": "Parzival (Weston trans.)",
+      "anchor": "Parzival (Anfortas)",
+      "text": "Anfortas, the gentle monarch, who was courteous as he was bold",
+      "tags": [
+        "the-wound-and-wasteland",
+        "the-grail"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "vulgate-lancelot-loves-queen",
+      "thinker": "The Vulgate",
+      "source": "vulgate2",
+      "work": "Lancelot-Grail, Vol. II: Lancelot (Lacy trans.)",
+      "anchor": "[12]",
+      "text": "the White Knight loved the queen and was fairly sure that the queen loved him as well",
+      "tags": [
+        "courtly-love"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "[12]"
+      }
+    },
+    {
+      "id": "vulgate-holy-vessel-grail",
+      "thinker": "The Vulgate",
+      "source": "vulgate1",
+      "work": "Lancelot-Grail, Vol. I: The History of the Holy Grail (Lacy trans.)",
+      "anchor": "[539]",
+      "text": "Ah, sword, you are the thing I prized most except for the Holy Vessel called the Grail",
+      "tags": [
+        "the-grail",
+        "source-of-rule"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "[539]"
+      }
+    },
+    {
+      "id": "malory-sword-in-stone",
+      "thinker": "Malory",
+      "source": "malory1",
+      "work": "Le Morte d'Arthur",
+      "anchor": "I.v",
+      "text": "Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England",
+      "tags": [
+        "source-of-rule",
+        "sword-and-sovereignty"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "I.v"
+      }
+    },
+    {
+      "id": "malory-dolorous-stroke",
+      "thinker": "Malory",
+      "source": "malory1",
+      "work": "Le Morte d'Arthur",
+      "anchor": "II.xvi",
+      "text": "for the dolorous stroke thou gavest unto King Pellam three countries are destroyed, and doubt not but the vengeance will fall on thee at the last",
+      "tags": [
+        "the-wound-and-wasteland",
+        "dolorous-stroke",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "II.xvi"
+      }
+    },
+    {
+      "id": "malory-pentecostal-oath",
+      "thinker": "Malory",
+      "source": "malory1",
+      "work": "Le Morte d'Arthur",
+      "anchor": "III.xv",
+      "text": "charged them never to do outrageousity nor murder, and always to flee treason; also, by no means to be cruel, but to give mercy unto him that asketh mercy",
+      "tags": [
+        "the-fellowship",
+        "pentecostal-oath"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "III.xv"
+      }
+    },
+    {
+      "id": "malory-merlin-and-nimue",
+      "thinker": "Malory",
+      "source": "malory1",
+      "work": "Le Morte d'Arthur",
+      "anchor": "IV.i",
+      "text": "always Merlin lay about the lady to have her maidenhood, and she was ever passing weary of him, and fain would have been delivered of him, for she was afeard of him because he was a devil's son",
+      "tags": [
+        "foreknowledge-and-doom",
+        "disenchantment"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 0.995,
+        "located_anchor": "IV.i"
+      }
+    },
+    {
+      "id": "malory-grail-at-camelot",
+      "thinker": "Malory",
+      "source": "malory2",
+      "work": "Le Morte d'Arthur",
+      "anchor": "XIII.vii",
+      "text": "Then there entered into the hall the Holy Grail covered with white samite, but there was none might see it, nor who bare it",
+      "tags": [
+        "the-grail"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "XIII.vii"
+      }
+    },
+    {
+      "id": "malory-grail-empties-fellowship",
+      "thinker": "Malory",
+      "source": "malory2",
+      "work": "Le Morte d'Arthur",
+      "anchor": "XIII.vii",
+      "text": "ye have nigh slain me with the avow and promise that ye have made; for through you ye have bereft me the fairest fellowship and the truest of knighthood that ever were seen together in any realm of the world",
+      "tags": [
+        "the-grail",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "XIII.vii"
+      }
+    },
+    {
+      "id": "malory-love-nowadays",
+      "thinker": "Malory",
+      "source": "malory2",
+      "work": "Le Morte d'Arthur",
+      "anchor": "XVIII.xxv",
+      "text": "Right so fareth love nowadays, soon hot soon cold: this is no stability. But the old love was not so; men and women could love together seven years",
+      "tags": [
+        "courtly-love",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "XVIII.xxv"
+      }
+    },
+    {
+      "id": "malory-excalibur-returned",
+      "thinker": "Malory",
+      "source": "malory2",
+      "work": "Le Morte d'Arthur",
+      "anchor": "XXI.v",
+      "text": "he threw the sword as far into the water as he might; and there came an arm and an hand above the water and met it, and caught it, and so shook it thrice and brandished, and then vanished away the hand with the sword in the water",
+      "tags": [
+        "source-of-rule",
+        "sword-and-sovereignty",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "XXI.v"
+      }
+    },
+    {
+      "id": "malory-rex-quondam",
+      "thinker": "Malory",
+      "source": "malory2",
+      "work": "Le Morte d'Arthur",
+      "anchor": "XXI.vii",
+      "text": "many men say that there is written upon his tomb this verse: Hic jacet Arthurus, Rex quondam, Rexque futurus",
+      "tags": [
+        "once-and-future",
+        "disenchantment"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "XXI.vii"
+      }
+    },
+    {
+      "id": "wace-round-table",
+      "thinker": "The Chroniclers",
+      "source": "wace",
+      "work": "Wace, Roman de Brut (Mason trans.)",
+      "anchor": "Wace, Roman de Brut",
+      "text": "their chairs should be high alike, their service equal, and none before or after his comrade. Thus no man could boast that he was exalted above his fellow, for all alike were gathered round the board",
+      "tags": [
+        "the-fellowship"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "nennius-twelve-battles",
+      "thinker": "The Chroniclers",
+      "source": "nennius",
+      "work": "Nennius, Historia Brittonum (Giles trans.)",
+      "anchor": "Nennius §56",
+      "text": "The twelfth was a most severe contest, when Arthur penetrated to the hill of Badon. In this engagement, nine hundred and forty fell by his hand alone, no one but the Lord affording him assistance",
+      "tags": [
+        "source-of-rule",
+        "pseudo-history"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "mabinogion-peredur-spear",
+      "thinker": "The Mabinogion",
+      "source": "mabinogion",
+      "work": "The Mabinogion: Peredur (Guest trans.)",
+      "anchor": "Peredur",
+      "text": "two youths enter the hall, and proceed up to the chamber, bearing a spear of mighty size, with three streams of blood flowing from the point to the ground. And when all the company saw this, they began wailing and lamenting",
+      "tags": [
+        "the-grail",
+        "the-unasked-question"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "gottfried-love-potion",
+      "thinker": "Gottfried von Strassburg",
+      "source": "tristan2",
+      "work": "Gottfried von Strassburg, Tristan (Weston trans.)",
+      "anchor": "Tristan (Weston)",
+      "text": "the wise Queen Iseult, with much thought and care, prepare a love potion of such power and magic that did any two drink thereof they must needs, without will of their own, love each other above all things",
+      "tags": [
+        "courtly-love"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "layamon-argante-return",
+      "thinker": "The Chroniclers",
+      "source": "layamon",
+      "work": "Layamon, Brut (Mason trans.)",
+      "anchor": "Layamon, Brut",
+      "text": "he would fare into Avalon, into the island, to Argante the fair, for she would with balm heal his wounds,--and when he were all whole, he would soon come to them. This believed the Britons, that he will thus come",
+      "tags": [
+        "once-and-future"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "sggk-green-girdle",
+      "thinker": "The Gawain Romances",
+      "source": "sggk",
+      "work": "Sir Gawain and the Green Knight (Morris, EETS Middle English)",
+      "anchor": "Sir Gawain and the Green Knight",
+      "text": "For quat gome so is gorde with þis grene lace, While he hit hade hemely halched aboute, þer is no haþel vnder heuen to-hewe hym þat my3t",
+      "tags": [
+        "the-fellowship",
+        "the-chivalric-test"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "queste-judgment-purity",
+      "thinker": "The Grail Romances",
+      "source": "queste",
+      "work": "The Quest of the Holy Grail / Queste del Saint Graal (Comfort trans.)",
+      "anchor": "Quest of the Holy Grail",
+      "text": "no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins. This Quest is not a quest for earthly things, but is to be the search for the deep secrets and confidences of Our Lord",
+      "tags": [
+        "the-grail",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 0.996,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "ragnelle-riddle",
+      "thinker": "The Gawain Romances",
+      "source": "ragnelle",
+      "work": "The Wedding of Sir Gawain and Dame Ragnelle (Madden 1839, cleaned)",
+      "anchor": "the riddle (Sir Gromer's demand)",
+      "text": "Whate wemen desyren moste, in good faye, my lyf els shold I lese",
+      "tags": [
+        "source-of-rule"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    },
+    {
+      "id": "ragnelle-sovereignty",
+      "thinker": "The Gawain Romances",
+      "source": "ragnelle",
+      "work": "The Wedding of Sir Gawain and Dame Ragnelle (Madden 1839, cleaned)",
+      "anchor": "the answer",
+      "text": "We desyren of men, aboue alle maner thyng, to haue the soveraynté, withoute lesyng, of alle, bothe hyghe and lowe",
+      "tags": [
+        "source-of-rule",
+        "the-cost"
+      ],
+      "status": "seed",
+      "check": {
+        "ratio": 1.0,
+        "located_anchor": "?"
+      }
+    }
+  ]
+}

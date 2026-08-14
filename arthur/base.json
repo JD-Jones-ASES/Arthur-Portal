@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "slug": "arthur",
+  "display_name": "Arthuriana",
+  "domain": "The Matter of Britain across its incompatible versions and branches — chronicle (Gildas/Nennius/Geoffrey/Wace/Layamon), Welsh (the Mabinogion), French (Chrétien/the Vulgate/Perlesvaus/the Queste), German (Wolfram/Gottfried), and English (Malory/the Mortes/the Gawain romances) — for essays on kingship, the Grail, chivalric decline, eros, and fate.",
+  "subagent": "chronicler",
+  "fuzzy_threshold": 0.90,
+  "render_order": ["Geoffrey of Monmouth", "The Chroniclers", "The Mabinogion", "Chrétien de Troyes", "Wolfram von Eschenbach", "Gottfried von Strassburg", "The Vulgate", "The Grail Romances", "Malory", "The English Mortes", "The Gawain Romances"],
+  "render_note": "Anchors: Malory by Book.chapter; Geoffrey by Bk/ch; the Vulgate by Lacy paragraph [N]. The added witnesses (chronicles, Welsh, Grail romances, Mortes, Gawain romances, Tristan) are cited by work, with the work named in the anchor; located_anchor is '?' (no in-file scheme yet) — the gate validates the TEXT, the work-label is the seeder's.",
+  "sources": {
+    "malory1": {
+      "author": "Malory",
+      "work": "Le Morte d'Arthur, Vol. I (Caxton / Project Gutenberg; Books I–IX)",
+      "path": "{raw}/Malory_1.txt",
+      "scheme": "malory_books",
+      "cite": "Malory"
+    },
+    "malory2": {
+      "author": "Malory",
+      "work": "Le Morte d'Arthur, Vol. II (Caxton / Project Gutenberg; Books X–XXI)",
+      "path": "{raw}/Malory_2.txt",
+      "scheme": "malory_books",
+      "cite": "Malory"
+    },
+    "geoffrey": {
+      "author": "Geoffrey of Monmouth",
+      "work": "The History of the Kings of Britain (full Historia, Bks I–XII on hand)",
+      "path": "{raw}/Monmouth_Histories.txt",
+      "scheme": "book_chapter",
+      "cite": "Geoffrey of Monmouth",
+      "boilerplate": ["^\\d{1,3}$", "Geoffrey'?s Histories"],
+      "substitutions": [["Geoflrey", "Geoffrey"], ["Geoffi-ey", "Geoffrey"]]
+    },
+    "nennius": {
+      "author": "The Chroniclers",
+      "work": "Nennius, Historia Brittonum (Giles trans.)",
+      "path": "{raw}/_arthur_dl/Nennius_HistoriaBrittonum_Giles.txt",
+      "cite": "Nennius, Historia Brittonum"
+    },
+    "chronicles": {
+      "author": "The Chroniclers",
+      "work": "Six Old English Chronicles (Giles): Gildas, Nennius, Geoffrey, Asser, et al.",
+      "path": "{raw}/_arthur_dl/OldEnglishChronicles_Giles.txt",
+      "cite": "Six Old English Chronicles (Giles)"
+    },
+    "wace": {
+      "author": "The Chroniclers",
+      "work": "Wace, Roman de Brut (Mason trans.)",
+      "path": "{raw}/_arthur_dl/Wace_RomanDeBrut_Mason.txt",
+      "cite": "Wace, Roman de Brut"
+    },
+    "layamon": {
+      "author": "The Chroniclers",
+      "work": "Layamon, Brut (Mason trans.)",
+      "path": "{raw}/_arthur_dl/Layamon_Brut_Mason.txt",
+      "cite": "Layamon, Brut"
+    },
+    "mabinogion": {
+      "author": "The Mabinogion",
+      "work": "The Mabinogion (Guest trans.): Culhwch, Peredur, Owain, Geraint, Rhonabwy",
+      "path": "{raw}/_arthur_dl/Mabinogion_Guest.txt",
+      "cite": "Mabinogion (Guest)"
+    },
+    "chretien": {
+      "author": "Chrétien de Troyes",
+      "work": "Four Arthurian Romances (Erec, Cligés, Yvain, Lancelot; no Perceval)",
+      "path": "{raw}/De_Troyes.epub",
+      "cite": "Chrétien de Troyes"
+    },
+    "wolfram1": {
+      "author": "Wolfram von Eschenbach",
+      "work": "Parzival (Vol. 1)",
+      "path": "{raw}/Wolfram_1.epub",
+      "cite": "Wolfram, Parzival"
+    },
+    "wolfram2": {
+      "author": "Wolfram von Eschenbach",
+      "work": "Parzival (Vol. 2)",
+      "path": "{raw}/Wolfram_2.epub",
+      "cite": "Wolfram, Parzival"
+    },
+    "tristan1": {
+      "author": "Gottfried von Strassburg",
+      "work": "Tristan (Weston trans.), Vol. 1",
+      "path": "{raw}/_arthur_dl/Tristan_Gottfried_Weston_v1.txt",
+      "cite": "Gottfried, Tristan (Weston)"
+    },
+    "tristan2": {
+      "author": "Gottfried von Strassburg",
+      "work": "Tristan (Weston trans.), Vol. 2",
+      "path": "{raw}/_arthur_dl/Tristan_Gottfried_Weston_v2.txt",
+      "cite": "Gottfried, Tristan (Weston)"
+    },
+    "vulgate1": {
+      "author": "The Vulgate",
+      "work": "Lancelot-Grail, Vol. I (Lacy trans.)",
+      "path": "{raw}/Norris_Lacy_I.txt",
+      "scheme": "bracket_num",
+      "cite": "Lancelot-Grail (Lacy)"
+    },
+    "vulgate2": {
+      "author": "The Vulgate",
+      "work": "Lancelot-Grail, Vol. II (Lacy trans.)",
+      "path": "{raw}/Norris_Lacy_II.txt",
+      "scheme": "bracket_num",
+      "cite": "Lancelot-Grail (Lacy)"
+    },
+    "perlesvaus": {
+      "author": "The Grail Romances",
+      "work": "Perlesvaus / The High History of the Holy Graal (Evans trans.)",
+      "path": "{raw}/_arthur_dl/Perlesvaus_HighHistoryGraal_Evans.txt",
+      "cite": "Perlesvaus (Evans)"
+    },
+    "queste": {
+      "author": "The Grail Romances",
+      "work": "The Quest of the Holy Grail / Queste del Saint Graal (Comfort trans., 1926)",
+      "path": "{raw}/_arthur_dl/Queste_QuestHolyGrail_Comfort.txt",
+      "cite": "Quest of the Holy Grail (Comfort)",
+      "boilerplate": ["Digitized by", "Original from", "University of Virginia", "Google"],
+      "fuzzy_threshold": 0.88
+    },
+    "sggk": {
+      "author": "The Gawain Romances",
+      "work": "Sir Gawain and the Green Knight (Morris, EETS Middle English)",
+      "path": "{raw}/_arthur_dl/Gawain_GreenKnight_Morris_ME.txt",
+      "cite": "Sir Gawain and the Green Knight"
+    },
+    "gawain_romances": {
+      "author": "The Gawain Romances",
+      "work": "Syr Gawayne, ed. Madden (1839): the Wedding of Dame Ragnell, Awntyrs, Golagros, Carle",
+      "path": "{raw}/_arthur_dl/SyrGawayne_Madden1839_Ragnell_etc.txt",
+      "cite": "Madden, Syr Gawayne (1839)",
+      "boilerplate": ["^P\\.\\s?\\d", "^\\d{1,4}$"],
+      "fuzzy_threshold": 0.85
+    },
+    "ragnelle": {
+      "author": "The Gawain Romances",
+      "work": "The Wedding of Sir Gawain and Dame Ragnelle (Madden 1839, OCR-cleaned derivative)",
+      "path": "{repo}/docs/bases/arthur/cleaned/ragnelle.txt",
+      "cite": "The Wedding of Sir Gawain and Dame Ragnelle"
+    },
+    "morte_allit": {
+      "author": "The English Mortes",
+      "work": "The Alliterative Morte Arthure (Brock, EETS Middle English)",
+      "path": "{raw}/_arthur_dl/MorteArthure_Alliterative_Brock.txt",
+      "cite": "Alliterative Morte Arthure",
+      "fuzzy_threshold": 0.85
+    },
+    "morte_stanzaic": {
+      "author": "The English Mortes",
+      "work": "The Stanzaic Le Morte Arthur (Hemingway, Middle English)",
+      "path": "{raw}/_arthur_dl/MorteArthur_Stanzaic.txt",
+      "cite": "Stanzaic Le Morte Arthur",
+      "boilerplate": ["^[0-9]{1,4}\\.\\s{2,}[A-Z]"],
+      "fuzzy_threshold": 0.85
+    }
+  }
+}

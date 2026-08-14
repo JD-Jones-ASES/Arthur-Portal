@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "note": "The ANATOMY crosswalk as data: each cut (one of the Matter of Britain's seven organs) maps to each voice's distinct take, with an optional quote_id into quotes.json. quote_id=null means that voice's take is described from the canon, not quoted (often because the relevant text is off-corpus — see ANATOMY.md coverage map). Voices match base.json render_order. Discipline: name the version, never flatten it.",
+  "concepts": {
+    "source-of-rule": {
+      "gloss": "Where legitimate kingship comes from — conferred, seized, proven, or fated.",
+      "by_voice": {
+        "Geoffrey of Monmouth": { "term": "descent + conquest; Caliburn forged in Avalon", "quote_id": "geoffrey-caliburn-avalon" },
+        "Malory": { "term": "election (the stone) + revocable Excalibur loan", "quote_id": "malory-sword-in-stone" },
+        "The Vulgate": { "term": "the Grail outranks the sword", "quote_id": "vulgate-holy-vessel-grail" },
+        "The Chroniclers": { "term": "Nennius's twelve battles; the pseudo-historical Arthur (Gildas names Badon, not Arthur)", "quote_id": "nennius-twelve-battles" },
+        "The Gawain Romances": { "term": "Dame Ragnelle's riddle — sovereignty inverted to the marriage-bed", "quote_id": "ragnelle-sovereignty" }
+      }
+    },
+    "the-fellowship": {
+      "gloss": "The order built against precedence and to bind violence — and the flaw it cannot remove.",
+      "by_voice": {
+        "Malory": { "term": "the Pentecostal Oath, and its breach by the best knights", "quote_id": "malory-pentecostal-oath" },
+        "Chrétien de Troyes": { "term": "the knight audited against the code", "quote_id": null },
+        "The Vulgate": { "term": "the kin-network whose loyalty turns on itself", "quote_id": null },
+        "The Chroniclers": { "term": "Wace invents the Round Table — equality against precedence", "quote_id": "wace-round-table" },
+        "The Gawain Romances": { "term": "the code tried on one knight; the green girdle (SGGK)", "quote_id": "sggk-green-girdle" }
+      }
+    },
+    "the-grail": {
+      "gloss": "The highest good, and whether reaching for it perfects the kingdom or depletes it.",
+      "by_voice": {
+        "Wolfram von Eschenbach": { "term": "a stone; the wound healed by compassion (Anfortas)", "quote_id": "wolfram-anfortas-wounded" },
+        "The Vulgate": { "term": "the Holy Vessel; the seed of judgment-by-purity", "quote_id": "vulgate-holy-vessel-grail" },
+        "Chrétien de Troyes": { "term": "the open Grail; the unasked question of attention (Perceval, off-corpus)", "quote_id": null },
+        "Malory": { "term": "the Grail enters Camelot, then the quest empties the fellowship", "quote_id": "malory-grail-at-camelot" },
+        "The Mabinogion": { "term": "Peredur's bleeding spear, unasked (the Welsh Grail)", "quote_id": "mabinogion-peredur-spear" },
+        "The Grail Romances": { "term": "the Queste — judgment by purity (+ Perlesvaus, the militant Grail)", "quote_id": "queste-judgment-purity" }
+      }
+    },
+    "courtly-love": {
+      "gloss": "The love that is the glory of the court and the bomb beneath its floor.",
+      "by_voice": {
+        "Chrétien de Troyes": { "term": "love overrides reason and shame (the Cart)", "quote_id": "chretien-love-over-shame" },
+        "The Vulgate": { "term": "mutual and fatal; the Grail-disqualifier", "quote_id": "vulgate-lancelot-loves-queen" },
+        "Malory": { "term": "tragic; defends the old love even as it dooms the court", "quote_id": "malory-love-nowadays" },
+        "Gottfried von Strassburg": { "term": "the love potion — love as fate, not choice", "quote_id": "gottfried-love-potion" }
+      }
+    },
+    "the-wound-and-wasteland": {
+      "gloss": "Sovereignty as a body; the king's wound is the land's famine — sacral kingship, a medieval analogue to (not identical with) Kantorowicz's king's two bodies.",
+      "by_voice": {
+        "Malory": { "term": "the Dolorous Stroke lays three kingdoms waste", "quote_id": "malory-dolorous-stroke" },
+        "Wolfram von Eschenbach": { "term": "Anfortas, wounded for love, healed by pity", "quote_id": "wolfram-anfortas-wounded" },
+        "Geoffrey of Monmouth": { "term": "Arthur wounded deadly; body = realm", "quote_id": "geoffrey-arthur-to-avalon" }
+      }
+    },
+    "once-and-future": {
+      "gloss": "Deferred restoration; messianic time — sovereignty held in suspension.",
+      "by_voice": {
+        "Geoffrey of Monmouth": { "term": "borne to Avalon 'for the healing of his wounds' — not said to die", "quote_id": "geoffrey-arthur-to-avalon" },
+        "Malory": { "term": "rex quondam rexque futurus, reported not endorsed", "quote_id": "malory-rex-quondam" },
+        "The Chroniclers": { "term": "Wace's 'hope of Britain'; Layamon's Argante bears him to Avalon", "quote_id": "layamon-argante-return" }
+      }
+    },
+    "foreknowledge-and-doom": {
+      "gloss": "The hinge: who knows the end, why knowing it changes nothing, and what is lost as the magic fades.",
+      "by_voice": {
+        "Geoffrey of Monmouth": { "term": "prophecy as dynastic charter (the Boar of Cornwall)", "quote_id": "geoffrey-boar-of-cornwall" },
+        "Malory": { "term": "the seer undone by the enchantment he foresaw (Nimue)", "quote_id": "malory-merlin-and-nimue" }
+      }
+    }
+  }
+}
