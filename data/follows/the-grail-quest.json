@@ -1,0 +1,79 @@
+{
+  "id": "the-grail-quest",
+  "title": "Follow the Grail",
+  "subtitle": "Malory, Books XIII–XVII, in seventeen stops",
+  "work": "malory",
+  "blurb": "The whole quest, read in order, with a line of commentary at each stop telling you what to watch for. About four hours' reading; you can stop and resume anywhere.",
+  "intro": "Malory's Grail quest is a translation of the French *Queste del Saint Graal*, and it follows its source closely — which means it inherits the *Queste*'s verdict that the Round Table is not good enough. What Malory adds is grief. Read it watching for two things: how systematically the fellowship is measured and found wanting, and how often Malory pauses to note the cost of the measuring.",
+  "stops": [
+    {
+      "unit": "malory-13-2",
+      "note": "Letters appear on the empty seat, and a sword arrives in a floating stone. Watch Lancelot refuse to try — he already knows why he would fail."
+    },
+    {
+      "unit": "malory-13-4",
+      "note": "Galahad takes the Siege Perilous and nothing happens to him. From this moment every knight in the hall is measurably not him."
+    },
+    {
+      "unit": "malory-13-7",
+      "note": "The vessel enters, covered in white samite. The knights vow the quest — and in the same chapter Arthur tells Gawain the vow has nearly killed him. Read to the end of the chapter; the whole argument of this portal is in those four paragraphs."
+    },
+    {
+      "unit": "malory-13-8",
+      "note": "The departure, and the grief of the court. Arthur says he will never see them all together again, and he is right."
+    },
+    {
+      "unit": "malory-13-11",
+      "note": "Galahad's white shield with the red cross, made by Joseph of Arimathea's blood. The Grail's Christian genealogy, made visible as a heraldic device."
+    },
+    {
+      "unit": "malory-13-16",
+      "note": "Gawain is told plainly that he will find nothing, because he has not confessed in years. The English tradition's favourite knight, dismissed in a paragraph."
+    },
+    {
+      "unit": "malory-13-18",
+      "note": "Lancelot, half asleep at a ruined chapel, watches the Grail heal a sick man in front of him and cannot move."
+    },
+    {
+      "unit": "malory-13-19",
+      "note": "The voice: harder than stone, more bitter than wood, more naked and barren than the fig tree. He is told to withdraw."
+    },
+    {
+      "unit": "malory-13-20",
+      "note": "The confession. Twenty-four years, and the first time in his life he asks God for anything. The best writing in the quest."
+    },
+    {
+      "unit": "malory-14-2",
+      "note": "Merlin likens the Round Table to the world. The quest's own account of what the fellowship was for."
+    },
+    {
+      "unit": "malory-14-10",
+      "note": "Percival, tempted by a lady on a ship, wounds himself through the thigh as penance. The Queste's ethic at its most extreme."
+    },
+    {
+      "unit": "malory-16-10",
+      "note": "Bors's choice: his own brother being flogged, or a stranger about to be raped, and only time to reach one. He chooses the stranger. The best moral problem in the book."
+    },
+    {
+      "unit": "malory-16-14",
+      "note": "Lionel comes for him, and Bors will not raise a sword against his brother. The choice is not made costless."
+    },
+    {
+      "unit": "malory-17-3",
+      "note": "The ship, the bed, and the sword of the strange girdles. Malory's most openly allegorical stretch."
+    },
+    {
+      "unit": "malory-17-11",
+      "note": "Percival's sister gives a dish of blood to cure a stranger, and dies of it. She achieves as much as Galahad and the text never gives her a name."
+    },
+    {
+      "unit": "malory-17-20",
+      "note": "The Mass at Corbenic, and the figure that comes out of the vessel. Galahad sees what tongue cannot tell, and asks to die."
+    },
+    {
+      "unit": "malory-17-22",
+      "note": "Sarras. The Grail is taken up to heaven and never seen again; two of the three are dead; Bors rides home alone to a court he knows is finished."
+    }
+  ],
+  "after": "Now read Book XVIII, chapter i. Malory's first sentence about what happened next is one of the quietest and worst in the book."
+}

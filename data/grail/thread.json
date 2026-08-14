@@ -1,0 +1,78 @@
+{
+  "id": "grail-thread",
+  "title": "How the Grail was invented",
+  "stops": [
+    {
+      "n": 1,
+      "voice": "mabinogion",
+      "when": "before 1200",
+      "title": "Before the Grail",
+      "text": "A boy in a Welsh tale watches two youths carry a bleeding spear through a hall, *with three streams of blood flowing from the point to the ground*, and a severed head on a salver, and a whole company burst into wailing. He says nothing, because an uncle told him a knight does not ask questions. There is no vessel here, no relic, nothing Christian at all. There is a wounded household, a display of its wound, and a young man being polite.",
+      "quote_id": "mabinogion-peredur-spear",
+      "episode": "peredurs-spear"
+    },
+    {
+      "n": 2,
+      "voice": "chretien",
+      "when": "c. 1180",
+      "title": "Chrétien invents it, and stops mid-sentence",
+      "text": "Chrétien de Troyes writes a romance in which a *graal* is carried through a hall in procession, along with a bleeding lance, and the boy watching fails to ask the question that would heal the wounded king. He never says what the grail is — not a chalice, not a relic, just a serving dish with the definite article withheld. Then he dies, with the poem unfinished. **Every Grail that follows is somebody's answer to a sentence that stops.**",
+      "gap_note": "*Perceval* has no clean public-domain English translation, so Chrétien's Grail is described here and never quoted. It is the largest gap in this collection and it is at the exact centre of the subject.",
+      "episode": "peredurs-spear"
+    },
+    {
+      "n": 3,
+      "voice": "vulgate",
+      "when": "c. 1215–35",
+      "title": "The Vulgate makes it holy",
+      "text": "The French prose cycle gives the object a genealogy: the vessel of the Last Supper, which caught Christ's blood at the Crucifixion, kept by Joseph of Arimathea and carried by his line to Britain. It is installed as the supreme thing in the world — a knight can call his own sword *the thing I prized most except for the Holy Vessel called the Grail*. Once it is holy, the question of who may approach it has an obvious and uncomfortable answer.",
+      "quote_id": "vulgate-holy-vessel-grail",
+      "episode": "elaine-and-galahad"
+    },
+    {
+      "n": 4,
+      "voice": "grail-romances",
+      "when": "c. 1225",
+      "title": "The Queste turns it into a judge",
+      "text": "The *Queste del Saint Graal* draws the conclusion and states its terms on the first page: *no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins. This Quest is not a quest for earthly things.* The quest stops being an adventure and becomes an examination. Gawain is told he will find nothing. Lancelot is stopped at a door. The knight who succeeds is faultless from birth and learns nothing.",
+      "quote_id": "queste-judgment-purity",
+      "episode": "queste-judgment"
+    },
+    {
+      "n": 5,
+      "voice": "wolfram",
+      "when": "c. 1205",
+      "title": "Wolfram makes it a stone",
+      "text": "In Germany, at almost the same moment, Wolfram von Eschenbach refuses the whole apparatus. His Grail is a stone. His Grail king, Anfortas — *the gentle monarch, who was courteous as he was bold* — is wounded for loving a woman the Grail had not appointed, and can neither die nor heal. What cures him is not purity or penance or a virgin. It is a nephew who comes back after years of failure and asks him what is wrong. **It is the only Grail in the canon that ordinary human decency can reach.**",
+      "quote_id": "wolfram-anfortas-wounded",
+      "episode": "anfortas-healed"
+    },
+    {
+      "n": 6,
+      "voice": "grail-romances",
+      "when": "c. 1200–10",
+      "title": "Perlesvaus arms it",
+      "text": "The *High History of the Holy Graal* takes the sacred object and makes it a cause. Its Perceval avenges rather than learns; heads are taken and kept; the Old Law is overthrown by the New with considerable violence, and the Grail is the warrant for it. It is the version that shows what happens when the highest good is allowed to license behaviour.",
+      "gap_note": "Published here in full, but with no validated quotation yet: this characterisation is drawn from the branches themselves rather than from a line in the ledger.",
+      "episode": "perlesvaus-grail"
+    },
+    {
+      "n": 7,
+      "voice": "malory",
+      "when": "1469",
+      "title": "Malory mourns it",
+      "text": "Malory translates the *Queste* closely — the same scenes, the same verdicts, the same knights failing in the same order — and changes one thing: he counts the bill. The vessel enters Camelot in glory, and within the same chapter Arthur is telling Gawain that the vow *hath bereft me the fairest fellowship and the truest of knighthood that ever were seen together in any realm of the world.* The apparition and the death warrant of the Round Table, four paragraphs apart.",
+      "quote_id": "malory-grail-empties-fellowship",
+      "episode": "grail-enters-camelot"
+    },
+    {
+      "n": 8,
+      "voice": "tennyson",
+      "when": "1869",
+      "title": "Tennyson calls it a mistake",
+      "text": "The Victorian reading promotes Arthur's grief into the poem's own verdict: the quest becomes a mass enthusiasm that empties the hall of the men who were needed at home, and the Round Table falls partly because it went looking for something better. It is the reading most people have absorbed without reading either book.",
+      "gap_note": "Reception rather than medieval witness. The *Idylls* are published here as reception and carry no validated quotation, since the ledger covers the medieval canon.",
+      "episode": "tennysons-camelot"
+    }
+  ]
+}

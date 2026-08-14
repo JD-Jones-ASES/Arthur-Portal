@@ -1,0 +1,40 @@
+{
+  "id": "grail-questers",
+  "people": [
+    {
+      "character": "galahad",
+      "verdict": "achieves",
+      "line": "Faultless from birth, and built for exactly this. He sees what tongue cannot tell and asks to die."
+    },
+    {
+      "character": "percival",
+      "verdict": "achieves",
+      "line": "The Grail's original hero, demoted to a companion once Galahad exists. In Wolfram he is the one who succeeds, and the difference is the whole argument."
+    },
+    {
+      "character": "bors",
+      "verdict": "achieves",
+      "line": "The only one who comes home. Not a virgin, not faultless — the man who made a hard choice and paid for it, and went back to a doomed court and stayed."
+    },
+    {
+      "character": "lancelot",
+      "verdict": "fails",
+      "line": "Gets further than anyone else who fails: as far as the chamber door, where he is struck down and lies twenty-four days, one for each year of the love."
+    },
+    {
+      "character": "gawain",
+      "verdict": "fails",
+      "line": "Told in a paragraph that he will find nothing, because he has not confessed in years and does not intend to. He accepts it and rides home, killing eighteen companions on the way."
+    },
+    {
+      "character": "percivals-sister",
+      "verdict": "achieves",
+      "line": "Gives all her blood to cure a stranger and dies of it. Her body reaches the Grail city ahead of the knights. The text never gives her a name."
+    },
+    {
+      "character": "anfortas",
+      "verdict": "healed",
+      "line": "Not a quester but the reason for the quest. In Wolfram he is cured when somebody finally asks what is wrong with him."
+    }
+  ]
+}

@@ -100,6 +100,13 @@ export const essays = () => loadDir("data/essays");
 export const episodesByUnit = () => load("data/indexes/episodes-by-unit.json", {});
 export const stats = () => load("data/indexes/stats.json", {});
 
+/* ------------------------------------------------------------------ Grail */
+
+export const grailThread = () => load("data/grail/thread.json", { stops: [] });
+export const grailVersions = () => load("data/grail/versions.json", { rows: [], columns: [] });
+export const grailQuesters = () => load("data/grail/questers.json", { people: [] });
+export const followById = (id) => follows().find((f) => f.id === id) ?? null;
+
 export const voiceById = (id) => voices().find((v) => v.id === id) ?? null;
 export const characterById = (id) => characters().find((c) => c.id === id) ?? null;
 export const episodeById = (id) => episodes().find((e) => e.id === id) ?? null;

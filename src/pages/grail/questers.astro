@@ -1,0 +1,101 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import Heraldry from "../../components/Heraldry.astro";
+import { withBase } from "../../lib/site.js";
+import { grailQuesters, characterById } from "../../lib/portal-data.js";
+
+const q = grailQuesters();
+const people = q.people.map((p) => ({ ...p, rec: characterById(p.character) })).filter((p) => p.rec);
+const VERDICT = {
+  achieves: "achieves it",
+  fails: "fails",
+  healed: "is healed by it",
+};
+---
+
+<Layout
+  title="The questers"
+  description="Who reaches the Grail, who is stopped, and what the sorting is for."
+  current="/grail"
+>
+  <div class="page-head">
+    <span class="rubric">The Grail</span>
+    <h1>Who reaches it, and who is stopped</h1>
+    <p class="lede">
+      The quest is not an adventure with obstacles. In the French tradition it is an assessment, and
+      the assessment is the point: a hundred and fifty knights ride out, and the ones who come back
+      have been told exactly what they are.
+    </p>
+  </div>
+
+  <div class="quester-list">
+    {
+      people.map((p) => (
+        <article class="quester" data-branch={p.rec.branch ?? p.rec.traditions[0]}>
+          <div class="quester__arms">
+            <Heraldry blazon={p.rec.blazon ?? null} name={p.rec.name} size={54} />
+          </div>
+          <div class="quester__body">
+            <h2>
+              <a href={withBase(`/knights/${p.rec.id}/`)}>{p.rec.name}</a>
+              <span class={`verdict-tag verdict-tag--${p.verdict}`}>{VERDICT[p.verdict]}</span>
+            </h2>
+            <p>{p.line}</p>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">One name missing</span>
+    <h2>Percival&rsquo;s sister</h2>
+    <p>
+      She guides the three knights, explains the ship and the sword, and cuts off her hair to weave
+      a new belt for it. At a castle whose custom demands a dish of blood from every gentlewoman who
+      passes, she volunteers, is bled until she dies, and asks to be set adrift in a boat after
+      them. Her body reaches the Grail city ahead of the knights and is buried there.
+    </p>
+    <p>
+      She gives more to the quest than anyone except Galahad, and the text never gives her a name of
+      her own. Whether that is the sharpest thing in the cycle or its worst blind spot is a question
+      worth holding open.
+    </p>
+    <p class="small">
+      <a href={withBase("/stories/percival-bors-and-the-sister/")}>Read the episode &rarr;</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .quester-list { display: flex; flex-direction: column; gap: var(--s4); }
+  .quester {
+    display: flex;
+    gap: var(--s5);
+    padding: var(--s4) var(--s5);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--branch);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+  }
+  .quester__arms { flex: none; padding-top: 0.2em; }
+  .quester h2 { margin: 0 0 var(--s2); font-size: 1.15rem; display: flex; gap: var(--s3); align-items: baseline; flex-wrap: wrap; }
+  .quester h2 a { color: inherit; text-decoration: none; }
+  .quester h2 a:hover { color: var(--branch-ink); text-decoration: underline; }
+  .quester p { margin: 0; color: var(--ink-soft); }
+  .verdict-tag {
+    font-family: var(--font-ui);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.22em 0.5em;
+    border-radius: var(--radius-sm);
+    border: 1px solid currentColor;
+  }
+  .verdict-tag--achieves { color: var(--branch-ink); }
+  .verdict-tag--fails { color: var(--rubric); }
+  .verdict-tag--healed { color: var(--gold); }
+</style>

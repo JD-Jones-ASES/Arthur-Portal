@@ -1,13 +1,194 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { voiceById, quoteById, episodeById, grailThread } from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+const thread = grailThread();
+const stops = thread.stops.map((s) => ({
+  ...s,
+  voiceRec: voiceById(s.voice),
+  quote: s.quote_id ? quoteById(s.quote_id) : null,
+  ep: s.episode ? episodeById(s.episode) : null,
+}));
 ---
 
-<Layout title="The Grail" current="/grail">
-  <Stub
-    rubric="The Grail"
-    title="Follow the thread"
-    body="How the Grail was invented, the five incompatible things it became, and the knights who reached or failed it."
-    phase="Phase 5"
-  />
+<Layout
+  title="The Grail"
+  description="How the Grail was invented, the six incompatible things it became, and the knights who reached or failed it."
+  current="/grail"
+>
+  <div class="page-head">
+    <span class="rubric">The Grail</span>
+    <h1>An object that does not exist twice</h1>
+    <p class="lede">
+      There is no single Grail. There are at least six, they cannot be reconciled, and the
+      disagreement between them is the richest thing in the whole canon.
+    </p>
+    <p class="lede">
+      It begins with a poem that stops in the middle. Around 1180 Chrétien de Troyes has a boy watch
+      a procession pass through a hall &mdash; a bleeding lance, and a <em>graal</em> &mdash; and
+      fail to ask the question that would heal a wounded king. He never says what it is. He died
+      before finishing. <strong>Everything the Grail becomes afterwards is somebody&rsquo;s answer
+      to an unfinished sentence.</strong>
+    </p>
+    <p class="cluster grail-cta">
+      <a class="btn" href={withBase("/grail/follow/")}>Follow the quest</a>
+      <a class="btn btn--ghost" href={withBase("/grail/versions/")}>Compare the versions</a>
+      <a class="btn btn--ghost" href={withBase("/grail/questers/")}>The questers</a>
+    </p>
+  </div>
+
+  <section class="thread" aria-labelledby="thread-h">
+    <h2 id="thread-h">{thread.title}</h2>
+    <p class="muted">Eight stops, in the order they were written. Watch the object change hands.</p>
+
+    <ol class="thread-list">
+      {
+        stops.map((s) => (
+          <li class="thread-stop" data-branch={s.voiceRec?.branch ?? undefined}>
+            <div class="thread-stop__rail">
+              <span class="thread-stop__n">{s.n}</span>
+            </div>
+            <div class="thread-stop__body">
+              <p class="thread-stop__meta">
+                <a href={withBase(`/library/${s.voice}/`)}>{s.voiceRec?.short ?? s.voice}</a>
+                <span class="muted"> &middot; {s.when}</span>
+              </p>
+              <h3>{s.title}</h3>
+              <div class="thread-stop__text" set:html={mdToHtml(s.text)} />
+
+              {s.quote && (
+                <figure class="thread-stop__quote">
+                  <blockquote>&ldquo;{s.quote.text}&rdquo;</blockquote>
+                  <figcaption>
+                    <a href={withBase(`/quotes/#${s.quote.id}`)}>
+                      {s.quote.work_title}{s.quote.anchor_label && s.quote.anchor_label !== "?" ? `, ${s.quote.anchor_label}` : ""}
+                    </a>
+                  </figcaption>
+                </figure>
+              )}
+
+              {s.gap_note && (
+                <p class="thread-stop__gap">
+                  <span class="dcard__gap-label">No validated quotation</span>
+                  <Fragment set:html={mdToHtml(s.gap_note).replace(/^<p>|<\/p>$/g, "")} />
+                </p>
+              )}
+
+              {s.ep && (
+                <p class="small">
+                  <a href={withBase(`/stories/${s.ep.id}/`)}>Read the episode: {s.ep.title} &rarr;</a>
+                </p>
+              )}
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">The point of all this</span>
+    <h2>Why the disagreement matters</h2>
+    <p>
+      Wolfram&rsquo;s Grail is healed by a question asked out of pity. The <em>Queste</em>&rsquo;s
+      Grail cannot be approached by anyone who has sinned. One says the sacred meets you where you
+      are; the other says the sacred is what you are measured against. They were written within
+      about a decade of each other by men who had read the same French poem.
+    </p>
+    <p>
+      There is no reading that makes those the same object, and any account of &ldquo;the
+      Grail&rdquo; that can accommodate both of them has stopped meaning anything. That is the case
+      against the timeless-archetype approach to this material, and it is made by the texts
+      themselves.
+    </p>
+    <p class="small">
+      <a href={withBase("/throughlines/the-grail/")}>The Grail as a throughline &rarr;</a>
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .grail-cta { margin-top: var(--s6); gap: var(--s3); }
+  .btn {
+    display: inline-block;
+    font-family: var(--font-ui);
+    font-size: 0.86rem;
+    letter-spacing: 0.04em;
+    padding: var(--s3) var(--s5);
+    border-radius: var(--radius);
+    background: var(--rubric);
+    color: var(--paper-raised);
+    border: 1px solid var(--rubric);
+    text-decoration: none;
+  }
+  .btn:hover { background: var(--rubric-soft); border-color: var(--rubric-soft); }
+  .btn--ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+  .btn--ghost:hover { background: var(--paper-raised); border-color: var(--ink-faint); }
+
+  .thread-list { list-style: none; margin: var(--s6) 0 0; padding: 0; }
+  .thread-stop { display: grid; grid-template-columns: 3rem 1fr; gap: var(--s4); position: relative; }
+  .thread-stop__rail { position: relative; display: flex; justify-content: center; }
+  .thread-stop__rail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    width: 2px;
+    background: color-mix(in srgb, var(--branch) 35%, transparent);
+  }
+  .thread-stop:last-child .thread-stop__rail::before { bottom: auto; height: 2.4rem; }
+  .thread-stop__n {
+    position: relative;
+    z-index: 1;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--branch);
+    color: var(--paper-raised);
+    font-family: var(--font-rubric);
+    font-size: 0.86rem;
+    margin-top: 0.15rem;
+  }
+  .thread-stop__body { padding-bottom: var(--s7); max-width: 42rem; }
+  .thread-stop__meta { margin: 0 0 var(--s1); font-family: var(--font-ui); font-size: 0.76rem; letter-spacing: 0.04em; text-transform: uppercase; }
+  .thread-stop__meta a { color: var(--branch-ink); }
+  .thread-stop h3 { margin: 0 0 var(--s3); font-size: 1.25rem; }
+  .thread-stop__text { color: var(--ink); }
+
+  .thread-stop__quote {
+    margin: var(--s4) 0;
+    padding-left: var(--s4);
+    border-left: 2px solid var(--branch);
+  }
+  .thread-stop__quote blockquote { margin: 0 0 var(--s1); padding: 0; border: 0; font-style: italic; color: var(--ink-soft); }
+  .thread-stop__quote figcaption { font-size: 0.76rem; color: var(--ink-faint); }
+
+  .thread-stop__gap {
+    margin: var(--s4) 0;
+    padding: var(--s3) var(--s4);
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--paper-sunk);
+    font-size: 0.88rem;
+    color: var(--ink-faint);
+  }
+  .dcard__gap-label {
+    display: block;
+    font-family: var(--font-rubric);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: var(--s1);
+  }
+  @media (max-width: 560px) {
+    .thread-stop { grid-template-columns: 2.2rem 1fr; gap: var(--s3); }
+    .thread-stop__n { width: 1.8rem; height: 1.8rem; font-size: 0.76rem; }
+  }
+</style>

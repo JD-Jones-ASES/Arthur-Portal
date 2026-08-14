@@ -1,0 +1,112 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { followById, units as getUnits, workById } from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+const follow = followById("the-grail-quest");
+const work = workById(follow.work);
+const units = getUnits(work.id);
+const stops = follow.stops.map((s) => ({ ...s, unit: units[s.unit] })).filter((s) => s.unit);
+const words = stops.reduce((n, s) => n + s.unit.paragraphs.reduce((m, p) => m + p.split(/\s+/).length, 0), 0);
+---
+
+<Layout
+  title="Follow the quest"
+  description="A guided read of Malory's Grail quest — seventeen chapters, in order, with a line of commentary at each stop."
+  current="/grail"
+  branch={work.branch}
+>
+  <div class="page-head">
+    <span class="rubric">A guided read</span>
+    <h1>{follow.title}</h1>
+    <p class="lede">{follow.subtitle}</p>
+    <p>{follow.blurb}</p>
+    <p class="small muted">
+      {stops.length} chapters &middot; about {words.toLocaleString()} words of primary text
+    </p>
+  </div>
+
+  <div class="narrow narrow--flush">
+    <div class="prose" set:html={mdToHtml(follow.intro)} />
+  </div>
+
+  <ol class="follow-stops">
+    {
+      stops.map((s, i) => (
+        <li class="fstop">
+          <div class="fstop__rail"><span class="fstop__n">{i + 1}</span></div>
+          <div class="fstop__body">
+            <a class="fstop__chapter" href={withBase(`/read/${work.id}/${s.unit.id}/`)}>
+              <span class="fstop__label">{work.short} {s.unit.label}</span>
+              <span class="fstop__title">{s.unit.title}</span>
+            </a>
+            <p class="fstop__note">{s.note}</p>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">And afterwards</span>
+    <h2>What happens next</h2>
+    <p>{follow.after}</p>
+    <p class="cluster">
+      <a href={withBase("/read/malory/malory-18-1/")}>Book XVIII, chapter i &rarr;</a>
+    </p>
+    <p>
+      Then, if you want the argument rather than the narrative:
+      <a href={withBase("/grail/versions/")}>the six Grails compared</a>, or
+      <a href={withBase("/throughlines/the-grail/")}>the Grail as a throughline</a>.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .follow-stops { list-style: none; margin: var(--s7) 0 0; padding: 0; }
+  .fstop { display: grid; grid-template-columns: 3rem 1fr; gap: var(--s4); }
+  .fstop__rail { position: relative; display: flex; justify-content: center; }
+  .fstop__rail::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    width: 2px;
+    background: color-mix(in srgb, var(--branch) 30%, transparent);
+  }
+  .fstop:last-child .fstop__rail::before { height: 1.6rem; bottom: auto; }
+  .fstop__n {
+    position: relative;
+    z-index: 1;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--paper);
+    border: 2px solid var(--branch);
+    color: var(--branch-ink);
+    font-family: var(--font-rubric);
+    font-size: 0.8rem;
+  }
+  .fstop__body { padding-bottom: var(--s6); max-width: 40rem; }
+  .fstop__chapter { display: block; text-decoration: none; color: inherit; }
+  .fstop__chapter:hover .fstop__title { color: var(--branch-ink); text-decoration: underline; }
+  .fstop__label {
+    display: block;
+    font-family: var(--font-rubric);
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .fstop__title { display: block; font-family: var(--font-display); font-size: 1.02rem; line-height: 1.35; margin-top: 0.15em; }
+  .fstop__note { margin: var(--s3) 0 0; color: var(--ink-soft); }
+  @media (max-width: 560px) {
+    .fstop { grid-template-columns: 2.2rem 1fr; gap: var(--s3); }
+  }
+</style>

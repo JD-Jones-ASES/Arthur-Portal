@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "follow.schema.json",
+  "title": "A guided walk through the primary text",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "work", "blurb", "stops"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "work": { "type": "string" },
+    "blurb": { "type": "string", "minLength": 30 },
+    "intro": { "type": "string" },
+    "after": { "type": "string" },
+    "stops": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["note"],
+        "properties": {
+          "unit": { "type": "string" },
+          "episode": { "type": "string" },
+          "note": { "type": "string", "minLength": 20 }
+        }
+      }
+    }
+  }
+}

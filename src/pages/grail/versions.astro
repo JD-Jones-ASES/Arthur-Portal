@@ -1,0 +1,112 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { grailVersions, voiceById } from "../../lib/portal-data.js";
+
+const v = grailVersions();
+const cols = v.columns.map((c) => ({ ...c, voiceRec: voiceById(c.voice) }));
+---
+
+<Layout
+  title="Six Grails"
+  description="The Grail compared across every version that disagrees: what it is, who may approach it, what heals the wound, how you fail, and what it costs."
+  current="/grail"
+>
+  <div class="page-head">
+    <span class="rubric">The Grail</span>
+    <h1>Six Grails, side by side</h1>
+    <p class="lede">
+      The same word, six incompatible objects. Read down a column for one author&rsquo;s coherent
+      position; read across a row to see the tradition contradicting itself.
+    </p>
+  </div>
+
+  <div class="table-wrap">
+    <table class="data grail-table">
+      <thead>
+        <tr>
+          <th scope="col" class="grail-table__corner"></th>
+          {cols.map((c) => (
+            <th scope="col" data-branch={c.voiceRec?.branch ?? undefined}>
+              <a href={withBase(`/library/${c.voice}/`)}>{c.label}</a>
+              <span class="grail-table__when">{c.when}</span>
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {v.rows.map((r) => (
+          <tr>
+            <th scope="row">{r.label}</th>
+            {cols.map((c) => (
+              <td data-branch={c.voiceRec?.branch ?? undefined}>{c[r.key]}</td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">The sharpest contradiction</span>
+    <h2>Pity against purity</h2>
+    <p>
+      Look at the row marked <em>what heals the wound</em>. Wolfram: one question, asked out of
+      pity. The <em>Queste</em>: nothing &mdash; it judges rather than heals.
+    </p>
+    <p>
+      These two books were written within about a decade of each other, by men working from the same
+      unfinished French poem, and they disagree about the most basic thing it is possible to
+      disagree about: whether the sacred is something that comes to meet a damaged person, or
+      something a damaged person is disqualified from.
+    </p>
+    <p>
+      There is no synthesis available. That is not a defect in the record. It is what the Matter of
+      Britain <em>is</em> &mdash; five centuries of writers arguing, in narrative, about questions
+      nobody has settled since.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .grail-table { font-size: 0.9rem; }
+  .grail-table thead th {
+    text-transform: none;
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    color: var(--branch-ink);
+    border-bottom: 2px solid var(--branch);
+    vertical-align: bottom;
+    min-width: 9rem;
+  }
+  .grail-table thead th a { color: inherit; text-decoration: none; }
+  .grail-table thead th a:hover { text-decoration: underline; }
+  .grail-table__when {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+    margin-top: 0.2em;
+    font-weight: 400;
+  }
+  .grail-table tbody th {
+    text-align: left;
+    font-family: var(--font-rubric);
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    text-transform: none;
+    white-space: nowrap;
+    border-right: 1px solid var(--line-strong);
+    background: var(--paper-sunk);
+    position: sticky;
+    left: 0;
+  }
+  .grail-table td { line-height: 1.45; }
+  .grail-table tbody tr:hover td { background: var(--branch-wash); }
+  .grail-table__corner { background: var(--paper-sunk); }
+</style>

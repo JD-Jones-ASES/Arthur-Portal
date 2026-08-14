@@ -1,0 +1,97 @@
+{
+  "id": "grail-versions",
+  "rows": [
+    {
+      "key": "what",
+      "label": "What it is"
+    },
+    {
+      "key": "who",
+      "label": "Who may approach"
+    },
+    {
+      "key": "heals",
+      "label": "What heals the wound"
+    },
+    {
+      "key": "fail",
+      "label": "How you fail"
+    },
+    {
+      "key": "cost",
+      "label": "What it costs"
+    },
+    {
+      "key": "end",
+      "label": "How it ends"
+    }
+  ],
+  "columns": [
+    {
+      "voice": "mabinogion",
+      "label": "Peredur",
+      "when": "Welsh",
+      "what": "A bleeding spear and a severed head — no vessel at all",
+      "who": "Anyone in the hall",
+      "heals": "Asking what you have just seen",
+      "fail": "By being polite",
+      "cost": "A household left in its wound",
+      "end": "Vengeance, and the truth explained"
+    },
+    {
+      "voice": "chretien",
+      "label": "Chrétien",
+      "when": "c. 1180",
+      "what": "A *graal* — deliberately undefined",
+      "who": "Not stated",
+      "heals": "The question, unspecified",
+      "fail": "By not asking",
+      "cost": "Unknown: the poem stops",
+      "end": "Unfinished"
+    },
+    {
+      "voice": "vulgate",
+      "label": "The Vulgate",
+      "when": "c. 1215–35",
+      "what": "The vessel of the Last Supper, which caught Christ's blood",
+      "who": "The pure",
+      "heals": "The sacred object itself",
+      "fail": "By sin — above all by love",
+      "cost": "The best knight in the world, disqualified",
+      "end": "Carried to Britain by Joseph's line"
+    },
+    {
+      "voice": "grail-romances",
+      "label": "The Queste",
+      "when": "c. 1225",
+      "what": "A test in the shape of a relic",
+      "who": "Only the cleansed and confessed",
+      "heals": "Nothing: it judges rather than heals",
+      "fail": "By being an ordinary good knight",
+      "cost": "The secular order, deliberately",
+      "end": "The worthy removed from the world"
+    },
+    {
+      "voice": "wolfram",
+      "label": "Wolfram",
+      "when": "c. 1205",
+      "what": "A stone, which feeds those before it",
+      "who": "Those the Grail names",
+      "heals": "One question, asked out of pity",
+      "fail": "By not noticing that somebody is suffering",
+      "cost": "Years of the questioner's own life and faith",
+      "end": "The wound closed; the king relieved; a hero crowned and living"
+    },
+    {
+      "voice": "malory",
+      "label": "Malory",
+      "when": "1469",
+      "what": "The Holy Grail, covered with white samite, borne by no one visible",
+      "who": "Galahad, and at a distance Percival and Bors",
+      "heals": "The blood of the spear, applied by Galahad",
+      "fail": "By having lived",
+      "cost": "The fellowship, and the king says so out loud",
+      "end": "Taken up to heaven; never seen again"
+    }
+  ]
+}
