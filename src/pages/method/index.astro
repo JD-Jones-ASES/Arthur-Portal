@@ -1,13 +1,130 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { stats, quotes } from "../../lib/portal-data.js";
+
+const s = stats();
+const q = quotes();
+const exact = q.filter((x) => x.validation.method === "exact").length;
+const fuzzy = q.filter((x) => x.validation.method === "fuzzy").length;
 ---
 
-<Layout title="Method" current="/method">
-  <Stub
-    rubric="Method"
-    title="How this is built, and what it refuses to do"
-    body="The constraints this portal works under, the verification gate every quotation passes, and the two interpretive slides it is built to avoid."
-    phase="Phase 3"
-  />
+<Layout
+  title="Method"
+  description="The constraints this portal works under, the gate every quotation passes, and the two interpretive slides it is built to avoid."
+  current="/method"
+>
+  <div class="page-head">
+    <span class="rubric">Method</span>
+    <h1>How this is built, and what it refuses to do</h1>
+    <p class="lede">
+      Arthurian material invites two specific kinds of dishonesty, and most popular treatments
+      commit at least one of them. This portal is built to make both harder.
+    </p>
+  </div>
+
+  <div class="prose">
+    <h2>The one rule that governs everything</h2>
+    <p>
+      <strong>Name the version. Never flatten it.</strong> There is no &ldquo;the legend.&rdquo;
+      Geoffrey&rsquo;s Arthur is born to rule and proves it by conquering Europe; Malory&rsquo;s is
+      a boy nobody has heard of who pulls a sword from a stone because his brother forgot his.
+      Wolfram&rsquo;s Grail is a stone healed by pity; the Queste&rsquo;s is a judge that most of
+      the Round Table fails. These are not variant tellings of one story. They are incompatible
+      answers to shared questions.
+    </p>
+    <p>
+      So every claim on this site is attached to a voice, and the tradition each voice belongs to
+      carries a colour that follows it everywhere &mdash; on a quotation, in the margin of a chapter,
+      on the crosswalk. Where two authors contradict each other, the contradiction is drawn rather
+      than averaged. Collapsing them into a generic &ldquo;Arthurian myth&rdquo; is the one thing
+      this portal will not do.
+    </p>
+
+    <h2>The second rule: count the cost</h2>
+    <p>
+      This is a literature of tragic expenditure, not of triumph. Every excellence in it depletes
+      something: the Grail empties the fellowship, the oath breeds the violence it forbids, the love
+      that makes the greatest knight cracks the kingdom, the foreknowledge that sees everything
+      saves no one. So every story and every throughline here carries a panel asking what its
+      subject <em>costs</em>, and the build fails if one is missing. An account of Camelot that does
+      not count the price has misread the canon.
+    </p>
+
+    <h2>Verification is the product</h2>
+    <p>
+      Every quotation published here is located in the source text it claims to come from &mdash;
+      not once, but on every build. The check normalises away the noise that defeats naive matching
+      (Project Gutenberg&rsquo;s italic markers, editorial footnote numbers, thorn and yogh, and the
+      ordinary drift of scanned text) and then requires either an exact match or a fuzzy match above
+      a threshold set per source. A quotation that cannot be found does not ship.
+    </p>
+    <p>
+      Of the {q.length} quotations currently published, {exact} are located exactly and {fuzzy} by
+      fuzzy match against scanned originals. You can see the whole ledger, with the verdict on each
+      one, at <a href={withBase("/quotes/")}>the quote ledger</a> &mdash; and where a work is
+      published here, each quotation links to the exact paragraph it sits in, so you can check it
+      yourself.
+    </p>
+
+    <h2>Two slides this portal is built to avoid</h2>
+    <h3>The mysticism slide</h3>
+    <p>
+      The commonest failure in writing about this material is to dissolve specific, conflicting
+      texts into one timeless wisdom &mdash; the Grail as an eternal archetype, Camelot as a
+      parable for the self, the whole thing as a journey the reader is secretly on. It moves from
+      <em>what a particular author wrote in a particular decade</em> to <em>what the myth eternally
+      means for you</em>, and in doing so it erases the differences that are the entire subject.
+      Whenever a sentence here begins to sound like &ldquo;the myth tells us that we must&rdquo;, it
+      has gone wrong. The retellings on this site narrate. They do not moralise.
+    </p>
+    <h3>The pseudo-history slide</h3>
+    <p>
+      The second is the hunt for the real King Arthur: treating Geoffrey of Monmouth&rsquo;s fiction
+      as recoverable Dark-Age fact, or enlisting the legend for an ethnic origin story. Geoffrey
+      <em>was</em> propaganda, and skilful propaganda; this portal studies how the historical Arthur
+      was manufactured, and declines to join the manufacture. The standing rebuke is Gildas, the one
+      witness who might have known, who describes the victory at Badon and never mentions Arthur at
+      all.
+    </p>
+
+    <h2>Each text keeps its own metaphysics</h2>
+    <p>
+      The Grail is a Christian sacrament in the Vulgate and a neutral stone in Wolfram. This site
+      reports what each text claims about transcendence and does not rule on whether transcendence
+      is real, or import one text&rsquo;s theology into another&rsquo;s. Comparing metaphysics is
+      the interesting work. Harmonising them is not.
+    </p>
+
+    <h2>What is evoked and what is never named</h2>
+    <p>
+      The material here is the pre-1500 canon and its public-domain translations. Archetypes may be
+      evoked &mdash; a boy drawing a sword from a stone, a wounded king in a barren land &mdash; but
+      no modern adaptation is named or leaned on anywhere on this site: no films, no series, no
+      games, no studio designs. Every image here is hand-drawn in code. The reason is partly legal
+      and mostly editorial: those associations are extremely strong, and they would quietly become
+      the reader&rsquo;s default Arthur, which is the flattening this whole portal exists to resist.
+    </p>
+  </div>
+
+  <Ornament />
+
+  <div class="grid">
+    <a class="card" href={withBase("/method/sources/")}>
+      <span class="rubric">Sources</span>
+      <h3>Texts, translators and rights</h3>
+      <p class="small">Every edition this portal draws on, who translated it, when, and whether it may be republished here in full.</p>
+    </a>
+    <a class="card" href={withBase("/method/whats-not-here/")}>
+      <span class="rubric">Gaps</span>
+      <h3>What&rsquo;s not here</h3>
+      <p class="small">The honest list. Chrétien&rsquo;s Grail poem, the Vulgate&rsquo;s own quest, and the Middle English poems too rough to quote.</p>
+    </a>
+    <a class="card" href={withBase("/quotes/")}>
+      <span class="rubric">Ledger</span>
+      <h3>The quote ledger</h3>
+      <p class="small">All {q.length} validated quotations, with the result of the last check against each one.</p>
+    </a>
+  </div>
 </Layout>

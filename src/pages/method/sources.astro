@@ -1,8 +1,127 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { works, hasSpine, spine } from "../../lib/portal-data.js";
+
+const all = works();
+const tiers = [
+  { tier: "A", label: "Published in full", note: "Clean public-domain text, set for reading here." },
+  { tier: "B", label: "Published as reflowed text", note: "Public domain, but reconstructed from a scan: readable and citable, with the original pagination lost." },
+  { tier: "C", label: "Quoted, never published", note: "In copyright, or a scan too rough to reproduce. Short cited quotations only." },
+];
 ---
 
-<Layout title="Texts & translators" current="/method">
-  <Stub rubric="Sources" title="Texts, translators, and the rights line" body="Every text this portal draws on: which edition, whose translation, what year, and whether it may be republished here in full." phase="Phase 3" />
+<Layout
+  title="Texts & translators"
+  description="Every text this portal draws on: which edition, whose translation, what year, and whether it may be republished here in full."
+  current="/method"
+>
+  <div class="page-head">
+    <span class="rubric">Sources</span>
+    <h1>Texts, translators, and the rights line</h1>
+    <p class="lede">
+      A medieval text reaches a modern reader through a translator, and translators have estates.
+      The three tiers below are not a quality ranking &mdash; they record what this site is
+      permitted and able to reproduce, which is not the same as what it can cite.
+    </p>
+  </div>
+
+  {
+    tiers.map((t) => (
+      <section class="tier">
+        <h2 class="tier__head">
+          <span class="tier__badge">Tier {t.tier}</span>
+          {t.label}
+        </h2>
+        <p class="muted">{t.note}</p>
+        <div class="table-wrap">
+          <table class="data">
+            <thead>
+              <tr>
+                <th scope="col">Work</th>
+                <th scope="col">Author</th>
+                <th scope="col">Edition &amp; translator</th>
+                <th scope="col">Tradition</th>
+                <th scope="col">Rights</th>
+              </tr>
+            </thead>
+            <tbody>
+              {all.filter((w) => w.tier === t.tier).map((w) => (
+                <tr data-branch={w.branch}>
+                  <td>
+                    {w.reader && hasSpine(w.id) ? (
+                      <a href={withBase(`/read/${w.id}/`)}><em>{w.title}</em></a>
+                    ) : (
+                      <em>{w.title}</em>
+                    )}
+                    {w.composed && <div class="small muted">composed {w.composed}</div>}
+                  </td>
+                  <td>{w.author}</td>
+                  <td class="small">
+                    {w.edition ?? "—"}
+                    {w.translator && <div class="muted">tr. {w.translator}</div>}
+                  </td>
+                  <td><span class="chip"><span class="chip__dot" />{BRANCHES[w.branch].label}</span></td>
+                  <td class="small">{w.rights}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))
+  }
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">One case in particular</span>
+    <h2>The Vulgate, and why you cannot read it here</h2>
+    <p>
+      The Lancelot-Grail cycle is the hinge of the entire French tradition and Malory&rsquo;s
+      principal source. It is also, in English, a single modern scholarly translation that remains
+      in copyright.
+    </p>
+    <p>
+      So the Vulgate is quoted on this site &mdash; briefly, with its translator named, under fair
+      use &mdash; and cannot be read on it. The underlying text was used for research and to verify
+      those quotations, and is not distributed with this project. The verification still holds: when
+      the text is not present, each Vulgate quotation is checked against a committed record proving
+      it was located when the text was available, and the build fails if the quotation has since
+      been altered.
+    </p>
+    <p>
+      This is a genuine limitation at the centre of the subject, and stating it is better than
+      quietly leaving a hole where the French cycle should be.
+    </p>
+  </section>
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Provenance</span>
+    <h2>Where the files came from</h2>
+    <p>
+      The public-domain texts are fetched from Project Gutenberg and archive.org by a script that
+      records a checksum for every file, so that a later re-fetch returning different bytes is
+      detectable &mdash; Project Gutenberg does reissue texts. The transformation from source file
+      to the text you read is deterministic, and every editorial decision it makes is written to a
+      log published on each work&rsquo;s contents page.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .tier { margin-bottom: var(--s8); }
+  .tier__head { display: flex; align-items: baseline; gap: var(--s3); flex-wrap: wrap; margin-bottom: var(--s2); }
+  .tier__badge {
+    font-family: var(--font-rubric);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--rubric);
+    border: 1px solid color-mix(in srgb, var(--rubric) 40%, transparent);
+    border-radius: var(--radius-sm);
+    padding: 0.2em 0.5em;
+  }
+  table.data td { font-size: 0.9rem; }
+</style>

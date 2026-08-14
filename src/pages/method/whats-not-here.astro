@@ -1,8 +1,120 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { works, cuts, voices } from "../../lib/portal-data.js";
+
+const gapVoices = voices().filter((v) => v.gap_note);
+const gapTakes = cuts().flatMap((c) =>
+  c.takes.filter((t) => t.gap_note).map((t) => ({ cut: c, take: t }))
+);
 ---
 
-<Layout title="What's not here" current="/method">
-  <Stub rubric="Gaps" title="What's not here" body="The honest gap list. Chrétien's Perceval has no clean public-domain English translation; the Vulgate's own Queste is in copyright. Where the material is missing, this portal prints the gap." phase="Phase 3" />
+<Layout
+  title="What's not here"
+  description="The honest gap list: what this portal cannot show you, and why."
+  current="/method"
+>
+  <div class="page-head">
+    <span class="rubric">Gaps</span>
+    <h1>What&rsquo;s not here</h1>
+    <p class="lede">
+      A reference work that only shows you what it has is misleading about the shape of its subject.
+      This page is the list of things this portal cannot show you, roughly in order of how much
+      their absence matters.
+    </p>
+  </div>
+
+  <div class="prose">
+    <h2>1. Chrétien&rsquo;s <em>Perceval</em> — the poem that invents the Grail</h2>
+    <p>
+      This is the largest hole, and it is at the exact centre of the subject. Around 1180 Chrétien
+      de Troyes wrote a romance in which a boy watches a bleeding lance and a <em>graal</em> carried
+      through a hall and fails to ask the question that would heal a wounded king. He never says
+      what the grail is. He died before finishing. Every Grail in this portal &mdash; the
+      Vulgate&rsquo;s holy vessel, the Queste&rsquo;s judge, Wolfram&rsquo;s stone,
+      Perlesvaus&rsquo;s weapon, Malory&rsquo;s grief &mdash; is an answer to that unfinished poem.
+    </p>
+    <p>
+      There is no clean public-domain English translation. The good modern ones are in copyright.
+      So Chrétien&rsquo;s Grail is described here from the canon and never quoted, and his cell on
+      the crosswalk is marked as a version without a quotation.
+    </p>
+    <p class="small muted">
+      Reachable in part through three texts that are here: the Welsh <a href={withBase("/read/mabinogion/")}>Peredur</a>,
+      which shows the same scene without any theology attached; Wolfram&rsquo;s <em>Parzival</em>,
+      which completes Chrétien directly; and Perlesvaus.
+    </p>
+
+    <h2>2. The Vulgate Cycle — quotable, not publishable</h2>
+    <p>
+      The Lancelot-Grail cycle is Malory&rsquo;s principal source and the hinge of the French
+      tradition. Its only modern English translation is in copyright, so it can be quoted here
+      briefly, with the translator named, and cannot be read here. The same applies to the
+      cycle&rsquo;s own <em>Queste</em> and <em>Mort Artu</em> in the Vulgate&rsquo;s voice: this
+      portal carries the <em>Queste</em> in a separate public-domain translation, and reaches the
+      <em>Mort Artu</em> only through Malory and the English poems that share its matter.
+    </p>
+
+    <h2>3. The Middle English Mortes — searchable, not quotable</h2>
+    <p>
+      The alliterative <em>Morte Arthure</em> and the stanzaic <em>Le Morte Arthur</em> are
+      Malory&rsquo;s own English sources for the fall, and both are public domain. But the available
+      scans of the Middle English are rough enough that the quotation gate rejects them: a
+      transcription that cannot be verified is not published here. They are named throughout as
+      sources and carry no validated quotations of their own, which is why the alliterative
+      <em>Morte</em>&rsquo;s famous vision of Fortune&rsquo;s wheel is described rather than quoted.
+    </p>
+
+    <h2>4. The Madden Gawain romances — defeated by blackletter</h2>
+    <p>
+      Sir Frederic Madden&rsquo;s 1839 <em>Syr Gawayne</em> contains four poems this portal would
+      like to publish: the Wedding of Dame Ragnelle, the Awntyrs off Arthure, Golagros and Gawane,
+      and the Carle of Carlisle. The scan is 1839 type with long s and heavy abbreviation, and it
+      scores near zero against the quotation gate. Ragnelle&rsquo;s riddle and its answer are quoted
+      here from a small hand-checked transcription; the rest is searchable and not quotable.
+    </p>
+
+    <h2>5. Texts acquired but not yet set</h2>
+    <p>
+      Several public-domain works in this collection are validated against but have not yet been
+      typeset for the reader. Quotations from them already appear throughout the site; the reading
+      text is simply not built yet. They are listed on <a href={withBase("/read/")}>the texts page</a>.
+    </p>
+  </div>
+
+  <Ornament />
+
+  <section>
+    <h2>Every gap this portal declares, in one list</h2>
+    <p class="lede">
+      The rule is that a voice&rsquo;s position must carry either a validated quotation or an
+      explicit statement of why it doesn&rsquo;t. Silence is not permitted. These are all the places
+      the second case applies.
+    </p>
+
+    <div class="table-wrap">
+      <table class="data">
+        <thead>
+          <tr><th scope="col">Where</th><th scope="col">Voice</th><th scope="col">Why there is no quotation</th></tr>
+        </thead>
+        <tbody>
+          {gapTakes.map(({ cut, take }) => (
+            <tr>
+              <td><a href={withBase(`/throughlines/${cut.id}/`)}>{cut.short ?? cut.title}</a></td>
+              <td><a href={withBase(`/library/${take.voice}/`)}>{take.voice}</a></td>
+              <td class="small">{take.gap_note}</td>
+            </tr>
+          ))}
+          {gapVoices.map((v) => (
+            <tr>
+              <td>the dossier</td>
+              <td><a href={withBase(`/library/${v.id}/`)}>{v.name}</a></td>
+              <td class="small">{v.gap_note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
 </Layout>

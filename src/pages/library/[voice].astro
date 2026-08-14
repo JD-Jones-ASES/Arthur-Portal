@@ -1,0 +1,186 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { voices, voiceById, works, workById, cuts, cutById, quotes, hasSpine, spine } from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+export function getStaticPaths() {
+  return voices().map((v) => ({ params: { voice: v.id }, props: { voice: v } }));
+}
+
+const { voice } = Astro.props;
+const all = [...voices()].sort((a, b) => a.order - b.order);
+const idx = all.findIndex((v) => v.id === voice.id);
+const prev = all[idx - 1] ?? null;
+const next = all[idx + 1] ?? null;
+
+const myWorks = (voice.works ?? []).map((w) => workById(w)).filter(Boolean);
+const myCuts = (voice.cuts ?? []).map((c) => cutById(c)).filter(Boolean);
+const against = (voice.reads_against ?? []).map((v) => voiceById(v)).filter(Boolean);
+const myQuotes = quotes().filter((q) => (voice.works ?? []).includes(q.work));
+---
+
+<Layout
+  title={voice.name}
+  description={voice.one_line}
+  current="/library"
+  branch={voice.branch}
+>
+  <div class="page-head">
+    <span class="rubric">{voice.role} · {BRANCHES[voice.branch].label}</span>
+    <h1>{voice.name}</h1>
+    <p class="muted">{voice.dates}</p>
+    <p class="lede">{voice.one_line}</p>
+  </div>
+
+  <div class="voice-grid">
+    <div>
+      <div class="prose" set:html={mdToHtml(voice.apparatus)} />
+
+      <Ornament tight />
+
+      <div class="case">
+        <section class="case__side case__side--for">
+          <h2 class="rubric">The strongest case for</h2>
+          <p>{voice.steelman}</p>
+        </section>
+        <section class="case__side case__side--against">
+          <h2 class="rubric">The standard objection</h2>
+          <p>{voice.objection}</p>
+        </section>
+      </div>
+
+      {voice.gap_note && (
+        <div class="gap-note">
+          <span class="gap-note__label">What is missing</span>
+          <p>{voice.gap_note}</p>
+        </div>
+      )}
+
+      <section>
+        <h2>How it maps</h2>
+        <p>{voice.how_it_maps}</p>
+        {myCuts.length > 0 && (
+          <ul class="related-list">
+            {myCuts.map((c) => (
+              <li>
+                <a href={withBase(`/throughlines/${c.id}/`)}>{c.title}</a>
+                <span class="muted small"> &mdash; {c.gloss}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
+      {myQuotes.length > 0 && (
+        <section>
+          <h2>Validated quotations</h2>
+          {myQuotes.map((q) => (
+            <div class="quote">
+              <p class="quote__text">&ldquo;{q.text}&rdquo;</p>
+              <span class="quote__attr">
+                <a href={withBase(`/quotes/#${q.id}`)}>{q.work_title}{q.anchor_label && q.anchor_label !== "?" ? `, ${q.anchor_label}` : ""}</a>
+                {q.spine && (
+                  <> &middot; <a href={withBase(`/read/${q.work}/${q.spine.unit}/#p${q.spine.paragraph}`)}>read in place</a></>
+                )}
+              </span>
+            </div>
+          ))}
+        </section>
+      )}
+    </div>
+
+    <aside class="voice-aside">
+      {voice.invented?.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Invented</h2>
+          <ul class="tick-list">{voice.invented.map((x) => <li>{x}</li>)}</ul>
+        </section>
+      )}
+      {voice.inherited?.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Inherited</h2>
+          <ul class="tick-list">{voice.inherited.map((x) => <li>{x}</li>)}</ul>
+        </section>
+      )}
+      {voice.bequeathed?.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Bequeathed</h2>
+          <ul class="tick-list">{voice.bequeathed.map((x) => <li>{x}</li>)}</ul>
+        </section>
+      )}
+      {myWorks.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Texts</h2>
+          <ul class="margin-list">
+            {myWorks.map((w) => (
+              <li>
+                {w.reader && hasSpine(w.id) ? (
+                  <a href={withBase(`/read/${w.id}/`)}>{w.title}</a>
+                ) : (
+                  <span>{w.title}</span>
+                )}
+                <span class="small muted">
+                  {w.translator ? ` tr. ${w.translator}` : ""}
+                  {!w.reader ? " — quoted, not published here" : hasSpine(w.id) ? ` — ${spine(w.id).n_units} chapters` : " — not yet set"}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {against.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Reads against</h2>
+          <ul class="margin-list">
+            {against.map((v) => (
+              <li data-branch={v.branch}><a href={withBase(`/library/${v.id}/`)}>{v.name}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+
+  <nav class="reader__nav" aria-label="Voice navigation">
+    {prev ? (
+      <a class="reader__nav-link reader__nav-link--prev" href={withBase(`/library/${prev.id}/`)}>
+        <span class="rubric rubric--muted">Earlier</span>
+        <span class="reader__nav-title">{prev.name}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="reader__nav-link reader__nav-link--next" href={withBase(`/library/${next.id}/`)}>
+        <span class="rubric rubric--muted">Later</span>
+        <span class="reader__nav-title">{next.name}</span>
+      </a>
+    ) : <span />}
+  </nav>
+</Layout>
+
+<style>
+  .voice-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 40rem) minmax(13rem, 16rem);
+    gap: var(--s7);
+    align-items: start;
+  }
+  @media (max-width: 1000px) { .voice-grid { grid-template-columns: 1fr; } }
+  .voice-aside { position: sticky; top: 5rem; display: flex; flex-direction: column; gap: var(--s5); font-size: 0.92rem; }
+  @media (max-width: 1000px) { .voice-aside { position: static; } }
+
+  .case { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s5); margin: var(--s6) 0; }
+  @media (max-width: 700px) { .case { grid-template-columns: 1fr; } }
+  .case__side { padding: var(--s4) var(--s5); border-radius: var(--radius); border: 1px solid var(--line); background: var(--paper-raised); }
+  .case__side--for { border-left: 3px solid var(--branch); }
+  .case__side--against { border-left: 3px solid var(--ink-faint); }
+  .case__side h2 { margin: 0 0 var(--s2); }
+  .case__side p { margin: 0; font-size: 0.96rem; }
+
+  .tick-list { list-style: none; margin: var(--s3) 0 0; padding: 0; }
+  .tick-list li { position: relative; padding-left: 1.1em; margin-bottom: var(--s2); line-height: 1.4; }
+  .tick-list li::before { content: "—"; position: absolute; left: 0; color: var(--branch); }
+  .related-list { list-style: none; margin: var(--s4) 0 0; padding: 0; }
+  .related-list li { padding: var(--s2) 0; border-bottom: 1px solid var(--line); }
+</style>

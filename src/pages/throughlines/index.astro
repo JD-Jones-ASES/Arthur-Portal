@@ -1,13 +1,115 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { cuts } from "../../lib/portal-data.js";
+
+const all = [...cuts()].sort((a, b) => a.n - b.n);
 ---
 
-<Layout title="Throughlines" current="/throughlines">
-  <Stub
-    rubric="Throughlines"
-    title="One motif, every voice"
-    body="Seven cuts through the canon — the source of rule, the fellowship, the Grail, the betrayal, the wound, the return, and the doom that comes anyway."
-    phase="Phase 3"
-  />
+<Layout
+  title="Throughlines"
+  description="Seven cuts through the Matter of Britain — one motif at a time, tracked across every voice that disagrees about it."
+  current="/throughlines"
+>
+  <div class="page-head">
+    <span class="rubric">Throughlines</span>
+    <h1>One motif, every voice</h1>
+    <p class="lede">
+      Every author inherited the same handful of objects &mdash; a sword, a table, a grail, a
+      betrayal, a wound, a prophecy &mdash; and re-cut each one to carry something different. These
+      seven throughlines take a single motif and follow it across the whole tradition, so you can
+      see exactly where the versions part company.
+    </p>
+    <p>
+      They are ordered as an arc: founding, institution, transcendence, eros, decay, time &mdash;
+      and then the seventh, which governs all the others.
+    </p>
+  </div>
+
+  <ol class="cut-list">
+    {
+      all.map((c) => (
+        <li class={c.hinge ? "cut-item cut-item--hinge" : "cut-item"}>
+          <a href={withBase(`/throughlines/${c.id}/`)}>
+            <span class="cut-item__n">{c.n}</span>
+            <span class="cut-item__body">
+              <span class="cut-item__title">
+                {c.title}
+                {c.hinge && <span class="cut-item__hinge">the hinge</span>}
+              </span>
+              <span class="cut-item__gloss">{c.gloss}</span>
+              <span class="cut-item__q">{c.question}</span>
+              <span class="cut-item__meta">{c.takes.length} voices</span>
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ol>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Also</span>
+    <h2>See the whole argument at once</h2>
+    <p>
+      The <a href={withBase("/compare/")}>crosswalk</a> puts all seven throughlines against all
+      twelve voices on a single grid &mdash; hand it any motif and it tells you what each voice
+      made it carry, and where the material runs out.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .cut-list { list-style: none; margin: 0; padding: 0; counter-reset: cut; }
+  .cut-item { border-top: 1px solid var(--line); }
+  .cut-item:last-child { border-bottom: 1px solid var(--line); }
+  .cut-item a {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr;
+    gap: var(--s5);
+    padding: var(--s5) var(--s2);
+    text-decoration: none;
+    color: inherit;
+  }
+  .cut-item a:hover { background: var(--paper-raised); }
+  .cut-item__n {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--line-strong);
+    line-height: 1;
+  }
+  .cut-item a:hover .cut-item__n { color: var(--rubric); }
+  .cut-item__body { display: block; }
+  .cut-item__title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    margin-bottom: var(--s2);
+  }
+  .cut-item__hinge {
+    font-family: var(--font-rubric);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+    border-radius: var(--radius-sm);
+    padding: 0.2em 0.45em;
+    margin-left: 0.6em;
+    vertical-align: middle;
+  }
+  .cut-item__gloss { display: block; color: var(--ink-soft); margin-bottom: var(--s2); }
+  .cut-item__q {
+    display: block;
+    font-style: italic;
+    color: var(--rubric);
+    margin-bottom: var(--s2);
+  }
+  .cut-item__meta { font-family: var(--font-ui); font-size: 0.74rem; color: var(--ink-faint); }
+  @media (max-width: 560px) {
+    .cut-item a { grid-template-columns: 2.2rem 1fr; gap: var(--s3); }
+    .cut-item__n { font-size: 1.4rem; }
+  }
+</style>

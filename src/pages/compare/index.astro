@@ -1,13 +1,70 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import Crosswalk from "../../islands/Crosswalk.svelte";
+import { withBase } from "../../lib/site.js";
+import { cuts, voices } from "../../lib/portal-data.js";
+
+const allCuts = [...cuts()].sort((a, b) => a.n - b.n);
+const allVoices = [...voices()].sort((a, b) => a.order - b.order);
+
+// Trim the payload to what the island actually renders.
+const cutData = allCuts.map((c) => ({
+  id: c.id,
+  n: c.n,
+  title: c.title,
+  short: c.short,
+  takes: c.takes.map((t) => ({ voice: t.voice, term: t.term, take: t.take, quote_id: t.quote_id ?? null, gap_note: t.gap_note ?? null })),
+}));
+const voiceData = allVoices.map((v) => ({ id: v.id, name: v.name, short: v.short, branch: v.branch }));
+
+const filled = allCuts.reduce((n, c) => n + c.takes.length, 0);
+const possible = allCuts.length * allVoices.length;
+const quoted = allCuts.reduce((n, c) => n + c.takes.filter((t) => t.quote_id).length, 0);
 ---
 
-<Layout title="The crosswalk" current="/compare">
-  <Stub
-    rubric="The crosswalk"
-    title="Seven cuts × eleven voices"
-    body="The whole argument on one grid: hand it any motif and it tells you what each voice made it carry."
-    phase="Phase 3"
-  />
+<Layout
+  title="The crosswalk"
+  description="Seven throughlines against twelve voices — the whole argument on one grid, including where the material runs out."
+  current="/compare"
+>
+  <div class="page-head">
+    <span class="rubric">The crosswalk</span>
+    <h1>Seven motifs, twelve hands</h1>
+    <p class="lede">
+      Hand this grid any motif and it will tell you what each voice made it carry. It is the chart
+      the whole portal is built on, and its most useful feature is the holes.
+    </p>
+    <p class="small muted">
+      {filled} of {possible} cells filled, {quoted} of them carrying a validated quotation.
+    </p>
+  </div>
+
+  <Crosswalk cuts={cutData} voices={voiceData} base={withBase("/")} client:visible />
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">How to read it</span>
+    <h2>Two different kinds of nothing</h2>
+    <p>
+      Most of this grid is empty, and that matters. An empty cell can mean two quite different
+      things, and running them together would misrepresent both the authors and the evidence.
+    </p>
+    <p>
+      Sometimes a voice simply never touches a motif. Gottfried has nothing to say about the Grail;
+      he was writing a different book. That is not a defect in the record &mdash; it is a fact about
+      what he wrote, and it is worth seeing that only one author, Malory, reaches all seven.
+    </p>
+    <p>
+      Sometimes a voice has a great deal to say and the evidence cannot be published here.
+      Chrétien invented the Grail, and the poem in which he did it has no clean public-domain
+      English translation; the Vulgate is the hinge of the whole French tradition and its only modern
+      translation is in copyright. Those cells are marked as versions without quotations, because
+      the honest statement is <em>we know what he says and cannot show you</em>, not silence.
+    </p>
+    <p class="small">
+      <a href={withBase("/method/whats-not-here/")}>The full account of what is missing &rarr;</a>
+    </p>
+  </section>
 </Layout>

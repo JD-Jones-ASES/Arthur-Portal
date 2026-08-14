@@ -1,13 +1,97 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES, BRANCH_ORDER } from "../../lib/site.js";
+import { voices, works } from "../../lib/portal-data.js";
+
+const all = [...voices()].sort((a, b) => a.order - b.order);
+const byBranch = BRANCH_ORDER.map((b) => ({
+  branch: b,
+  meta: BRANCHES[b],
+  voices: all.filter((v) => v.branch === b),
+})).filter((g) => g.voices.length);
+const workById = new Map(works().map((w) => [w.id, w]));
 ---
 
-<Layout title="The library" current="/library">
-  <Stub
-    rubric="The library"
-    title="The voices"
-    body="Eleven hands, five traditions, five centuries — who invented what, who inherited from whom, and what each of them changed."
-    phase="Phase 3"
-  />
+<Layout
+  title="The library"
+  description="Twelve voices, five traditions, five centuries — who invented what, who inherited from whom, and what each of them changed."
+  current="/library"
+>
+  <div class="page-head">
+    <span class="rubric">The library</span>
+    <h1>One inheritance, many hands</h1>
+    <p class="lede">
+      Twelve writers, from a monk complaining about the state of Britain in the 540s to a Victorian
+      Poet Laureate in 1885. Each received the story from the one before and changed it. These are
+      the dossiers: what each voice invented, what it took, what it handed on, and the strongest
+      case both for and against it.
+    </p>
+    <p>
+      They are listed in the order they wrote, because that order is the argument &mdash; you can
+      watch the motifs move.
+    </p>
+  </div>
+
+  {
+    byBranch.map((g) => (
+      <section class="voice-branch" data-branch={g.branch}>
+        <h2 class="voice-branch__head">
+          <span class="chip"><span class="chip__dot" />{g.meta.label}</span>
+          <span class="muted small">{g.meta.blurb}</span>
+        </h2>
+        <div class="grid">
+          {g.voices.map((v) => (
+            <a class="card card--branch voice-card" data-branch={v.branch} href={withBase(`/library/${v.id}/`)}>
+              <span class="rubric">{v.role}</span>
+              <h3>{v.name}</h3>
+              <p class="voice-card__dates muted small">{v.dates}</p>
+              <p class="small">{v.one_line}</p>
+              {v.works?.length > 0 && (
+                <p class="small muted voice-card__works">
+                  {v.works.map((w) => workById.get(w)?.short ?? w).join(" · ")}
+                </p>
+              )}
+            </a>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">A note on the order</span>
+    <h2>Why chronology is the argument</h2>
+    <p>
+      It is tempting to sort these writers by importance, or by nationality, or by how much of them
+      survives. Sorting them by date does something better: it makes the inheritance visible. Wace
+      invents the Round Table in 1155 and Malory is still using it in 1469. Chrétien introduces an
+      undefined vessel around 1180 and dies before saying what it is; within fifty years there are
+      four incompatible answers, written in three languages, by people who had read each other.
+    </p>
+    <p>
+      The <a href={withBase("/compare/")}>crosswalk</a> shows the same material the other way round
+      &mdash; by motif rather than by hand.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .voice-branch { margin-bottom: var(--s8); }
+  .voice-branch__head {
+    display: flex;
+    align-items: baseline;
+    gap: var(--s4);
+    flex-wrap: wrap;
+    font-size: 1rem;
+    border-bottom: 2px solid var(--branch);
+    padding-bottom: var(--s2);
+    margin-bottom: var(--s5);
+  }
+  .voice-branch__head .muted { font-family: var(--font-prose); font-weight: 400; }
+  .voice-card h3 { margin: var(--s2) 0 0; font-size: 1.15rem; }
+  .voice-card__dates { margin: 0 0 var(--s3); }
+  .voice-card__works { margin-top: var(--s3); font-style: italic; }
+</style>

@@ -1,0 +1,82 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import Divergence from "../../components/Divergence.astro";
+import { withBase } from "../../lib/site.js";
+import { cuts, cutById } from "../../lib/portal-data.js";
+import { mdToHtml } from "../../lib/markdown.js";
+
+export function getStaticPaths() {
+  return cuts().map((c) => ({ params: { cut: c.id }, props: { cut: c } }));
+}
+
+const { cut } = Astro.props;
+const all = [...cuts()].sort((a, b) => a.n - b.n);
+const idx = all.findIndex((c) => c.id === cut.id);
+const prev = all[idx - 1] ?? null;
+const next = all[idx + 1] ?? null;
+const related = (cut.related ?? []).map((id) => cutById(id)).filter(Boolean);
+---
+
+<Layout title={cut.title} description={cut.gloss} current="/throughlines">
+  <div class="page-head">
+    <span class="rubric">Throughline {cut.n} of 7{cut.hinge ? " · the hinge" : ""}</span>
+    <h1>{cut.title}</h1>
+    <p class="lede">{cut.gloss}</p>
+    <p class="cut-question">{cut.question}</p>
+  </div>
+
+  <div class="prose" set:html={mdToHtml(cut.essay)} />
+
+  <div class="cost">
+    <span class="cost__label">What it costs</span>
+    <p>{cut.cost}</p>
+  </div>
+
+  <Ornament />
+
+  <Divergence takes={cut.takes} divergence={cut.divergence} heading="Every voice on this motif" />
+
+  {related.length > 0 && (
+    <>
+      <Ornament />
+      <section class="narrow narrow--flush">
+        <span class="rubric">Reads with</span>
+        <ul class="related-list">
+          {related.map((r) => (
+            <li>
+              <a href={withBase(`/throughlines/${r.id}/`)}>{r.title}</a>
+              <span class="muted small"> &mdash; {r.gloss}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  )}
+
+  <nav class="reader__nav" aria-label="Throughline navigation">
+    {prev ? (
+      <a class="reader__nav-link reader__nav-link--prev" href={withBase(`/throughlines/${prev.id}/`)}>
+        <span class="rubric rubric--muted">Previous</span>
+        <span class="reader__nav-title">{prev.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="reader__nav-link reader__nav-link--next" href={withBase(`/throughlines/${next.id}/`)}>
+        <span class="rubric rubric--muted">Next</span>
+        <span class="reader__nav-title">{next.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
+</Layout>
+
+<style>
+  .cut-question {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--rubric);
+    margin-top: var(--s4);
+  }
+  .related-list { list-style: none; margin: var(--s4) 0 0; padding: 0; }
+  .related-list li { padding: var(--s2) 0; border-bottom: 1px solid var(--line); }
+</style>

@@ -1,0 +1,193 @@
+---
+/**
+ * The Divergence view — the portal's signature instrument.
+ *
+ * Given a motif, it lays every voice's version side by side: the tradition, the
+ * version in a phrase, what that voice actually does with it, and either the
+ * validated quotation or an honest statement of why there isn't one.
+ *
+ * The whole design exists to make the first house constraint unavoidable. You
+ * cannot read a claim here without seeing whose it is, and where two voices
+ * contradict each other the contradiction is drawn rather than averaged away.
+ */
+import { withBase, BRANCHES } from "../lib/site.js";
+import { voiceById, quoteById } from "../lib/portal-data.js";
+
+const { takes = [], divergence = null, heading = "In the sources", level = 2 } = Astro.props;
+
+const rows = takes.map((t) => {
+  const voice = voiceById(t.voice);
+  const quote = t.quote_id ? quoteById(t.quote_id) : null;
+  return { ...t, voiceRecord: voice, quote };
+});
+
+const H = `h${level}`;
+---
+
+<section class="divergence" aria-labelledby="divergence-h">
+  <H id="divergence-h" class="divergence__head">{heading}</H>
+
+  <ol class="divergence__list">
+    {
+      rows.map((r) => (
+        <li class="dcard" data-branch={r.voiceRecord?.branch ?? undefined}>
+          <div class="dcard__voice">
+            <a href={withBase(`/library/${r.voice}/`)} class="dcard__name">
+              {r.voiceRecord?.short ?? r.voice}
+            </a>
+            <span class="dcard__branch">
+              {r.voiceRecord ? BRANCHES[r.voiceRecord.branch].label : ""}
+              {r.voiceRecord?.dates ? ` · ${r.voiceRecord.dates}` : ""}
+            </span>
+          </div>
+
+          <p class="dcard__term">{r.term}</p>
+          <p class="dcard__take">{r.take}</p>
+
+          {r.quote ? (
+            <figure class="dcard__quote">
+              <blockquote>&ldquo;{r.quote.text}&rdquo;</blockquote>
+              <figcaption>
+                <a href={withBase(`/quotes/#${r.quote.id}`)}>
+                  {r.quote.work_title}
+                  {r.quote.anchor_label && r.quote.anchor_label !== "?" ? `, ${r.quote.anchor_label}` : ""}
+                </a>
+                {r.quote.spine && (
+                  <>
+                    {" · "}
+                    <a href={withBase(`/read/${r.quote.work}/${r.quote.spine.unit}/#p${r.quote.spine.paragraph}`)}>
+                      read in place
+                    </a>
+                  </>
+                )}
+              </figcaption>
+            </figure>
+          ) : (
+            <p class="dcard__gap">
+              <span class="dcard__gap-label">No validated quotation</span>
+              {r.gap_note}
+            </p>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+
+  {divergence && (
+    <div class="divergence__note">
+      <span class="divergence__note-label">Where they contradict each other</span>
+      <p>{divergence}</p>
+    </div>
+  )}
+</section>
+
+<style>
+  .divergence { margin: var(--s7) 0; }
+  .divergence__head { margin-bottom: var(--s5); }
+
+  .divergence__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--s4);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+  }
+
+  .dcard {
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--branch);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+    padding: var(--s4) var(--s5) var(--s5);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dcard__voice { margin-bottom: var(--s3); }
+  .dcard__name {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    color: var(--branch-ink);
+    text-decoration: none;
+  }
+  .dcard__name:hover { text-decoration: underline; }
+  .dcard__branch {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-top: 0.15em;
+  }
+
+  .dcard__term {
+    font-family: var(--font-rubric);
+    font-size: 0.94rem;
+    color: var(--ink);
+    margin: 0 0 var(--s3);
+    line-height: 1.35;
+  }
+  .dcard__take {
+    font-size: 0.94rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin: 0 0 var(--s4);
+    flex: 1;
+  }
+
+  .dcard__quote {
+    margin: 0;
+    padding-top: var(--s3);
+    border-top: 1px solid var(--line);
+  }
+  .dcard__quote blockquote {
+    margin: 0 0 var(--s2);
+    padding: 0;
+    border: 0;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    color: var(--ink);
+    font-style: italic;
+  }
+  .dcard__quote figcaption { font-size: 0.76rem; color: var(--ink-faint); }
+  .dcard__quote figcaption a { color: var(--ink-faint); }
+  .dcard__quote figcaption a:hover { color: var(--branch-ink); }
+
+  .dcard__gap {
+    margin: 0;
+    padding-top: var(--s3);
+    border-top: 1px dashed var(--line-strong);
+    font-size: 0.86rem;
+    color: var(--ink-faint);
+    line-height: 1.45;
+  }
+  .dcard__gap-label {
+    display: block;
+    font-family: var(--font-rubric);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: var(--s1);
+  }
+
+  .divergence__note {
+    margin-top: var(--s5);
+    padding: var(--s4) var(--s5);
+    border-left: 3px solid var(--gold);
+    background: color-mix(in srgb, var(--gold) 7%, var(--paper-raised));
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .divergence__note-label {
+    display: block;
+    font-family: var(--font-rubric);
+    font-size: 0.76rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: var(--s2);
+  }
+  .divergence__note p { margin: 0; }
+</style>
