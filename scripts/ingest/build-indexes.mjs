@@ -111,7 +111,11 @@ async function main() {
   const words = [...spines.values()].reduce((n, s) => n + (s.spine.words ?? 0), 0);
   const stats = {
     works_total: works.length,
-    works_readable: works.filter((w) => w.reader).length,
+    // Works that actually have a reading spine, not works we intend to set:
+    // Geoffrey is marked reader:true but is not typeset yet, and counting it
+    // would overstate what a visitor can open.
+    works_readable: spines.size,
+    works_planned: works.filter((w) => w.reader).length - spines.size,
     units,
     words,
     quotes: quotes.length,
