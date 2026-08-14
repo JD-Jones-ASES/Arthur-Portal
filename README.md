@@ -36,7 +36,7 @@ corruptions of a lost original; they are the material.**
 
 | | |
 |---|---|
-| Pages | 1,346 |
+| Pages | 1,357 |
 | Primary text | 1,201 reading units across 10 works, ~1.16 million words |
 | Stories | 49 episodes |
 | Figures | 43 dossiers |
@@ -44,7 +44,7 @@ corruptions of a lost original; they are the material.**
 | Throughlines | 7 |
 | Quotations | 25, all located in source (23 exact, 2 fuzzy) |
 | Glossary | 635 Middle English entries |
-| Internal links | 48,832, all resolving |
+| Internal links | 53,416, all resolving |
 
 ## Run locally
 

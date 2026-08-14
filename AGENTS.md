@@ -160,8 +160,8 @@ Push to `main` → GitHub Actions runs `astro build` → GitHub Pages. Base path
 
 ## What is here
 
-1,346 pages. 1,201 reading units across ten works (~1.16 million words); 49 episodes; 43 character
-dossiers; 12 voices; 7 throughlines; 25 validated quotations; 635 glossary entries; 48,832 internal
+1,357 pages. 1,201 reading units across ten works (~1.16 million words); 49 episodes; 43 character
+dossiers; 12 voices; 7 throughlines; 25 validated quotations; 635 glossary entries; 53,416 internal
 links, all resolving.
 
 ## Traps worth knowing about
