@@ -1,0 +1,178 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import { withBase, BRANCHES } from "../lib/site.js";
+import { voices, works, hasSpine } from "../lib/portal-data.js";
+
+const vs = [...voices()].sort((a, b) => a.floruit - b.floruit);
+const worksByVoice = new Map();
+for (const w of works()) {
+  for (const v of vs) {
+    if ((v.works ?? []).includes(w.id)) {
+      if (!worksByVoice.has(v.id)) worksByVoice.set(v.id, []);
+      worksByVoice.get(v.id).push(w);
+    }
+  }
+}
+
+const MIN = 500;
+const MAX = 1900;
+const pos = (y) => ((y - MIN) / (MAX - MIN)) * 100;
+
+const CENTURIES = [];
+for (let y = 600; y <= 1900; y += 100) CENTURIES.push(y);
+---
+
+<Layout
+  title="Timeline"
+  description="Five centuries of Arthurian composition, from a monk complaining about Britain in the 540s to a Victorian Poet Laureate in 1885."
+  current="/library"
+>
+  <div class="page-head">
+    <span class="rubric">Composition</span>
+    <h1>Thirteen centuries, twelve hands</h1>
+    <p class="lede">
+      Not a timeline of the story &mdash; the story has no dates &mdash; but of the writing. This is
+      when each of these books was made, and by whom, and it is the single most useful thing to have
+      in your head when the versions start contradicting each other.
+    </p>
+    <p>
+      Two facts jump out. Almost everything happens in a burst of about eighty years around 1200.
+      And the most famous single scene in the legend, the sword in the stone, is not in the book
+      that invented King Arthur &mdash; it arrives three centuries later.
+    </p>
+  </div>
+
+  <div class="tl">
+    <div class="tl__axis" aria-hidden="true">
+      {CENTURIES.map((y) => (
+        <span class="tl__tick" style={`left:${pos(y)}%`}>{y}</span>
+      ))}
+    </div>
+
+    <ol class="tl__rows">
+      {
+        vs.map((v) => (
+          <li class="tl__row" data-branch={v.branch}>
+            <div class="tl__label">
+              <a href={withBase(`/library/${v.id}/`)}>{v.short ?? v.name}</a>
+              <span class="tl__dates">{v.dates}</span>
+            </div>
+            <div class="tl__track">
+              <span class="tl__marker" style={`left:${pos(v.floruit)}%`}>
+                <span class="tl__dot" />
+                <span class="tl__caption">
+                  <strong>{v.floruit}</strong>
+                  <span>{v.role}</span>
+                </span>
+              </span>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">What happened in eighty years</span>
+    <h2>The burst around 1200</h2>
+    <p>
+      Between roughly 1155 and 1235 almost every load-bearing element of the legend is invented or
+      fixed. Wace makes the Round Table in 1155. Chrétien invents Arthurian romance, the
+      Lancelot&ndash;Guinevere love and the Grail between about 1170 and 1190. Wolfram and Gottfried
+      are writing in German around 1205&ndash;1210. The Vulgate cycle is assembled between about
+      1215 and 1235, and the <em>Queste</em> lands in the middle of it.
+    </p>
+    <p>
+      Everything before that is chronicle, and everything after it &mdash; including Malory, three
+      centuries later, and Tennyson, three centuries after him &mdash; is working with material
+      that was settled in those eighty years.
+    </p>
+  </section>
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">The other direction</span>
+    <h2>How far the confidence outruns the evidence</h2>
+    <p>
+      Gildas writes within living memory of Badon and names no Arthur. Nennius, three centuries
+      later, credits him with twelve battles and nine hundred and forty men killed by his own hand.
+      Geoffrey, three centuries after <em>that</em>, gives him a genealogy from Troy, a court, a
+      conquest of Europe and a prophet.
+    </p>
+    <p>
+      The record does not get better as it goes. It gets longer.
+      <a href={withBase("/stories/gildas-silence/")}>The silence of Gildas &rarr;</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .tl { margin: var(--s7) 0; }
+  .tl__axis {
+    position: relative;
+    height: 1.5rem;
+    margin-left: 10rem;
+    border-bottom: 1px solid var(--line-strong);
+    margin-bottom: var(--s3);
+  }
+  .tl__tick {
+    position: absolute;
+    transform: translateX(-50%);
+    font-family: var(--font-ui);
+    font-size: 0.68rem;
+    color: var(--ink-faint);
+    font-variant-numeric: lining-nums;
+  }
+
+  .tl__rows { list-style: none; margin: 0; padding: 0; }
+  .tl__row {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    align-items: center;
+    gap: var(--s3);
+    padding: var(--s2) 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+  }
+  .tl__label a { font-family: var(--font-display); font-size: 0.95rem; color: var(--branch-ink); }
+  .tl__dates { display: block; font-size: 0.72rem; color: var(--ink-faint); }
+
+  .tl__track { position: relative; height: 2.6rem; }
+  .tl__track::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: color-mix(in srgb, var(--line) 70%, transparent);
+  }
+  .tl__marker { position: absolute; top: 50%; transform: translate(-50%, -50%); display: grid; place-items: center; }
+  .tl__dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: var(--branch);
+    box-shadow: 0 0 0 3px var(--paper);
+  }
+  .tl__caption {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.75rem;
+    white-space: nowrap;
+    font-family: var(--font-ui);
+    font-size: 0.64rem;
+    color: var(--ink-faint);
+    text-align: center;
+    line-height: 1.2;
+  }
+  .tl__caption strong { display: block; color: var(--branch-ink); font-variant-numeric: lining-nums; }
+
+  @media (max-width: 760px) {
+    .tl__axis { margin-left: 0; }
+    .tl__row { grid-template-columns: 1fr; gap: var(--s1); }
+    .tl__caption { display: none; }
+  }
+</style>

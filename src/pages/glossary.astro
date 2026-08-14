@@ -1,0 +1,165 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import { withBase } from "../lib/site.js";
+import { glossary, glossaryHits } from "../lib/portal-data.js";
+
+const g = glossary();
+const hits = glossaryHits();
+
+// How many chapters each term is glossed in — a rough measure of how much of
+// Malory's vocabulary a reader actually meets.
+const counts = new Map();
+for (const list of Object.values(hits)) {
+  for (const h of list) counts.set(h.term, (counts.get(h.term) ?? 0) + 1);
+}
+
+const entries = g.entries.map((e) => ({ ...e, chapters: counts.get(e.match) ?? 0 }));
+const letters = [...new Set(entries.map((e) => e.term[0].toUpperCase()))].sort();
+const byLetter = letters.map((l) => ({ letter: l, items: entries.filter((e) => e.term[0].toUpperCase() === l) }));
+const commonest = [...entries].sort((a, b) => b.chapters - a.chapters).slice(0, 12);
+---
+
+<Layout
+  title="Glossary"
+  description="The Middle English glossary printed with the Caxton text of Le Morte d'Arthur, lifted verbatim."
+  current="/read"
+>
+  <div class="page-head">
+    <span class="rubric">Words</span>
+    <h1>Malory&rsquo;s English</h1>
+    <p class="lede">
+      The {g.entries.length} entries below are the glossary the editors printed at the end of the
+      Caxton text, lifted verbatim. They appear in the reader too, where each word is marked the
+      first time it turns up in a chapter.
+    </p>
+    <p>
+      One caution, and it matters. This is a <em>dictionary</em>: it records a sense a word
+      <em>can</em> carry in this book, not a translation of every instance. Malory uses
+      &ldquo;wood&rdquo; to mean mad and also to mean timber. Context decides, and the gloss is a
+      hint rather than a ruling.
+    </p>
+  </div>
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Most often met</span>
+    <h2>The words you will actually need</h2>
+    <p class="muted small">
+      Counted across all {Object.keys(hits).length} chapters of the reader.
+    </p>
+    <ul class="top-words">
+      {commonest.map((e) => (
+        <li>
+          <strong>{e.term}</strong>
+          <span>{e.gloss}</span>
+          <span class="muted small">{e.chapters} chapters</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <Ornament />
+
+  <nav class="alpha" aria-label="Jump to letter">
+    {letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}
+  </nav>
+
+  {
+    byLetter.map((grp) => (
+      <section class="gl-section" id={`letter-${grp.letter}`}>
+        <h2 class="gl-letter">{grp.letter}</h2>
+        <dl class="gl-entries">
+          {grp.items.map((e) => (
+            <>
+              <dt id={encodeURIComponent(e.match)}>
+                {e.term}
+                {e.kind === "false-friend" && <span class="gl-flag" title="A word that survives with a changed sense">false friend</span>}
+              </dt>
+              <dd>
+                {e.gloss}
+                {e.chapters > 0 && <span class="muted small"> &middot; {e.chapters} {e.chapters === 1 ? "chapter" : "chapters"}</span>}
+              </dd>
+            </>
+          ))}
+        </dl>
+      </section>
+    ))
+  }
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Provenance</span>
+    <h2>Where this comes from</h2>
+    <p>{g.source} &mdash; {g.rights}</p>
+    <p>
+      Six entries in the printed glossary carry no definition at all and are omitted; two damaged
+      lines were repaired and the repairs are recorded in the build. Sixteen high-frequency words
+      were dropped from the reader&rsquo;s marking &mdash; &ldquo;saw&rdquo;, &ldquo;took&rdquo;,
+      &ldquo;where&rdquo;, &ldquo;much&rdquo; and the like &mdash; because their archaic sense is
+      the minority use, and a confidently wrong gloss on hundreds of ordinary sentences is worse
+      for a reader than no gloss at all.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .top-words { list-style: none; margin: var(--s4) 0; padding: 0; }
+  .top-words li {
+    display: grid;
+    grid-template-columns: 8rem 1fr 6rem;
+    gap: var(--s4);
+    padding: var(--s2) 0;
+    border-bottom: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .top-words strong { font-family: var(--font-rubric); }
+  @media (max-width: 620px) { .top-words li { grid-template-columns: 1fr; gap: var(--s1); } }
+
+  .alpha { display: flex; flex-wrap: wrap; gap: var(--s2); margin-bottom: var(--s6); }
+  .alpha a {
+    font-family: var(--font-rubric);
+    font-size: 0.86rem;
+    padding: 0.2em 0.55em;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--ink-soft);
+  }
+  .alpha a:hover { color: var(--rubric); border-color: var(--rubric); }
+
+  .gl-section { margin-bottom: var(--s6); scroll-margin-top: 5rem; }
+  .gl-letter {
+    font-size: 1.6rem;
+    color: var(--rubric);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: var(--s1);
+    margin: 0 0 var(--s3);
+  }
+  .gl-entries {
+    display: grid;
+    grid-template-columns: minmax(8rem, 14rem) 1fr;
+    gap: var(--s1) var(--s5);
+    margin: 0;
+    font-size: 0.94rem;
+  }
+  .gl-entries dt { font-family: var(--font-rubric); scroll-margin-top: 6rem; }
+  .gl-entries dt:target { color: var(--rubric); }
+  .gl-entries dd { margin: 0; color: var(--ink-soft); }
+  .gl-flag {
+    margin-left: 0.5em;
+    font-family: var(--font-ui);
+    font-size: 0.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--lapis);
+    border: 1px solid color-mix(in srgb, var(--lapis) 40%, transparent);
+    border-radius: var(--radius-sm);
+    padding: 0.15em 0.35em;
+    vertical-align: middle;
+  }
+  @media (max-width: 620px) {
+    .gl-entries { grid-template-columns: 1fr; gap: 0; }
+    .gl-entries dd { margin-bottom: var(--s3); }
+  }
+</style>

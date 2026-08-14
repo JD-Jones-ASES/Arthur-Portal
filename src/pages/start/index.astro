@@ -1,13 +1,157 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { episodeById, stats } from "../../lib/portal-data.js";
+
+const TWELVE = [
+  ["uther-and-igraine", "A king wants another man's wife. A magician arranges it, and takes the resulting child as his fee."],
+  ["sword-in-the-stone", "Years later a boy pulls a sword out of a stone because his brother forgot his, and finds out he is the king."],
+  ["excalibur", "He breaks that sword and is given a better one by an arm in a lake, on terms he does not read."],
+  ["may-day-children", "Told that his own son will destroy him, he has every child born on May Day set adrift. One survives."],
+  ["balin-and-the-dolorous-stroke", "A good knight, cornered, grabs the nearest spear and lays three kingdoms waste with it."],
+  ["the-round-table", "He marries Guinevere, having been warned by his own prophet that she will love his best knight. The Round Table arrives as her dowry."],
+  ["merlin-and-nimue", "The prophet who foresees everything walks into a trap he saw coming, and the magic leaves the book with him."],
+  ["grail-enters-camelot", "The Grail appears at dinner. The knights vow to find it, and the king says the vow has nearly killed him."],
+  ["the-queen-taken", "Somebody finally says the affair out loud, and once it is said there is no way back."],
+  ["gareth-slain", "Rescuing the queen from the fire, Lancelot kills two unarmed men he loved. Their brother will not forgive it."],
+  ["camlann", "A treaty is agreed. A knight is bitten by an adder and draws his sword to kill it. Both armies charge."],
+  ["the-passing", "A barge takes the dying king away. Nobody who was there can say for certain what happened next."],
+];
+
+const twelve = TWELVE.map(([id, line]) => ({ ep: episodeById(id), line })).filter((x) => x.ep);
+const s = stats();
 ---
 
-<Layout title="Start here" current="start">
-  <Stub
-    rubric="Orientation"
-    title="The legend in ten minutes"
-    body="A newcomer's route into five centuries of contradictory story — what happens, in what order, and which author to trust for which part."
-    phase="Phase 8"
-  />
+<Layout
+  title="Start here"
+  description="The legend in ten minutes, and four routes into the rest of it."
+  current="/start"
+>
+  <div class="page-head">
+    <span class="rubric">Start here</span>
+    <h1>The legend in ten minutes</h1>
+    <p class="lede">
+      If you know nothing at all, read the twelve lines below. That is the shape of the story as
+      Malory tells it, which is the version most of the English-speaking world means by
+      &ldquo;Arthur&rdquo;.
+    </p>
+    <p>
+      Then read the warning underneath, because that shape is one author&rsquo;s, and this portal
+      exists because the others disagree with him.
+    </p>
+  </div>
+
+  <ol class="twelve">
+    {
+      twelve.map((t, i) => (
+        <li data-branch={t.ep.branch}>
+          <span class="twelve__n">{i + 1}</span>
+          <div>
+            <p class="twelve__line">{t.line}</p>
+            <a class="small" href={withBase(`/stories/${t.ep.id}/`)}>{t.ep.title} &rarr;</a>
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">The warning</span>
+    <h2>That was one version</h2>
+    <p>
+      Almost none of what you just read is in the book that invented King Arthur. Geoffrey of
+      Monmouth, writing in 1136, has no sword in a stone, no Round Table, no Lancelot, no Grail and
+      no affair. His Arthur inherits a throne, conquers most of Europe, and is brought down by a
+      nephew while he is abroad.
+    </p>
+    <p>
+      The Round Table is invented by a Norman poet in 1155, explicitly as a way of stopping knights
+      quarrelling about who sits where. Lancelot and the love affair are invented by Chrétien de
+      Troyes around 1177, as a compliment. The Grail is invented by the same man about three years
+      later, in a poem he never finished and in which he never says what it is.
+    </p>
+    <p>
+      Everything after that is people arguing about those inventions &mdash; and the arguments are
+      much more interesting than the summary.
+    </p>
+  </section>
+
+  <Ornament />
+
+  <section aria-labelledby="routes-h">
+    <span class="rubric">Four ways on</span>
+    <h2 id="routes-h">Where to go next</h2>
+    <div class="grid">
+      <a class="card" href={withBase("/stories/")}>
+        <span class="rubric">About an hour</span>
+        <h3>Read the stories</h3>
+        <p class="small">
+          All 49 episodes in order, each retold plainly and then broken open to show which authors
+          tell it and where they part company.
+        </p>
+      </a>
+      <a class="card" href={withBase("/grail/")}>
+        <span class="rubric">About twenty minutes</span>
+        <h3>Follow the Grail</h3>
+        <p class="small">
+          The single best demonstration of what this material actually is: one object, six
+          incompatible versions, and a poem that stops mid-sentence.
+        </p>
+      </a>
+      <a class="card" href={withBase("/throughlines/")}>
+        <span class="rubric">About forty minutes</span>
+        <h3>Take a throughline</h3>
+        <p class="small">
+          Seven motifs tracked across every voice &mdash; the source of rule, the fellowship, the
+          betrayal, the wound, the return, and the doom that comes anyway.
+        </p>
+      </a>
+      <a class="card" href={withBase("/read/malory/malory-1-5/")}>
+        <span class="rubric">About five minutes</span>
+        <h3>Just read Malory</h3>
+        <p class="small">
+          Start at the sword in the stone and keep going. {s.units?.toLocaleString?.() ?? ""} chapters are
+          set here, with the hard words glossed as you meet them.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">If you only remember one thing</span>
+    <h2>Ask whose Arthur it is</h2>
+    <p>
+      The single most useful habit with this material is to attach every claim to a name and a date.
+      Not &ldquo;in the legend, Arthur is elected by drawing a sword&rdquo; &mdash; but &ldquo;in
+      Malory, writing in 1469 and following a French cycle from the 1230s, Arthur is elected by
+      drawing a sword.&rdquo;
+    </p>
+    <p>
+      That is why every tradition on this site carries a colour, and why it follows the claim
+      wherever it goes.
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .twelve { list-style: none; margin: 0; padding: 0; max-width: 46rem; }
+  .twelve li {
+    display: grid;
+    grid-template-columns: 2.4rem 1fr;
+    gap: var(--s4);
+    padding: var(--s4) 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .twelve__n {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    color: var(--branch);
+    line-height: 1.2;
+  }
+  .twelve__line { margin: 0 0 var(--s2); font-size: 1.06rem; }
+</style>

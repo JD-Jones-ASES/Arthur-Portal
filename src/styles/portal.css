@@ -865,3 +865,8 @@ table.data tbody tr:hover { background: var(--paper-raised); }
   .search__result a { grid-template-columns: 1fr; }
   .search__sub { grid-column: 1; }
 }
+
+/* Consecutive prose sections need air between them; without this a rubric
+   label collides with the paragraph above it and reads as part of that block. */
+main section + section { margin-top: var(--s8); }
+main .ornament + section { margin-top: 0; }

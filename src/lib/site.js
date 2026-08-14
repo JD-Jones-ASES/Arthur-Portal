@@ -73,5 +73,6 @@ export const NAV = [
   { href: "/knights/", label: "Knights", match: "/knights" },
   { href: "/read/", label: "Read", match: "/read" },
   { href: "/library/", label: "Library", match: "/library" },
+  { href: "/timeline/", label: "Timeline", match: "/timeline" },
   { href: "/method/", label: "Method", match: "/method" },
 ];
