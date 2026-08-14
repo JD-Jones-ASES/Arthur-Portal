@@ -1,0 +1,152 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import { withBase } from "../lib/site.js";
+import { episodeById } from "../lib/portal-data.js";
+
+/**
+ * Places, as claimed by texts rather than as geography.
+ *
+ * Almost none of these can be located. Camelot is unplaceable on purpose;
+ * Malory's own printer put it at Winchester and Malory does not. So this is a
+ * schematic of relative position, not a map, and each entry records who claims
+ * what.
+ */
+const PLACES = [
+  { id: "tintagel", name: "Tintagel", x: 16, y: 82, branch: "chronicle",
+    claim: "Where Arthur is begotten, in Geoffrey and in Malory. A real Cornish headland with a real medieval castle — built, awkwardly, about a century after Geoffrey wrote.",
+    episodes: ["uther-and-igraine"] },
+  { id: "camelot", name: "Camelot", x: 44, y: 62, branch: "french",
+    claim: "Chrétien names it once, in passing, and never explains. Caxton's preface asserts it is Winchester; Malory does not. It is the one place in the legend that is deliberately nowhere.",
+    episodes: ["the-round-table", "pentecostal-oath", "grail-enters-camelot"] },
+  { id: "carlisle", name: "Carlisle", x: 46, y: 24, branch: "english",
+    claim: "Malory's northern court, and where the queen is brought back under the Pope's peace.",
+    episodes: ["the-popes-peace"] },
+  { id: "camlann", name: "Salisbury Plain", x: 47, y: 74, branch: "english",
+    claim: "Malory sets the last battle 'upon a down beside Salisbury'. The Welsh annals name the field Camlann and say only that Arthur and Medraut fell there.",
+    episodes: ["camlann", "excalibur-returned"] },
+  { id: "avalon", name: "Avalon", x: 30, y: 70, branch: "chronicle",
+    claim: "The isle Arthur is carried to 'for the healing of his wounds'. Glastonbury's monks announced they had found his grave there in 1191, which was extremely convenient for Glastonbury.",
+    episodes: ["the-passing", "rex-quondam"] },
+  { id: "corbenic", name: "Corbenic", x: 62, y: 46, branch: "french",
+    claim: "The Grail castle, and unplaceable by design: knights reach it by not looking for it.",
+    episodes: ["elaine-and-galahad", "corbenic"] },
+  { id: "joyous-gard", name: "Joyous Gard", x: 58, y: 22, branch: "english",
+    claim: "Lancelot's castle, where he takes the queen after the rescue. Malory says some men call it Alnwick and some Bamburgh, and declines to settle it.",
+    episodes: ["gareth-slain"] },
+  { id: "astolat", name: "Astolat", x: 60, y: 66, branch: "english",
+    claim: "Where the Fair Maid dies, and from where her barge is steered down the river to Westminster.",
+    episodes: ["maid-of-astolat"] },
+  { id: "amesbury", name: "Amesbury", x: 49, y: 78, branch: "english",
+    claim: "The nunnery Guinevere retires to, and where she refuses Lancelot a last kiss.",
+    episodes: ["amesbury"] },
+  { id: "badon", name: "Mount Badon", x: 38, y: 76, branch: "chronicle",
+    claim: "The one battle the earliest sources agree happened. Gildas describes the victory and names no commander; Nennius, three centuries later, makes it Arthur's twelfth.",
+    episodes: ["gildas-silence", "twelve-battles"] },
+  { id: "benwick", name: "Benwick", x: 80, y: 88, branch: "french",
+    claim: "Lancelot's kingdom over the sea, where Arthur besieges him while Mordred takes England behind them.",
+    episodes: ["benwick-and-gawains-death"] },
+  { id: "orkney", name: "Orkney", x: 44, y: 5, branch: "english",
+    claim: "Lot's kingdom, and the house whose loyalty to itself finally breaks the fellowship.",
+    episodes: ["may-day-children"] },
+];
+
+const withEps = PLACES.map((p) => ({ ...p, eps: p.episodes.map((e) => episodeById(e)).filter(Boolean) }));
+---
+
+<Layout
+  title="The map"
+  description="Where the legend claims to happen — and how little of it can be located."
+  current="/stories"
+>
+  <div class="page-head">
+    <span class="rubric">Places</span>
+    <h1>A map of somewhere</h1>
+    <p class="lede">
+      This is not a map of Britain. It is a schematic of relative position, because almost nothing in
+      the legend can actually be located, and the places that can are usually the ones somebody had
+      an interest in locating.
+    </p>
+    <p>
+      Camelot is unplaceable on purpose. Glastonbury&rsquo;s monks discovered Arthur&rsquo;s grave in
+      1191, shortly after a fire had left them needing to raise money. Malory offers two candidates
+      for Joyous Gard and declines to choose. Each entry below records who claims what.
+    </p>
+  </div>
+
+  <div class="map-wrap">
+    <svg class="map" viewBox="0 0 100 100" role="img" aria-label="A schematic of the places named in the legend">
+      <path
+        d="M40 2 C32 10, 26 16, 24 26 C22 34, 30 36, 28 44 C26 54, 14 60, 14 70 C14 80, 22 92, 34 94
+           C46 96, 56 92, 62 84 C70 74, 74 60, 70 48 C66 36, 60 28, 56 18 C52 8, 46 0, 40 2 Z"
+        class="map__land"
+      />
+      <path d="M74 78 C80 74, 90 76, 94 84 C97 90, 92 97, 84 97 C76 97, 71 88, 74 78 Z" class="map__land map__land--over" />
+      <text x="84" y="70" class="map__sea">over the sea</text>
+      {withEps.map((p) => (
+        <g data-branch={p.branch}>
+          <circle cx={p.x} cy={p.y} r="1.5" class="map__dot" />
+          <text x={p.x + 2.6} y={p.y + 0.9} class="map__label">{p.name}</text>
+        </g>
+      ))}
+    </svg>
+  </div>
+
+  <ol class="place-list">
+    {
+      withEps.map((p) => (
+        <li data-branch={p.branch} id={p.id}>
+          <h2>{p.name}</h2>
+          <p>{p.claim}</p>
+          <p class="small">
+            {p.eps.map((e, i) => (
+              <>
+                {i > 0 ? " · " : ""}
+                <a href={withBase(`/stories/${e.id}/`)}>{e.title}</a>
+              </>
+            ))}
+          </p>
+        </li>
+      ))
+    }
+  </ol>
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">A caution</span>
+    <h2>Why the map is deliberately vague</h2>
+    <p>
+      Locating Arthur is the oldest and most persistent temptation in this subject, and it has an
+      unhelpful history: Geoffrey&rsquo;s fiction read as recoverable fact, a grave found exactly
+      when a monastery needed one, a national origin story assembled from a battle list.
+    </p>
+    <p>
+      The honest position is that these are places in texts. Where a text names somewhere real, that
+      is a fact about the text. It is not evidence about the sixth century.
+      <a href={withBase("/method/")}>The method, in full &rarr;</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .map-wrap { max-width: 40rem; margin: var(--s6) 0; }
+  .map { width: 100%; height: auto; }
+  .map__land { fill: var(--paper-sunk); stroke: var(--line-strong); stroke-width: 0.4; }
+  .map__land--over { fill: color-mix(in srgb, var(--paper-sunk) 70%, var(--paper)); }
+  .map__sea { fill: var(--ink-faint); font-family: var(--font-rubric); font-size: 2.2px; text-anchor: middle; }
+  .map__dot { fill: var(--branch); stroke: var(--paper); stroke-width: 0.5; }
+  .map__label { fill: var(--ink); font-family: var(--font-rubric); font-size: 2.6px; }
+
+  .place-list { list-style: none; margin: var(--s6) 0 0; padding: 0; }
+  .place-list li {
+    border-left: 3px solid var(--branch);
+    padding: var(--s3) var(--s5);
+    margin-bottom: var(--s4);
+    background: var(--paper-raised);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    scroll-margin-top: 5rem;
+  }
+  .place-list h2 { margin: 0 0 var(--s2); font-size: 1.1rem; }
+  .place-list p { margin: 0 0 var(--s2); color: var(--ink-soft); }
+</style>

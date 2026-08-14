@@ -1,0 +1,37 @@
+{
+  "id": "where-it-came-from",
+  "order": 2,
+  "title": "Where the legend came from",
+  "minutes": 40,
+  "blurb": "How a name in a battle list became a European emperor with a court, a prophet and a Grail. The invention of Arthur, in the order it happened.",
+  "note": "This is the route that most changes how you read everything else, because it shows the famous parts arriving late and from identifiable people.",
+  "stops": [
+    {
+      "episode": "gildas-silence"
+    },
+    {
+      "episode": "twelve-battles"
+    },
+    {
+      "episode": "vortigerns-tower"
+    },
+    {
+      "episode": "merlins-prophecies"
+    },
+    {
+      "episode": "culhwch-and-olwen"
+    },
+    {
+      "episode": "wace-invents-the-table"
+    },
+    {
+      "episode": "knight-of-the-cart"
+    },
+    {
+      "episode": "peredurs-spear"
+    },
+    {
+      "episode": "tennysons-camelot"
+    }
+  ]
+}

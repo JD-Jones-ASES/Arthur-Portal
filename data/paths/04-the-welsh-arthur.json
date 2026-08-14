@@ -1,0 +1,27 @@
+{
+  "id": "the-welsh-arthur",
+  "order": 4,
+  "title": "The Welsh Arthur",
+  "minutes": 25,
+  "blurb": "Before France got hold of him: a war-band chieftain surrounded by men who can drink a sea dry, and the rawest version of the Grail failure.",
+  "note": "Read this and the difference between traditions stops being an abstraction.",
+  "stops": [
+    {
+      "episode": "culhwch-and-olwen"
+    },
+    {
+      "unit": "mabinogion-4-1",
+      "note": "The claim at the gate, and the roll of Arthur's men."
+    },
+    {
+      "episode": "peredurs-spear"
+    },
+    {
+      "unit": "mabinogion-2-3",
+      "note": "The bleeding spear, the severed head, and the silence."
+    },
+    {
+      "episode": "yvain-and-the-lion"
+    }
+  ]
+}

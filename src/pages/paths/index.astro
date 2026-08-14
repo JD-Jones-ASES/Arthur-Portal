@@ -1,0 +1,51 @@
+---
+import Layout from "../../components/Layout.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase } from "../../lib/site.js";
+import { paths } from "../../lib/portal-data.js";
+const all = [...paths()].sort((a, b) => a.order - b.order);
+const time = (m) => (m >= 600 ? "about a month" : m >= 60 ? `about ${Math.round(m / 60)} hour${m >= 120 ? "s" : ""}` : `about ${m} minutes`);
+---
+<Layout title="Reading paths" description="Six routes through the material, from five minutes to a month." current="/start">
+  <div class="page-head">
+    <span class="rubric">Routes</span>
+    <h1>Six ways through</h1>
+    <p class="lede">
+      There is a great deal here and no obligation to read it in order. These are routes: each one
+      picks a sequence and says why, and each links into the primary text at every stop.
+    </p>
+  </div>
+  <ol class="path-list">
+    {all.map((p) => (
+      <li>
+        <a href={withBase(`/paths/${p.id}/`)}>
+          <span class="path-list__meta">{time(p.minutes ?? 30)} &middot; {p.stops.length} stops</span>
+          <span class="path-list__title">{p.title}</span>
+          <span class="path-list__blurb">{p.blurb}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+  <Ornament />
+  <section class="narrow narrow--flush">
+    <span class="rubric">Also</span>
+    <h2>The threads</h2>
+    <p>
+      Two routes are elsewhere because they belong to their subject:
+      <a href={withBase("/grail/follow/")}>Follow the Grail</a> walks Malory's whole quest with
+      commentary, and every principal knight on <a href={withBase("/knights/")}>the roster</a> with a
+      real arc has a Follow itinerary of their own.
+    </p>
+  </section>
+</Layout>
+<style>
+  .path-list { list-style: none; margin: 0; padding: 0; }
+  .path-list li { border-bottom: 1px solid var(--line); }
+  .path-list li:first-child { border-top: 1px solid var(--line); }
+  .path-list a { display: block; padding: var(--s5) var(--s2); text-decoration: none; color: inherit; }
+  .path-list a:hover { background: var(--paper-raised); }
+  .path-list__meta { display: block; font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: var(--s2); }
+  .path-list__title { display: block; font-family: var(--font-display); font-size: 1.3rem; margin-bottom: var(--s2); }
+  .path-list a:hover .path-list__title { color: var(--rubric); }
+  .path-list__blurb { display: block; color: var(--ink-soft); max-width: 44rem; }
+</style>

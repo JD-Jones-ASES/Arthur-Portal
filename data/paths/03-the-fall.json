@@ -1,0 +1,46 @@
+{
+  "id": "the-fall",
+  "order": 3,
+  "title": "The fall of the Round Table",
+  "minutes": 35,
+  "blurb": "From the moment somebody says the affair out loud to the grave nobody can identify. The best-constructed tragedy in English before the theatre.",
+  "note": "Watch how little of it is anybody's plan. An announcement, an accident in a crowd, a brother's grief, and a snake.",
+  "stops": [
+    {
+      "episode": "healing-of-sir-urre"
+    },
+    {
+      "episode": "the-queen-taken"
+    },
+    {
+      "episode": "gareth-slain"
+    },
+    {
+      "episode": "the-popes-peace"
+    },
+    {
+      "episode": "benwick-and-gawains-death"
+    },
+    {
+      "episode": "mordreds-usurpation"
+    },
+    {
+      "episode": "fortunes-wheel"
+    },
+    {
+      "episode": "camlann"
+    },
+    {
+      "episode": "excalibur-returned"
+    },
+    {
+      "episode": "the-passing"
+    },
+    {
+      "episode": "rex-quondam"
+    },
+    {
+      "episode": "amesbury"
+    }
+  ]
+}

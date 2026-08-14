@@ -1,0 +1,46 @@
+{
+  "id": "twelve-scenes",
+  "order": 1,
+  "title": "The story in twelve scenes",
+  "minutes": 45,
+  "blurb": "The narrative spine, start to finish. If you want to be able to follow a conversation about Arthur, read these twelve and stop.",
+  "note": "Almost entirely Malory, because Malory is the only author who tells the whole arc. Where the others disagree with him sharply, the episode page says so.",
+  "stops": [
+    {
+      "episode": "uther-and-igraine"
+    },
+    {
+      "episode": "sword-in-the-stone"
+    },
+    {
+      "episode": "excalibur"
+    },
+    {
+      "episode": "may-day-children"
+    },
+    {
+      "episode": "balin-and-the-dolorous-stroke"
+    },
+    {
+      "episode": "the-round-table"
+    },
+    {
+      "episode": "merlin-and-nimue"
+    },
+    {
+      "episode": "grail-enters-camelot"
+    },
+    {
+      "episode": "the-queen-taken"
+    },
+    {
+      "episode": "gareth-slain"
+    },
+    {
+      "episode": "camlann"
+    },
+    {
+      "episode": "the-passing"
+    }
+  ]
+}

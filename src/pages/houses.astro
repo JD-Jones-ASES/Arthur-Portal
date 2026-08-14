@@ -1,0 +1,217 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import { withBase } from "../lib/site.js";
+import { characterById } from "../lib/portal-data.js";
+
+/**
+ * The houses, drawn as descent rather than as a family tree.
+ *
+ * A conventional tree misrepresents this material: the two relationships that
+ * destroy the kingdom — Arthur and Morgause, Lancelot and Elaine of Corbenic —
+ * are exactly the ones a tidy tree hides, because one is incestuous and unwitting
+ * and the other is a deception. They are drawn here as what they are.
+ */
+
+const HOUSES = [
+  {
+    id: "pendragon",
+    name: "Pendragon",
+    branch: "chronicle",
+    note: "The royal line, and the fault at the centre of it. Igraine's three daughters by her first husband give Arthur two half-sisters who will each, in different ways, be the end of him.",
+    generations: [
+      [{ id: "uther", label: "Uther Pendragon", role: "king" }, { id: "igraine", label: "Igraine", role: "m. 1: Gorlois of Cornwall" }],
+      [{ id: "arthur", label: "Arthur", role: "son of Uther and Igraine" },
+       { id: "morgause", label: "Morgause", role: "daughter of Igraine and Gorlois" },
+       { id: "morgan", label: "Morgan le Fay", role: "daughter of Igraine and Gorlois" }],
+      [{ id: "mordred", label: "Mordred", role: "son of Arthur and Morgause — neither knowing" },
+       { id: "uwaine", label: "Uwaine", role: "son of Morgan and King Uriens" }],
+    ],
+    edges: [
+      { from: "Arthur", to: "Morgause", label: "half-siblings, unaware — and the parents of Mordred", kind: "fatal" },
+    ],
+  },
+  {
+    id: "orkney",
+    name: "Orkney",
+    branch: "english",
+    note: "The strongest bloc at the Round Table and the most destructive. Their loyalty to each other is unbreakable, which is precisely the problem: it survives every attempt to make peace.",
+    generations: [
+      [{ label: "King Lot of Orkney", role: "killed by King Pellinore" }, { id: "morgause", label: "Morgause", role: "m. Lot" }],
+      [{ id: "gawain", label: "Gawain", role: "the eldest" },
+       { id: "agravaine", label: "Agravaine", role: "who says it aloud" },
+       { id: "gaheris", label: "Gaheris", role: "who kills their mother" },
+       { id: "gareth", label: "Gareth", role: "the best-loved" },
+       { id: "mordred", label: "Mordred", role: "half-brother; Arthur's son" }],
+    ],
+    edges: [
+      { from: "Orkney", to: "Pellinore's line", label: "a blood feud that produces the murder of Lamorak", kind: "feud" },
+    ],
+  },
+  {
+    id: "benwick",
+    name: "Benwick",
+    branch: "french",
+    note: "Lancelot's kin, and the half of the fellowship that leaves with him. When the Round Table splits, this is the seam it splits along.",
+    generations: [
+      [{ label: "King Ban of Benwick", role: "Arthur's ally in the early wars" }],
+      [{ id: "lancelot", label: "Lancelot", role: "the best knight of the world" },
+       { id: "bors", label: "Bors", role: "cousin; the only Grail knight who comes home" },
+       { id: "lionel", label: "Lionel", role: "cousin; left to be beaten" }],
+      [{ id: "galahad", label: "Galahad", role: "son of Lancelot and Elaine of Corbenic" }],
+    ],
+    edges: [
+      { from: "Lancelot", to: "Elaine of Corbenic", label: "a deception arranged by the Grail's own household", kind: "fatal" },
+    ],
+  },
+  {
+    id: "grail-kings",
+    name: "The Grail kings",
+    branch: "french",
+    note: "The line the French cycle invents to give the vessel a genealogy, running from the man who buried Christ to the knight who achieves the quest — and joining the Pendragon story exactly once, by deceiving Lancelot.",
+    generations: [
+      [{ id: "joseph", label: "Joseph of Arimathea", role: "who caught the blood" }],
+      [{ id: "pelles", label: "King Pelles", role: "the Maimed King, wounded by the Dolorous Stroke" }],
+      [{ id: "elaine-corbenic", label: "Elaine of Corbenic", role: "his daughter" }],
+      [{ id: "galahad", label: "Galahad", role: "who achieves it, and asks to die" }],
+    ],
+    edges: [],
+  },
+];
+---
+
+<Layout
+  title="The houses"
+  description="The four bloodlines of the Matter of Britain — and the two relationships inside them that end the kingdom."
+  current="/knights"
+>
+  <div class="page-head">
+    <span class="rubric">Kin</span>
+    <h1>The houses</h1>
+    <p class="lede">
+      Almost everything that destroys Camelot is a family matter. Mordred is Arthur&rsquo;s son by
+      his half-sister. Gawain cannot forgive Lancelot because of his brothers. Galahad exists
+      because the Grail&rsquo;s guardians needed a knight and Lancelot was the wrong one.
+    </p>
+    <p>
+      These are drawn as descent rather than as a tidy family tree, because a tidy tree hides
+      exactly the two relationships that matter, and both of them are drawn here as what they are.
+    </p>
+  </div>
+
+  {
+    HOUSES.map((h) => (
+      <section class="house" data-branch={h.branch} id={h.id}>
+        <h2 class="house__name">{h.name}</h2>
+        <p class="house__note">{h.note}</p>
+
+        <div class="house__gens">
+          {h.generations.map((gen, gi) => (
+            <div class="gen">
+              <span class="gen__n" aria-hidden="true">{gi + 1}</span>
+              <ul class="gen__people">
+                {gen.map((p) => {
+                  const rec = p.id ? characterById(p.id) : null;
+                  return (
+                    <li class="person">
+                      {rec ? (
+                        <a class="person__name" href={withBase(`/knights/${rec.id}/`)}>{p.label}</a>
+                      ) : (
+                        <span class="person__name">{p.label}</span>
+                      )}
+                      <span class="person__role">{p.role}</span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        {h.edges.length > 0 && (
+          <ul class="house__edges">
+            {h.edges.map((e) => (
+              <li class={`edge edge--${e.kind}`}>
+                <strong>{e.from} &times; {e.to}</strong>
+                <span>{e.label}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    ))
+  }
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">One line worth tracing</span>
+    <h2>Igraine to Camlann in three generations</h2>
+    <p>
+      A woman is deceived by magic into conceiving a child, and the child is taken from her at a
+      postern gate. Twenty years later he sleeps with a woman he does not know is his half-sister,
+      and is told by a prophet that the resulting child will destroy him. He attempts to drown
+      every infant born that month; one survives, and is fetched back to court.
+    </p>
+    <p>
+      On Salisbury Plain the two of them kill each other in the same movement &mdash; the father
+      running the son through with a spear, the son thrusting himself up the shaft to reach him.
+    </p>
+    <p>
+      Everything in that sequence proceeds from a deception arranged in the first three chapters of
+      the book, and the man who arranged it knew.
+      <a href={withBase("/essays/camelot-designed-to-fail/")}>The argument in full &rarr;</a>
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .house { margin-bottom: var(--s8); scroll-margin-top: 5rem; }
+  .house__name {
+    border-bottom: 2px solid var(--branch);
+    padding-bottom: var(--s2);
+    margin-bottom: var(--s3);
+  }
+  .house__note { color: var(--ink-soft); max-width: 44rem; }
+
+  .house__gens { margin-top: var(--s5); }
+  .gen {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: var(--s4);
+    padding: var(--s3) 0;
+    position: relative;
+  }
+  .gen + .gen { border-top: 1px dashed var(--line-strong); }
+  .gen__n {
+    font-family: var(--font-rubric);
+    font-size: 0.8rem;
+    color: var(--branch);
+    padding-top: 0.3em;
+  }
+  .gen__people { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s3); }
+  .person {
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--branch);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+    padding: var(--s2) var(--s4);
+    min-width: 12rem;
+    flex: 1 1 12rem;
+    max-width: 20rem;
+  }
+  .person__name { display: block; font-family: var(--font-display); font-size: 1rem; }
+  .person__role { display: block; font-size: 0.8rem; color: var(--ink-faint); line-height: 1.35; margin-top: 0.15em; }
+
+  .house__edges { list-style: none; margin: var(--s4) 0 0; padding: 0; }
+  .edge {
+    padding: var(--s3) var(--s4);
+    border-left: 3px solid var(--rubric);
+    background: color-mix(in srgb, var(--rubric) 6%, var(--paper-raised));
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-bottom: var(--s2);
+  }
+  .edge--feud { border-left-color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, var(--paper-raised)); }
+  .edge strong { display: block; font-family: var(--font-rubric); font-size: 0.9rem; }
+  .edge span { color: var(--ink-soft); font-size: 0.94rem; }
+</style>

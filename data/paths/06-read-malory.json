@@ -1,0 +1,26 @@
+{
+  "id": "read-malory",
+  "order": 6,
+  "title": "Read Malory properly",
+  "minutes": 1800,
+  "blurb": "The whole of Le Morte d'Arthur: 21 books, 502 chapters, about 336,000 words. Roughly a month at a chapter or two a day.",
+  "note": "The reader keeps your place by chapter, glosses the hard words as you meet them, and marks the passages the research ledger validates. Book X (Tristram) is 88 chapters and is where most readers stop — it is fine to skip it and come back.",
+  "stops": [
+    {
+      "unit": "malory-front-caxton",
+      "note": "Start with Caxton's preface. He explains, in 1485, exactly why he is printing this and what he expects a reader to get from it."
+    },
+    {
+      "unit": "malory-1-1",
+      "note": "Book I. Uther and Igraine."
+    },
+    {
+      "unit": "malory-13-1",
+      "note": "Book XIII, if you want the Grail quest on its own."
+    },
+    {
+      "unit": "malory-18-1",
+      "note": "Book XVIII, if you want the fall on its own."
+    }
+  ]
+}

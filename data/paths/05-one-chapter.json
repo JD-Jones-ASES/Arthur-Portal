@@ -1,0 +1,18 @@
+{
+  "id": "one-chapter",
+  "order": 5,
+  "title": "If you have five minutes",
+  "minutes": 5,
+  "blurb": "One chapter of Malory: the Grail enters Camelot and the king starts grieving in the same scene. It is the whole argument of this portal in four paragraphs.",
+  "note": "Read it with the quotation highlights on. Both highlighted passages are in the same chapter.",
+  "stops": [
+    {
+      "unit": "malory-13-7",
+      "note": "Read to the end. The vessel arrives in glory in the second paragraph; by the fourth Arthur is telling Gawain the vow has nearly killed him."
+    },
+    {
+      "episode": "grail-enters-camelot",
+      "note": "Then the episode, for what the other authors do with the same scene."
+    }
+  ]
+}
