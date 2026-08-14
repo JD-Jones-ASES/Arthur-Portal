@@ -21,8 +21,6 @@ short; add a tag only when a motif recurs across voices.
 | `disenchantment` | magic withdrawing; the Grail-less modern age (as Merlin goes) | Malory |
 | `pseudo-history` | the chronicle Arthur claimed as history — and Gildas's telling silence | the Chroniclers |
 | `the-chivalric-test` | the code tried on a single knight (the beheading-game, the green girdle) | SGGK, the Gawain romances |
-| `the-cost` | **method tag** — what every motif depletes (House Constraint 2, the through-line) | all |
-| `version-divergence` | **method tag** — a node where the voices materially disagree (Constraint 1) | meta |
 
 **Cross-tag note** (as in realism): `source-of-rule` is the umbrella over `sword-and-sovereignty`;
 `the-grail` over `the-unasked-question`; `the-wound-and-wasteland` over `dolorous-stroke`. The two
