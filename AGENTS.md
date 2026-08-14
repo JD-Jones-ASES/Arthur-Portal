@@ -36,9 +36,11 @@ automated gate before it can be published, and the build fails loud if one canno
 npm install            # Node >= 22.12
 npm run prepare:data   # ingest + the validation gate (run locally after any content change)
 npm run build          # astro build -> dist/
+npm run verify         # build + link check + accessibility check
 npm run dev            # local dev server (production base path /Arthur-Portal)
 npm run dev:preview    # local dev server served from /  (convenient for previewing)
 npm run qa:shots       # visual QA: drives system Chrome over key routes -> qa-shots/
+npm run fetch:sources  # rebuild gitignored raw/ from the checksummed manifest
 ```
 
 `prepare:data` regenerates the committed `derived/` spine and `data/` indexes, then runs the gate.
@@ -85,6 +87,7 @@ Every work carries a `tier` in `data/works/works.config.json`:
 | `validate-coverage` | editorial thresholds (every episode has a resolving passage and a non-empty cost; every gap is *declared*) |
 | `scan-text` | OCR/encoding artefacts in derived spines |
 | `check-links` | post-build crawl of `dist/` — every internal href and `#anchor` resolves |
+| `qa:a11y` | markup accessibility: alt text, labelled SVG, discernible link text, one h1, no duplicate ids, real descriptions |
 
 **The gate staying green is the definition of done.**
 
@@ -155,4 +158,19 @@ Push to `main` → GitHub Actions runs `astro build` → GitHub Pages. Base path
 - **A new quote** → add it to `arthur/index/quotes.json` (the base's source of truth), then
   `npm run validate:quotes`. If it doesn't locate in the corpus, it doesn't ship.
 
-See `DECISIONS.md` for the decision log.
+## What is here
+
+1,346 pages. 1,201 reading units across ten works (~965,000 words); 49 episodes; 43 character
+dossiers; 12 voices; 7 throughlines; 25 validated quotations; 635 glossary entries; 48,832 internal
+links, all resolving.
+
+## Traps worth knowing about
+
+- **Svelte 5:** never name a local variable `state`. The compiler then reads the `$state` rune as a
+  store auto-subscription and the page dies at build time with `store.subscribe is not a function`.
+- **Ajv:** draft 2020-12 lives at `ajv/dist/2020.js`; the default export is draft-07.
+- **Screenshots are not evidence for fine detail.** A vision model reading a screenshot misreported
+  two citations during testing that the data proved correct. Check small text against the data.
+- **`raw/restricted/` must never be committed.** `validate-rights` enforces it, but know why.
+
+See `DECISIONS.md` for the decision log (ADR-0001 … ADR-0008).

@@ -90,3 +90,76 @@ clones, and the owner asked only that the files be ignored. Available later if e
 
 **Consequences.** The base's validation discipline survives without redistributing a copyrighted
 translation. A fresh clone can build and pass the gate with no access to the restricted text.
+
+---
+
+## ADR-0005 — Caxton's chapter numbers are reconstructed, and the reconstruction is published
+
+**Context.** Unit ids are public URLs and quotation anchors, so a wrong chapter number is a broken
+citation that propagates everywhere. The Project Gutenberg Malory has real defects: five chapter
+headings are dropped outright, one is printed without its full stop, Book IX prints XXVIII for
+XXXVIII and XIX for XXXIX, and Book X's own table of contents prints XXI where XXX belongs.
+Numbering by the printed numeral produces duplicate and out-of-order citations.
+
+**Decision.** Reconcile each body heading against the volume's own table of contents **by title**,
+then against the chapter sequence, preferring whichever candidate advances the sequence and
+reconstructing from the sequence when neither does. Throw on any duplicate or out-of-order chapter.
+Write every decision to `derived/malory/cleanup-log.json` — and **publish that log on the work's
+contents page**, so a reader can see exactly what was changed and why.
+
+**Consequences.** 502 chapters, all uniquely and monotonically numbered. Independently
+cross-checked: all nine Malory quotations in the research base's ledger land in exactly the chapter
+the base cites, having been anchored by a completely separate route.
+
+Caxton's own preface tallies 507 chapters, and this edition's divisions yield 502. That discrepancy
+is a fact about the text, not a defect to be fixed, and is left alone.
+
+---
+
+## ADR-0006 — Editorial divisions are labelled as editorial
+
+**Context.** Ten works had to be turned into reading units. Some editions supply headings — Weston's
+marginal titles in Gawain, the branches of Perlesvaus, Tennyson's twelve idylls. Others supply
+nothing at all: Mason's Layamon is one continuous stream of narrative.
+
+**Decision.** Where the source supplies headings they become the units and the unit is marked
+`divisions: "source"`. Where it does not, the text is cut at paragraph boundaries into units of
+roughly a comfortable reading length and marked `divisions: "editorial"`, and the cleanup log
+records how many units were made and why.
+
+**Consequences.** A reader is never shown our chapter break as though it were the author's.
+Promoting a work from editorial to source divisions means finding a better edition, not editing a
+label.
+
+---
+
+## ADR-0007 — The glossary is a dictionary, not an annotation
+
+**Context.** The Caxton edition ships a ~650-entry glossary of Malory's vocabulary, which is a
+windfall for a first-time reader. But naive whole-word matching produced actively misleading notes:
+"saw → proverb" on *when they saw the scripture*; "high → aloud" on *the high altar*; "took → gave"
+on 316 chapters' worth of ordinary usage.
+
+**Decision.** Two changes. First, sixteen high-frequency terms whose archaic sense is the minority
+use are stoplisted, with their measured chapter counts recorded in the source so the judgement can
+be re-examined. Second, the feature is framed honestly in the UI: this is the edition's glossary of
+senses a word *can* carry in this book, shown at first use per chapter, and context decides.
+
+**Consequences.** Glossing fell from 14.4 to 9.0 notes per chapter, and what remains is Malory's
+actual vocabulary — *passing*, *worship*, *wot*, *hight*, *wood*, *siege*, *sangreal*. A
+confidently wrong gloss is worse for a student than no gloss, so the bias is toward silence.
+
+---
+
+## ADR-0008 — A short arc is a fact, not a gap
+
+**Context.** The coverage gate originally required every principal figure to have at least three
+arc stops. Seven figures failed it, and inspection showed the rule was wrong rather than the data:
+Balin's entire life is one book of Malory, and Iseult appears in exactly one episode.
+
+**Decision.** A principal figure must appear in at least one episode and carry a substantial
+dossier. Arc length is reported, not enforced; it determines only whether the figure can be
+*followed* through the text.
+
+**Consequences.** No itinerary is padded to satisfy a counter. The `/knights/` roster distinguishes
+figures who can be followed from figures who are simply treated at length.
