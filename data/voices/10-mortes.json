@@ -1,0 +1,22 @@
+{
+  "id": "mortes",
+  "name": "The English Mortes",
+  "short": "The Mortes",
+  "branch": "english",
+  "order": 10,
+  "dates": "c. 1350–1400",
+  "floruit": 1375,
+  "role": "the English route to the fall",
+  "one_line": "Two Middle English poems on the ending — one on Fortune's wheel, one on the love — and Malory used both.",
+  "apparatus": "Before Malory there were two English poems about how it ends, and he took one thing from each.\n\nThe **Alliterative *Morte Arthure*** is the war poem: Arthur's Roman campaign, told with enormous force, and at its centre a dream in which the king sees Fortune's wheel turn and himself carried up to the top and then flung down. It is the most explicitly tragic framing in the English tradition — the fall is not caused by a betrayal, it is caused by having risen.\n\nThe **Stanzaic *Le Morte Arthur*** is the love poem: the Maid of Astolat, the poisoned apple, the discovery, the queen condemned, Gareth killed in the rescue, and the long unwinding to Salisbury Plain. It is the English route to the French *Mort Artu*, and Malory's Books XVIII–XXI follow it closely.",
+  "invented": ["Fortune's wheel as the shape of Arthur's fall, in English"],
+  "inherited": ["Geoffrey's Roman war; the French Mort Artu"],
+  "bequeathed": ["Malory's Book V, and the whole of his ending"],
+  "steelman": "Malory's famous ending is not entirely Malory's. These poems supply both the machinery of the fall and its tone, and the alliterative *Morte* in particular is a great poem in its own right rather than a source to be strip-mined.",
+  "objection": "They survive in rough texts, and their reputation has been permanently overshadowed by the prose book that consumed them.",
+  "how_it_maps": "Feeds the founding betrayal, the wound, and the return. Directly upstream of Malory's last four books.",
+  "works": ["mortes"],
+  "cuts": ["courtly-love", "the-wound-and-wasteland", "once-and-future"],
+  "reads_against": ["malory"],
+  "gap_note": "Held as search sources only. The available Middle English scans are too rough to publish or to quote at length, which is why this voice has no validated quotation of its own."
+}

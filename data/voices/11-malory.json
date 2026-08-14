@@ -1,0 +1,21 @@
+{
+  "id": "malory",
+  "name": "Sir Thomas Malory",
+  "short": "Malory",
+  "branch": "english",
+  "order": 11,
+  "dates": "c. 1415–1471",
+  "floruit": 1469,
+  "role": "the keystone",
+  "one_line": "A knight writing in prison who compiled every stream into one tragic English book — and counted the cost of every motif he inherited.",
+  "apparatus": "Malory is the centre of gravity of the whole subject, and the only voice that touches all seven throughlines. He finished *Le Morte d'Arthur* in prison in 1469–70; Caxton printed it in 1485.\n\n**Two sources of rule, never reconciled.** The sword in the stone is an election by grace — *Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England* — and Excalibur is a loan from the Lady of the Lake. At the end the loan is called in: a hand rises from the water, catches the sword, shakes it thrice and takes it under. Sovereignty is half miracle, half debt, and the debt comes due.\n\n**A constitution written to be broken.** The Pentecostal Oath charges the knights *never to do outrageousity nor murder, and always to flee treason … but to give mercy unto him that asketh mercy* — and the remaining eighteen books show the best knights breaking every clause of it.\n\n**A Grail that empties the hall it enters.** It comes into Camelot in glory, covered in white samite; within the same chapter Arthur is grieving, because the vow it provoked *hath bereft me the fairest fellowship and the truest of knighthood that ever were seen together in any realm of the world*. Nobody else states the cost that plainly.\n\n**A love defended even as it destroys.** *Right so fareth love nowadays, soon hot soon cold: this is no stability. But the old love was not so.* He will not simply condemn the thing that kills his kingdom.\n\n**And a hope held as doubt.** Of the return he writes only that *many men say* there is written on the tomb: *Hic jacet Arthurus, Rex quondam, Rexque futurus.* Reported. Never asserted.",
+  "invented": ["The elegiac register that the whole English tradition now takes for granted", "The cost, counted, motif by motif"],
+  "inherited": ["The Vulgate, the Queste, the two English Mortes, the Tristan — nearly everything"],
+  "bequeathed": ["Tennyson, and every retelling in English since"],
+  "steelman": "The one voice that holds the whole arc — founding to fall — in a single register, and the one that consistently asks what each excellence destroyed. Clean, printed, and citable chapter by chapter. If you read one Arthurian book, this is the book.",
+  "objection": "A compiler, not an inventor. Almost none of the matter is his: the originality is in the selection and the elegiac tone, and the seams show badly — the Tristram section runs to eighty-eight chapters and nearly derails the book. His unity is a translator's achievement.",
+  "how_it_maps": "The anchor column of every throughline: Geoffrey's frame, Chrétien's eros, Wolfram's counter-argument, the Vulgate's doom, all resolved into one English tragedy.",
+  "works": ["malory"],
+  "cuts": ["source-of-rule", "the-fellowship", "the-grail", "courtly-love", "the-wound-and-wasteland", "once-and-future", "foreknowledge-and-doom"],
+  "reads_against": ["vulgate", "grail-romances", "gawain-romances", "geoffrey"]
+}

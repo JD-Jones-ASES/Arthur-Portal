@@ -1,0 +1,21 @@
+{
+  "id": "tennyson",
+  "name": "Alfred, Lord Tennyson",
+  "short": "Tennyson",
+  "branch": "reception",
+  "order": 12,
+  "dates": "1809–1892",
+  "floruit": 1859,
+  "role": "the reception",
+  "one_line": "The Victorian rereading in which Camelot is built as an ideal, and rots — and the Grail quest is what ruins it.",
+  "apparatus": "The *Idylls of the King* are not a medieval witness and are not treated as one here. They are the single most influential reading of Malory ever written, and they change the argument in a way worth marking.\n\nTennyson makes Camelot a moral experiment: Arthur binds his knights by vows to make a civilisation, and the poem watches it decay from the inside as the vows fail one by one. The Grail quest, which in Malory is a tragedy the king grieves, becomes in Tennyson something closer to a mistake — a mass enthusiasm that empties the hall of the knights who were needed at home.\n\nWhat he adds is the frame of *civilisational decline*: the sense that the story is about a society rising and falling, rather than about a fellowship and its sins. Almost every modern retelling inherits that frame from him rather than from the Middle Ages.",
+  "invented": ["Camelot as a civilisation with a rise and a decline", "The Grail quest read as a collective error"],
+  "inherited": ["Malory, closely and openly"],
+  "bequeathed": ["The frame nearly every modern retelling still uses"],
+  "steelman": "It is a serious reading, not a decoration: Tennyson noticed that Malory's Grail chapter contains its own critique, and built twelve poems on it. And it is the reason most English speakers think they know the story at all.",
+  "objection": "It is Victorian moralising over medieval material, and its Arthur — a blameless idealist betrayed by lesser people — flattens the ambivalence that makes Malory worth reading. Guinevere in particular is punished by the poem in a way the Middle Ages never quite managed.",
+  "how_it_maps": "Reception, not witness. Included so the modern default reading can be seen as one voice among others rather than as the story itself.",
+  "works": ["idylls"],
+  "cuts": ["the-grail", "the-fellowship", "courtly-love"],
+  "reads_against": ["malory"]
+}

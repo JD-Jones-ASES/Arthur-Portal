@@ -1,0 +1,45 @@
+{
+  "id": "the-wound-and-wasteland",
+  "n": 5,
+  "title": "The wound that will not heal",
+  "short": "The wound",
+  "gloss": "Sovereignty as a body: when the king is maimed, the land goes barren.",
+  "question": "Why does a wound in one man's body show up as famine in a country?",
+  "tags": ["the-wound-and-wasteland", "dolorous-stroke"],
+  "essay": "One of the oldest ideas in the tradition is that the king and the land are the same thing, and you can tell how a kingdom is doing by looking at its sovereign's body.\n\nMalory gives the motif its most brutal form. Balin, cornered and weaponless in King Pellam's castle, snatches a spear from a chamber wall and strikes him with it. The spear turns out to be the one that pierced Christ's side. The castle falls in on them; Balin rides out through a country that has become a desert; and Merlin tells him what he has done: *for the dolorous stroke thou gavest unto King Pellam three countries are destroyed, and doubt not but the vengeance will fall on thee at the last.* One blow, three kingdoms sterilised, and a debt attached to the man who struck it. He does not mean to do any of it. That is the point of Balin: he is not wicked, he is unlucky, and the damage is permanent anyway.\n\nWolfram makes the wound erotic and gives it a cure. Anfortas is maimed because he loved a woman the Grail had not appointed for him — the keeper of the holy thing brought down by ordinary desire — and he can neither die nor recover. What eventually heals him is not surgery, penance or a relic. It is a question asked out of pity. The wasteland in Wolfram is a failure of compassion, and it is fixed when the compassion arrives.\n\nAnd Geoffrey applies the same logic to Arthur himself. The *History* ends with the king *wounded deadly*, borne away to Avalon, and Britain immediately begins its long collapse into Saxon hands. The body of the sovereign and the fate of the country are not analogous. They are the same story told at two scales.\n\nIt is worth being careful here. This looks like Frazer's dying god and reads like a piece of comparative anthropology, and a hundred years of enthusiastic writing has treated it that way. What the texts actually say is narrower and stranger: a specific king, wounded in a specific way, and a specific stretch of countryside that stops producing. The medieval version is a political theology about sacral kingship, not a myth of vegetation.",
+  "cost": "The kingdom has a single point of failure, and it is a man. Everything the order builds is contingent on one body staying intact — and in Malory that body is broken by accident, by a good knight in a bad corner, who is then told the vengeance will find him too.",
+  "takes": [
+    {
+      "voice": "malory",
+      "term": "one blow, three kingdoms",
+      "take": "Balin strikes Pellam with the spear that pierced Christ and lays three countries waste. He did not mean any of it, and the debt is his regardless.",
+      "quote_id": "malory-dolorous-stroke"
+    },
+    {
+      "voice": "wolfram",
+      "term": "wounded for love, healed by pity",
+      "take": "Anfortas is maimed for desiring outside the Grail's appointment, and can neither die nor heal until somebody asks him what is wrong.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "the king's body is the country",
+      "take": "Arthur is wounded deadly and carried to Avalon, and Britain falls. The sovereign's wound and the kingdom's ruin are one event described twice.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "a land waiting to be released",
+      "take": "In the Grail romances the maimed king and his barren country are a condition to be lifted by the right knight arriving — the wasteland as a lock with one key.",
+      "gap_note": "Present across the Queste and Perlesvaus as a structure; not carried by a single validated line here."
+    },
+    {
+      "voice": "mortes",
+      "term": "Fortune's wheel",
+      "take": "The alliterative Morte gives the fall a different mechanism: Arthur dreams of the wheel turning, and understands that he is falling because he rose.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    }
+  ],
+  "divergence": "Wolfram's wasteland has a cure and a moral: ask, and the land recovers. Malory's has neither. Balin's stroke is not a test anybody passes; it is damage, and the countries stay dead.",
+  "related": ["the-grail", "once-and-future"]
+}

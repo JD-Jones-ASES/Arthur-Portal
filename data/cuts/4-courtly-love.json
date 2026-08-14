@@ -1,0 +1,51 @@
+{
+  "id": "courtly-love",
+  "n": 4,
+  "title": "The founding betrayal",
+  "short": "The betrayal",
+  "gloss": "The love that is the glory of the court and the bomb beneath its floor.",
+  "question": "Is the love that destroys Camelot a sin, a virtue, or an accident?",
+  "tags": ["courtly-love", "the-cost"],
+  "essay": "The affair that brings down the Round Table was invented as a compliment.\n\nChrétien de Troyes wrote *Lancelot, or the Knight of the Cart* around 1180, apparently at the direction of his patron Marie de Champagne, and in it he made the love of a knight for his lord's wife into the highest form of devotion available. The famous scene is the cart: Lancelot needs a ride, the only vehicle is a cart used to carry condemned criminals, and to be seen in it is permanent disgrace. He hesitates for two steps. Chrétien is precise about what happens in those two steps — *Reason, which dares thus speak to him, reaches only his lips, but not his heart; but love is enclosed within his heart, bidding him and urging him to mount at once upon the cart.* He climbs in. The hesitation is the sin, not the shame.\n\nThat is the invention. Everything afterwards is people dealing with it.\n\nThe **Vulgate** makes the love mutual, and makes it load-bearing: *the White Knight loved the queen and was fairly sure that the queen loved him as well.* And it draws the conclusion Chrétien avoided. If the Grail requires purity, then the best knight in the world is disqualified from the highest thing in the world by the very passion that makes him the best knight in the world. The greatest man alive is built to fail.\n\n**Gottfried** runs the control experiment. In *Tristan*, the lovers drink a potion *of such power and magic that did any two drink thereof they must needs, without will of their own, love each other above all things* — by accident, on a ship, meant for someone else. Choice is removed entirely. And they are destroyed anyway. Whatever the tragedy is about, it is not about consent.\n\n**Malory** inherits all of it and refuses to settle. He knows perfectly well that the affair kills his kingdom; he writes the discovery, the burning, the war, the ruin. And then, in the eighteenth book, he stops the narrative to defend it: *Right so fareth love nowadays, soon hot soon cold: this is no stability. But the old love was not so; men and women could love together seven years.* He is elegising the thing that destroys everything he loves, and he does not apologise for it.\n\n**Tennyson** finally does condemn it, at length, and puts Guinevere on the floor at her husband's feet — which is worth knowing, because it is the version most people have absorbed without ever reading it.",
+  "cost": "Private virtue at war with public good. Fidelity between two people is a real good, and in this story it is the mechanism that kills a hundred knights, splits the fellowship, and hands the kingdom to Mordred. Malory's refusal to resolve that is not confusion; it is the most honest position anyone in the tradition takes.",
+  "takes": [
+    {
+      "voice": "chretien",
+      "term": "love that overrules reason, and ennobles",
+      "take": "The adultery enters the tradition as a virtue. Reason speaks and reaches only his lips; love is in the heart and wins. Two steps of hesitation are the only fault.",
+      "quote_id": "chretien-love-over-shame"
+    },
+    {
+      "voice": "vulgate",
+      "term": "mutual, fatal, and disqualifying",
+      "take": "The love is made mutual and made structural: it is why Lancelot is the greatest knight and why he cannot achieve the Grail. The cycle's doom is encoded here.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    },
+    {
+      "voice": "gottfried",
+      "term": "a potion — love without choice",
+      "take": "Remove the will and the tragedy remains. The lovers cannot repent of a passion they never chose, and it destroys them exactly as thoroughly.",
+      "quote_id": "gottfried-love-potion"
+    },
+    {
+      "voice": "malory",
+      "term": "defended even as it dooms",
+      "take": "He writes the ruin in full and then, mid-book, mourns the old love as better than anything now. He will not condemn the thing that kills his kingdom.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "mortes",
+      "term": "the English route to the ending",
+      "take": "The stanzaic Morte carries the discovery, the queen condemned, and the long unwinding — the machinery Malory's last books follow closely.",
+      "gap_note": "Held as a search source only: the Middle English scan is too rough to quote."
+    },
+    {
+      "voice": "tennyson",
+      "term": "condemned, and the woman blamed",
+      "take": "The Victorian reading resolves the ambivalence by moralising it, and puts the weight on Guinevere. It is the version most readers have absorbed without reading.",
+      "gap_note": "Reception rather than medieval witness."
+    }
+  ],
+  "divergence": "Chrétien invented the affair as the proof of Lancelot's worth. The Vulgate kept the affair and made it the reason he is damned. Same two people, same bed, opposite verdicts — and Malory, who read both, declines to choose.",
+  "related": ["the-fellowship", "the-grail"]
+}

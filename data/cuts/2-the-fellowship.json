@@ -1,0 +1,51 @@
+{
+  "id": "the-fellowship",
+  "n": 2,
+  "title": "The fellowship and its built-in fracture",
+  "short": "The fellowship",
+  "gloss": "The order built to abolish precedence and bind violence — and the flaw its design cannot remove.",
+  "question": "Can an institution made of armed men be built so that it does not destroy itself?",
+  "tags": ["the-fellowship", "pentecostal-oath", "the-chivalric-test"],
+  "essay": "The Round Table is a piece of engineering, and we know what problem it was engineered to solve, because the man who invented it said so.\n\nWace, writing in 1155, describes it as a device against precedence: the knights' *chairs should be high alike, their service equal, and none before or after his comrade. Thus no man could boast that he was exalted above his fellow.* A table with no head. The problem being solved is rank, and the violence that quarrels over rank produce.\n\nMalory adds the constitution. At the first Pentecost the knights are sworn: *never to do outrageousity nor murder, and always to flee treason; also, by no means to be cruel, but to give mercy unto him that asketh mercy.* It is a genuinely impressive document — a code binding the strong to spare the weak, renewed every year at the feast.\n\nAnd then Malory spends eighteen books showing the best knights break every clause of it. Gawain kills a lady in the second book. Lancelot commits treason of the most literal kind. Balin gives a stroke that lays three kingdoms waste. Lamorak is murdered by four brothers at once. The oath is not violated by the order's enemies; it is violated by its finest members, and the institution that forbids the violence is the same institution that assembles the men capable of it and gives them nothing to do.\n\nChrétien audits the same code from inside one conscience, which is a different and sharper instrument: what does the oath cost the man who keeps it? And the English poets narrow it further still. *Sir Gawain and the Green Knight* puts the entire apparatus on one knight for one year, and finds the flaw in a place no oath could have anticipated. Gawain does not fall to lust or treason. He accepts a green girdle because he is told it will stop him being killed, and he conceals it, and that is all. *For what man soever is girded with this green lace … there is no man under heaven who can cut him down.* The best knight in England fails his test by wanting to live.\n\nThe Vulgate makes the same point structurally rather than morally. Its fellowship is a kin-network, and kinship is its strength: Lancelot's family will follow him anywhere. That is precisely the mechanism by which the order eventually splits in half.",
+  "cost": "The excellence and the failure are the same thing. A brotherhood of the strongest men alive, bound by an oath, generates exactly the violence the oath forbids — and the loyalty that holds it together is the loyalty along which it finally tears. Nothing needed to go wrong for Camelot to fall. The design was sufficient.",
+  "takes": [
+    {
+      "voice": "chroniclers",
+      "term": "a table with no head",
+      "take": "Wace invents the Round Table explicitly as engineering against precedence — so the fracture the design fears is anticipated in the shape of the furniture.",
+      "quote_id": "wace-round-table"
+    },
+    {
+      "voice": "malory",
+      "term": "a constitution, and the record of its breach",
+      "take": "The Pentecostal Oath is sworn every year and broken by the best knights in the book. Malory writes the charter and then writes the violations.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "gawain-romances",
+      "term": "one knight, one year, one concealment",
+      "take": "The whole code tested on Gawain alone. He fails not through lust or treason but through an ordinary wish not to die — a flaw no oath can legislate away.",
+      "quote_id": "sggk-green-girdle"
+    },
+    {
+      "voice": "chretien",
+      "term": "the knight audited from inside",
+      "take": "Romance as the examination of a single conscience against the code: not whether the oath is broken, but what keeping it costs the man and the woman married to him.",
+      "gap_note": "Shown across Yvain and Erec as a structure rather than stated in a single line."
+    },
+    {
+      "voice": "vulgate",
+      "term": "a kin-network that will turn on itself",
+      "take": "The fellowship's strength is blood loyalty, and blood loyalty is the fault line: when Lancelot leaves, half the Round Table leaves with him.",
+      "gap_note": "The collapse itself is in the Mort Artu, which is not in this collection; the mechanism is laid down in the prose Lancelot."
+    },
+    {
+      "voice": "tennyson",
+      "term": "vows that make a civilisation, and fail",
+      "take": "Tennyson reads the order as a moral experiment — knights bound by vows to build a society — and watches it rot from within as the vows give way one at a time.",
+      "gap_note": "Reception rather than witness: this is the Victorian frame most modern retellings still inherit."
+    }
+  ],
+  "divergence": "For Wace the Round Table solves the problem of rank. For Malory it creates the problem of violence. For the Gawain poet it cannot reach the problem at all, because the thing that defeats a good knight is fear of death, and no constitution has a clause for that.",
+  "related": ["source-of-rule", "courtly-love"]
+}

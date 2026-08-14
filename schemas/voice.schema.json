@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "voice.schema.json",
+  "title": "A voice in the Matter of Britain",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "branch", "order", "dates", "one_line", "role", "apparatus", "steelman", "objection", "how_it_maps"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "short": { "type": "string" },
+    "branch": { "enum": ["chronicle", "welsh", "french", "german", "english", "reception"] },
+    "order": { "type": "integer", "description": "chronological-genetic order: who came first" },
+    "dates": { "type": "string" },
+    "floruit": { "type": "integer", "description": "a single year for placing this voice on a timeline" },
+    "role": { "type": "string", "description": "the one-word job in the canon: founder, inventor, systematiser…" },
+    "one_line": { "type": "string", "minLength": 20 },
+    "apparatus": { "type": "string", "minLength": 200, "description": "what this voice actually does with the inherited material" },
+    "invented": { "type": "array", "items": { "type": "string" } },
+    "inherited": { "type": "array", "items": { "type": "string" } },
+    "bequeathed": { "type": "array", "items": { "type": "string" } },
+    "steelman": { "type": "string", "minLength": 80 },
+    "objection": { "type": "string", "minLength": 80 },
+    "how_it_maps": { "type": "string", "minLength": 60 },
+    "works": { "type": "array", "items": { "type": "string" } },
+    "cuts": { "type": "array", "items": { "type": "string" } },
+    "reads_against": { "type": "array", "items": { "type": "string" } },
+    "gap_note": { "type": "string" }
+  }
+}

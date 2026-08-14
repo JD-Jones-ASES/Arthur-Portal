@@ -1,0 +1,51 @@
+{
+  "id": "source-of-rule",
+  "n": 1,
+  "title": "The source of rule",
+  "short": "Source of rule",
+  "gloss": "Where legitimate kingship comes from — whether it is conferred, seized, proven, or fated.",
+  "question": "By what right does Arthur reign, and who decided?",
+  "tags": ["source-of-rule", "sword-and-sovereignty"],
+  "essay": "Every Arthurian author had to answer a question the Middle Ages found genuinely difficult: what makes a king a king? And they answered it differently enough that their Arthurs are not the same man.\n\nThe chroniclers answer with **victory**. Nennius's Arthur fights twelve battles and kills nine hundred and forty men at Badon single-handed; he is a *dux bellorum*, a war-leader, and his authority is the plain fact that he wins. No one crowns him. No one needs to.\n\nGeoffrey answers with **descent and conquest**. His Arthur inherits a throne in a dynastic line running back to Brutus of Troy, and then earns it again by conquering most of Europe. But even Geoffrey cannot leave the regalia alone: Caliburn was *forged within the Isle of Avalon*. Sovereignty is armed by the otherworld from the very first, which is a strange thing to find in a book claiming to be history.\n\nMalory answers **twice, and never reconciles the two**. There is the sword in the stone, an election by grace, with the claim written on the anvil for anyone to read: *Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.* And there is Excalibur, handed up out of a lake by an arm clothed in white samite — power *granted* by the otherworld, and therefore revocable. Malory never tells you which one made Arthur king. He does tell you, in the last book, that the lake takes its sword back.\n\nThe Vulgate answers by **changing the subject**. In the French cycle the real question is not who holds the sword but what outranks it, and the answer is the Grail: a knight can say of his own blade that it is *the thing I prized most except for the Holy Vessel called the Grail*. Worldly rule has been quietly demoted.\n\nAnd then there is the answer nobody expects. In *The Wedding of Sir Gawain and Dame Ragnelle*, Arthur's own life depends on answering a riddle — what do women most desire? The answer is *to have the sovereignty, without lying, of all, both high and low*. The word is the same word. The poem takes the central political concept of the entire tradition and relocates it to the marriage bed, and it does this as a comedy.",
+  "cost": "A throne that is simultaneously earned, inherited, granted and on loan has a fault line at its base. Malory's Arthur holds power on two incompatible titles and can appeal to neither when Mordred raises the country against him — and the otherworld that armed him takes its sword back before he is even dead.",
+  "takes": [
+    {
+      "voice": "chroniclers",
+      "term": "victory, and nothing else",
+      "take": "Nennius's Arthur is a war-leader with a battle-list. Legitimacy is not conferred; it is demonstrated, twelve times.",
+      "quote_id": "nennius-twelve-battles"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "descent and conquest, with an otherworld sword",
+      "take": "A dynastic emperor in a line from Troy — but his blade is forged in Avalon. Even the chronicle cannot keep the marvellous out of the regalia.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    },
+    {
+      "voice": "malory",
+      "term": "election by grace, and a revocable loan",
+      "take": "The stone says the king is born, not made. The Lady of the Lake says the sword is lent. Malory keeps both and reconciles neither — then has the lake take Excalibur back at the end.",
+      "quote_id": "malory-sword-in-stone"
+    },
+    {
+      "voice": "vulgate",
+      "term": "the Grail outranks the sword",
+      "take": "Worldly sovereignty is not the highest thing in the cycle, and is not pretended to be. The sacred object is prized above the weapon that enforces the crown.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    },
+    {
+      "voice": "gawain-romances",
+      "term": "sovereignty, asked as a riddle and won in a marriage",
+      "take": "Dame Ragnelle answers the question that will save Arthur's life, and the answer relocates sovereignty from the throne to the bedchamber — in a comedy that is entirely serious.",
+      "quote_id": "ragnelle-sovereignty"
+    },
+    {
+      "voice": "mabinogion",
+      "term": "the head of a war-band",
+      "take": "The Welsh Arthur is a chieftain surrounded by outsized retainers, a resource to be recruited rather than a sovereign to be obeyed. Culhwch does not petition him; he claims a boon as kin.",
+      "gap_note": "Described from the tales rather than quoted: the Welsh Arthur's standing is shown in how people treat him, not stated in a line."
+    }
+  ],
+  "divergence": "Geoffrey's Arthur is born to rule and proves it by conquest. Malory's is a boy nobody has heard of who pulls a sword out of a stone at a tournament because his brother forgot his. These are not two versions of one story. They are two different theories of political legitimacy, and both are called King Arthur.",
+  "related": ["the-fellowship", "once-and-future"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gawain-romances",
+  "name": "The Gawain Romances",
+  "short": "The Gawain Romances",
+  "branch": "english",
+  "order": 9,
+  "dates": "late 14th–15th c.",
+  "floruit": 1390,
+  "role": "the code on trial in one man",
+  "one_line": "Sir Gawain and the Green Knight, and the Loathly Lady who knows what women most desire — the chivalric code tested to destruction on a single knight.",
+  "apparatus": "The English poems put the whole apparatus of chivalry on one man and see what breaks.\n\n***Sir Gawain and the Green Knight*** is the finest of them. A green giant rides into Camelot at Christmas and offers a game: strike me, and take my stroke in a year. Gawain strikes off his head; the giant picks it up and rides out. A year later, lodged with a host whose wife tests him for three mornings, Gawain does everything right except one thing — he accepts and conceals a green girdle he is told will keep him from being killed. *For what man soever is girded with this green lace, while he has it fastened neatly about him, there is no man under heaven who can cut him down.* One concealment, out of ordinary fear of death. The oath had nothing to say about it.\n\n**The Wedding of Sir Gawain and Dame Ragnelle** inverts the whole question of sovereignty into comedy. Arthur must answer a riddle — what do women most desire — on pain of his life, and the answer, given by a loathly lady who demands Gawain in marriage as her price, is: *to have the sovereignty, without lying, of all, both high and low.* The right to rule moves from the throne to the marriage bed, and the poem thinks it is funny, and it is also entirely serious.",
+  "invented": ["The beheading game as a test of one conscience", "The green girdle: the flaw no oath can legislate away", "Sovereignty as the thing women want, asked as a riddle"],
+  "inherited": ["Gawain from the French, where he had already begun to decline"],
+  "bequeathed": ["An English Gawain who is the best of the court, against the French tradition that had demoted him"],
+  "steelman": "*Sir Gawain and the Green Knight* is the best poem in the Matter of Britain, and it locates the failure of chivalry exactly where the great cycles cannot: not in adultery or treason, but in a good man's ordinary wish not to die.",
+  "objection": "These are small poems beside the cycles, and the surviving texts are hard — one manuscript for *Gawain*, blackletter scans for the rest. It is easy to over-read a body of work that survives so thinly.",
+  "how_it_maps": "Carries the fellowship (the code tried on one knight) and the source of rule (Ragnelle's inversion). Reads against Malory, whose Gawain is a different and angrier man.",
+  "works": ["gawain", "gawain-romances"],
+  "cuts": ["source-of-rule", "the-fellowship"],
+  "reads_against": ["malory", "chretien"],
+  "gap_note": "Only *Sir Gawain and the Green Knight* is published here. The rest of the Madden volume — the Awntyrs, Golagros, the Carle of Carlisle — survives in an 1839 blackletter scan too rough to quote."
+}

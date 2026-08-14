@@ -1,0 +1,27 @@
+{
+  "id": "geoffrey",
+  "name": "Geoffrey of Monmouth",
+  "short": "Geoffrey",
+  "branch": "chronicle",
+  "order": 2,
+  "dates": "c. 1100–1155",
+  "floruit": 1136,
+  "role": "the founder",
+  "one_line": "The cleric who turned a shadowy Welsh war-leader into a king of Britain, and handed the legend its entire political skeleton.",
+  "apparatus": "Geoffrey's *History of the Kings of Britain* (c. 1136) is the hinge on which the whole tradition turns. Before it, Arthur is a name attached to a battle list. After it, he is a European conqueror with a genealogy running back to Brutus of Troy, a court, a war with Rome, a treacherous nephew, and a prophet.\n\n**Legitimacy is descent and conquest.** There is no sword in the stone here, no election by grace. Arthur is a dynastic emperor, and his regalia come from elsewhere: Caliburn — the sword later called Excalibur — was *forged within the Isle of Avalon*. Sovereignty is armed by the otherworld from the very beginning.\n\n**Foreknowledge is a charter, not a tragedy.** Merlin's prophecies make the future legitimate the dynasty. The Boar of Cornwall will trample the necks of the enemy: this is prophecy as an instrument of state.\n\n**And the ending is deliberately unfinished.** Arthur is wounded deadly and borne to Avalon *for the healing of his wounds*, whereupon he hands the crown to Constantine. The chronicle needs him gone but will not quite kill him. Every later 'he shall come again' hangs on that one subordinate clause.",
+  "invented": [
+    "Arthur as king of Britain rather than war-leader",
+    "Merlin, and prophecy as dynastic legitimation",
+    "The war with Rome, and Mordred's betrayal",
+    "The calculated ambiguity of Avalon"
+  ],
+  "inherited": ["Nennius's battle-list", "Welsh tradition of Myrddin and of Arthur's court"],
+  "bequeathed": ["Everything. Every later author is glossing the figure Geoffrey installed."],
+  "steelman": "Without Geoffrey there is no King Arthur — only a name in a battle list. He is the first to make the British past *usable*: a charter of legitimacy a dynasty could stand on, and a narrative shape strong enough that five centuries of poets could hang anything they liked on it and never break it.",
+  "objection": "It is fiction marketed as history. Geoffrey claimed to be translating 'a most ancient book in the British tongue' that no one else has ever seen, and his contemporaries said so: William of Newburgh called the whole thing impudent lying. This is where the 'real King Arthur' temptation begins. The honest position is to study Geoffrey's propaganda as propaganda, and decline to extend it.",
+  "how_it_maps": "Root of the source of rule, of the once-and-future return, and of foreknowledge and doom; he also supplies the king's own deadly wound. He gives the skeleton. Chrétien adds the courtly interior, the Vulgate the theology, Malory the tragic cost.",
+  "works": ["geoffrey"],
+  "cuts": ["source-of-rule", "the-wound-and-wasteland", "once-and-future", "foreknowledge-and-doom"],
+  "reads_against": ["chroniclers", "malory"],
+  "gap_note": "The text here is reflowed from a scan of Sebastian Evans's translation: readable and citable, but its original pagination is lost."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chretien",
+  "name": "Chrétien de Troyes",
+  "short": "Chrétien",
+  "branch": "french",
+  "order": 4,
+  "dates": "c. 1135–1190",
+  "floruit": 1180,
+  "role": "the inventor",
+  "one_line": "The poet who invented Arthurian romance, the Lancelot–Guinevere love, and — in a poem he never finished — the Grail.",
+  "apparatus": "Geoffrey gave the legend a skeleton. Chrétien gave it an interior. He invented the form in which the Matter of Britain would think for the next three centuries: the verse romance, following one knight through a crisis of conscience rather than a kingdom through a reign.\n\n**Love as the engine of chivalry.** In *Lancelot, or the Knight of the Cart*, the greatest knight in the world hesitates for two steps before climbing into a cart used to carry criminals, because the shame would be unbearable — and then climbs in, because love commands it. Chrétien's line is exact about the mechanism: *Reason, which dares thus speak to him, reaches only his lips, but not his heart.* Eros overrules reason, and it is *ennobling*. The adultery that will eventually destroy Camelot enters the tradition as a virtue.\n\n**The knight audited against the code.** *Yvain* and *Erec and Enide* put a single conscience on trial: what does the oath actually cost the man who keeps it, and the woman married to him?\n\n**And the Grail.** In *Perceval*, his last and unfinished poem, a boy sees a grail carried through a hall and fails to ask the question that would heal the king. Chrétien never says what the grail is. He died before he could. Everything the Grail later becomes is somebody's answer to a poem that stops mid-sentence.",
+  "invented": [
+    "The Arthurian verse romance itself",
+    "Lancelot, and his love for the queen",
+    "The Grail, and the question that is not asked",
+    "Camelot, named for the first time"
+  ],
+  "inherited": ["Geoffrey's court, through Wace"],
+  "bequeathed": ["The Vulgate systematises every one of his inventions; Malory inherits them through the French."],
+  "steelman": "Almost every later Arthurian motif is his seed. He made eros the engine of chivalry, gave the legend its interior life, and left behind an unfinished poem so generative that five separate continuations and at least four incompatible Grails were written to complete it.",
+  "objection": "He half-disowned his own most influential creation. By his own account he wrote *Lancelot* at the command of a patron, Marie de Champagne, who supplied both matter and meaning — and he handed the ending to another poet to finish. The inventor of the ennobling adultery was visibly uneasy with it.",
+  "how_it_maps": "Root of the founding betrayal, and the inside view of the fellowship; off-corpus, the root of the Grail. Chrétien invents, the Vulgate systematises, Malory mourns.",
+  "works": ["chretien"],
+  "cuts": ["the-fellowship", "the-grail", "courtly-love"],
+  "reads_against": ["vulgate", "wolfram", "mabinogion"],
+  "gap_note": "*Perceval* — the poem that invents the Grail — is not published here. No clean public-domain English translation exists, so Chrétien's Grail is described from the canon rather than quoted. This is the single largest hole in the collection, and it is at the exact centre of the subject."
+}

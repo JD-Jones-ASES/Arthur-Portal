@@ -1,0 +1,51 @@
+{
+  "id": "the-grail",
+  "n": 3,
+  "title": "The Grail, and the quest that empties the world",
+  "short": "The Grail",
+  "gloss": "The highest good — and whether reaching for it perfects the kingdom or drains it.",
+  "question": "What is the Grail, and what does looking for it cost the people who stay behind?",
+  "tags": ["the-grail", "the-unasked-question", "the-cost"],
+  "essay": "There is no single Grail. There are at least five, they are not compatible, and the disagreement between them is the richest thing in the entire canon.\n\nIt begins with a poem that stops in the middle. Chrétien de Troyes, writing around 1180, has a boy watch a procession pass through a hall: a bleeding lance, and a *graal* carried by a maiden. He never says what it is. He dies before finishing. Everything the Grail becomes afterwards is somebody's answer to an unfinished sentence.\n\nThe Welsh **Peredur** shows what the scene looks like with no theology attached at all: *two youths enter the hall … bearing a spear of mighty size, with three streams of blood flowing from the point to the ground. And when all the company saw this, they began wailing and lamenting.* The hero says nothing, because he has been told a knight does not ask questions. That is the failure in its rawest form — not sin, not impurity, just a young man doing as he was told.\n\nThe **Vulgate** makes it holy. The vessel acquires a genealogy — the blood of Christ, Joseph of Arimathea, a voyage to Britain — and becomes the supreme object, prized *above the sword itself*. The **Queste** then draws the obvious conclusion and makes it a judge: *no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins. This Quest is not a quest for earthly things.* The quest becomes an examination. Most of the Round Table fails.\n\n**Perlesvaus** arms it: a Grail bound up with beheadings and the violent overthrow of the Old Law.\n\nAnd **Wolfram**, in Germany, at almost exactly the same moment, refuses all of it. His Grail is a stone. His Grail king, Anfortas — *the gentle monarch, who was courteous as he was bold* — is wounded for loving the wrong woman, and cannot be healed by purity, penance or a virgin. He is healed when somebody finally asks him, out of pity, what is wrong. It is the only Grail in the canon that a human being can do anything about.\n\nThen there is **Malory**, who inherits the French Grail and does something none of his sources do: he counts the bill. The vessel enters Camelot in glory — *there entered into the hall the Holy Grail covered with white samite, but there was none might see it, nor who bare it* — the knights leap up and vow the quest, and in the same chapter Arthur is weeping. *Ye have nigh slain me with the avow and promise that ye have made; for through you ye have bereft me the fairest fellowship and the truest of knighthood that ever were seen together in any realm of the world.* The apparition and the death warrant of the order, at the same anchor, four paragraphs apart.",
+  "cost": "The highest good empties the good-enough world. A hundred and fifty knights ride out and a fraction return; the order never recovers, and the kingdom that needed defending is left undefended while its defenders look for something better. Malory grieves this openly and the Queste does not — which is precisely the argument between them.",
+  "takes": [
+    {
+      "voice": "mabinogion",
+      "term": "a bleeding spear, and a boy who says nothing",
+      "take": "The scene before it means anything: a procession, a wailing hall, and a hero who keeps silent because he was taught that knights do not ask.",
+      "quote_id": "mabinogion-peredur-spear"
+    },
+    {
+      "voice": "chretien",
+      "term": "an undefined vessel, in an unfinished poem",
+      "take": "He introduces it, declines to explain it, and dies. The most consequential blank space in European literature.",
+      "gap_note": "*Perceval* has no clean public-domain English translation, so Chrétien's Grail is described here rather than quoted — a real hole at the exact centre of the subject."
+    },
+    {
+      "voice": "vulgate",
+      "term": "the Holy Vessel, above the sword",
+      "take": "The Grail is given a Christian genealogy and installed above worldly power — the seed of everything the Queste will make of it.",
+      "quote_id": "vulgate-holy-vessel-grail"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "an examination with a pass mark",
+      "take": "The Queste sets terms and does not relax them: only the cleansed may approach, and the quest is not for earthly things. The secular order is sorted, and largely found wanting.",
+      "quote_id": "queste-judgment-purity"
+    },
+    {
+      "voice": "wolfram",
+      "term": "a stone, and a wound healed by pity",
+      "take": "Not a chalice and not a judge. Anfortas is cured when someone asks, out of compassion, what ails him — the only Grail that ordinary human decency can reach.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "malory",
+      "term": "glory, and the bill for it",
+      "take": "It enters the hall covered in white samite and no one can see who carries it. Within the same chapter the king is grieving the vow it provoked.",
+      "quote_id": "malory-grail-empties-fellowship"
+    }
+  ],
+  "divergence": "Wolfram's Grail is healed by a question asked out of pity. The Queste's Grail cannot be approached by anyone who has sinned. One says the sacred meets you where you are; the other says the sacred is what you are measured against. They were written within a decade of each other, and there is no reading that makes them the same thing.",
+  "related": ["the-wound-and-wasteland", "the-fellowship"]
+}

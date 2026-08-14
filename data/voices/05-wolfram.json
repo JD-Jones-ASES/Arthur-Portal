@@ -1,0 +1,25 @@
+{
+  "id": "wolfram",
+  "name": "Wolfram von Eschenbach",
+  "short": "Wolfram",
+  "branch": "german",
+  "order": 5,
+  "dates": "c. 1170–1220",
+  "floruit": 1205,
+  "role": "the humanist",
+  "one_line": "The one poet who makes the Grail reachable by ordinary human pity — and the wounded king curable by a question anyone could ask.",
+  "apparatus": "*Parzival* takes Chrétien's unfinished poem and finishes it in the opposite direction from everyone else.\n\n**The Grail is a stone.** Not a chalice, not a reliquary, not the vessel of the Last Supper: a stone, *lapsit exillis*, which feeds those before it and renews the phoenix. Wolfram simply declines the sacramental reading that the French were building at the same moment.\n\n**The wound is erotic, and the cure is compassion.** Anfortas — *the gentle monarch, who was courteous as he was bold* — is the Grail king, and he is maimed because he loved a woman the Grail had not appointed for him. He cannot die and cannot heal. What heals him is not purity, penance or a virgin knight. It is a young man asking, out of plain human pity, what ails him.\n\n**And doubt is survivable.** Parzival's long middle passage — *zwîvel*, the loss of faith, the years of wandering in resentment against God — is treated as a human arc with a road back, not as damnation. Nobody else in the canon is this generous.",
+  "invented": [
+    "The Grail as a stone",
+    "Compassion, rather than purity, as what heals the wasteland",
+    "A hero who loses his faith and is allowed to recover it"
+  ],
+  "inherited": ["Chrétien's Perceval, unfinished"],
+  "bequeathed": ["The counter-tradition: every later reader who finds the Queste cruel is reaching for Wolfram."],
+  "steelman": "The only Grail that human beings heal. Against the French tradition's purge-by-purity, Wolfram makes the holy reachable through ordinary mercy — the canon's strongest argument that transcendence and the human world need not be at war. It is also, simply, the most humane book in the Matter of Britain.",
+  "objection": "The Grail-as-stone is idiosyncratic and obscure, and Wolfram's claimed source — 'Kyot the Provençal' — is almost certainly an invention. His authority for the most distinctive Grail in the canon is a book nobody has ever found.",
+  "how_it_maps": "The great counter-voice on the Grail and on the wound. Reads directly against the Vulgate and the Queste, whose Grail judges where his heals.",
+  "works": ["parzival"],
+  "cuts": ["the-grail", "the-wound-and-wasteland"],
+  "reads_against": ["vulgate", "grail-romances", "chretien"]
+}

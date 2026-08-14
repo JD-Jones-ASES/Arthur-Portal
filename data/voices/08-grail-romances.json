@@ -1,0 +1,21 @@
+{
+  "id": "grail-romances",
+  "name": "The Grail Romances",
+  "short": "The Grail Romances",
+  "branch": "french",
+  "order": 8,
+  "dates": "c. 1200–1230",
+  "floruit": 1220,
+  "role": "the judging Grail and the violent one",
+  "one_line": "The Queste, where the Grail sorts the saved from the damned — and Perlesvaus, where it is carried into battle.",
+  "apparatus": "Two French romances that carry the quest past the point where the Vulgate volumes in this collection stop.\n\n**The *Queste del Saint Graal*** is the Grail as judgment. Its terms are set out at the start and never relaxed: *no one ought to enter upon such a lofty service before being cleansed and purged of all villainy and mortal sins. This Quest is not a quest for earthly things, but is to be the search for the deep secrets and confidences of Our Lord.* The quest is not an adventure. It is an examination, and most of the Round Table fails it. Gawain, the best-loved knight in the English tradition, is told outright that he will find nothing.\n\n**Perlesvaus**, or *The High History of the Holy Graal*, is the strangest of them all: a Grail bound up with beheadings, sieges and the violent overthrow of the Old Law by the New. Its Perceval avenges. The holy thing here is not consoling and not gentle; it is a cause people are killed for.",
+  "invented": ["The quest as an examination with a pass mark", "A Grail that sanctions violence"],
+  "inherited": ["The Vulgate's sacred vessel"],
+  "bequeathed": ["Malory's Books XIII–XVII, translated and quietly mourned"],
+  "steelman": "Together they complete the Grail's range. With Wolfram's compassion-stone and Malory's grieved quest, the canon holds four irreconcilable Grails — and these two are the ones that take the sacred seriously enough to let it cost everything.",
+  "objection": "The Queste's purity-logic reads to many as cruelty, and Perlesvaus's holy violence sits badly with the word holy at all. Both are worth granting their own metaphysics rather than softening.",
+  "how_it_maps": "The hard centre of the Grail throughline. The Queste is the judgment the Vulgate seeds and Malory inherits into English; Perlesvaus is the militant outlier.",
+  "works": ["queste", "perlesvaus"],
+  "cuts": ["the-grail"],
+  "reads_against": ["wolfram", "malory", "mabinogion"]
+}

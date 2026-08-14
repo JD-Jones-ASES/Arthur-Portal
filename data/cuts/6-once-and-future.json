@@ -1,0 +1,39 @@
+{
+  "id": "once-and-future",
+  "n": 6,
+  "title": "The once and future king",
+  "short": "The return",
+  "gloss": "Deferred restoration — sovereignty held in suspension, and a death nobody will confirm.",
+  "question": "Is Arthur dead? And why will none of them say so plainly?",
+  "tags": ["once-and-future", "disenchantment"],
+  "essay": "The most famous claim in the whole tradition is one that almost nobody actually makes.\n\nGeoffrey starts it, and he starts it with a subordinate clause. Arthur is *wounded deadly, and was borne thence unto the island of Avalon for the healing of his wounds* — and then hands the crown to Constantine. Read it carefully: the man is mortally hurt, he is taken away to be cured, and the succession proceeds. Geoffrey needs Arthur off the board and declines to kill him. The whole later architecture of the return rests on those seven words, *for the healing of his wounds*, which do not assert anything at all.\n\nWace, writing twenty years later, is the first to record what the Bretons made of it — the hope that Arthur will come again — and he is careful to attribute it to them rather than to himself. Layamon, Englishing Wace, lets the marvellous back in: the king will go *to Argante the fair, for she would with balm heal his wounds … This believed the Britons, that he will thus come.* Note the tense and the attribution. *This believed the Britons.* Even the most enchanted version of the story is reporting somebody else's faith.\n\nAnd Malory, three centuries on, makes the hedging into the point. He gives you the alternatives — some say he is not dead, some say he changed his life here in this world — declines all of them, and then delivers the line everyone remembers with the most careful attribution in the book: *many men say that there is written upon his tomb this verse: Hic jacet Arthurus, Rex quondam, Rexque futurus.*\n\n*Many men say.* Not *it is written*. Malory will not vouch for the tomb, the inscription, or the promise. He gives you the hope and withholds the claim, which is the most sophisticated thing anyone in the tradition does with it — and, incidentally, the reason it has survived. A promise nobody has made cannot be falsified.\n\nThe same chapter contains the other half of the ending. Excalibur goes back into the water: *there came an arm and an hand above the water and met it, and caught it, and so shook it thrice and brandished, and then vanished away the hand with the sword.* The otherworld that armed the reign in the first book takes its property back in the last. Whatever is being deferred, the loan is not.",
+  "cost": "A promise of return is also a permanent deferral of the reckoning. The order never has to account for what it did, because it is not over — and the hope, held for centuries, is precisely what keeps anyone from asking whether it should come back at all.",
+  "takes": [
+    {
+      "voice": "geoffrey",
+      "term": "borne away for healing, and not said to die",
+      "take": "Wounded deadly, carried to Avalon to be cured, succession completed. The chronicle needs him gone and will not quite kill him.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the hope of Britain, attributed to the Britons",
+      "take": "Wace first records the Breton hope; Layamon sends the king to the elf-queen Argante with balm — and both are careful to say this is what the Britons believed.",
+      "quote_id": "layamon-argante-return"
+    },
+    {
+      "voice": "malory",
+      "term": "reported, never asserted",
+      "take": "Many men say there is written on his tomb: the once and future king. Malory offers the hope and refuses to vouch for it — and in the same chapter the lake takes Excalibur back.",
+      "quote_id": "malory-rex-quondam"
+    },
+    {
+      "voice": "mortes",
+      "term": "the English elegy",
+      "take": "The stanzaic Morte carries the ending into English verse before Malory, and the alliterative one supplies the tragic frame of a king brought down by his own rise.",
+      "gap_note": "Held as a search source only; the Middle English scan is too rough to quote."
+    }
+  ],
+  "divergence": "Layamon's Britons believe he is coming back. Malory's narrator reports that many men say so and pointedly does not join them. Between those two sentences is the entire difference between a legend that is believed and a legend that is being remembered.",
+  "related": ["the-wound-and-wasteland", "foreknowledge-and-doom"]
+}

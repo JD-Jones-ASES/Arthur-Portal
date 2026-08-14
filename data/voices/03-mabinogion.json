@@ -1,0 +1,21 @@
+{
+  "id": "mabinogion",
+  "name": "The Mabinogion",
+  "short": "The Mabinogion",
+  "branch": "welsh",
+  "order": 3,
+  "dates": "collected 12th–14th c., from older matter",
+  "floruit": 1200,
+  "role": "the Celtic root",
+  "one_line": "The Welsh Arthur — a war-band chieftain surrounded by impossible tasks, and the rawest form of the Grail failure.",
+  "apparatus": "The Welsh tales preserve an Arthur who has not yet been to court. He is not a courtly king presiding over a fellowship; he is the head of a war-band of outsized retainers, and the stories he appears in are older and stranger than anything in French.\n\n**Culhwch and Olwen** is the oldest Arthurian story we have. A young man arrives at Arthur's gate and claims a boon; the price is a list of forty impossible tasks, culminating in the hunt for the boar Twrch Trwyth across Ireland and Wales. Arthur is a resource to be recruited, not a sovereign to be served.\n\n**Peredur** matters more than its length suggests. Its hero sees two youths carry a bleeding spear through the hall, three streams of blood running from the point to the floor, and the company burst into wailing — and he says nothing, because he has been told a knight does not ask questions. That is the Grail failure in its rawest state, before anyone had decided the vessel was holy.\n\n**Owain** and **Geraint** are the same stories as Chrétien's *Yvain* and *Erec*, and nobody has settled who borrowed from whom.",
+  "invented": ["The bleeding spear procession and the question not asked", "An Arthur who is a war-band leader, not a sovereign"],
+  "inherited": ["Oral Welsh tradition older than any of the texts that carry it"],
+  "bequeathed": ["The unasked question, to every Grail romance that followed"],
+  "steelman": "This is what the legend looked like before France got hold of it, and it is wilder, funnier and less pious than anything downstream. Peredur's silence before the bleeding spear is the motif at its most primitive and most disturbing — a failure of simple human curiosity, with no theology attached to soften it.",
+  "objection": "The manuscripts are late and the relationship to Chrétien is genuinely unresolved: Peredur may preserve something older than *Perceval*, or may be a Welsh retelling of it. Treating the Welsh material as straightforwardly 'the original' is a nationalist reflex the evidence does not support.",
+  "how_it_maps": "Touches the source of rule (an Arthur legitimated by his war-band), the Grail (Peredur's spear), and courtly love (Owain and Geraint). Reads against Chrétien, whose romances tell two of the same stories.",
+  "works": ["mabinogion"],
+  "cuts": ["source-of-rule", "the-grail", "courtly-love"],
+  "reads_against": ["chretien"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "chroniclers",
+  "name": "The Chroniclers",
+  "short": "The Chroniclers",
+  "branch": "chronicle",
+  "order": 1,
+  "dates": "c. 540 – c. 1200",
+  "floruit": 1155,
+  "role": "the pseudo-historical spine",
+  "one_line": "Gildas, Nennius, Wace and Layamon — the line that built Arthur as history, and quietly gave the game away.",
+  "apparatus": "Four writers across six centuries, each handing the next a slightly larger Arthur.\n\n**Gildas** (*On the Ruin of Britain*, c. 540) is the one witness who might have known. He describes the British victory at Mount Badon — the battle later tradition makes Arthur's greatest — and does not name him. The historical Arthur is missing from the only source close to the events.\n\n**Nennius** (*History of the Britons*, c. 830) supplies the first Arthur we have: a war-leader, not a king, credited with twelve battles and, at Badon, nine hundred and forty men killed by his own hand. Legitimacy here is not election or descent. It is simply winning.\n\n**Wace** (*Roman de Brut*, 1155) turns Geoffrey into French verse and, in the process, invents the Round Table — explicitly as a piece of engineering against precedence, so that no man at Arthur's court could claim to sit above another. He is also the first to record the Breton hope that Arthur will return.\n\n**Layamon** (*Brut*, c. 1200) Englishes Wace and lets the marvellous back in: the elf-queen Argante bears the wounded king away to Avalon with balm for his wounds, and the Britons believe he will come again.",
+  "invented": [
+    "The Round Table (Wace), designed against precedence",
+    "The 'hope of Britain' — the promise of return (Wace, then Layamon)",
+    "Arthur's twelve battles (Nennius)"
+  ],
+  "inherited": ["A name, a battle, and a silence"],
+  "bequeathed": [
+    "The Round Table, to every romancer who followed",
+    "Avalon and the deferred return, to Malory and to Tennyson"
+  ],
+  "steelman": "The chroniclers turned a possible sixth-century war-leader into a usable past — and Wace and Layamon handed the romancers two load-bearing devices, the Round Table and the deferred return, before a single courtly romance had been written. Without them there is nothing for Chrétien to decorate.",
+  "objection": "This is the seam where fiction is sold as history, and Gildas's silence is the standing rebuke: the more confidently a chronicler names Arthur, the further he stands from the events. Nennius writes three centuries after Badon; Geoffrey six. The line does not get more reliable as it gets more detailed. It gets less.",
+  "how_it_maps": "The root of the source of rule (legitimacy as conquest), of the once-and-future return (Wace's hope, Layamon's Argante), and — through Nennius's battle-roll — of the fellowship. Gildas and Nennius come before Geoffrey; Wace and Layamon carry him into the vernaculars and toward romance.",
+  "works": ["nennius", "wace", "layamon", "gildas"],
+  "cuts": ["source-of-rule", "the-fellowship", "once-and-future"],
+  "reads_against": ["geoffrey"],
+  "gap_note": "Gildas is held as a search source only: this portal publishes Nennius from a better text than the collected volume that carries him."
+}

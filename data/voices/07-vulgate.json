@@ -1,0 +1,26 @@
+{
+  "id": "vulgate",
+  "name": "The Vulgate Cycle",
+  "short": "The Vulgate",
+  "branch": "french",
+  "order": 7,
+  "dates": "c. 1215–1235",
+  "floruit": 1225,
+  "role": "the systematiser",
+  "one_line": "The vast prose cycle that welded romance to theology and built the ending into the beginning — Malory's main source.",
+  "apparatus": "Chrétien wrote poems. The Vulgate wrote a system: five interlocking prose branches running from Joseph of Arimathea to the last battle, in which every element is load-bearing and the doom is encoded in the architecture.\n\n**The Grail outranks the sword.** In the Vulgate the vessel is the supreme sacred object, rooted in Christ's blood and carried to Britain by Joseph of Arimathea. A knight parting from his sword can call it *the thing I prized most except for the Holy Vessel called the Grail* — worldly power explicitly subordinated to a sacred one.\n\n**The adultery becomes theologically load-bearing.** The prose *Lancelot* makes the love mutual and fatal: *the White Knight loved the queen and was fairly sure that the queen loved him as well.* This is simultaneously the engine of Lancelot's supremacy and the precise reason he cannot achieve the Grail. Eros disqualifies from transcendence, and the best knight in the world is therefore built to fail at the one thing that matters most.\n\nThat is the cycle's real invention: not a plot device but a mechanism, in which the order's greatest strength is the guarantee of its ruin.",
+  "invented": [
+    "The Grail's Christian genealogy — Joseph of Arimathea, the blood of Christ",
+    "Galahad, and the logic that only a virgin may achieve the quest",
+    "A cycle whose ending is entailed by its beginning"
+  ],
+  "inherited": ["Chrétien's Lancelot, his Grail, and his court"],
+  "bequeathed": ["Malory, who translates and abridges it into the English spine"],
+  "steelman": "The dark synthesis behind the whole English tradition. It made the adultery theologically load-bearing and engineered the first Arthurian work that thinks like a system — where the fall is not bad luck but the working-out of premises laid down in the first branch.",
+  "objection": "Vast, repetitive, and to many readers punishing. The secular order — the fellowship, the love, the world — is sacrificed so that one virgin may see God. Readers who find the Queste cruel are not misreading it.",
+  "how_it_maps": "Behind the source of rule (the Grail outranks the sword), the Grail's sacred origin, and the founding betrayal. Inherits Chrétien and systematises him; is in turn Malory's principal source.",
+  "works": ["vulgate"],
+  "cuts": ["source-of-rule", "the-fellowship", "the-grail", "courtly-love"],
+  "reads_against": ["wolfram", "malory", "chretien"],
+  "gap_note": "The only modern English translation of the cycle is in copyright. The Vulgate can be quoted here, briefly and with its translator named, but it cannot be read here. That is a real limitation at the centre of the French tradition, and it is stated rather than hidden."
+}

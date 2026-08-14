@@ -1,0 +1,22 @@
+{
+  "id": "gottfried",
+  "name": "Gottfried von Strassburg",
+  "short": "Gottfried",
+  "branch": "german",
+  "order": 6,
+  "dates": "d. c. 1210",
+  "floruit": 1210,
+  "role": "the fatalist",
+  "one_line": "The other adultery — and the one that cannot be repented, because the potion means it was never chosen.",
+  "apparatus": "*Tristan* is not, strictly, an Arthurian romance. It is the story that runs alongside the Arthurian one and asks the same question with the variables changed, which is why Malory eventually pulled the whole of it into the Morte as Books VIII–X.\n\n**Love as fate rather than as choice.** Iseult's mother brews a love potion of such power *that did any two drink thereof they must needs, without will of their own, love each other above all things*. It is meant for Iseult and her husband. Tristan and Iseult drink it by mistake on the ship.\n\nEverything follows from that mistake, and the point of it is precisely that it removes the moral question. Lancelot and Guinevere choose each other, and the tradition never stops arguing about their guilt. Tristan and Iseult were handed their passion by an accident with a cup. They cannot repent of it, because there is nothing to repent — and they are destroyed by it anyway.",
+  "invented": ["The potion as an argument: love that removes the will, and so removes the guilt, and destroys regardless"],
+  "inherited": ["The Celtic Tristan matter, through Thomas of Britain"],
+  "bequeathed": ["Malory's Books VIII–X, where Tristram becomes a knight of the Round Table"],
+  "steelman": "It isolates the variable. Strip out choice and the tragedy does not soften — which is a serious argument about what the Lancelot story is really about, and it is made in the most sophisticated verse in medieval German.",
+  "objection": "The potion can look like an evasion: a machine wheeled in so the lovers need never be judged. And Gottfried, like Chrétien, did not finish.",
+  "how_it_maps": "Sits beside the founding betrayal as its control experiment. Reads against Chrétien's chosen worship and the Vulgate's disqualifying passion.",
+  "works": ["tristan"],
+  "cuts": ["courtly-love"],
+  "reads_against": ["chretien", "vulgate", "malory"],
+  "gap_note": "Held as a quotation source only: the available scan is too uneven to publish as a reading text."
+}

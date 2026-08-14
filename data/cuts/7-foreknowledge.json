@@ -1,0 +1,40 @@
+{
+  "id": "foreknowledge-and-doom",
+  "n": 7,
+  "title": "Foreknowledge, and the doom that comes anyway",
+  "short": "Foreknowledge",
+  "gloss": "Who knows the ending, why knowing it changes nothing, and what is lost when the magic goes.",
+  "question": "If the fall was foretold from the beginning, why did nobody stop it?",
+  "hinge": true,
+  "tags": ["foreknowledge-and-doom", "disenchantment"],
+  "essay": "This is the throughline the other six imply and only the Merlin tradition makes explicit, and it turns the whole subject back on itself. Everyone in this story knows how it ends. It ends anyway.\n\nFor **Geoffrey**, foreknowledge is an instrument of state. Merlin's prophecies are a dynastic charter, written in the imperative of heraldry — *the Boar of Cornwall shall bring succour and shall trample their necks beneath his feet* — and their function is to make the future legitimate the present. Prophecy here is not tragic. It is propaganda, and it works.\n\n**Malory** takes the same figure and destroys him with it. His Merlin knows everything. He knows Arthur's begetting is a deception and arranges it. He knows the child born on May Day will destroy the realm and advises the slaughter that fails to prevent it. He knows the queen Arthur wants will love Lancelot and says so, out loud, before the wedding — and Arthur marries her regardless. And he knows exactly how he himself will end, and walks into it.\n\nThe scene is squalid rather than grand. Merlin follows the damsel Nimue about, and Malory does not dress it up: *always Merlin lay about the lady to have her maidenhood, and she was ever passing weary of him, and fain would have been delivered of him, for she was afeard of him because he was a devil's son.* She learns his craft from him because he cannot stop showing off to her, and then she uses it to shut him under a stone. The greatest seer in the world is destroyed by the one future he saw most clearly, by a woman who was simply tired of him.\n\nAnd when Merlin goes, something else goes with him. The first four books of the Morte are full of enchantment; after Nimue closes the stone, the marvellous thins out steadily until the last books are almost entirely about politics, kinship and grief. The magic drains from the world roughly in proportion to how much the reader has come to need it. That is what makes this the hinge: it poses the question the other six only imply, and it is also the exact place where the temptation to read the whole legend as timeless wisdom is strongest and least warranted.\n\nBecause the answer the texts actually give is bleak and specific. Knowing does not save. It never once saves. Merlin foresees the realm's ruin and builds the realm; he foresees his own and walks in; Arthur is told his wife will betray him and marries her; Balin is warned and strikes anyway. Foreknowledge in this canon is not a power. It is a form of grief that arrives early.",
+  "cost": "Everything, and knowingly. The seer who could have prevented it builds it instead; the king who is warned proceeds; and when the prophet is gone the enchantment goes with him, leaving a world that has to be governed rather than wondered at. Foreknowledge saves no one, and the magic does not survive the man who held it.",
+  "takes": [
+    {
+      "voice": "geoffrey",
+      "term": "prophecy as a dynastic charter",
+      "take": "The Boar of Cornwall will trample their necks. The future is deployed to legitimate the present, and it functions perfectly.",
+      "quote_id": "geoffrey-boar-of-cornwall"
+    },
+    {
+      "voice": "malory",
+      "term": "the seer undone by what he foresaw",
+      "take": "Merlin knows everything, including his own end, and walks into it — pursuing a woman who is simply tired of him. And as he goes, the magic goes.",
+      "quote_id": "malory-merlin-and-nimue"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "battle-lists and hopes",
+      "take": "The chronicle line has no prophet of its own, only Nennius's roll of victories and the Breton hope. Foreknowledge enters the tradition with Geoffrey, and it enters as politics.",
+      "gap_note": "A structural absence rather than a position: the chroniclers simply have no Merlin until Geoffrey invents him."
+    },
+    {
+      "voice": "vulgate",
+      "term": "a cycle whose end is in its beginning",
+      "take": "The Vulgate does not need a prophet to make the doom inevitable: it builds the ending into the architecture, so that every branch is already carrying it.",
+      "gap_note": "The cycle's own Merlin branch is in the volumes this portal may quote but not publish."
+    }
+  ],
+  "divergence": "Geoffrey's Merlin is a political instrument whose prophecies come true and thereby justify a dynasty. Malory's Merlin is a tragedy whose prophecies come true and thereby save nobody, least of all himself. The same character, the same gift, and diametrically opposite conclusions about what knowing the future is worth.",
+  "related": ["source-of-rule", "once-and-future"]
+}
