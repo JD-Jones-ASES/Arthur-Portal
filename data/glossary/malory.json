@@ -1,0 +1,3935 @@
+{
+ "schema_version": 1,
+ "source": "Le Morte d'Arthur, Vol. II (Project Gutenberg #1252) — the editors' glossary",
+ "rights": "Public domain.",
+ "note": "The glossary printed at the end of the Caxton text, lifted verbatim. `kind` separates words that have left the language ('archaic') from words that survive with a changed sense ('false-friend') — the second group is the one a modern reader misreads without noticing.",
+ "corrections": [
+  {
+   "from": "Licours lecherous,",
+   "to": "Licours, lecherous,"
+  },
+  {
+   "from": "Mount~ lance, amount of, extent,",
+   "to": "Mountenance, amount of, extent,"
+  }
+ ],
+ "counts": {
+  "total": 652,
+  "archaic": 557,
+  "false-friend": 95
+ },
+ "entries": [
+  {
+   "term": "Abashed",
+   "match": "abashed",
+   "gloss": "abased, lowered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Abate",
+   "match": "abate",
+   "gloss": "depress, calm",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Abought",
+   "match": "abought",
+   "gloss": "paid for",
+   "kind": "archaic"
+  },
+  {
+   "term": "Abraid",
+   "match": "abraid",
+   "gloss": "started",
+   "kind": "archaic"
+  },
+  {
+   "term": "Accompted",
+   "match": "accompted",
+   "gloss": "counted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Accorded",
+   "match": "accorded",
+   "gloss": "agreed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Accordment",
+   "match": "accordment",
+   "gloss": "agreement",
+   "kind": "archaic"
+  },
+  {
+   "term": "Acquit",
+   "match": "acquit",
+   "gloss": "repay",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Adoubted",
+   "match": "adoubted",
+   "gloss": "afraid",
+   "kind": "archaic"
+  },
+  {
+   "term": "Advision",
+   "match": "advision",
+   "gloss": "vision",
+   "kind": "archaic"
+  },
+  {
+   "term": "Afeard",
+   "match": "afeard",
+   "gloss": "afraid",
+   "kind": "archaic"
+  },
+  {
+   "term": "Afterdeal",
+   "match": "afterdeal",
+   "gloss": "disadvantage",
+   "kind": "archaic"
+  },
+  {
+   "term": "Againsay",
+   "match": "againsay",
+   "gloss": "retract",
+   "kind": "archaic"
+  },
+  {
+   "term": "Aknown",
+   "match": "aknown",
+   "gloss": "known",
+   "kind": "archaic"
+  },
+  {
+   "term": "Aligement",
+   "match": "aligement",
+   "gloss": "alleviation",
+   "kind": "archaic"
+  },
+  {
+   "term": "Allegeance",
+   "match": "allegeance",
+   "gloss": "alleviation",
+   "kind": "archaic"
+  },
+  {
+   "term": "Almeries",
+   "match": "almeries",
+   "gloss": "chests",
+   "kind": "archaic"
+  },
+  {
+   "term": "Alther",
+   "match": "alther",
+   "gloss": "gen. pl., of all",
+   "kind": "archaic"
+  },
+  {
+   "term": "Anealed",
+   "match": "anealed",
+   "gloss": "anointed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Anguishly",
+   "match": "anguishly",
+   "gloss": "in pain",
+   "kind": "archaic"
+  },
+  {
+   "term": "Anon",
+   "match": "anon",
+   "gloss": "at once",
+   "kind": "archaic"
+  },
+  {
+   "term": "Apair",
+   "match": "apair",
+   "gloss": "weaken",
+   "kind": "archaic"
+  },
+  {
+   "term": "Apparelled",
+   "match": "apparelled",
+   "gloss": "fitted up",
+   "kind": "archaic"
+  },
+  {
+   "term": "Appeach",
+   "match": "appeach",
+   "gloss": "impeach",
+   "kind": "archaic"
+  },
+  {
+   "term": "Appealed",
+   "match": "appealed",
+   "gloss": "challenged, accused",
+   "kind": "archaic"
+  },
+  {
+   "term": "Appertices",
+   "match": "appertices",
+   "gloss": "displays",
+   "kind": "archaic"
+  },
+  {
+   "term": "Araged",
+   "match": "araged",
+   "gloss": "enraged; confused",
+   "kind": "archaic"
+  },
+  {
+   "term": "Arase",
+   "match": "arase",
+   "gloss": "obliterate",
+   "kind": "archaic"
+  },
+  {
+   "term": "Armyvestal",
+   "match": "armyvestal",
+   "gloss": "martial",
+   "kind": "archaic"
+  },
+  {
+   "term": "Array",
+   "match": "array",
+   "gloss": "plight, state of affairs",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Arson",
+   "match": "arson",
+   "gloss": "saddle-bow",
+   "kind": "archaic"
+  },
+  {
+   "term": "Askance",
+   "match": "askance",
+   "gloss": "casually",
+   "kind": "archaic"
+  },
+  {
+   "term": "Assoiled",
+   "match": "assoiled",
+   "gloss": "absolved",
+   "kind": "archaic"
+  },
+  {
+   "term": "Assotted",
+   "match": "assotted",
+   "gloss": "infatuated",
+   "kind": "archaic"
+  },
+  {
+   "term": "Assummon",
+   "match": "assummon",
+   "gloss": "summon",
+   "kind": "archaic"
+  },
+  {
+   "term": "Astonied",
+   "match": "astonied",
+   "gloss": "amazed, stunned",
+   "kind": "archaic"
+  },
+  {
+   "term": "Attaint",
+   "match": "attaint",
+   "gloss": "overcome",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Aumbries",
+   "match": "aumbries",
+   "gloss": "chests",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avail (at)",
+   "match": "avail",
+   "gloss": "at an advantage",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Avaled",
+   "match": "avaled",
+   "gloss": "lowered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avaunt",
+   "match": "avaunt",
+   "gloss": "boast",
+   "kind": "archaic"
+  },
+  {
+   "term": "Aventred",
+   "match": "aventred",
+   "gloss": "couched",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avised",
+   "match": "avised",
+   "gloss": "be advised, take thought",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avision",
+   "match": "avision",
+   "gloss": "vision",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avoid",
+   "match": "avoid",
+   "gloss": "quit",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Avoided",
+   "match": "avoided",
+   "gloss": "got clear off",
+   "kind": "archaic"
+  },
+  {
+   "term": "Avow",
+   "match": "avow",
+   "gloss": "vow",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Await of (in)",
+   "match": "await of",
+   "gloss": "in watch for",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Awayward",
+   "match": "awayward",
+   "gloss": "away",
+   "kind": "archaic"
+  },
+  {
+   "term": "Awke",
+   "match": "awke",
+   "gloss": "sideways",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bachelors",
+   "match": "bachelors",
+   "gloss": "probationers for knighthood",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bain",
+   "match": "bain",
+   "gloss": "bath",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Barbican",
+   "match": "barbican",
+   "gloss": "gate-tower",
+   "kind": "archaic"
+  },
+  {
+   "term": "Barget",
+   "match": "barget",
+   "gloss": "little ship",
+   "kind": "archaic"
+  },
+  {
+   "term": "Battle",
+   "match": "battle",
+   "gloss": "division of an army",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Bawdy",
+   "match": "bawdy",
+   "gloss": "dirty",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Be-closed",
+   "match": "be-closed",
+   "gloss": "enclosed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Beams",
+   "match": "beams",
+   "gloss": "trumpets",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bedashed",
+   "match": "bedashed",
+   "gloss": "splashed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Behight",
+   "match": "behight",
+   "gloss": "promised",
+   "kind": "archaic"
+  },
+  {
+   "term": "Beholden (beholding) to",
+   "match": "beholdento",
+   "gloss": "obliged to",
+   "kind": "archaic"
+  },
+  {
+   "term": "Behote",
+   "match": "behote",
+   "gloss": "promised",
+   "kind": "archaic"
+  },
+  {
+   "term": "Benome",
+   "match": "benome",
+   "gloss": "deprived, taken away",
+   "kind": "archaic"
+  },
+  {
+   "term": "Besants",
+   "match": "besants",
+   "gloss": "gold coins",
+   "kind": "archaic"
+  },
+  {
+   "term": "Beseek",
+   "match": "beseek",
+   "gloss": "beseech",
+   "kind": "archaic"
+  },
+  {
+   "term": "Beseen",
+   "match": "beseen",
+   "gloss": "appointed, arrayed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Beskift",
+   "match": "beskift",
+   "gloss": "shove off",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bested",
+   "match": "bested",
+   "gloss": "beset",
+   "kind": "archaic"
+  },
+  {
+   "term": "Betaken",
+   "match": "betaken",
+   "gloss": "entrusted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Betaught",
+   "match": "betaught",
+   "gloss": "entrusted, recommended",
+   "kind": "archaic"
+  },
+  {
+   "term": "Betid",
+   "match": "betid",
+   "gloss": "happened",
+   "kind": "archaic"
+  },
+  {
+   "term": "Betook",
+   "match": "betook",
+   "gloss": "committed, entrusted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bevered",
+   "match": "bevered",
+   "gloss": "quivered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Board",
+   "match": "board",
+   "gloss": "sb., deck",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Bobaunce",
+   "match": "bobaunce",
+   "gloss": "boasting, pride",
+   "kind": "archaic"
+  },
+  {
+   "term": "Boishe",
+   "match": "boishe",
+   "gloss": "bush, branch of a tree",
+   "kind": "archaic"
+  },
+  {
+   "term": "Boistous",
+   "match": "boistous",
+   "gloss": "rough",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bole",
+   "match": "bole",
+   "gloss": "trunk of a tree",
+   "kind": "archaic"
+  },
+  {
+   "term": "Boot",
+   "match": "boot",
+   "gloss": "remedy",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Borrow out",
+   "match": "borrow out",
+   "gloss": "redeem",
+   "kind": "archaic"
+  },
+  {
+   "term": "Borrows",
+   "match": "borrows",
+   "gloss": "pledges",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bote",
+   "match": "bote",
+   "gloss": "remedy",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bound",
+   "match": "bound",
+   "gloss": "ready",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Bourded",
+   "match": "bourded",
+   "gloss": "jested",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bourder",
+   "match": "bourder",
+   "gloss": "jester",
+   "kind": "archaic"
+  },
+  {
+   "term": "Braced",
+   "match": "braced",
+   "gloss": "embraced",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Brachet",
+   "match": "brachet",
+   "gloss": "little hound",
+   "kind": "archaic"
+  },
+  {
+   "term": "Braide",
+   "match": "braide",
+   "gloss": "quick movement",
+   "kind": "archaic"
+  },
+  {
+   "term": "Brast",
+   "match": "brast",
+   "gloss": "burst, break",
+   "kind": "archaic"
+  },
+  {
+   "term": "Breaths",
+   "match": "breaths",
+   "gloss": "breathing holes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Brief",
+   "match": "brief",
+   "gloss": "shorten",
+   "kind": "archaic"
+  },
+  {
+   "term": "Brim",
+   "match": "brim",
+   "gloss": "fierce, furious",
+   "kind": "archaic"
+  },
+  {
+   "term": "Brised",
+   "match": "brised",
+   "gloss": "broke",
+   "kind": "archaic"
+  },
+  {
+   "term": "Broached",
+   "match": "broached",
+   "gloss": "pierced",
+   "kind": "archaic"
+  },
+  {
+   "term": "Broaches",
+   "match": "broaches",
+   "gloss": "spits",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bur",
+   "match": "bur",
+   "gloss": "hand-guard of a spear",
+   "kind": "archaic"
+  },
+  {
+   "term": "Burble",
+   "match": "burble",
+   "gloss": "bubble",
+   "kind": "archaic"
+  },
+  {
+   "term": "Burbling",
+   "match": "burbling",
+   "gloss": "bubbling",
+   "kind": "archaic"
+  },
+  {
+   "term": "Burgenetts",
+   "match": "burgenetts",
+   "gloss": "buds, blossoms",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bushment",
+   "match": "bushment",
+   "gloss": "ambush",
+   "kind": "archaic"
+  },
+  {
+   "term": "By and by",
+   "match": "by and by",
+   "gloss": "immediately",
+   "kind": "archaic"
+  },
+  {
+   "term": "Bywaryed",
+   "match": "bywaryed",
+   "gloss": "expended, bestowed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Canel bone",
+   "match": "canel bone",
+   "gloss": "collar bone",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cankered",
+   "match": "cankered",
+   "gloss": "inveterate",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cantel",
+   "match": "cantel",
+   "gloss": "slice, strip",
+   "kind": "archaic"
+  },
+  {
+   "term": "Careful",
+   "match": "careful",
+   "gloss": "sorrowful, full of troubles",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cast (of bread)",
+   "match": "cast",
+   "gloss": "loaves baked at the same time",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Cast",
+   "match": "cast",
+   "gloss": "ref: v., propose",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Cedle",
+   "match": "cedle",
+   "gloss": "schedule, note",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cere",
+   "match": "cere",
+   "gloss": "wax over, embalm; cerel",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Certes",
+   "match": "certes",
+   "gloss": "certainly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Chafe",
+   "match": "chafe",
+   "gloss": "heat, decompose; chafed, heated",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Chaflet",
+   "match": "chaflet",
+   "gloss": "platform, scaffold",
+   "kind": "archaic"
+  },
+  {
+   "term": "Champaign",
+   "match": "champaign",
+   "gloss": "open country",
+   "kind": "archaic"
+  },
+  {
+   "term": "Chariot (Fr charette)",
+   "match": "chariot",
+   "gloss": "cart",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cheer",
+   "match": "cheer",
+   "gloss": "countenance, entertainment",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Chierte",
+   "match": "chierte",
+   "gloss": "dearness",
+   "kind": "archaic"
+  },
+  {
+   "term": "Chrism",
+   "match": "chrism",
+   "gloss": "anointing oil",
+   "kind": "archaic"
+  },
+  {
+   "term": "Clatter",
+   "match": "clatter",
+   "gloss": "talk confusedly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cleight",
+   "match": "cleight",
+   "gloss": "clutched",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cleped",
+   "match": "cleped",
+   "gloss": "called",
+   "kind": "archaic"
+  },
+  {
+   "term": "Clipping",
+   "match": "clipping",
+   "gloss": "embracing",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cog",
+   "match": "cog",
+   "gloss": "small boat",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cognisance",
+   "match": "cognisance",
+   "gloss": "badge, mark of distinction",
+   "kind": "archaic"
+  },
+  {
+   "term": "Coif",
+   "match": "coif",
+   "gloss": "head-piece",
+   "kind": "archaic"
+  },
+  {
+   "term": "Comfort",
+   "match": "comfort",
+   "gloss": "strengthen, help",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Cominal",
+   "match": "cominal",
+   "gloss": "common",
+   "kind": "archaic"
+  },
+  {
+   "term": "Complished",
+   "match": "complished",
+   "gloss": "complete",
+   "kind": "archaic"
+  },
+  {
+   "term": "Con",
+   "match": "con",
+   "gloss": "know, be able; con thanlt, be grateful",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Conserve",
+   "match": "conserve",
+   "gloss": "preserve",
+   "kind": "archaic"
+  },
+  {
+   "term": "Conversant",
+   "match": "conversant",
+   "gloss": "abiding in",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cording",
+   "match": "cording",
+   "gloss": "agreement",
+   "kind": "archaic"
+  },
+  {
+   "term": "Coronal",
+   "match": "coronal",
+   "gloss": "circlet",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cost",
+   "match": "cost",
+   "gloss": "side",
+   "kind": "archaic"
+  },
+  {
+   "term": "Costed",
+   "match": "costed",
+   "gloss": "kept up with",
+   "kind": "archaic"
+  },
+  {
+   "term": "Couched",
+   "match": "couched",
+   "gloss": "lay",
+   "kind": "archaic"
+  },
+  {
+   "term": "Courage",
+   "match": "courage",
+   "gloss": "encourage",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Courtelage",
+   "match": "courtelage",
+   "gloss": "courtyard",
+   "kind": "archaic"
+  },
+  {
+   "term": "Covert",
+   "match": "covert",
+   "gloss": "sheltered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Covetise",
+   "match": "covetise",
+   "gloss": "covetousness",
+   "kind": "archaic"
+  },
+  {
+   "term": "Covin",
+   "match": "covin",
+   "gloss": "deceit",
+   "kind": "archaic"
+  },
+  {
+   "term": "Cream",
+   "match": "cream",
+   "gloss": "oil",
+   "kind": "archaic"
+  },
+  {
+   "term": "Credence",
+   "match": "credence",
+   "gloss": "faith",
+   "kind": "archaic"
+  },
+  {
+   "term": "Croup",
+   "match": "croup",
+   "gloss": "crupper",
+   "kind": "archaic"
+  },
+  {
+   "term": "Curteist",
+   "match": "curteist",
+   "gloss": "most courteous",
+   "kind": "archaic"
+  },
+  {
+   "term": "Daffish",
+   "match": "daffish",
+   "gloss": "foolish",
+   "kind": "archaic"
+  },
+  {
+   "term": "Danger (in)",
+   "match": "danger",
+   "gloss": "under obligation to, in the power of",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dawed",
+   "match": "dawed",
+   "gloss": "v tr., revived, intr. dawned",
+   "kind": "archaic"
+  },
+  {
+   "term": "Deadly",
+   "match": "deadly",
+   "gloss": "mortal, human",
+   "kind": "archaic"
+  },
+  {
+   "term": "Deal",
+   "match": "deal",
+   "gloss": "part, portion",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Debate",
+   "match": "debate",
+   "gloss": "quarrel, strife",
+   "kind": "archaic"
+  },
+  {
+   "term": "Debonair",
+   "match": "debonair",
+   "gloss": "courteous",
+   "kind": "archaic"
+  },
+  {
+   "term": "Deceivable",
+   "match": "deceivable",
+   "gloss": "deceitful",
+   "kind": "archaic"
+  },
+  {
+   "term": "Defaded",
+   "match": "defaded",
+   "gloss": "faded",
+   "kind": "archaic"
+  },
+  {
+   "term": "Default",
+   "match": "default",
+   "gloss": "fault",
+   "kind": "archaic"
+  },
+  {
+   "term": "Defend",
+   "match": "defend",
+   "gloss": "forbid; defended; forbidden",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Defoiled",
+   "match": "defoiled",
+   "gloss": "trodden down, fouled, deflowered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Degree (win the)",
+   "match": "degree",
+   "gloss": "rank, superiority",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Delibered",
+   "match": "delibered",
+   "gloss": "determined",
+   "kind": "archaic"
+  },
+  {
+   "term": "Deliverly",
+   "match": "deliverly",
+   "gloss": "adroitly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Departed",
+   "match": "departed",
+   "gloss": "divided",
+   "kind": "archaic"
+  },
+  {
+   "term": "Departition",
+   "match": "departition",
+   "gloss": "departure",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dere",
+   "match": "dere",
+   "gloss": "harm",
+   "kind": "archaic"
+  },
+  {
+   "term": "Descrive",
+   "match": "descrive",
+   "gloss": "describe",
+   "kind": "archaic"
+  },
+  {
+   "term": "Despoiled",
+   "match": "despoiled",
+   "gloss": "stripped",
+   "kind": "archaic"
+  },
+  {
+   "term": "Detrenched",
+   "match": "detrenched",
+   "gloss": "cut to pieces",
+   "kind": "archaic"
+  },
+  {
+   "term": "Devised",
+   "match": "devised",
+   "gloss": "looked carefully at",
+   "kind": "archaic"
+  },
+  {
+   "term": "Devoir",
+   "match": "devoir",
+   "gloss": "duty, service",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Did off",
+   "match": "did off",
+   "gloss": "doffed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dight",
+   "match": "dight",
+   "gloss": "prepared",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dindled",
+   "match": "dindled",
+   "gloss": "trembled",
+   "kind": "archaic"
+  },
+  {
+   "term": "Disadventure",
+   "match": "disadventure",
+   "gloss": "misfortune",
+   "kind": "archaic"
+  },
+  {
+   "term": "Discover",
+   "match": "discover",
+   "gloss": "reveal",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Disherited",
+   "match": "disherited",
+   "gloss": "disinherited",
+   "kind": "archaic"
+  },
+  {
+   "term": "Disparpled",
+   "match": "disparpled",
+   "gloss": "scattered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dispenses",
+   "match": "dispenses",
+   "gloss": "expenses",
+   "kind": "archaic"
+  },
+  {
+   "term": "Disperplyd",
+   "match": "disperplyd",
+   "gloss": "scattered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dispoiled",
+   "match": "dispoiled",
+   "gloss": "stripped",
+   "kind": "archaic"
+  },
+  {
+   "term": "Distained",
+   "match": "distained",
+   "gloss": "sullied, dishonoured",
+   "kind": "archaic"
+  },
+  {
+   "term": "Disworship",
+   "match": "disworship",
+   "gloss": "shame",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dole",
+   "match": "dole",
+   "gloss": "gift of alms",
+   "kind": "archaic"
+  },
+  {
+   "term": "Domineth",
+   "match": "domineth",
+   "gloss": "dominates, rules",
+   "kind": "archaic"
+  },
+  {
+   "term": "Don",
+   "match": "don",
+   "gloss": "gift",
+   "kind": "archaic"
+  },
+  {
+   "term": "Doted",
+   "match": "doted",
+   "gloss": "foolish",
+   "kind": "archaic"
+  },
+  {
+   "term": "Doubted",
+   "match": "doubted",
+   "gloss": "redoubtable",
+   "kind": "archaic"
+  },
+  {
+   "term": "Draughts",
+   "match": "draughts",
+   "gloss": "privities, secret interviews, recesses",
+   "kind": "archaic"
+  },
+  {
+   "term": "Drenched",
+   "match": "drenched",
+   "gloss": "drowned",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dress",
+   "match": "dress",
+   "gloss": "make ready",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Dressed up",
+   "match": "dressed up",
+   "gloss": "raised",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dretched",
+   "match": "dretched",
+   "gloss": "troubled in sleep",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dretching",
+   "match": "dretching",
+   "gloss": "being troubled in sleep",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dromounds",
+   "match": "dromounds",
+   "gloss": "war vessels",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dure",
+   "match": "dure",
+   "gloss": "endure, last; dured; during",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Duresse",
+   "match": "duresse",
+   "gloss": "bondage, hardship",
+   "kind": "archaic"
+  },
+  {
+   "term": "Dwined",
+   "match": "dwined",
+   "gloss": "dwindled",
+   "kind": "archaic"
+  },
+  {
+   "term": "Eased",
+   "match": "eased",
+   "gloss": "entertained",
+   "kind": "archaic"
+  },
+  {
+   "term": "Eft",
+   "match": "eft",
+   "gloss": "after, again",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Eftures",
+   "match": "eftures",
+   "gloss": "passages",
+   "kind": "archaic"
+  },
+  {
+   "term": "Embattled",
+   "match": "embattled",
+   "gloss": "ranged for battle",
+   "kind": "archaic"
+  },
+  {
+   "term": "Embushed",
+   "match": "embushed",
+   "gloss": "concealed in the woods",
+   "kind": "archaic"
+  },
+  {
+   "term": "Eme",
+   "match": "eme",
+   "gloss": "uncle",
+   "kind": "archaic"
+  },
+  {
+   "term": "Empoison",
+   "match": "empoison",
+   "gloss": "poison",
+   "kind": "archaic"
+  },
+  {
+   "term": "Emprised",
+   "match": "emprised",
+   "gloss": "undertook",
+   "kind": "archaic"
+  },
+  {
+   "term": "Enchafe",
+   "match": "enchafe",
+   "gloss": "heat; enchafed, heated",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Enchieve",
+   "match": "enchieve",
+   "gloss": "achieve",
+   "kind": "archaic"
+  },
+  {
+   "term": "Endlong",
+   "match": "endlong",
+   "gloss": "alongside of",
+   "kind": "archaic"
+  },
+  {
+   "term": "Enewed",
+   "match": "enewed",
+   "gloss": "painted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Enforce",
+   "match": "enforce",
+   "gloss": "constrain",
+   "kind": "archaic"
+  },
+  {
+   "term": "Engine",
+   "match": "engine",
+   "gloss": "device",
+   "kind": "archaic"
+  },
+  {
+   "term": "Enow",
+   "match": "enow",
+   "gloss": "enough",
+   "kind": "archaic"
+  },
+  {
+   "term": "Enquest",
+   "match": "enquest",
+   "gloss": "enterprise",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ensured",
+   "match": "ensured",
+   "gloss": "assured",
+   "kind": "archaic"
+  },
+  {
+   "term": "Entermete",
+   "match": "entermete",
+   "gloss": "intermeddle",
+   "kind": "archaic"
+  },
+  {
+   "term": "Errant",
+   "match": "errant",
+   "gloss": "wandering",
+   "kind": "archaic"
+  },
+  {
+   "term": "Estates",
+   "match": "estates",
+   "gloss": "ranks",
+   "kind": "archaic"
+  },
+  {
+   "term": "Even hand",
+   "match": "even hand",
+   "gloss": "at an equality",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Evenlong",
+   "match": "evenlong",
+   "gloss": "along",
+   "kind": "archaic"
+  },
+  {
+   "term": "Everych",
+   "match": "everych",
+   "gloss": "each, every one",
+   "kind": "archaic"
+  },
+  {
+   "term": "Faiter",
+   "match": "faiter",
+   "gloss": "vagabond",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fare",
+   "match": "fare",
+   "gloss": "sb., ado, commotion",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Faren",
+   "match": "faren",
+   "gloss": "pp., treated",
+   "kind": "archaic"
+  },
+  {
+   "term": "Faute",
+   "match": "faute",
+   "gloss": "lack; fauted, lacked",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Fealty",
+   "match": "fealty",
+   "gloss": "oath of fidelity",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fear",
+   "match": "fear",
+   "gloss": "frighten",
+   "kind": "archaic"
+  },
+  {
+   "term": "Feute",
+   "match": "feute",
+   "gloss": "trace, track",
+   "kind": "archaic"
+  },
+  {
+   "term": "Feuter",
+   "match": "feuter",
+   "gloss": "set in rest, couch",
+   "kind": "archaic"
+  },
+  {
+   "term": "Feutred",
+   "match": "feutred",
+   "gloss": "set in socket",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fiaunce",
+   "match": "fiaunce",
+   "gloss": "affiance, promise",
+   "kind": "archaic"
+  },
+  {
+   "term": "Flang",
+   "match": "flang",
+   "gloss": "flung; rushed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Flatling",
+   "match": "flatling",
+   "gloss": "prostrate",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fleet",
+   "match": "fleet",
+   "gloss": "float",
+   "kind": "archaic"
+  },
+  {
+   "term": "Flemed",
+   "match": "flemed",
+   "gloss": "put to flight",
+   "kind": "archaic"
+  },
+  {
+   "term": "Flittered",
+   "match": "flittered",
+   "gloss": "fluttered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Foiled",
+   "match": "foiled",
+   "gloss": "defeated, shamed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Foined",
+   "match": "foined",
+   "gloss": "thrust",
+   "kind": "archaic"
+  },
+  {
+   "term": "Foining",
+   "match": "foining",
+   "gloss": "thrusting",
+   "kind": "archaic"
+  },
+  {
+   "term": "Foins",
+   "match": "foins",
+   "gloss": "thrusts",
+   "kind": "archaic"
+  },
+  {
+   "term": "Foot-hot",
+   "match": "foot-hot",
+   "gloss": "hastily",
+   "kind": "archaic"
+  },
+  {
+   "term": "For-bled",
+   "match": "for-bled",
+   "gloss": "spent with bleeding",
+   "kind": "archaic"
+  },
+  {
+   "term": "For-fared",
+   "match": "for-fared",
+   "gloss": "worsted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Force (no)",
+   "match": "force",
+   "gloss": "no concern",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Fordeal",
+   "match": "fordeal",
+   "gloss": "advantage",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fordo",
+   "match": "fordo",
+   "gloss": "destroy; fordid",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forecast",
+   "match": "forecast",
+   "gloss": "preconcerted plot",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forfend",
+   "match": "forfend",
+   "gloss": "forbid",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Forfoughten",
+   "match": "forfoughten",
+   "gloss": "weary with fighting",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forhewn",
+   "match": "forhewn",
+   "gloss": "hewn to pieces",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forjousted",
+   "match": "forjousted",
+   "gloss": "tired with jousting",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forthinketh",
+   "match": "forthinketh",
+   "gloss": "repents",
+   "kind": "archaic"
+  },
+  {
+   "term": "Fortuned",
+   "match": "fortuned",
+   "gloss": "happened",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forward",
+   "match": "forward",
+   "gloss": "vanguard",
+   "kind": "archaic"
+  },
+  {
+   "term": "Forwowmded",
+   "match": "forwowmded",
+   "gloss": "sorely wounded",
+   "kind": "archaic"
+  },
+  {
+   "term": "Free",
+   "match": "free",
+   "gloss": "noble",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Froward",
+   "match": "froward",
+   "gloss": "away from",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gad",
+   "match": "gad",
+   "gloss": "wedge or spike of iron",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gainest",
+   "match": "gainest",
+   "gloss": "readiest",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gar",
+   "match": "gar",
+   "gloss": "cause",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gart",
+   "match": "gart",
+   "gloss": "compelled",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gentily",
+   "match": "gentily",
+   "gloss": "like a gentleman",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gerfalcon",
+   "match": "gerfalcon",
+   "gloss": "a fine hawk",
+   "kind": "archaic"
+  },
+  {
+   "term": "Germane",
+   "match": "germane",
+   "gloss": "closely allied",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gest",
+   "match": "gest",
+   "gloss": "deed, story",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gisarm",
+   "match": "gisarm",
+   "gloss": "halberd, battle-axe",
+   "kind": "archaic"
+  },
+  {
+   "term": "Glaive",
+   "match": "glaive",
+   "gloss": "sword",
+   "kind": "archaic"
+  },
+  {
+   "term": "Glasting",
+   "match": "glasting",
+   "gloss": "barking",
+   "kind": "archaic"
+  },
+  {
+   "term": "Glatisant",
+   "match": "glatisant",
+   "gloss": "barking, yelping",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gobbets",
+   "match": "gobbets",
+   "gloss": "lumps",
+   "kind": "archaic"
+  },
+  {
+   "term": "Graithed",
+   "match": "graithed",
+   "gloss": "made ready",
+   "kind": "archaic"
+  },
+  {
+   "term": "Gree",
+   "match": "gree",
+   "gloss": "degree, superiority",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Greed",
+   "match": "greed",
+   "gloss": "pp., pleased, content",
+   "kind": "archaic"
+  },
+  {
+   "term": "Grescs",
+   "match": "grescs",
+   "gloss": "steps",
+   "kind": "archaic"
+  },
+  {
+   "term": "Grimly",
+   "match": "grimly",
+   "gloss": "ugly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Grovelling",
+   "match": "grovelling",
+   "gloss": "on his face",
+   "kind": "archaic"
+  },
+  {
+   "term": "Guerdonless",
+   "match": "guerdonless",
+   "gloss": "without reward",
+   "kind": "archaic"
+  },
+  {
+   "term": "Guise",
+   "match": "guise",
+   "gloss": "fashion",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Habergeon",
+   "match": "habergeon",
+   "gloss": "hauberk with leggings attached",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hair",
+   "match": "hair",
+   "gloss": "a hair-shirt",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Hale and how",
+   "match": "hale and how",
+   "gloss": "a sailor's cry",
+   "kind": "archaic"
+  },
+  {
+   "term": "Halp",
+   "match": "halp",
+   "gloss": "helped",
+   "kind": "archaic"
+  },
+  {
+   "term": "Halsed",
+   "match": "halsed",
+   "gloss": "embraced",
+   "kind": "archaic"
+  },
+  {
+   "term": "Halsing",
+   "match": "halsing",
+   "gloss": "embracing",
+   "kind": "archaic"
+  },
+  {
+   "term": "Handfast",
+   "match": "handfast",
+   "gloss": "betrothed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Handsel",
+   "match": "handsel",
+   "gloss": "earnest-money",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hangers",
+   "match": "hangers",
+   "gloss": "testicles",
+   "kind": "archaic"
+  },
+  {
+   "term": "Harbingers",
+   "match": "harbingers",
+   "gloss": "messengers sent to prepare lodgings",
+   "kind": "archaic"
+  },
+  {
+   "term": "Harness",
+   "match": "harness",
+   "gloss": "armour",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Hart of greese",
+   "match": "hart of greese",
+   "gloss": "fat deer",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hauberk",
+   "match": "hauberk",
+   "gloss": "coat of mail",
+   "kind": "archaic"
+  },
+  {
+   "term": "Haut",
+   "match": "haut",
+   "gloss": "high, noble",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hauteyn",
+   "match": "hauteyn",
+   "gloss": "haughty",
+   "kind": "archaic"
+  },
+  {
+   "term": "Heavy",
+   "match": "heavy",
+   "gloss": "sad",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Hete",
+   "match": "hete",
+   "gloss": "command",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hide",
+   "match": "hide",
+   "gloss": "skin",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hied",
+   "match": "hied",
+   "gloss": "hurried",
+   "kind": "archaic"
+  },
+  {
+   "term": "High (on)",
+   "match": "high",
+   "gloss": "aloud",
+   "kind": "archaic"
+  },
+  {
+   "term": "Higher hand",
+   "match": "higher hand",
+   "gloss": "the uppermost",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hight",
+   "match": "hight",
+   "gloss": "called",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hilled",
+   "match": "hilled",
+   "gloss": "covered, concealed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Holden",
+   "match": "holden",
+   "gloss": "held",
+   "kind": "archaic"
+  },
+  {
+   "term": "Holp",
+   "match": "holp",
+   "gloss": "helped",
+   "kind": "archaic"
+  },
+  {
+   "term": "Holts",
+   "match": "holts",
+   "gloss": "woods",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hough-bone",
+   "match": "hough-bone",
+   "gloss": "back part of kneejoint",
+   "kind": "archaic"
+  },
+  {
+   "term": "Houselled",
+   "match": "houselled",
+   "gloss": "to be given the Eucharist",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hoved",
+   "match": "hoved",
+   "gloss": "hovered, waited about",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hurled",
+   "match": "hurled",
+   "gloss": "dashed, staggered; hurling",
+   "kind": "archaic"
+  },
+  {
+   "term": "Hurtle",
+   "match": "hurtle",
+   "gloss": "dash",
+   "kind": "archaic"
+  },
+  {
+   "term": "In like",
+   "match": "in like",
+   "gloss": "alike",
+   "kind": "archaic"
+  },
+  {
+   "term": "Incontinent",
+   "match": "incontinent",
+   "gloss": "forthwith",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ind",
+   "match": "ind",
+   "gloss": "dark blue",
+   "kind": "archaic"
+  },
+  {
+   "term": "Infellowship",
+   "match": "infellowship",
+   "gloss": "join in fellowship",
+   "kind": "archaic"
+  },
+  {
+   "term": "Intermit",
+   "match": "intermit",
+   "gloss": "interpose",
+   "kind": "archaic"
+  },
+  {
+   "term": "Japer",
+   "match": "japer",
+   "gloss": "jester",
+   "kind": "archaic"
+  },
+  {
+   "term": "Japes",
+   "match": "japes",
+   "gloss": "jests",
+   "kind": "archaic"
+  },
+  {
+   "term": "Jesseraunt",
+   "match": "jesseraunt",
+   "gloss": "a short cuirass",
+   "kind": "archaic"
+  },
+  {
+   "term": "Keep",
+   "match": "keep",
+   "gloss": "sb., care",
+   "kind": "archaic"
+  },
+  {
+   "term": "Kemps",
+   "match": "kemps",
+   "gloss": "champions",
+   "kind": "archaic"
+  },
+  {
+   "term": "Kind",
+   "match": "kind",
+   "gloss": "nature",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Kindly",
+   "match": "kindly",
+   "gloss": "natural",
+   "kind": "archaic"
+  },
+  {
+   "term": "Knights parters",
+   "match": "knights parters",
+   "gloss": "marshals",
+   "kind": "archaic"
+  },
+  {
+   "term": "Know",
+   "match": "know",
+   "gloss": "acknowledge",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Knowledging",
+   "match": "knowledging",
+   "gloss": "acknowledgment, confession",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lain",
+   "match": "lain",
+   "gloss": "conceal",
+   "kind": "archaic"
+  },
+  {
+   "term": "Langering",
+   "match": "langering",
+   "gloss": "sauntering",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lapped",
+   "match": "lapped",
+   "gloss": "took in her lap",
+   "kind": "archaic"
+  },
+  {
+   "term": "Large",
+   "match": "large",
+   "gloss": "generous",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Largeness",
+   "match": "largeness",
+   "gloss": "liberality",
+   "kind": "archaic"
+  },
+  {
+   "term": "Laton",
+   "match": "laton",
+   "gloss": "latten, brass",
+   "kind": "archaic"
+  },
+  {
+   "term": "Laund",
+   "match": "laund",
+   "gloss": "waste plain",
+   "kind": "archaic"
+  },
+  {
+   "term": "Layne",
+   "match": "layne",
+   "gloss": "conceal",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lazar-cot",
+   "match": "lazar-cot",
+   "gloss": "leper-house",
+   "kind": "archaic"
+  },
+  {
+   "term": "Learn",
+   "match": "learn",
+   "gloss": "teach",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lears",
+   "match": "lears",
+   "gloss": "cheeks",
+   "kind": "archaic"
+  },
+  {
+   "term": "Leaved",
+   "match": "leaved",
+   "gloss": "leafy",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lecher",
+   "match": "lecher",
+   "gloss": "fornicator",
+   "kind": "archaic"
+  },
+  {
+   "term": "Leech",
+   "match": "leech",
+   "gloss": "physician",
+   "kind": "archaic"
+  },
+  {
+   "term": "Leman",
+   "match": "leman",
+   "gloss": "lover",
+   "kind": "archaic"
+  },
+  {
+   "term": "Let",
+   "match": "let",
+   "gloss": "caused to",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Lewdest",
+   "match": "lewdest",
+   "gloss": "most ignorant",
+   "kind": "archaic"
+  },
+  {
+   "term": "Licours",
+   "match": "licours",
+   "gloss": "lecherous",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lief",
+   "match": "lief",
+   "gloss": "dear",
+   "kind": "archaic"
+  },
+  {
+   "term": "Liefer",
+   "match": "liefer",
+   "gloss": "more gladly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lieve",
+   "match": "lieve",
+   "gloss": "believe",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Limb-meal",
+   "match": "limb-meal",
+   "gloss": "limb from limb",
+   "kind": "archaic"
+  },
+  {
+   "term": "List",
+   "match": "list",
+   "gloss": "desire, pleasure",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Lithe",
+   "match": "lithe",
+   "gloss": "joint",
+   "kind": "archaic"
+  },
+  {
+   "term": "Long on (upon)",
+   "match": "long on",
+   "gloss": "because of",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Longing unto",
+   "match": "longing unto",
+   "gloss": "belonging to",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Loos",
+   "match": "loos",
+   "gloss": "praise",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lotless",
+   "match": "lotless",
+   "gloss": "without a share",
+   "kind": "archaic"
+  },
+  {
+   "term": "Loveday",
+   "match": "loveday",
+   "gloss": "day for. settling disputes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Loving",
+   "match": "loving",
+   "gloss": "praising",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lunes",
+   "match": "lunes",
+   "gloss": "leashes, strings",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lusk",
+   "match": "lusk",
+   "gloss": "lubber",
+   "kind": "archaic"
+  },
+  {
+   "term": "Lusts",
+   "match": "lusts",
+   "gloss": "inclinations",
+   "kind": "archaic"
+  },
+  {
+   "term": "Maims",
+   "match": "maims",
+   "gloss": "wounds",
+   "kind": "archaic"
+  },
+  {
+   "term": "Makeless",
+   "match": "makeless",
+   "gloss": "matchless",
+   "kind": "archaic"
+  },
+  {
+   "term": "Makers",
+   "match": "makers",
+   "gloss": "authors, poets",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mal engine",
+   "match": "mal engine",
+   "gloss": "evil design",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mal-fortune",
+   "match": "mal-fortune",
+   "gloss": "ill-luck, mishap",
+   "kind": "archaic"
+  },
+  {
+   "term": "Marches",
+   "match": "marches",
+   "gloss": "borders",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mas",
+   "match": "mas",
+   "gloss": "ease, discomfort",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mass-penny",
+   "match": "mass-penny",
+   "gloss": "offering at mass for the dead",
+   "kind": "archaic"
+  },
+  {
+   "term": "Matche old",
+   "match": "matche old",
+   "gloss": "machicolated, with holes for defence",
+   "kind": "archaic"
+  },
+  {
+   "term": "Maugre",
+   "match": "maugre",
+   "gloss": "sb., despite",
+   "kind": "archaic"
+  },
+  {
+   "term": "Measle",
+   "match": "measle",
+   "gloss": "disease",
+   "kind": "archaic"
+  },
+  {
+   "term": "Medled",
+   "match": "medled",
+   "gloss": "mingled",
+   "kind": "archaic"
+  },
+  {
+   "term": "Medley",
+   "match": "medley",
+   "gloss": "melee, general encounter",
+   "kind": "archaic"
+  },
+  {
+   "term": "Meiny",
+   "match": "meiny",
+   "gloss": "retinue",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mickle",
+   "match": "mickle",
+   "gloss": "much",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Minever",
+   "match": "minever",
+   "gloss": "ermine",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mischieved",
+   "match": "mischieved",
+   "gloss": "hurt",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mischievous",
+   "match": "mischievous",
+   "gloss": "painful",
+   "kind": "archaic"
+  },
+  {
+   "term": "Miscorr fort",
+   "match": "miscorr fort",
+   "gloss": "discomfort",
+   "kind": "archaic"
+  },
+  {
+   "term": "Miscreature",
+   "match": "miscreature",
+   "gloss": "unbeliever",
+   "kind": "archaic"
+  },
+  {
+   "term": "Missay",
+   "match": "missay",
+   "gloss": "revile; missaid",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mo",
+   "match": "mo",
+   "gloss": "more",
+   "kind": "false-friend"
+  },
+  {
+   "term": "More and less",
+   "match": "more and less",
+   "gloss": "rich and poor",
+   "kind": "archaic"
+  },
+  {
+   "term": "Motes",
+   "match": "motes",
+   "gloss": "notes on a horn",
+   "kind": "archaic"
+  },
+  {
+   "term": "Mountenance",
+   "match": "mountenance",
+   "gloss": "amount of, extent",
+   "kind": "archaic"
+  },
+  {
+   "term": "Much",
+   "match": "much",
+   "gloss": "great",
+   "kind": "archaic"
+  },
+  {
+   "term": "Naked",
+   "match": "naked",
+   "gloss": "unarmed",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Namely",
+   "match": "namely",
+   "gloss": "especially",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ne",
+   "match": "ne",
+   "gloss": "nor",
+   "kind": "archaic"
+  },
+  {
+   "term": "Near-hand",
+   "match": "near-hand",
+   "gloss": "nearly; near",
+   "kind": "archaic"
+  },
+  {
+   "term": "Needly",
+   "match": "needly",
+   "gloss": "needs, on your own compulsion",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nesh",
+   "match": "nesh",
+   "gloss": "soft, tender",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nigh-hand",
+   "match": "nigh-hand",
+   "gloss": "nearly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nill",
+   "match": "nill",
+   "gloss": "will not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nilt",
+   "match": "nilt",
+   "gloss": "will not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nis",
+   "match": "nis",
+   "gloss": "ne is, is not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nist",
+   "match": "nist",
+   "gloss": "ne wist, knew not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Noblesse",
+   "match": "noblesse",
+   "gloss": "nobleness",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nobley",
+   "match": "nobley",
+   "gloss": "nobility, splendour",
+   "kind": "archaic"
+  },
+  {
+   "term": "Noised",
+   "match": "noised",
+   "gloss": "reported",
+   "kind": "archaic"
+  },
+  {
+   "term": "Nold",
+   "match": "nold",
+   "gloss": "would not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Noseling",
+   "match": "noseling",
+   "gloss": "on his nose",
+   "kind": "archaic"
+  },
+  {
+   "term": "Not for then",
+   "match": "not for then",
+   "gloss": "nevertheless",
+   "kind": "archaic"
+  },
+  {
+   "term": "Notoyrly",
+   "match": "notoyrly",
+   "gloss": "notoriously",
+   "kind": "archaic"
+  },
+  {
+   "term": "Noyous",
+   "match": "noyous",
+   "gloss": "hurtful",
+   "kind": "archaic"
+  },
+  {
+   "term": "Obeissance",
+   "match": "obeissance",
+   "gloss": "obedience",
+   "kind": "archaic"
+  },
+  {
+   "term": "Orgule",
+   "match": "orgule",
+   "gloss": "haughtiness",
+   "kind": "archaic"
+  },
+  {
+   "term": "Orgulist",
+   "match": "orgulist",
+   "gloss": "haughtiest",
+   "kind": "archaic"
+  },
+  {
+   "term": "Orgulite",
+   "match": "orgulite",
+   "gloss": "pride, arrogance",
+   "kind": "archaic"
+  },
+  {
+   "term": "Orgulous",
+   "match": "orgulous",
+   "gloss": "proud",
+   "kind": "archaic"
+  },
+  {
+   "term": "Other",
+   "match": "other",
+   "gloss": "or",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ouches",
+   "match": "ouches",
+   "gloss": "jewels",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ought",
+   "match": "ought",
+   "gloss": "owned",
+   "kind": "archaic"
+  },
+  {
+   "term": "Out-taken",
+   "match": "out-taken",
+   "gloss": "except",
+   "kind": "archaic"
+  },
+  {
+   "term": "Outcept",
+   "match": "outcept",
+   "gloss": "except",
+   "kind": "archaic"
+  },
+  {
+   "term": "Outher",
+   "match": "outher",
+   "gloss": "or",
+   "kind": "archaic"
+  },
+  {
+   "term": "Over-evening",
+   "match": "over-evening",
+   "gloss": "last night",
+   "kind": "archaic"
+  },
+  {
+   "term": "Over-led",
+   "match": "over-led",
+   "gloss": "domineered over",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overget",
+   "match": "overget",
+   "gloss": "overtake",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overhylled",
+   "match": "overhylled",
+   "gloss": "covered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overlong",
+   "match": "overlong",
+   "gloss": "the length of",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overslip",
+   "match": "overslip",
+   "gloss": "pass",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overthwart",
+   "match": "overthwart",
+   "gloss": "adj., cross",
+   "kind": "archaic"
+  },
+  {
+   "term": "Overthwart and endlong",
+   "match": "overthwart and endlong",
+   "gloss": "by the breadth and length",
+   "kind": "archaic"
+  },
+  {
+   "term": "Painture",
+   "match": "painture",
+   "gloss": "painting",
+   "kind": "archaic"
+  },
+  {
+   "term": "Paitrelles",
+   "match": "paitrelles",
+   "gloss": "breastplate of a horse",
+   "kind": "archaic"
+  },
+  {
+   "term": "Paltocks",
+   "match": "paltocks",
+   "gloss": "short coats",
+   "kind": "archaic"
+  },
+  {
+   "term": "Parage",
+   "match": "parage",
+   "gloss": "descent",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pareil",
+   "match": "pareil",
+   "gloss": "like",
+   "kind": "archaic"
+  },
+  {
+   "term": "Passing",
+   "match": "passing",
+   "gloss": "surpassingly",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Paynim",
+   "match": "paynim",
+   "gloss": "pagan",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pensel",
+   "match": "pensel",
+   "gloss": "pennon",
+   "kind": "archaic"
+  },
+  {
+   "term": "Perclos",
+   "match": "perclos",
+   "gloss": "partition",
+   "kind": "archaic"
+  },
+  {
+   "term": "Perdy",
+   "match": "perdy",
+   "gloss": "par Dieu",
+   "kind": "archaic"
+  },
+  {
+   "term": "Perigot",
+   "match": "perigot",
+   "gloss": "falcon",
+   "kind": "archaic"
+  },
+  {
+   "term": "Perish",
+   "match": "perish",
+   "gloss": "destroy",
+   "kind": "archaic"
+  },
+  {
+   "term": "Peron",
+   "match": "peron",
+   "gloss": "tombstone",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pight",
+   "match": "pight",
+   "gloss": "pitched",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Pike",
+   "match": "pike",
+   "gloss": "steal away",
+   "kind": "archaic"
+  },
+  {
+   "term": "Piked",
+   "match": "piked",
+   "gloss": "stole",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pillers",
+   "match": "pillers",
+   "gloss": "plunderers",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pilling",
+   "match": "pilling",
+   "gloss": "plundering",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pleasaunce",
+   "match": "pleasaunce",
+   "gloss": "pleasure",
+   "kind": "archaic"
+  },
+  {
+   "term": "Plenour",
+   "match": "plenour",
+   "gloss": "complete",
+   "kind": "archaic"
+  },
+  {
+   "term": "Plump",
+   "match": "plump",
+   "gloss": "sb., cluster",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pointling",
+   "match": "pointling",
+   "gloss": "aiming",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pont",
+   "match": "pont",
+   "gloss": "bridge",
+   "kind": "archaic"
+  },
+  {
+   "term": "Port",
+   "match": "port",
+   "gloss": "gate",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Posseded",
+   "match": "posseded",
+   "gloss": "possessed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Potestate",
+   "match": "potestate",
+   "gloss": "governor",
+   "kind": "archaic"
+  },
+  {
+   "term": "Precessours",
+   "match": "precessours",
+   "gloss": "predecessors",
+   "kind": "archaic"
+  },
+  {
+   "term": "Press",
+   "match": "press",
+   "gloss": "throng",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Pretendeth",
+   "match": "pretendeth",
+   "gloss": "belongs to",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pricker",
+   "match": "pricker",
+   "gloss": "hard rider",
+   "kind": "archaic"
+  },
+  {
+   "term": "Pricking",
+   "match": "pricking",
+   "gloss": "spurring",
+   "kind": "archaic"
+  },
+  {
+   "term": "Prime",
+   "match": "prime",
+   "gloss": "A.M.",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Prise",
+   "match": "prise",
+   "gloss": "capture",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Puissance",
+   "match": "puissance",
+   "gloss": "power",
+   "kind": "archaic"
+  },
+  {
+   "term": "Purfle",
+   "match": "purfle",
+   "gloss": "trimming",
+   "kind": "archaic"
+  },
+  {
+   "term": "Purfled",
+   "match": "purfled",
+   "gloss": "embroidered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Purvey",
+   "match": "purvey",
+   "gloss": "provide",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Quarrels",
+   "match": "quarrels",
+   "gloss": "arrowheads",
+   "kind": "archaic"
+  },
+  {
+   "term": "Questing",
+   "match": "questing",
+   "gloss": "barking",
+   "kind": "archaic"
+  },
+  {
+   "term": "Quick",
+   "match": "quick",
+   "gloss": "alive",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Quit",
+   "match": "quit",
+   "gloss": "repaid; acquitted, behaved",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Raced (rased)",
+   "match": "raced",
+   "gloss": "tore",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rack (of bulls)",
+   "match": "rack",
+   "gloss": "herd",
+   "kind": "archaic"
+  },
+  {
+   "term": "Raines",
+   "match": "raines",
+   "gloss": "a town in Brittany famous for its cloth",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ramping",
+   "match": "ramping",
+   "gloss": "raging",
+   "kind": "archaic"
+  },
+  {
+   "term": "Range",
+   "match": "range",
+   "gloss": "rank, station",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Ransacked",
+   "match": "ransacked",
+   "gloss": "searched",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rashed",
+   "match": "rashed",
+   "gloss": "fell headlong",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rashing",
+   "match": "rashing",
+   "gloss": "rushing",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rasing",
+   "match": "rasing",
+   "gloss": "rushing",
+   "kind": "archaic"
+  },
+  {
+   "term": "Raundon",
+   "match": "raundon",
+   "gloss": "impetuosity",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rear",
+   "match": "rear",
+   "gloss": "raise",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Rechate",
+   "match": "rechate",
+   "gloss": "note of recall",
+   "kind": "archaic"
+  },
+  {
+   "term": "Recomforted",
+   "match": "recomforted",
+   "gloss": "comforted, cheered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Recounter",
+   "match": "recounter",
+   "gloss": "rencontre, encounter",
+   "kind": "archaic"
+  },
+  {
+   "term": "Recover",
+   "match": "recover",
+   "gloss": "rescue",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Rede",
+   "match": "rede",
+   "gloss": "advise; sb., counsel",
+   "kind": "archaic"
+  },
+  {
+   "term": "Redounded",
+   "match": "redounded",
+   "gloss": "glanced back",
+   "kind": "archaic"
+  },
+  {
+   "term": "Religion",
+   "match": "religion",
+   "gloss": "religious order",
+   "kind": "archaic"
+  },
+  {
+   "term": "Reneye",
+   "match": "reneye",
+   "gloss": "deny",
+   "kind": "archaic"
+  },
+  {
+   "term": "Report",
+   "match": "report",
+   "gloss": "refer",
+   "kind": "archaic"
+  },
+  {
+   "term": "Retrayed",
+   "match": "retrayed",
+   "gloss": "drew back",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rightwise",
+   "match": "rightwise",
+   "gloss": "rightly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rivage",
+   "match": "rivage",
+   "gloss": "shore",
+   "kind": "archaic"
+  },
+  {
+   "term": "Romed",
+   "match": "romed",
+   "gloss": "roared",
+   "kind": "archaic"
+  },
+  {
+   "term": "Roted",
+   "match": "roted",
+   "gloss": "practised",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rove",
+   "match": "rove",
+   "gloss": "cleft",
+   "kind": "archaic"
+  },
+  {
+   "term": "Rownsepyk",
+   "match": "rownsepyk",
+   "gloss": "a branch",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sacring",
+   "match": "sacring",
+   "gloss": "consecrating",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sad",
+   "match": "sad",
+   "gloss": "serious",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Sadly",
+   "match": "sadly",
+   "gloss": "heartily, earnestly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Salle",
+   "match": "salle",
+   "gloss": "room",
+   "kind": "archaic"
+  },
+  {
+   "term": "Samite",
+   "match": "samite",
+   "gloss": "silk stuff with gold or silver",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sangreal",
+   "match": "sangreal",
+   "gloss": "Holy Grail",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sarps",
+   "match": "sarps",
+   "gloss": "girdles",
+   "kind": "archaic"
+  },
+  {
+   "term": "Saw",
+   "match": "saw",
+   "gloss": "proverb",
+   "kind": "archaic"
+  },
+  {
+   "term": "Scathes",
+   "match": "scathes",
+   "gloss": "harms, hurts",
+   "kind": "archaic"
+  },
+  {
+   "term": "Scripture",
+   "match": "scripture",
+   "gloss": "writing",
+   "kind": "archaic"
+  },
+  {
+   "term": "Search",
+   "match": "search",
+   "gloss": "probe wounds",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Selar",
+   "match": "selar",
+   "gloss": "canopy",
+   "kind": "archaic"
+  },
+  {
+   "term": "Semblable",
+   "match": "semblable",
+   "gloss": "like",
+   "kind": "archaic"
+  },
+  {
+   "term": "Semblant",
+   "match": "semblant",
+   "gloss": "semblance",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Sendal",
+   "match": "sendal",
+   "gloss": "fine cloth",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sennight",
+   "match": "sennight",
+   "gloss": "week",
+   "kind": "archaic"
+  },
+  {
+   "term": "Servage",
+   "match": "servage",
+   "gloss": "slavery",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sewer",
+   "match": "sewer",
+   "gloss": "officer who set on dishes and tasted them",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shaft-mon",
+   "match": "shaft-mon",
+   "gloss": "handbreadth",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shaw",
+   "match": "shaw",
+   "gloss": "thicket",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sheef",
+   "match": "sheef",
+   "gloss": "thrust",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sheer-Thursday",
+   "match": "sheer-thursday",
+   "gloss": "Thursday in Holy Week",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shend",
+   "match": "shend",
+   "gloss": "harm",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shenship",
+   "match": "shenship",
+   "gloss": "disgrace",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shent",
+   "match": "shent",
+   "gloss": "undone, blamed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shour",
+   "match": "shour",
+   "gloss": "attack",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shrew",
+   "match": "shrew",
+   "gloss": "rascal",
+   "kind": "archaic"
+  },
+  {
+   "term": "Shrewd",
+   "match": "shrewd",
+   "gloss": "knavish",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Sib",
+   "match": "sib",
+   "gloss": "akin to",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sideling",
+   "match": "sideling",
+   "gloss": "sideways",
+   "kind": "archaic"
+  },
+  {
+   "term": "Siege",
+   "match": "siege",
+   "gloss": "seat",
+   "kind": "archaic"
+  },
+  {
+   "term": "Signified",
+   "match": "signified",
+   "gloss": "likened",
+   "kind": "archaic"
+  },
+  {
+   "term": "Siker",
+   "match": "siker",
+   "gloss": "sure",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sikerness",
+   "match": "sikerness",
+   "gloss": "assurance",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sith",
+   "match": "sith",
+   "gloss": "since",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Sithen",
+   "match": "sithen",
+   "gloss": "afterwards, since",
+   "kind": "archaic"
+  },
+  {
+   "term": "Skift",
+   "match": "skift",
+   "gloss": "changed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Slade",
+   "match": "slade",
+   "gloss": "valley",
+   "kind": "archaic"
+  },
+  {
+   "term": "Slake",
+   "match": "slake",
+   "gloss": "glen",
+   "kind": "archaic"
+  },
+  {
+   "term": "Soil (to go to)",
+   "match": "soil",
+   "gloss": "hunting term for taking the water",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sonds",
+   "match": "sonds",
+   "gloss": "messages",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sort",
+   "match": "sort",
+   "gloss": "company",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sperd",
+   "match": "sperd",
+   "gloss": "bolted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Spere",
+   "match": "spere",
+   "gloss": "ask, inquire",
+   "kind": "archaic"
+  },
+  {
+   "term": "Spered",
+   "match": "spered",
+   "gloss": "asked",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sperhawk",
+   "match": "sperhawk",
+   "gloss": "sparrowhawk",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sprent",
+   "match": "sprent",
+   "gloss": "sprinkled",
+   "kind": "archaic"
+  },
+  {
+   "term": "Stale",
+   "match": "stale",
+   "gloss": "station",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Stark",
+   "match": "stark",
+   "gloss": "thoroughly",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Stead",
+   "match": "stead",
+   "gloss": "place",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Stert",
+   "match": "stert",
+   "gloss": "started, rose quickly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Steven",
+   "match": "steven",
+   "gloss": "appointment; steven ser. appointment made",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Stigh",
+   "match": "stigh",
+   "gloss": "path",
+   "kind": "archaic"
+  },
+  {
+   "term": "Stilly",
+   "match": "stilly",
+   "gloss": "silently",
+   "kind": "archaic"
+  },
+  {
+   "term": "Stint",
+   "match": "stint",
+   "gloss": "fixed revenue",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Stonied",
+   "match": "stonied",
+   "gloss": "astonished; became confused",
+   "kind": "archaic"
+  },
+  {
+   "term": "Stour",
+   "match": "stour",
+   "gloss": "battle",
+   "kind": "archaic"
+  },
+  {
+   "term": "Strain",
+   "match": "strain",
+   "gloss": "race, descent",
+   "kind": "archaic"
+  },
+  {
+   "term": "Strait",
+   "match": "strait",
+   "gloss": "narrow",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Straked",
+   "match": "straked",
+   "gloss": "blew a horn",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sue",
+   "match": "sue",
+   "gloss": "pursue",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Sued",
+   "match": "sued",
+   "gloss": "pursued",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Surcingles",
+   "match": "surcingles",
+   "gloss": "saddle girths",
+   "kind": "archaic"
+  },
+  {
+   "term": "Swang",
+   "match": "swang",
+   "gloss": "swung",
+   "kind": "archaic"
+  },
+  {
+   "term": "Sweven",
+   "match": "sweven",
+   "gloss": "dream",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Swough",
+   "match": "swough",
+   "gloss": "sound of wind",
+   "kind": "archaic"
+  },
+  {
+   "term": "Talent",
+   "match": "talent",
+   "gloss": "desire",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tallages",
+   "match": "tallages",
+   "gloss": "taxes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tallies",
+   "match": "tallies",
+   "gloss": "taxes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tamed",
+   "match": "tamed",
+   "gloss": "crushed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tatches",
+   "match": "tatches",
+   "gloss": "qualities",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tene",
+   "match": "tene",
+   "gloss": "sorrow",
+   "kind": "archaic"
+  },
+  {
+   "term": "Term",
+   "match": "term",
+   "gloss": "period of time",
+   "kind": "archaic"
+  },
+  {
+   "term": "Thilk",
+   "match": "thilk",
+   "gloss": "that same",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tho",
+   "match": "tho",
+   "gloss": "then",
+   "kind": "archaic"
+  },
+  {
+   "term": "Thrang",
+   "match": "thrang",
+   "gloss": "pushed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Thrulled",
+   "match": "thrulled",
+   "gloss": "pushed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Till",
+   "match": "till",
+   "gloss": "to",
+   "kind": "archaic"
+  },
+  {
+   "term": "To-brast",
+   "match": "to-brast",
+   "gloss": "burst",
+   "kind": "archaic"
+  },
+  {
+   "term": "To-fore",
+   "match": "to-fore",
+   "gloss": "before",
+   "kind": "archaic"
+  },
+  {
+   "term": "To-morn",
+   "match": "to-morn",
+   "gloss": "to-morrow",
+   "kind": "archaic"
+  },
+  {
+   "term": "To-rove",
+   "match": "to-rove",
+   "gloss": "broke up",
+   "kind": "archaic"
+  },
+  {
+   "term": "To-shivered",
+   "match": "to-shivered",
+   "gloss": "broken to pieces",
+   "kind": "archaic"
+  },
+  {
+   "term": "Took",
+   "match": "took",
+   "gloss": "gave",
+   "kind": "archaic"
+  },
+  {
+   "term": "Traced",
+   "match": "traced",
+   "gloss": "advanced and retreated",
+   "kind": "archaic"
+  },
+  {
+   "term": "Trains",
+   "match": "trains",
+   "gloss": "devices, wiles",
+   "kind": "archaic"
+  },
+  {
+   "term": "Trasing",
+   "match": "trasing",
+   "gloss": "pressing forward",
+   "kind": "archaic"
+  },
+  {
+   "term": "Travers (met at)",
+   "match": "travers",
+   "gloss": "came across",
+   "kind": "archaic"
+  },
+  {
+   "term": "Traverse",
+   "match": "traverse",
+   "gloss": "slantwise",
+   "kind": "archaic"
+  },
+  {
+   "term": "Traversed",
+   "match": "traversed",
+   "gloss": "moved sideways",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tray",
+   "match": "tray",
+   "gloss": "grief",
+   "kind": "archaic"
+  },
+  {
+   "term": "Treatise",
+   "match": "treatise",
+   "gloss": "treaty",
+   "kind": "archaic"
+  },
+  {
+   "term": "Tree",
+   "match": "tree",
+   "gloss": "timber",
+   "kind": "archaic"
+  },
+  {
+   "term": "Trenchant",
+   "match": "trenchant",
+   "gloss": "cutting, sharp",
+   "kind": "archaic"
+  },
+  {
+   "term": "Truage",
+   "match": "truage",
+   "gloss": "tribute",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Trussed",
+   "match": "trussed",
+   "gloss": "packed",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ubblie",
+   "match": "ubblie",
+   "gloss": "wafer, Host",
+   "kind": "archaic"
+  },
+  {
+   "term": "Umbecast",
+   "match": "umbecast",
+   "gloss": "cast about",
+   "kind": "archaic"
+  },
+  {
+   "term": "Umberere",
+   "match": "umberere",
+   "gloss": "the part of the helmet which shaded the eyes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Umbre",
+   "match": "umbre",
+   "gloss": "shade",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unavised",
+   "match": "unavised",
+   "gloss": "thoughtlessly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Uncouth",
+   "match": "uncouth",
+   "gloss": "strange",
+   "kind": "archaic"
+  },
+  {
+   "term": "Underne",
+   "match": "underne",
+   "gloss": "- A.M.",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ungoodly",
+   "match": "ungoodly",
+   "gloss": "rudely",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unhappy",
+   "match": "unhappy",
+   "gloss": "unlucky",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Unhilled",
+   "match": "unhilled",
+   "gloss": "uncovered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unr the",
+   "match": "unr the",
+   "gloss": "scarcely",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unsicker",
+   "match": "unsicker",
+   "gloss": "unstable",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unwimpled",
+   "match": "unwimpled",
+   "gloss": "uncovered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Unwrast",
+   "match": "unwrast",
+   "gloss": "untwisted, unbound",
+   "kind": "archaic"
+  },
+  {
+   "term": "Up-so-down",
+   "match": "up-so-down",
+   "gloss": "upside down",
+   "kind": "archaic"
+  },
+  {
+   "term": "Upright",
+   "match": "upright",
+   "gloss": "flat on the back",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ure",
+   "match": "ure",
+   "gloss": "usage",
+   "kind": "archaic"
+  },
+  {
+   "term": "Utas",
+   "match": "utas",
+   "gloss": "octave of a festival",
+   "kind": "archaic"
+  },
+  {
+   "term": "Utterance",
+   "match": "utterance",
+   "gloss": "uttermost",
+   "kind": "archaic"
+  },
+  {
+   "term": "Varlet",
+   "match": "varlet",
+   "gloss": "servant",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ven ails",
+   "match": "ven ails",
+   "gloss": "breathing holes",
+   "kind": "archaic"
+  },
+  {
+   "term": "Venery",
+   "match": "venery",
+   "gloss": "hunting",
+   "kind": "archaic"
+  },
+  {
+   "term": "Villain",
+   "match": "villain",
+   "gloss": "man of low birth",
+   "kind": "archaic"
+  },
+  {
+   "term": "Visors",
+   "match": "visors",
+   "gloss": "the perforated parts of helmets",
+   "kind": "archaic"
+  },
+  {
+   "term": "Voided",
+   "match": "voided",
+   "gloss": "slipped away from",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wagging",
+   "match": "wagging",
+   "gloss": "shaking",
+   "kind": "archaic"
+  },
+  {
+   "term": "Waited",
+   "match": "waited",
+   "gloss": "watched",
+   "kind": "archaic"
+  },
+  {
+   "term": "Waits",
+   "match": "waits",
+   "gloss": "watches",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wallop",
+   "match": "wallop",
+   "gloss": "gallop",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wanhope",
+   "match": "wanhope",
+   "gloss": "despair",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wap",
+   "match": "wap",
+   "gloss": "ripple",
+   "kind": "archaic"
+  },
+  {
+   "term": "Ware",
+   "match": "ware",
+   "gloss": "aware",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Warison",
+   "match": "warison",
+   "gloss": "reward",
+   "kind": "archaic"
+  },
+  {
+   "term": "Warn",
+   "match": "warn",
+   "gloss": "forbid, refuse",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Weeds",
+   "match": "weeds",
+   "gloss": "garments",
+   "kind": "archaic"
+  },
+  {
+   "term": "Weltered",
+   "match": "weltered",
+   "gloss": "rolled about",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wend",
+   "match": "wend",
+   "gloss": "thought",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wer-wolf",
+   "match": "wer-wolf",
+   "gloss": "a man turned into a wolf by magic",
+   "kind": "archaic"
+  },
+  {
+   "term": "Where",
+   "match": "where",
+   "gloss": "whereas",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wide-where",
+   "match": "wide-where",
+   "gloss": "over wide space",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wield",
+   "match": "wield",
+   "gloss": "possess, have power over",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wield himself",
+   "match": "wield himself",
+   "gloss": "come to himself",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wight",
+   "match": "wight",
+   "gloss": "brave, strong",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wightly",
+   "match": "wightly",
+   "gloss": "swiftly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wildsome",
+   "match": "wildsome",
+   "gloss": "desolate",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wimpled",
+   "match": "wimpled",
+   "gloss": "with the head covered",
+   "kind": "archaic"
+  },
+  {
+   "term": "Win",
+   "match": "win",
+   "gloss": "make way",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wite",
+   "match": "wite",
+   "gloss": "v., blame",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wittiest",
+   "match": "wittiest",
+   "gloss": "cleverest",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wittily",
+   "match": "wittily",
+   "gloss": "cleverly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Witting",
+   "match": "witting",
+   "gloss": "knowledge",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wold or nold",
+   "match": "wold or nold",
+   "gloss": "would or would not",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wonder",
+   "match": "wonder",
+   "gloss": "adj., wondrous",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wonderly",
+   "match": "wonderly",
+   "gloss": "wonderfully",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wood",
+   "match": "wood",
+   "gloss": "mad",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Wood shaw",
+   "match": "wood shaw",
+   "gloss": "thicket of the wood",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Woodness",
+   "match": "woodness",
+   "gloss": "madness",
+   "kind": "archaic"
+  },
+  {
+   "term": "Worship",
+   "match": "worship",
+   "gloss": "honour",
+   "kind": "false-friend"
+  },
+  {
+   "term": "Worshipped",
+   "match": "worshipped",
+   "gloss": "cause to be honoured",
+   "kind": "archaic"
+  },
+  {
+   "term": "Worts",
+   "match": "worts",
+   "gloss": "roots",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wot",
+   "match": "wot",
+   "gloss": "know",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wrack",
+   "match": "wrack",
+   "gloss": "destruction",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wroken",
+   "match": "wroken",
+   "gloss": "wreaked",
+   "kind": "archaic"
+  },
+  {
+   "term": "Wrothe",
+   "match": "wrothe",
+   "gloss": "twisted",
+   "kind": "archaic"
+  },
+  {
+   "term": "Y-wis",
+   "match": "y-wis",
+   "gloss": "certainly",
+   "kind": "archaic"
+  },
+  {
+   "term": "Yede",
+   "match": "yede",
+   "gloss": "ran",
+   "kind": "archaic"
+  },
+  {
+   "term": "Yelden",
+   "match": "yelden",
+   "gloss": "yielded",
+   "kind": "archaic"
+  },
+  {
+   "term": "Yerde",
+   "match": "yerde",
+   "gloss": "stick, stem",
+   "kind": "archaic"
+  },
+  {
+   "term": "Yode",
+   "match": "yode",
+   "gloss": "went",
+   "kind": "archaic"
+  },
+  {
+   "term": "Yolden",
+   "match": "yolden",
+   "gloss": "yielded",
+   "kind": "archaic"
+  }
+ ]
+}

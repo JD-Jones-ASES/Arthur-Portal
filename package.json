@@ -35,6 +35,7 @@
     "@fontsource/im-fell-english-sc": "^5.2.5",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
+    "an-array-of-english-words": "^2.0.0",
     "playwright-core": "^1.62.1"
   }
 }

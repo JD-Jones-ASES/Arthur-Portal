@@ -1,0 +1,54 @@
+{
+  "work": "malory",
+  "note": "Every editorial decision taken while turning the source edition into the reading spine. Nothing here is silent: a reviewer can check each one against the original.",
+  "entries": [
+    {
+      "work": "malory",
+      "book": "VIII",
+      "issue": "body-heading-not-in-toc",
+      "printed": "XL",
+      "title": "How Sir Lamorak departed from Sir Tristram, and how he met with Sir Frol, and after with Sir Launcelot.",
+      "action": "no table-of-contents entry; reconciled against the chapter sequence"
+    },
+    {
+      "work": "malory",
+      "book": "IX",
+      "issue": "printed-numeral-corrected",
+      "printed": "XXVIII",
+      "contents": "XXXVIII",
+      "chosen": "XXXVIII",
+      "title": "Of the treason of King Mark, and how Sir Gaheris smote him down and Andred his cousin.",
+      "action": "the printed numeral breaks sequence; used the table of contents"
+    },
+    {
+      "work": "malory",
+      "book": "IX",
+      "issue": "printed-numeral-corrected",
+      "printed": "XIX",
+      "contents": "XXXIX",
+      "chosen": "XXXIX",
+      "title": "How after that Sir Tristram, Sir Palomides, and Sir Dinadan had been long in prison they were delivered.",
+      "action": "the printed numeral breaks sequence; used the table of contents"
+    },
+    {
+      "work": "malory",
+      "book": "X",
+      "issue": "numeral-reconstructed",
+      "printed": "XXI",
+      "contents": "XXI",
+      "chosen": "XXX",
+      "title": "How Sir Elias and Sir Tristram fought together for the truage, and how Sir Tristram slew Elias in the field.",
+      "action": "neither the printed numeral nor the contents continues the sequence"
+    },
+    {
+      "work": "malory",
+      "book": "XII",
+      "issue": "numeral-disagreement",
+      "printed": "IX",
+      "contents": "IX",
+      "chosen": "IX",
+      "title": "How Sir Bors and Sir Lionel came to King Brandegore, and how Sir Bors took his son Helin le Blank, and of Sir Launcelot.",
+      "action": "took the only candidate that advances the sequence"
+    }
+  ]
+}

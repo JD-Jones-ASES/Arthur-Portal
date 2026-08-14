@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "note": "Validation records for quotations whose source text is in copyright and therefore not committed to this repository (see DECISIONS.md ADR-0004). Each record proves the quotation was located in the source when the text was available; CI verifies the quotation text still hashes to the attested value.",
+  "attestations": {
+    "vulgate-lancelot-loves-queen": {
+      "quote_id": "vulgate-lancelot-loves-queen",
+      "source": "vulgate2",
+      "work": "vulgate",
+      "text_sha256": "85c990e3580821c7c9135754b7803392eb22872d3302db6cfb97bbc1755ac320",
+      "ratio": 1,
+      "anchor": "[12]",
+      "validated_at": "2026-08-14",
+      "note": "Validated against an in-copyright translation held outside the repository. The text is not redistributed; this record proves the quotation was located."
+    },
+    "vulgate-holy-vessel-grail": {
+      "quote_id": "vulgate-holy-vessel-grail",
+      "source": "vulgate1",
+      "work": "vulgate",
+      "text_sha256": "475327722a730ee7bcee4e9803532ec0d3edef5f708cdf2f5becb328b33dc1ff",
+      "ratio": 1,
+      "anchor": "[539]",
+      "validated_at": "2026-08-14",
+      "note": "Validated against an in-copyright translation held outside the repository. The text is not redistributed; this record proves the quotation was located."
+    }
+  }
+}

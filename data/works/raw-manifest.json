@@ -1,0 +1,113 @@
+{
+  "files": {
+    "malory-1.txt": {
+      "work": "malory",
+      "source": "malory1",
+      "gutenberg": 1251,
+      "url": "https://www.gutenberg.org/cache/epub/1251/pg1251.txt",
+      "bytes": 917383,
+      "sha256": "5dae4564bb198fe0291956a681c556497ceed562de75f84a82592032505c9fee",
+      "fetched_at": "2026-08-14"
+    },
+    "malory-2.txt": {
+      "work": "malory",
+      "source": "malory2",
+      "gutenberg": 1252,
+      "url": "https://www.gutenberg.org/cache/epub/1252/pg1252.txt",
+      "bytes": 1047064,
+      "sha256": "6f3e7106e1e8264f06b7f72611de942b45ab84c53d5dbbae771395397899a575",
+      "fetched_at": "2026-08-14"
+    },
+    "gawain-weston.txt": {
+      "work": "gawain",
+      "source": "gawain_weston",
+      "gutenberg": 66084,
+      "url": "https://www.gutenberg.org/cache/epub/66084/pg66084.txt",
+      "bytes": 143318,
+      "sha256": "a5e19e3d52cfb1c3737725f5a8031e44ae6054f4f9436d3028e16cee13cbb498",
+      "fetched_at": "2026-08-14"
+    },
+    "mabinogion.txt": {
+      "work": "mabinogion",
+      "source": "mabinogion",
+      "gutenberg": 5160,
+      "url": "https://www.gutenberg.org/cache/epub/5160/pg5160.txt",
+      "bytes": 617553,
+      "sha256": "e177d7c2ff357bc5e3f506c7131d158d8b8f5e05883110bdf495f0d9d7f49886",
+      "fetched_at": "2026-08-14"
+    },
+    "chretien.txt": {
+      "work": "chretien",
+      "source": "chretien",
+      "gutenberg": 831,
+      "url": "https://www.gutenberg.org/cache/epub/831/pg831.txt",
+      "bytes": 1040993,
+      "sha256": "ab0c067fa3cb1d07b3d01dab076fa1e53413e9746a0087a71730185c7771b220",
+      "fetched_at": "2026-08-14"
+    },
+    "perlesvaus.txt": {
+      "work": "perlesvaus",
+      "source": "perlesvaus",
+      "gutenberg": 750,
+      "url": "https://www.gutenberg.org/cache/epub/750/pg750.txt",
+      "bytes": 875212,
+      "sha256": "bfda0cfcd4bb89a7fcba2c4ee9ff259af662398d047162c6ddd55758f6c48917",
+      "fetched_at": "2026-08-14"
+    },
+    "parzival-1.txt": {
+      "work": "parzival",
+      "source": "wolfram1",
+      "gutenberg": 47297,
+      "url": "https://www.gutenberg.org/cache/epub/47297/pg47297.txt",
+      "bytes": 935041,
+      "sha256": "a4c9cf13fea547714ad837eb51f99e8213ba1cd9809335ae305a659828dd5a71",
+      "fetched_at": "2026-08-14"
+    },
+    "parzival-2.txt": {
+      "work": "parzival",
+      "source": "wolfram2",
+      "gutenberg": 47298,
+      "url": "https://www.gutenberg.org/cache/epub/47298/pg47298.txt",
+      "bytes": 644337,
+      "sha256": "d89171e891690fd5a2accd3f94b214391afff886ca1ebd2f3d78ac6c67fd25b3",
+      "fetched_at": "2026-08-14"
+    },
+    "wace.txt": {
+      "work": "wace",
+      "source": "wace",
+      "gutenberg": 10472,
+      "url": "https://www.gutenberg.org/cache/epub/10472/pg10472.txt",
+      "bytes": 353214,
+      "sha256": "f04d23445a480a4077e4dcc9f8eff7cc2d72880db3b201ccac0b1af9c9c1ff9b",
+      "fetched_at": "2026-08-14"
+    },
+    "layamon.txt": {
+      "work": "layamon",
+      "source": "layamon",
+      "gutenberg": 14305,
+      "url": "https://www.gutenberg.org/cache/epub/14305/pg14305.txt",
+      "bytes": 404535,
+      "sha256": "538522faaa8886970460ad7f0f50d773b517e99c0a3dfe8ea165d6e704aec369",
+      "fetched_at": "2026-08-14"
+    },
+    "nennius.txt": {
+      "work": "nennius",
+      "source": "nennius",
+      "gutenberg": 1972,
+      "url": "https://www.gutenberg.org/cache/epub/1972/pg1972.txt",
+      "bytes": 100028,
+      "sha256": "6416f5f244dd67c7004a02f8e28bbbf889370f5a2919b2d16c81528de9427e57",
+      "fetched_at": "2026-08-14"
+    },
+    "idylls.txt": {
+      "work": "idylls",
+      "source": "idylls",
+      "gutenberg": 610,
+      "url": "https://www.gutenberg.org/cache/epub/610/pg610.txt",
+      "bytes": 514628,
+      "sha256": "3210463c9f5d3a5d7d0bff60cbdb9ab98f7d9a26a19c9f6f6e4cb08a858473ab",
+      "fetched_at": "2026-08-14"
+    }
+  },
+  "note": "Checksums of the public-domain source texts in raw/ (gitignored). Committed so a re-fetch that returns different bytes is detectable — Project Gutenberg does re-issue texts."
+}
