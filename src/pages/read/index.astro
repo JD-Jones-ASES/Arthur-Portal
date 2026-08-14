@@ -1,13 +1,109 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import Ornament from "../../components/Ornament.astro";
+import { withBase, BRANCHES } from "../../lib/site.js";
+import { works, hasSpine, spine } from "../../lib/portal-data.js";
+
+const all = works();
+const built = all.filter((w) => w.reader && hasSpine(w.id));
+const planned = all.filter((w) => w.reader && !hasSpine(w.id));
+const quoteOnly = all.filter((w) => !w.reader);
 ---
 
-<Layout title="The texts" current="/read">
-  <Stub
-    rubric="The texts"
-    title="Read the sources themselves"
-    body="Public-domain primary texts, properly set — with the validated quotations highlighted where they actually sit on the page."
-    phase="Phase 2"
-  />
+<Layout
+  title="The texts"
+  description="Public-domain Arthurian texts, properly set, with the validated quotations highlighted where they actually sit on the page."
+  current="/read"
+>
+  <div class="page-head">
+    <span class="rubric">The library</span>
+    <h1>Read the sources themselves</h1>
+    <p class="lede">
+      Retellings are useful, but they are somebody&rsquo;s retelling. Everything summarised
+      elsewhere on this site is anchored to a chapter you can open here and read for yourself &mdash;
+      with the validated quotations highlighted exactly where they sit, and the edition&rsquo;s own
+      glossary of Middle English on hand when the vocabulary turns.
+    </p>
+  </div>
+
+  <section aria-labelledby="available-h">
+    <h2 id="available-h" class="visually-hidden">Available now</h2>
+    <div class="grid">
+      {
+        built.map((w) => {
+          const sp = spine(w.id);
+          return (
+            <a class="card card--branch" data-branch={w.branch} href={withBase(`/read/${w.id}/`)}>
+              <span class="rubric">{w.author}</span>
+              <h3>{w.title}</h3>
+              <p class="small">{w.blurb}</p>
+              <p class="small muted">
+                {sp.n_units.toLocaleString()} chapters &middot; {sp.words.toLocaleString()} words
+                {w.tier === "B" && <> &middot; reflowed text</>}
+              </p>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  {planned.length > 0 && (
+    <>
+      <Ornament />
+      <section class="narrow narrow--flush" aria-labelledby="planned-h">
+        <span class="rubric">In preparation</span>
+        <h2 id="planned-h">Texts not yet set</h2>
+        <p>
+          These are public domain, acquired, and validated against &mdash; quotations from them
+          already appear throughout the site. They simply have not been typeset for the reader yet.
+        </p>
+        <ul class="plain-list">
+          {planned.map((w) => (
+            <li data-branch={w.branch}>
+              <span class="chip"><span class="chip__dot" />{BRANCHES[w.branch].label}</span>
+              <strong>{w.title}</strong>
+              <span class="muted small"> &mdash; {w.author}{w.translator ? `, tr. ${w.translator}` : ""}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  )}
+
+  <Ornament />
+
+  <section class="narrow narrow--flush" aria-labelledby="quoteonly-h">
+    <span class="rubric">Quoted, not published</span>
+    <h2 id="quoteonly-h">What cannot be printed here</h2>
+    <p>
+      Two bodies of material are cited on this site but will never be readable on it, and the reason
+      is worth stating plainly rather than hiding behind an absence.
+    </p>
+    <ul class="plain-list">
+      {quoteOnly.map((w) => (
+        <li data-branch={w.branch}>
+          <span class="chip"><span class="chip__dot" />{BRANCHES[w.branch].label}</span>
+          <strong>{w.title}</strong>
+          <p class="small muted">{w.tier_note ?? w.rights}</p>
+        </li>
+      ))}
+    </ul>
+    <p class="small">
+      <a href={withBase("/method/whats-not-here/")}>The full gap list &rarr;</a>
+    </p>
+  </section>
 </Layout>
+
+<style>
+  .plain-list { list-style: none; margin: var(--s5) 0; padding: 0; }
+  .plain-list li {
+    padding: var(--s3) 0;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s2) var(--s3);
+    align-items: baseline;
+  }
+  .plain-list li p { flex-basis: 100%; margin: var(--s1) 0 0; }
+</style>

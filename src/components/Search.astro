@@ -1,0 +1,245 @@
+---
+import { withBase } from "../lib/site.js";
+const indexUrl = withBase("/search-index.json");
+const fulltextUrl = withBase("/search-fulltext.json");
+const base = withBase("/");
+---
+
+<div class="search" id="search" hidden>
+  <div class="search__scrim" data-close></div>
+  <div class="search__panel" role="dialog" aria-modal="true" aria-label="Search the portal">
+    <div class="search__bar">
+      <input
+        id="search-input"
+        type="search"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Search chapters, stories, people, quotations, words…"
+        aria-label="Search"
+      />
+      <button class="icon-btn" type="button" data-close aria-label="Close search">Esc</button>
+    </div>
+    <div class="search__opts">
+      <label class="search__opt">
+        <input type="checkbox" id="search-fulltext" />
+        <span>Search inside the texts too</span>
+      </label>
+      <span class="small muted" id="search-status"></span>
+    </div>
+    <ul class="search__results" id="search-results" role="listbox" aria-label="Results"></ul>
+  </div>
+</div>
+
+<script is:inline define:vars={{ indexUrl, fulltextUrl, base }}>
+  (function () {
+    var root = document.getElementById("search");
+    if (!root) return;
+    var input = document.getElementById("search-input");
+    var results = document.getElementById("search-results");
+    var status = document.getElementById("search-status");
+    var ftBox = document.getElementById("search-fulltext");
+
+    var data = null;
+    var loading = null;
+    var fulltext = null;
+    var loadingFull = null;
+    var active = -1;
+
+    var TYPE_LABEL = {
+      chapter: "chapter",
+      quote: "quotation",
+      story: "story",
+      person: "person",
+      voice: "voice",
+      throughline: "throughline",
+      word: "word",
+    };
+    // Apparatus before primary text: someone searching "grail" wants the thread
+    // and the people before they want the four hundred chapters that say the word.
+    var TYPE_RANK = { story: 0, throughline: 1, person: 2, voice: 3, quote: 4, chapter: 5, word: 6 };
+
+    function load() {
+      if (data) return Promise.resolve(data);
+      if (!loading) {
+        status.textContent = "loading index…";
+        loading = fetch(indexUrl)
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            data = j;
+            status.textContent = "";
+            return j;
+          })
+          .catch(function () {
+            status.textContent = "search index unavailable";
+            return { entities: [], fulltext: [] };
+          });
+      }
+      return loading;
+    }
+
+    function loadFulltext() {
+      if (fulltext) return Promise.resolve(fulltext);
+      if (!loadingFull) {
+        status.textContent = "loading the texts…";
+        loadingFull = fetch(fulltextUrl)
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            fulltext = j.fulltext;
+            status.textContent = "";
+            return fulltext;
+          })
+          .catch(function () {
+            status.textContent = "could not load the texts";
+            return [];
+          });
+      }
+      return loadingFull;
+    }
+
+    function open() {
+      root.hidden = false;
+      document.body.style.overflow = "hidden";
+      load().then(function () { input.focus(); input.select(); });
+      input.focus();
+    }
+    function close() {
+      root.hidden = true;
+      document.body.style.overflow = "";
+      active = -1;
+    }
+
+    function score(rec, q) {
+      var t = rec.terms;
+      var i = t.indexOf(q);
+      if (i === -1) return -1;
+      var s = 100 - Math.min(i, 60);
+      if (rec.title.toLowerCase().indexOf(q) === 0) s += 60;
+      else if (rec.title.toLowerCase().indexOf(q) > -1) s += 30;
+      s -= (TYPE_RANK[rec.type] || 0) * 4;
+      return s;
+    }
+
+    function render(list, q) {
+      results.innerHTML = "";
+      if (!q) return;
+      if (!list.length) {
+        var li = document.createElement("li");
+        li.className = "search__empty";
+        li.textContent = 'Nothing found for "' + q + '".';
+        results.appendChild(li);
+        return;
+      }
+      list.forEach(function (r, idx) {
+        var li = document.createElement("li");
+        li.className = "search__result";
+        if (r.branch) li.setAttribute("data-branch", r.branch);
+        var a = document.createElement("a");
+        a.href = base.replace(/\/$/, "") + "/" + r.path;
+        a.setAttribute("role", "option");
+        a.setAttribute("data-idx", String(idx));
+
+        var kind = document.createElement("span");
+        kind.className = "search__kind";
+        kind.textContent = TYPE_LABEL[r.type] || r.type;
+
+        var title = document.createElement("span");
+        title.className = "search__title";
+        title.textContent = r.title;
+
+        var sub = document.createElement("span");
+        sub.className = "search__sub";
+        sub.textContent = r.sub || "";
+
+        a.appendChild(kind);
+        a.appendChild(title);
+        a.appendChild(sub);
+        li.appendChild(a);
+        results.appendChild(li);
+      });
+    }
+
+    function run() {
+      var q = input.value.trim().toLowerCase();
+      if (!data || q.length < 2) {
+        render([], q.length >= 2 ? q : "");
+        status.textContent = "";
+        return;
+      }
+      var hits = [];
+      for (var i = 0; i < data.entities.length; i++) {
+        var s = score(data.entities[i], q);
+        if (s > 0) hits.push({ r: data.entities[i], s: s });
+      }
+      hits.sort(function (a, b) { return b.s - a.s; });
+      var list = hits.slice(0, 40).map(function (h) { return h.r; });
+
+      if (ftBox.checked && fulltext) {
+        var seen = {};
+        list.forEach(function (r) { seen[r.id] = true; });
+        var byId = {};
+        data.entities.forEach(function (e) { if (e.type === "chapter") byId[e.id] = e; });
+        var extra = 0;
+        for (var k = 0; k < fulltext.length && extra < 40; k++) {
+          var f = fulltext[k];
+          if (seen[f.id]) continue;
+          if (f.text.indexOf(q) === -1) continue;
+          var rec = byId[f.id];
+          if (!rec) continue;
+          var at = f.text.indexOf(q);
+          list.push({
+            id: rec.id, type: "chapter", title: rec.title,
+            sub: "…" + f.text.slice(Math.max(0, at - 40), at + 60).trim() + "…",
+            path: rec.path, branch: rec.branch, terms: "",
+          });
+          extra++;
+        }
+        status.textContent = list.length + " result(s), texts included";
+      } else {
+        status.textContent = hits.length ? hits.length + " result(s)" : "";
+      }
+      render(list, q);
+      active = -1;
+    }
+
+    function move(d) {
+      var links = results.querySelectorAll("a");
+      if (!links.length) return;
+      active = (active + d + links.length) % links.length;
+      links.forEach(function (l, i) { l.classList.toggle("is-active", i === active); });
+      links[active].scrollIntoView({ block: "nearest" });
+    }
+
+    input.addEventListener("input", run);
+    ftBox.addEventListener("change", function () {
+      if (ftBox.checked) loadFulltext().then(run);
+      else run();
+    });
+
+    root.querySelectorAll("[data-close]").forEach(function (el) {
+      el.addEventListener("click", close);
+    });
+
+    document.addEventListener("keydown", function (e) {
+      var tag = document.activeElement && document.activeElement.tagName;
+      var typing = tag === "INPUT" || tag === "TEXTAREA";
+      if (!root.hidden) {
+        if (e.key === "Escape") { e.preventDefault(); close(); }
+        else if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
+        else if (e.key === "Enter" && active > -1) {
+          e.preventDefault();
+          results.querySelectorAll("a")[active].click();
+        }
+        return;
+      }
+      if (typing) return;
+      if (e.key === "/" || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k")) {
+        e.preventDefault();
+        open();
+      }
+    });
+
+    var trigger = document.getElementById("search-open");
+    if (trigger) trigger.addEventListener("click", open);
+  })();
+</script>

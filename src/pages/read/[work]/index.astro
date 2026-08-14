@@ -1,0 +1,139 @@
+---
+import Layout from "../../../components/Layout.astro";
+import Ornament from "../../../components/Ornament.astro";
+import { withBase } from "../../../lib/site.js";
+import {
+  readableWorks, spine, units as getUnits, quotesByUnit, episodesByUnit, cleanupLog,
+} from "../../../lib/portal-data.js";
+
+export function getStaticPaths() {
+  return readableWorks().map((w) => ({ params: { work: w.id }, props: { work: w } }));
+}
+
+const { work } = Astro.props;
+const sp = spine(work.id);
+const units = getUnits(work.id);
+const qByUnit = quotesByUnit();
+const eByUnit = episodesByUnit();
+const log = cleanupLog(work.id);
+
+const first = sp.order[0];
+---
+
+<Layout
+  title={work.title}
+  description={work.blurb}
+  current="/read"
+  branch={work.branch}
+>
+  <div class="page-head">
+    <span class="rubric">{work.author}{work.composed ? ` · ${work.composed}` : ""}</span>
+    <h1>{work.title}</h1>
+    <p class="lede">{work.blurb}</p>
+    <p class="cluster">
+      <a class="btn" href={withBase(`/read/${work.id}/${first}/`)}>Begin reading</a>
+      <span class="chip"><span class="chip__dot" />{work.branch}</span>
+      <span class="small muted">
+        {sp.n_units} chapters &middot; {sp.words.toLocaleString()} words
+      </span>
+    </p>
+  </div>
+
+  <div class="work-grid">
+    <div class="work-toc">
+      {
+        sp.parts.map((part) => (
+          <section class="toc-part" id={part.id}>
+            <div class="toc-part__head">
+              <h2>{part.label}</h2>
+              <span class="small muted">{part.units.length} {part.units.length === 1 ? "chapter" : "chapters"}</span>
+            </div>
+            <ul class="toc-list">
+              {part.units.map((id) => {
+                const u = units[id];
+                const nq = (qByUnit[id] ?? []).length;
+                const ne = (eByUnit[id] ?? []).length;
+                return (
+                  <li>
+                    <a href={withBase(`/read/${work.id}/${id}/`)}>
+                      <span class="toc-list__label">{u.label}</span>
+                      <span class="toc-list__title">
+                        {u.title}
+                        {(nq > 0 || ne > 0) && (
+                          <span class="toc-list__marks">
+                            {nq > 0 && <span class="toc-mark toc-mark--quote" title={`${nq} validated quotation${nq > 1 ? "s" : ""}`}>{nq} quoted</span>}
+                            {ne > 0 && <span class="toc-mark toc-mark--story" title="Retold in the stories">story</span>}
+                          </span>
+                        )}
+                      </span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        ))
+      }
+    </div>
+
+    <aside class="work-aside">
+      <section class="margin-block">
+        <h2 class="rubric">This edition</h2>
+        <dl class="facts">
+          {work.edition && (<><dt>Text</dt><dd>{work.edition}</dd></>)}
+          {work.translator && (<><dt>Translator</dt><dd>{work.translator}</dd></>)}
+          {work.language && (<><dt>Language</dt><dd>{work.language}</dd></>)}
+          <dt>Rights</dt><dd>{work.rights}</dd>
+        </dl>
+      </section>
+
+      {work.tier_note && (
+        <div class="gap-note">
+          <span class="gap-note__label">About this text</span>
+          <p>{work.tier_note}</p>
+        </div>
+      )}
+
+      {log.entries.length > 0 && (
+        <section class="margin-block">
+          <h2 class="rubric">Editorial record</h2>
+          <p class="small muted">
+            The source edition needed {log.entries.length} correction{log.entries.length === 1 ? "" : "s"} to
+            make its chapter numbering citable. Every one is recorded rather than made silently.
+          </p>
+          <ul class="margin-list small">
+            {log.entries.map((e) => (
+              <li>
+                <strong>Book {e.book}</strong> &mdash; {e.issue.replace(/-/g, " ")}
+                {e.printed && <span class="muted"> (printed {e.printed}{e.contents ? `, contents ${e.contents}` : ""}{e.chosen ? ` → ${e.chosen}` : ""})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </aside>
+  </div>
+</Layout>
+
+<style>
+  .work-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 44rem) minmax(13rem, 17rem);
+    gap: var(--s7);
+    align-items: start;
+  }
+  @media (max-width: 1000px) {
+    .work-grid { grid-template-columns: 1fr; gap: var(--s6); }
+  }
+  .work-aside {
+    position: sticky;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s5);
+    font-size: 0.92rem;
+  }
+  @media (max-width: 1000px) {
+    .work-aside { position: static; }
+  }
+</style>

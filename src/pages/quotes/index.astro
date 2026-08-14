@@ -1,13 +1,250 @@
 ---
 import Layout from "../../components/Layout.astro";
-import Stub from "../../components/Stub.astro";
+import { withBase, BRANCHES, BRANCH_ORDER } from "../../lib/site.js";
+import { quotes, tagLabel, workById, units as getUnits, stats } from "../../lib/portal-data.js";
+
+const all = quotes();
+const s = stats();
+
+// Group by voice, in the research base's own render order.
+const ORDER = [
+  "Geoffrey of Monmouth", "The Chroniclers", "The Mabinogion", "Chrétien de Troyes",
+  "Wolfram von Eschenbach", "Gottfried von Strassburg", "The Vulgate", "The Grail Romances",
+  "Malory", "The English Mortes", "The Gawain Romances",
+];
+const byVoice = new Map();
+for (const q of all) {
+  if (!byVoice.has(q.voice)) byVoice.set(q.voice, []);
+  byVoice.get(q.voice).push(q);
+}
+const groups = [...byVoice.entries()].sort(
+  (a, b) => (ORDER.indexOf(a[0]) + 1 || 99) - (ORDER.indexOf(b[0]) + 1 || 99)
+);
+
+const allTags = [...new Set(all.flatMap((q) => q.tags))].sort();
+const branchesPresent = BRANCH_ORDER.filter((b) => all.some((q) => q.branch === b));
+
+const exact = all.filter((q) => q.validation.method === "exact").length;
+const fuzzy = all.filter((q) => q.validation.method === "fuzzy").length;
+const attested = all.filter((q) => q.validation.method === "attestation").length;
+const placed = all.filter((q) => q.spine).length;
 ---
 
-<Layout title="The ledger" current="/quotes">
-  <Stub
-    rubric="The ledger"
-    title="Every validated quotation"
-    body="The quote ledger — each one located in its source text by an automated gate, cited by voice and locus."
-    phase="Phase 2"
-  />
+<Layout
+  title="The quote ledger"
+  description="Every quotation published on this site, located in its source text by an automated gate before it could ship."
+  current="/quotes"
+>
+  <div class="page-head">
+    <span class="rubric">Verification</span>
+    <h1>The quote ledger</h1>
+    <p class="lede">
+      Every quotation on this site is located in the source text it claims to come from &mdash; not
+      once, but on every build. A quotation that cannot be found does not ship. This page is the
+      whole ledger, with the result of the last check against each one.
+    </p>
+    <p class="small muted">
+      {all.length} quotations across {groups.length} voices &middot; {exact} located exactly,
+      {fuzzy} by fuzzy match against a scanned text, {attested} by attestation &middot;
+      {placed} highlighted in the reader where they sit.
+    </p>
+  </div>
+
+  <div class="filters" id="filters">
+    <div class="filters__row">
+      <span class="rubric rubric--muted">Tradition</span>
+      <div class="cluster">
+        <button class="filter-btn is-on" type="button" data-filter="branch" data-value="">All</button>
+        {branchesPresent.map((b) => (
+          <button class="filter-btn" type="button" data-filter="branch" data-value={b} data-branch={b}>
+            <span class="chip__dot" aria-hidden="true" />{BRANCHES[b].label}
+          </button>
+        ))}
+      </div>
+    </div>
+    <div class="filters__row">
+      <span class="rubric rubric--muted">Motif</span>
+      <div class="cluster">
+        <button class="filter-btn is-on" type="button" data-filter="tag" data-value="">All</button>
+        {allTags.map((t) => (
+          <button class="filter-btn" type="button" data-filter="tag" data-value={t}>{tagLabel(t)}</button>
+        ))}
+      </div>
+    </div>
+    <p class="small muted" id="filter-count" aria-live="polite"></p>
+  </div>
+
+  <div class="ledger">
+    {
+      groups.map(([voice, list]) => (
+        <section class="ledger-group" data-branch={list[0].branch ?? undefined}>
+          <h2 class="ledger-group__head">{voice}</h2>
+          {list.map((q) => {
+            const work = q.work ? workById(q.work) : null;
+            const unit = q.spine ? getUnits(q.work)[q.spine.unit] : null;
+            return (
+              <article
+                class="quote-card"
+                id={q.id}
+                data-branch={q.branch ?? undefined}
+                data-tags={q.tags.join(" ")}
+                data-branch-value={q.branch ?? ""}
+              >
+                <blockquote class="quote-card__text">&ldquo;{q.text}&rdquo;</blockquote>
+                <div class="quote-card__meta">
+                  <span class="quote-card__cite">
+                    <em>{q.work_title}</em>
+                    {q.anchor_label && q.anchor_label !== "?" ? <> &middot; {q.anchor_label}</> : null}
+                  </span>
+                  <span class="cluster">
+                    {q.tags.map((t) => <span class="chip chip--plain">{tagLabel(t)}</span>)}
+                  </span>
+                </div>
+                <div class="quote-card__foot small">
+                  <span class={`verdict verdict--${q.validation.method}`}>
+                    {q.validation.method === "exact" && "located exactly"}
+                    {q.validation.method === "fuzzy" && `located at ${(q.validation.ratio * 100).toFixed(1)}% against a scanned text`}
+                    {q.validation.method === "attestation" && "verified by attestation"}
+                  </span>
+                  {unit && (
+                    <a href={withBase(`/read/${q.work}/${q.spine.unit}/#p${q.spine.paragraph}`)}>
+                      read it in place &rarr;
+                    </a>
+                  )}
+                  {q.restricted && (
+                    <span class="muted">quoted under fair use; this translation is in copyright</span>
+                  )}
+                  <a class="quote-card__perma muted" href={`#${q.id}`} aria-label={`Link to ${q.id}`}>#</a>
+                </div>
+              </article>
+            );
+          })}
+        </section>
+      ))
+    }
+  </div>
+
+  <p class="empty-note muted" id="empty-note" hidden>No quotation matches those filters.</p>
 </Layout>
+
+<style>
+  .filters {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--paper-raised);
+    padding: var(--s4) var(--s5);
+    margin-bottom: var(--s7);
+    display: flex;
+    flex-direction: column;
+    gap: var(--s3);
+  }
+  .filters__row { display: flex; gap: var(--s4); align-items: baseline; flex-wrap: wrap; }
+  .filters__row > .rubric { min-width: 5.5rem; }
+  .filter-btn {
+    font-family: var(--font-ui);
+    font-size: 0.74rem;
+    letter-spacing: 0.03em;
+    padding: 0.34em 0.62em;
+    border-radius: var(--radius);
+    border: 1px solid var(--line-strong);
+    background: transparent;
+    color: var(--ink-soft);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+  }
+  .filter-btn:hover { color: var(--ink); border-color: var(--ink-faint); }
+  .filter-btn.is-on {
+    color: var(--branch-ink, var(--rubric));
+    border-color: var(--branch, var(--rubric));
+    background: var(--branch-wash, color-mix(in srgb, var(--rubric) 8%, transparent));
+  }
+  .filter-btn .chip__dot { background: var(--branch); }
+
+  .ledger-group { margin-bottom: var(--s8); }
+  .ledger-group__head {
+    font-size: 1.15rem;
+    margin: 0 0 var(--s5);
+    padding-bottom: var(--s2);
+    border-bottom: 2px solid var(--branch);
+  }
+
+  .quote-card {
+    padding: var(--s4) 0 var(--s4) var(--s5);
+    border-left: 2px solid color-mix(in srgb, var(--branch) 35%, transparent);
+    margin-bottom: var(--s5);
+    scroll-margin-top: 6rem;
+  }
+  .quote-card:target { background: color-mix(in srgb, var(--gold) 10%, transparent); border-left-color: var(--gold); }
+  .quote-card__text {
+    margin: 0 0 var(--s3);
+    padding: 0;
+    border: 0;
+    font-size: 1.06rem;
+    line-height: 1.55;
+    color: var(--ink);
+    font-style: normal;
+  }
+  .quote-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s2) var(--s4);
+    align-items: baseline;
+    margin-bottom: var(--s2);
+  }
+  .quote-card__cite { font-size: 0.88rem; color: var(--ink-soft); }
+  .quote-card__foot { display: flex; flex-wrap: wrap; gap: var(--s4); align-items: baseline; color: var(--ink-faint); }
+  .verdict::before { content: "✓ "; color: var(--branch); }
+  .verdict--fuzzy::before { content: "≈ "; }
+  .verdict--attestation::before { content: "◇ "; }
+  .quote-card__perma { margin-left: auto; text-decoration: none; }
+  .empty-note { padding: var(--s7) 0; text-align: center; }
+</style>
+
+<script is:inline>
+  (function () {
+    var state = { branch: "", tag: "" };
+    var cards = Array.prototype.slice.call(document.querySelectorAll(".quote-card"));
+    var groups = Array.prototype.slice.call(document.querySelectorAll(".ledger-group"));
+    var count = document.getElementById("filter-count");
+    var empty = document.getElementById("empty-note");
+
+    function apply() {
+      var shown = 0;
+      cards.forEach(function (c) {
+        var okBranch = !state.branch || c.dataset.branchValue === state.branch;
+        var okTag = !state.tag || (" " + c.dataset.tags + " ").indexOf(" " + state.tag + " ") > -1;
+        var on = okBranch && okTag;
+        c.hidden = !on;
+        if (on) shown++;
+      });
+      groups.forEach(function (g) {
+        var any = Array.prototype.some.call(g.querySelectorAll(".quote-card"), function (c) {
+          return !c.hidden;
+        });
+        g.hidden = !any;
+      });
+      if (empty) empty.hidden = shown > 0;
+      if (count) {
+        count.textContent =
+          state.branch || state.tag
+            ? "Showing " + shown + " of " + cards.length + " quotations."
+            : "";
+      }
+    }
+
+    document.querySelectorAll(".filter-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var kind = btn.dataset.filter;
+        state[kind] = btn.dataset.value;
+        document
+          .querySelectorAll('.filter-btn[data-filter="' + kind + '"]')
+          .forEach(function (b) {
+            b.classList.toggle("is-on", b === btn);
+          });
+        apply();
+      });
+    });
+  })();
+</script>

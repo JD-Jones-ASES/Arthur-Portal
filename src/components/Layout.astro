@@ -2,6 +2,7 @@
 import "../styles/portal.css";
 import Nav from "./Nav.astro";
 import Footer from "./Footer.astro";
+import Search from "./Search.astro";
 import { SITE, withBase } from "../lib/site.js";
 
 const {
@@ -52,5 +53,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://jd-jones-as
       <slot />
     </main>
     <Footer />
+    <Search />
   </body>
 </html>

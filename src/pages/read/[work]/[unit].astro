@@ -1,0 +1,166 @@
+---
+import Layout from "../../../components/Layout.astro";
+import { withBase } from "../../../lib/site.js";
+import {
+  allReadingUnits, unit as getUnit, spine, quotesByUnit, glossaryHits,
+  glossaryMap, quoteById, episodesByUnit, tagLabel, workById,
+} from "../../../lib/portal-data.js";
+import { renderParagraph, paragraphRanges } from "../../../lib/render.js";
+
+export function getStaticPaths() {
+  return allReadingUnits().map((u) => ({
+    params: { work: u.work.id, unit: u.unitId },
+    props: u,
+  }));
+}
+
+const { work, unitId, index, prev, next, total } = Astro.props;
+const u = getUnit(work.id, unitId);
+const sp = spine(work.id);
+
+const unitQuotes = quotesByUnit()[unitId] ?? [];
+const unitGlosses = glossaryHits()[unitId] ?? [];
+const gmap = glossaryMap();
+const ranges = paragraphRanges(u, unitQuotes, unitGlosses, gmap);
+
+const quoteRecords = unitQuotes.map((q) => quoteById(q.id)).filter(Boolean);
+const glossList = [...new Map(unitGlosses.map((g) => [g.term, gmap.get(g.term)])).values()].filter(Boolean);
+const episodesHere = episodesByUnit()[unitId] ?? [];
+
+const prevUnit = prev ? getUnit(work.id, prev) : null;
+const nextUnit = next ? getUnit(work.id, next) : null;
+
+const heading = u.chapter ? `${u.book}.${u.chapter}` : u.label;
+const pageTitle = `${heading} — ${work.short}`;
+const description = u.title.length > 20 ? u.title : `${work.title}, ${u.label}`;
+---
+
+<Layout title={pageTitle} description={description} current="/read" branch={work.branch}>
+  <article class="reader" data-show-quotes="true" data-show-glosses="true" data-size="m">
+    <nav class="reader__breadcrumb" aria-label="Breadcrumb">
+      <a href={withBase("/read/")}>Texts</a>
+      <span aria-hidden="true">/</span>
+      <a href={withBase(`/read/${work.id}/`)}>{work.short}</a>
+      {u.part && u.part.roman && (
+        <>
+          <span aria-hidden="true">/</span>
+          <a href={withBase(`/read/${work.id}/#${u.part.id}`)}>{u.part.label}</a>
+        </>
+      )}
+    </nav>
+
+    <header class="reader__head">
+      <p class="reader__meta">
+        <span class="rubric">{u.chapter ? `Chapter ${u.chapter}` : "Front matter"}</span>
+        <span class="muted small">{index + 1} of {total}</span>
+      </p>
+      <h1>{u.title}</h1>
+      {u.absorbs?.length > 0 && (
+        <p class="reader__absorb small">
+          The source edition prints no heading for
+          {u.absorbs.map((a, i) => (
+            <span>{i > 0 ? ", " : " "}chapter {a.num.toLowerCase()} (&ldquo;{a.title}&rdquo;)</span>
+          ))}, so its text runs on inside this chapter.
+        </p>
+      )}
+    </header>
+
+    <div class="reader__body">
+      <div class="reader__text" data-pagefind-body>
+        {
+          u.paragraphs.map((p, i) => (
+            <p id={`p${i}`} class={i === 0 ? "dropcap" : undefined}>
+              <a class="para-mark" href={`#p${i}`} aria-label={`Paragraph ${i + 1}`}>¶</a>
+              <Fragment set:html={renderParagraph(p, ranges[i])} />
+            </p>
+          ))
+        }
+      </div>
+
+      <aside class="reader__margin" aria-label="Apparatus for this chapter">
+        <div class="reader__controls">
+          <span class="rubric rubric--muted">Reading</span>
+          <div class="control-row">
+            <button type="button" class="icon-btn" data-toggle="quotes" aria-pressed="true">Quotations</button>
+            <button type="button" class="icon-btn" data-toggle="glosses" aria-pressed="true">Glossary</button>
+          </div>
+          <div class="control-row">
+            <button type="button" class="icon-btn" data-size="s" aria-label="Smaller text">A&minus;</button>
+            <button type="button" class="icon-btn" data-size="m" aria-label="Default text size">A</button>
+            <button type="button" class="icon-btn" data-size="l" aria-label="Larger text">A+</button>
+          </div>
+        </div>
+
+        {quoteRecords.length > 0 && (
+          <section class="margin-block">
+            <h2 class="rubric">Validated here</h2>
+            <p class="small muted">
+              {quoteRecords.length === 1 ? "A quotation" : `${quoteRecords.length} quotations`} from the
+              research ledger {quoteRecords.length === 1 ? "sits" : "sit"} in this chapter, highlighted in the text.
+            </p>
+            <ul class="margin-list">
+              {quoteRecords.map((q) => (
+                <li>
+                  <a class="margin-list__q" href={withBase(`/quotes/#${q.id}`)}>&ldquo;{q.text.slice(0, 64)}{q.text.length > 64 ? "…" : ""}&rdquo;</a>
+                  <span class="cluster">
+                    {q.tags.filter((t) => t !== "the-cost" && t !== "version-divergence").map((t) => (
+                      <span class="chip chip--plain">{tagLabel(t)}</span>
+                    ))}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {episodesHere.length > 0 && (
+          <section class="margin-block">
+            <h2 class="rubric">Told here</h2>
+            <ul class="margin-list">
+              {episodesHere.map((e) => (
+                <li><a href={withBase(`/stories/${e.id}/`)}>{e.title}</a>{e.why && <span class="small muted"> &mdash; {e.why}</span>}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {glossList.length > 0 && (
+          <section class="margin-block" data-layer="glosses">
+            <h2 class="rubric">Words</h2>
+            <p class="small muted">
+              From the edition&rsquo;s own glossary. It gives the sense a word <em>can</em> carry in this
+              book &mdash; context decides which.
+            </p>
+            <dl class="gloss-list">
+              {glossList.map((g) => (
+                <>
+                  <dt>{g.term}</dt>
+                  <dd>{g.gloss}</dd>
+                </>
+              ))}
+            </dl>
+          </section>
+        )}
+      </aside>
+    </div>
+
+    <nav class="reader__nav" aria-label="Chapter navigation">
+      {prevUnit ? (
+        <a class="reader__nav-link reader__nav-link--prev" href={withBase(`/read/${work.id}/${prev}/`)}>
+          <span class="rubric rubric--muted">Previous</span>
+          <span class="reader__nav-title">{prevUnit.label} &middot; {prevUnit.title}</span>
+        </a>
+      ) : <span />}
+      {nextUnit ? (
+        <a class="reader__nav-link reader__nav-link--next" href={withBase(`/read/${work.id}/${next}/`)}>
+          <span class="rubric rubric--muted">Next</span>
+          <span class="reader__nav-title">{nextUnit.label} &middot; {nextUnit.title}</span>
+        </a>
+      ) : <span />}
+    </nav>
+  </article>
+
+  <div class="gloss-tip" id="gloss-tip" role="status" aria-live="polite" hidden></div>
+</Layout>
+
+<script src="../../../lib/reader-ui.js"></script>
