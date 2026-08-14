@@ -3,9 +3,12 @@
 # Pure `astro build` — generated data (derived/, data/indexes/, …) is committed, so CI does NOT run
 # `prepare:data`. Project base is /Arthur-Portal (see astro.config.mjs).
 #
-# The configure-pages step enables Pages for the repository on first run, so no manual
-# Settings change is needed. Pages on a private repository requires a paid plan; on a public
-# repository it is always available.
+# ONE-TIME SETUP: Pages must be switched on for the repository before this workflow can
+# publish — Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+# The workflow cannot do this for itself: creating a Pages site requires admin scope, and the
+# job's GITHUB_TOKEN tops out at write (we tried `configure-pages` with `enablement: true` and
+# it returns "Resource not accessible by integration"). After that single click every push to
+# main deploys automatically.
 name: Deploy to GitHub Pages
 
 on:
@@ -35,12 +38,7 @@ jobs:
       - run: npm run build
       - run: npm run check:links
       - run: npm run qa:a11y
-      # `enablement: true` lets this workflow turn Pages on for the repository
-      # itself, using the job's own token, rather than requiring someone to flip
-      # it in Settings first. It is a no-op once Pages is already enabled.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
