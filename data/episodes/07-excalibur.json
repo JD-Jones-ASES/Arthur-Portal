@@ -1,0 +1,55 @@
+{
+  "id": "excalibur",
+  "title": "Excalibur and the Lady of the Lake",
+  "act": "making",
+  "order": 7,
+  "branch": "english",
+  "summary": "Arthur breaks the sword from the stone and is given a better one, on terms.",
+  "retelling": "The sword that made Arthur king does not last. He breaks it fighting King Pellinore, and is beaten, and is only saved because Merlin puts Pellinore to sleep.\n\nRiding on afterwards, Arthur says the thing that sets up everything: he has no sword. Merlin takes him to a lake, and in the middle of it Arthur sees an arm clothed in white samite, holding a sword.\n\nThere is a woman walking on the water. Merlin tells him she is the Lady of the Lake, and that if he asks courteously she will give him the sword. She does — on a condition, which is that she may ask a gift of him later, when she chooses. He agrees without asking what it is.\n\nThen Merlin asks him a question that is really the point of the scene: which does he like better, the sword or the scabbard? Arthur says the sword. Merlin tells him he is a fool: the scabbard is worth ten of the sword, because while he wears it he will lose no blood, however badly he is wounded.\n\nTwo things follow from this and both of them matter at the end of the book.\n\nThe first is that Arthur's second and better title to rule is not a miracle at all. It is a loan, from an otherworld that will want something back, and in the last chapter it takes the sword — an arm rises out of the water, catches Excalibur, shakes it three times and takes it under.\n\nThe second is the scabbard. Morgan le Fay steals it in Book IV and throws it into a lake where it cannot be found. It is never recovered. And in the last battle, Arthur takes a wound and bleeds.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "power granted, and revocable",
+      "take": "A gift with an unspecified debt attached, and a scabbard worth more than the blade — which is stolen four books later and never recovered.",
+      "quote_id": "malory-excalibur-returned"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "forged in Avalon, and simply owned",
+      "take": "Geoffrey's Caliburn is *best of swords, that was forged within the Isle of Avalon* — otherworldly in origin but not on loan. Nobody takes it back.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "carried into the vernaculars",
+      "take": "Wace and Layamon pass Geoffrey's Caliburn on to the romancers, along with the Round Table and the promise of return.",
+      "quote_id": "wace-round-table"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-25",
+      "why": "The arm in the lake, the unspecified gift, and Merlin's warning about the scabbard."
+    },
+    {
+      "unit": "malory-21-5",
+      "why": "The loan called in: the hand rises and takes the sword back."
+    }
+  ],
+  "cost": "Arthur accepts an open-ended debt to a power he does not understand, and loses the one part of the gift that would have saved his life. Both of those bills come due in the last book.",
+  "cuts": [
+    "source-of-rule",
+    "once-and-future"
+  ],
+  "characters": [
+    "arthur",
+    "merlin",
+    "nimue"
+  ],
+  "related": [
+    "sword-in-the-stone",
+    "morgan-and-accolon",
+    "excalibur-returned"
+  ],
+  "divergence": "In Geoffrey the sword is a possession. In Malory it is a loan, and the lake takes it back — which turns the regalia of the kingdom into a debt."
+}

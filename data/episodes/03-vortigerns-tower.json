@@ -1,0 +1,47 @@
+{
+  "id": "vortigerns-tower",
+  "title": "Vortigern's tower and the two dragons",
+  "act": "before",
+  "order": 3,
+  "branch": "chronicle",
+  "summary": "A tower that will not stand, a boy with no father, and the moment the legend acquires a prophet.",
+  "retelling": "King Vortigern, having invited Saxon mercenaries into Britain and discovered that they will not leave, retreats to Wales to build a fortress. The work fails every night: whatever is raised by day is found collapsed in the morning.\n\nHis advisers — magicians, in Geoffrey's telling — give him a remedy of the kind advisers give when they do not know. He must find a boy born without a father, kill him, and sprinkle his blood on the foundations.\n\nSuch a boy is found at Carmarthen, and brought, and he is not frightened. He asks the magicians what is under the foundations. They do not know. He tells them: a pool. They dig, and there is a pool. He tells them to drain it, and beneath it are two hollow stones, and in the stones two sleeping dragons, one red and one white. Drained of their water, the dragons wake and fight.\n\nThe boy is Merlin, and this is the moment the Matter of Britain acquires a prophet.\n\nHe interprets the fight — the red dragon is the Britons, the white the Saxons, and the Britons will be driven back before they recover — and then keeps going, into the long, dense, largely unintelligible sequence Geoffrey calls the *Prophecies of Merlin*, which prophesies a good deal more than anyone at the tower asked about.\n\nThe scene is doing something specific. It takes a king who has lost control of events and confronts him with a child who can see the mechanism underneath them, and it establishes the currency the whole tradition will trade in afterwards. From this point on, somebody in the story always knows what is going to happen. It will make no difference at all.",
+  "voices": [
+    {
+      "voice": "geoffrey",
+      "term": "the prophet arrives, and prophecy becomes politics",
+      "take": "Geoffrey builds Merlin out of Welsh materials and a fatherless boy in Nennius, and immediately puts him to work legitimating a dynasty.",
+      "quote_id": "geoffrey-boar-of-cornwall"
+    },
+    {
+      "voice": "malory",
+      "term": "skipped entirely",
+      "take": "Malory begins with Uther and Igraine and simply has Merlin already there, fully formed and already trusted. The origin is not his interest; the consequences are.",
+      "gap_note": "An absence rather than a position: Malory declines to tell this story at all."
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the fatherless boy",
+      "take": "The germ is in Nennius, where the boy at the tower is named Ambrosius, not Merlin. Geoffrey took the scene and gave it to a different character.",
+      "gap_note": "Present in the Historia Brittonum; the identification with Merlin is Geoffrey's own move."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-1",
+      "why": "Malory's Merlin walks on stage with no introduction at all, which is itself worth noticing."
+    }
+  ],
+  "cost": "The gift that arrives here is the gift of knowing in advance, and the tradition spends five centuries demonstrating that it saves nobody — including, in the end, the boy at the tower.",
+  "cuts": [
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "merlin",
+    "vortigern"
+  ],
+  "related": [
+    "merlins-prophecies",
+    "merlin-and-nimue"
+  ]
+}

@@ -32,6 +32,7 @@ async function main() {
 
   const problems = [];
   const warnings = [];
+  const thin = [];
 
   /* --- episodes --- */
   for (const e of episodes) {
@@ -80,7 +81,14 @@ async function main() {
     if (!c.one_line || c.one_line.length < 15) problems.push(`${where}: no one-line description`);
     if (!c.traditions?.length) problems.push(`${where}: no traditions listed — which branches is this figure in?`);
     if (c.rank === "principal") {
-      if ((c.arc ?? []).length < 3) problems.push(`${where}: a principal figure needs at least 3 arc stops, has ${(c.arc ?? []).length}`);
+      // A principal figure must be treated at length and must appear somewhere in
+      // the story index. The length of the arc is NOT a quality bar: Balin's whole
+      // life is one book of Malory, and Iseult appears in exactly one episode.
+      // Padding their itineraries to hit a number would be a worse sin than a
+      // short arc, so a thin arc is reported and not failed — it only means the
+      // figure cannot be "followed" through the text.
+      if (!(c.arc ?? []).length) problems.push(`${where}: a principal figure must appear in at least one episode`);
+      else if (c.arc.length < 3) thin.push(`${c.id} (${c.arc.length})`);
       const words = (c.dossier ?? "").split(/\s+/).filter(Boolean).length;
       if (words < 200) problems.push(`${where}: dossier is ${words} words (principal figures need 200+)`);
     }
@@ -101,6 +109,9 @@ async function main() {
   console.log(
     `Coverage: ${episodes.length} episodes, ${cuts.length} throughlines, ${characters.length} characters, ${voices.length} voices.`
   );
+  if (thin.length) {
+    console.log(`  · ${thin.length} principal figure(s) with a short arc — treated at length but not followable: ${thin.join(", ")}`);
+  }
   for (const w of warnings) console.log("  · " + w);
 
   if (problems.length) {

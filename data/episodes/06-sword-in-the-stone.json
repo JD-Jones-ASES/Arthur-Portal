@@ -1,0 +1,55 @@
+{
+  "id": "sword-in-the-stone",
+  "title": "The sword in the stone",
+  "act": "making",
+  "order": 6,
+  "branch": "english",
+  "summary": "A boy nobody has heard of pulls a sword out of an anvil because his brother forgot his.",
+  "retelling": "After Uther's death the realm stands in jeopardy for years, because nobody knows there is an heir. Merlin ends the interregnum by having the Archbishop of Canterbury summon every lord in the kingdom to London at Christmas, on pain of cursing, so that Jesus may *show some miracle who should be rightwise king of this realm.*\n\nIn the churchyard they find a great stone, and in it an anvil, and in the anvil a naked sword, and letters written in gold about it: *Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.*\n\nEvery lord tries. None of them can move it. Ten knights are set to guard it, and a tournament is proclaimed for New Year's Day so that the assay can continue.\n\nAnd then the story does something remarkable, which is to make the most important act in the book an accident of household logistics. Sir Ector rides to the tournament with his son Kay and his young foster-son. Kay, newly knighted, finds he has left his sword at their lodging and asks the boy to fetch it. The lodging is locked; everyone has gone to see the jousting. The boy thinks: there is a sword in a churchyard back there, and my brother needs one.\n\nHe rides to the churchyard, takes hold of the sword, and it comes out.\n\nHe does not know what it is. Malory is careful about this. Arthur has no idea he has done anything except solve a small practical problem for his brother, and when Ector realises and kneels, the boy is distressed and asks why his own father is kneeling to him. Ector has to tell him he is not his father, and Arthur weeps.\n\nHe pulls it out again for the barons, and again, and again, all through Candlemas and Easter, and the great lords refuse to accept it. It is the commons who finally shout them down.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "election by grace, delivered by accident",
+      "take": "The claim is written on the anvil for anyone to read, and the boy who fulfils it is not trying to. Sovereignty arrives as an errand.",
+      "quote_id": "malory-sword-in-stone"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no stone at all",
+      "take": "Geoffrey's Arthur inherits. There is no test, no churchyard and no miracle — he is crowned at fifteen because his father is dead and the succession is clear.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "the war-leader who simply wins",
+      "take": "Nennius has no throne to inherit or draw. Authority is demonstrated in the field, twelve times.",
+      "quote_id": "nennius-twelve-battles"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-5",
+      "why": "The stone, the writing on it, and the errand that fulfils it."
+    },
+    {
+      "unit": "malory-1-6",
+      "why": "Arthur pulls it out again and again while the barons refuse to accept him."
+    }
+  ],
+  "cost": "The miracle settles nothing. The great lords reject it for months, the commons have to force the issue, and Arthur spends his first years at war with the men who were in that churchyard.",
+  "cuts": [
+    "source-of-rule"
+  ],
+  "characters": [
+    "arthur",
+    "merlin",
+    "kay",
+    "ector"
+  ],
+  "related": [
+    "excalibur",
+    "uther-and-igraine",
+    "the-round-table"
+  ],
+  "divergence": "This is the most famous scene in the legend and Geoffrey — who invented King Arthur — has never heard of it. It arrives with the French romances, three centuries later."
+}

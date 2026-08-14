@@ -1,0 +1,53 @@
+{
+  "id": "pentecostal-oath",
+  "title": "The Pentecostal Oath",
+  "act": "making",
+  "order": 11,
+  "branch": "english",
+  "summary": "The Round Table is given a constitution — and the rest of the book records its breach.",
+  "retelling": "At the first great feast of his reign, Arthur binds his knights by an oath, and Malory sets out its clauses:\n\nNever to do outrage or murder. Always to flee treason. By no means to be cruel, but to give mercy to whoever asks for mercy, on pain of forfeiting their worship and lordship for ever. Always to give ladies, gentlewomen and widows their rights, and never to force them. And never to take up a battle in a wrongful quarrel, for love or for worldly goods.\n\nIt is a serious document. It binds the strongest men in the country to protect the people least able to resist them, and it is renewed every year at Pentecost — the knights swear it again, all of them, annually, which means nobody at that table can ever claim not to have known.\n\nThe book then spends eighteen further books showing them break every clause.\n\nGawain kills a lady in his very first adventure, three chapters after the oath is sworn: he strikes at a knight who is pleading for mercy, the knight's lady throws herself over him, and Gawain's stroke takes off her head. He is sent home in disgrace with the body tied in front of him.\n\nBalin has already laid three kingdoms waste. Lamorak will be murdered four-to-one by men who then keep their seats. Lancelot will commit treason in the most literal sense the law recognised. Gawain will refuse mercy to Lancelot at the walls of Benwick and drag his king into a war that loses the kingdom.\n\nThe oath is not undone by Camelot's enemies. It is undone, clause by clause, by the men who swore it, and the institution that forbids the violence is the same institution that gathers the men capable of it into one hall and gives them nothing to do for most of the year.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a charter, and the record of its breach",
+      "take": "Sworn annually by everyone, and broken by the best. The book is the minutes of the violations.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "gawain-romances",
+      "term": "the clause that was never written",
+      "take": "Gawain keeps every article of the code for a year and fails anyway, because he conceals a girdle that he is told will save his life. No oath legislates against fear of death.",
+      "quote_id": "sggk-green-girdle"
+    },
+    {
+      "voice": "chretien",
+      "term": "the oath audited from inside one conscience",
+      "take": "Chretien's romances ask a different question: not whether the code is broken, but what keeping it costs the man who keeps it.",
+      "gap_note": "Shown across Yvain and Erec as a structure rather than stated in a line."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-3-15",
+      "why": "The oath itself, sworn at the end of the chapter."
+    },
+    {
+      "unit": "malory-19-11",
+      "why": "The healing of Sir Urre, where the whole fellowship is named at its height — the last time they are all together."
+    }
+  ],
+  "cost": "The excellence and the failure are the same institution. A sworn brotherhood of the strongest men alive produces exactly the violence its charter forbids, and the loyalty that binds it is the seam along which it finally tears.",
+  "cuts": [
+    "the-fellowship"
+  ],
+  "characters": [
+    "arthur",
+    "gawain",
+    "lancelot"
+  ],
+  "related": [
+    "the-round-table",
+    "green-girdle",
+    "gareth-slain"
+  ]
+}

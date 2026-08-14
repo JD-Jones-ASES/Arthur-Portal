@@ -1,0 +1,19 @@
+{
+  "id": "elaine-astolat",
+  "name": "Elaine of Astolat",
+  "rank": "company",
+  "role": "the Fair Maid of Astolat",
+  "one_line": "The girl who asked Lancelot to love her, was refused kindly, and died of it — and made sure he knew.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Lancelot lodges at Astolat before a tournament and, to disguise himself, wears her sleeve on his helm — the only favour he has ever worn from any woman. She takes it to mean what it would normally mean. When he leaves she asks him to marry her, and then to be his mistress, and he refuses both as gently as he can and offers her money and a husband instead, which is worse. She stops eating. She dictates a letter, has it put in her hand, and asks to be laid in a barge and steered down the river to Westminster, and the barge arrives at the court with the letter in her fist. Malory gives her the last word and does not editorialise.",
+  "arc": [
+    {
+      "episode": "maid-of-astolat",
+      "note": "the sleeve, the refusal, and the barge"
+    }
+  ]
+}

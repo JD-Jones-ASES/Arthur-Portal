@@ -1,0 +1,49 @@
+{
+  "id": "may-day-children",
+  "title": "The children of May Day",
+  "act": "making",
+  "order": 8,
+  "branch": "english",
+  "summary": "Told that a child born on May Day will destroy him, Arthur has every one of them set adrift.",
+  "retelling": "Before he is married, and without knowing who she is, Arthur sleeps with the wife of King Lot of Orkney, who has come to his court as a spy. She is Morgause, his half-sister on his mother's side. Neither of them knows.\n\nMerlin tells him afterwards, and does not soften it: Arthur has begotten a child who will destroy him and all the knights of his realm.\n\nWhat Arthur does next is the worst thing he ever does, and Malory reports it in a single flat chapter. He has it proclaimed that all the lords in the country must send him every child born on May Day, gentleborn or not. They are sent, many of them, and put together into a ship, and the ship is put out to sea.\n\nThe ship is driven onto rocks and breaks up. Most of the children drown. One is found by a good man and fostered until he is fourteen, and then brought to court.\n\nThat child is Mordred.\n\nMalory adds one more sentence, which is the most damning thing in the chapter: many lords and barons of the realm were angry that their children were lost, and *many put the wite on Merlin more than on Arthur* — many blamed Merlin rather than Arthur. He does not say whether they were right.\n\nThis is the story's clearest statement of what foreknowledge is worth. Arthur is given accurate information about the future. He acts on it decisively, at enormous moral cost, and the action he takes is the mechanism by which the prophecy comes true: had he done nothing, Mordred would have grown up in Orkney as one nephew among four.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "an atrocity that causes what it prevents",
+      "take": "Arthur is told the truth, believes it, acts on it, and thereby brings it about. Malory reports the drowned children in one paragraph and moves on.",
+      "quote_id": "malory-merlin-and-nimue"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no incest, no prophecy, no children",
+      "take": "Geoffrey's Mordred is simply a nephew who seizes the crown while his uncle is abroad. The whole apparatus of guilt is a French addition.",
+      "quote_id": "geoffrey-arthur-to-avalon"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-19",
+      "why": "Merlin tells Arthur what he has begotten."
+    },
+    {
+      "unit": "malory-1-27",
+      "why": "The children gathered, the ship, and the one who survives."
+    }
+  ],
+  "cost": "Arthur commits infanticide on a large scale to avoid a prophecy, and by doing so guarantees it. His son grows up elsewhere, knowing what was done, and comes back.",
+  "cuts": [
+    "foreknowledge-and-doom",
+    "source-of-rule"
+  ],
+  "characters": [
+    "arthur",
+    "merlin",
+    "morgause",
+    "mordred"
+  ],
+  "related": [
+    "merlins-prophecies",
+    "mordreds-usurpation",
+    "camlann"
+  ]
+}

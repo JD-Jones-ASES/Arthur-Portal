@@ -1,0 +1,26 @@
+{
+  "id": "anfortas",
+  "name": "Anfortas",
+  "rank": "company",
+  "role": "the Grail King",
+  "one_line": "Wounded for loving the wrong woman, unable to die, and healed at last by one question asked out of pity.",
+  "traditions": [
+    "german",
+    "french"
+  ],
+  "branch": "german",
+  "dossier": "Wolfram's Grail king is *the gentle monarch, who was courteous as he was bold*, and he is maimed through the thighs by a poisoned spear because he served a love the Grail had not appointed for him. He cannot die, because the Grail sustains him; he cannot heal, because nothing in the world will do it. His household waits for a knight to arrive and ask the question. Parzival comes, and does not ask, and years pass. When he comes back and asks what ails him, Anfortas is cured. The whole of Wolfram's argument is in that: not purity, not penance, not a relic. Somebody noticing.",
+  "quotes": [
+    "wolfram-anfortas-wounded"
+  ],
+  "arc": [
+    {
+      "episode": "parzival-at-munsalvaesche",
+      "note": "the question not asked"
+    },
+    {
+      "episode": "anfortas-healed",
+      "note": "the question asked"
+    }
+  ]
+}

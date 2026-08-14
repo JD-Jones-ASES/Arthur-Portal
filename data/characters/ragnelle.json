@@ -1,0 +1,22 @@
+{
+  "id": "ragnelle",
+  "name": "Dame Ragnelle",
+  "rank": "company",
+  "role": "the loathly lady",
+  "one_line": "The ugliest woman in England, who knows what women most desire, and marries Gawain for it.",
+  "traditions": [
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Arthur must answer a riddle within a year on pain of death: what is it that women most desire? Ragnelle knows, and will sell the answer for one price — marriage to Gawain, who agrees without hesitation to save his king. The answer is sovereignty: to have rule over themselves and over men. On the wedding night she turns beautiful, and offers Gawain a choice: fair by day and foul by night, or the reverse. He gives the choice back to her. That is the correct answer, and it breaks the enchantment entirely.",
+  "arc": [
+    {
+      "episode": "dame-ragnelle",
+      "note": "the riddle, the marriage, and the choice given back"
+    }
+  ],
+  "quotes": [
+    "ragnelle-riddle",
+    "ragnelle-sovereignty"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "balin-and-the-dolorous-stroke",
+  "title": "Balin, and the Dolorous Stroke",
+  "act": "making",
+  "order": 9,
+  "branch": "english",
+  "summary": "A good knight, cornered and weaponless, grabs the nearest spear — and lays three kingdoms waste.",
+  "retelling": "Balin is poor and has just come out of prison for killing a cousin of Arthur's. A damsel arrives at court with a sword girded on her, which can only be drawn by a knight *passing good of his hands and of his deeds, and without villainy or treachery*. Every knight at court tries. Balin, badly dressed and unregarded, draws it easily.\n\nThe damsel asks for it back and warns him: with that sword he will kill the man he loves best in the world, and it will be his own destruction. He keeps it.\n\nFrom there nothing he does works. He beheads the Lady of the Lake in front of Arthur, over a blood feud, and is banished. A knight rides after him and Balin kills him; the dead man's lady kills herself over the body. A knight under Balin's protection is killed by an invisible attacker. Trying to avenge him, Balin is trapped in King Pellam's castle with a broken sword and no weapon.\n\nCornered, he runs through the rooms looking for anything to fight with, and finds a chamber with a table of gold and a spear standing beside it. He takes the spear and strikes Pellam with it.\n\nThe castle falls down on both of them. Three days later Merlin digs Balin out. Riding away, he passes through country where the people are dead in the fields, and those still alive cry out at him that he has destroyed them.\n\nMerlin tells him what he has done: the spear was the one that pierced Christ's side, Pellam is of Joseph of Arimathea's line, and *for the dolorous stroke thou gavest unto King Pellam three countries are destroyed, and doubt not but the vengeance will fall on thee at the last.*\n\nIt does. He and his brother Balan meet in a field in strange armour, fight without recognising each other, and die of it.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "catastrophe without a villain",
+      "take": "One blow sterilises three kingdoms, and the man who struck it was defending himself with the only object in the room.",
+      "quote_id": "malory-dolorous-stroke"
+    },
+    {
+      "voice": "wolfram",
+      "term": "a wound with a cure",
+      "take": "Wolfram's maimed king is wounded for a forbidden love, and can be healed — by a question asked out of pity. Nothing heals Balin's countries.",
+      "quote_id": "wolfram-anfortas-wounded"
+    },
+    {
+      "voice": "grail-romances",
+      "term": "the land as a lock",
+      "take": "In the Grail romances the wasteland is a condition waiting for the right knight to arrive and lift it. Malory places the damage first and the remedy eleven books later.",
+      "gap_note": "Carried across the Queste and Perlesvaus as a structure rather than a single quotable line."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-2-1",
+      "why": "The sword drawn, and the warning Balin ignores."
+    },
+    {
+      "unit": "malory-2-15",
+      "why": "Cornered, he takes the spear from the wall."
+    },
+    {
+      "unit": "malory-2-16",
+      "why": "Merlin names the damage and the debt."
+    },
+    {
+      "unit": "malory-2-18",
+      "why": "The brothers kill each other without recognition."
+    }
+  ],
+  "cost": "Three countries, permanently. The wasteland at the centre of the Grail quest is created in Book II by a decent man in a bad corner, and nobody in the story is to blame for it in any way that helps.",
+  "cuts": [
+    "the-wound-and-wasteland",
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "balin",
+    "merlin",
+    "pelles",
+    "arthur"
+  ],
+  "related": [
+    "grail-enters-camelot",
+    "corbenic"
+  ],
+  "divergence": "Wolfram's wasteland is a moral condition with a remedy. Malory's is damage, and the land stays dead."
+}

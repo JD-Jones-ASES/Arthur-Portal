@@ -1,0 +1,26 @@
+{
+  "id": "mark",
+  "name": "King Mark",
+  "rank": "company",
+  "role": "King of Cornwall",
+  "one_line": "Tristram's uncle: jealous, treacherous, and the only villain in Malory who is simply small.",
+  "traditions": [
+    "welsh",
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Mark is unusual in this book because he has no grandeur at all. He spies, he lies, he sets ambushes, he murders men who are unarmed or asleep, and he flees fights. He imprisons Tristram repeatedly and finally kills him with a sword while he sits harping before Iseult. Malory clearly despises him, and uses him as the measure of what a king can be when nothing about him is noble.",
+  "kin": [
+    {
+      "id": "tristram",
+      "relation": "nephew",
+      "label": "Tristram"
+    },
+    {
+      "id": "isoude",
+      "relation": "wife",
+      "label": "Iseult"
+    }
+  ]
+}

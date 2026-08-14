@@ -1,0 +1,18 @@
+{
+  "id": "vortigern",
+  "name": "Vortigern",
+  "rank": "company",
+  "role": "King of the Britons",
+  "one_line": "The king who invited the Saxons in, and whose collapsing tower produced Merlin.",
+  "traditions": [
+    "chronicle"
+  ],
+  "branch": "chronicle",
+  "dossier": "Vortigern hires Saxon mercenaries to hold off the Picts and cannot get rid of them. Trying to build a fortress, he finds the walls fall down every night; his advisers tell him to sprinkle the foundations with the blood of a boy who has no father. The boy they bring is Merlin, who tells them instead to dig, and beneath the foundations they find a pool, and in the pool two sleeping dragons, red and white, who wake and fight — and Merlin explains that the red is the Britons and the white the Saxons, and delivers the prophecies. It is the moment the legend acquires a prophet.",
+  "arc": [
+    {
+      "episode": "vortigerns-tower",
+      "note": "the tower that will not stand, and the boy with no father"
+    }
+  ]
+}

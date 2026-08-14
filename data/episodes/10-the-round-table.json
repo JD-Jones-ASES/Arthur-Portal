@@ -1,0 +1,55 @@
+{
+  "id": "the-round-table",
+  "title": "Guinevere, and the Table as a dowry",
+  "act": "making",
+  "order": 10,
+  "branch": "english",
+  "summary": "Arthur marries the woman he is warned about, and the Round Table arrives as her father's wedding gift.",
+  "retelling": "Arthur tells Merlin he must take a wife, and Merlin asks whether there is anyone he loves more than another. Arthur says yes: Guinevere, daughter of King Leodegrance, whom he has seen and never forgotten.\n\nMerlin's answer is one of the most extraordinary passages in the book. He agrees that she is beautiful, and then tells the king plainly that she is not wholesome for him — that Lancelot will love her and she him. He offers to find another. Arthur says no.\n\nSo Merlin goes to Leodegrance, who is delighted, and says that the best gift he can send is not land, because Arthur has land enough. He will send the Round Table, which Uther Pendragon gave him, and a hundred knights with it. The table seats a hundred and fifty; fifty places are empty, and Merlin fills twenty-eight of them.\n\nTwo things about this are worth pausing on.\n\nThe first is that the Round Table arrives as a wedding present from the bride's father, attached to the marriage that will eventually destroy it. The institution and the fault line enter the book in the same chapter.\n\nThe second is the warning. Arthur is told the truth about his marriage, before it happens, by someone who has never been wrong. And he marries her anyway — not out of ignorance, and not out of foolishness, but because he wants to. Malory does not condemn him for it. He simply lets it stand, and the reader carries it for another seventeen books.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "the warning, and the wedding anyway",
+      "take": "Merlin tells Arthur that Guinevere and Lancelot will love each other. Arthur marries her. The book never mentions the warning again and never needs to.",
+      "quote_id": "malory-love-nowadays"
+    },
+    {
+      "voice": "chroniclers",
+      "term": "a table engineered against rank",
+      "take": "Wace invents it as a device: chairs high alike, none before or after his comrade, so that no man could boast of being exalted above his fellow.",
+      "quote_id": "wace-round-table"
+    },
+    {
+      "voice": "vulgate",
+      "term": "a kin-network with a fault line",
+      "take": "The cycle makes the fellowship a web of blood loyalty — its strength, and the seam along which it will split in half.",
+      "quote_id": "vulgate-lancelot-loves-queen"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-3-1",
+      "why": "Merlin's warning, and Leodegrance's gift."
+    },
+    {
+      "unit": "malory-3-2",
+      "why": "The sieges blessed, and the empty places."
+    }
+  ],
+  "cost": "The order and the affair that will end it arrive in the same transaction, with a prophecy attached, and everyone proceeds.",
+  "cuts": [
+    "the-fellowship",
+    "courtly-love",
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "arthur",
+    "guinevere",
+    "merlin"
+  ],
+  "related": [
+    "pentecostal-oath",
+    "wace-invents-the-table",
+    "the-queen-taken"
+  ]
+}

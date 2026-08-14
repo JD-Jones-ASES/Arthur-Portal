@@ -1,0 +1,26 @@
+{
+  "id": "percivals-sister",
+  "name": "Percival's sister",
+  "rank": "company",
+  "role": "a nun of the Grail quest",
+  "one_line": "The only person on the quest who gives everything, and the only one the story does not name.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "french",
+  "dossier": "She guides the three Grail knights, explains the ship and the sword and the girdle, and cuts off her own hair to weave a new belt for it. At a castle whose custom is that any passing gentlewoman must give a dish of blood to cure the lady of the house, she volunteers, is bled until she dies, and asks to be put in a boat and sent after them. Her body arrives at the Grail city ahead of them. She achieves as much as Galahad and has no name of her own in the text.",
+  "kin": [
+    {
+      "id": "percival",
+      "relation": "brother",
+      "label": "Percival"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "percival-bors-and-the-sister",
+      "note": "gives the blood, and dies of it"
+    }
+  ]
+}

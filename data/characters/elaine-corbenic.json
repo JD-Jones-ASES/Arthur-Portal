@@ -1,0 +1,36 @@
+{
+  "id": "elaine-corbenic",
+  "name": "Elaine of Corbenic",
+  "rank": "company",
+  "role": "daughter of King Pelles",
+  "one_line": "Deceived Lancelot into her bed by enchantment, bore Galahad, and loved him for the rest of her life.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "french",
+  "dossier": "Elaine is given a ring and an enchantment that make her appear to be Guinevere, and Lancelot goes to her bed believing she is the queen. In the morning he draws his sword and she asks him to spare her, and he does. She bears Galahad. Later, when she uses the same trick a second time and Guinevere discovers it, Lancelot goes mad and wanders for two years; Elaine finds him, and it is she who has him carried into the room where the Grail heals him. She never stops loving him and he never returns it. Malory's treatment of her is unusually unsparing about what she has actually done and unusually gentle about why.",
+  "kin": [
+    {
+      "id": "pelles",
+      "relation": "father",
+      "label": "King Pelles"
+    },
+    {
+      "id": "galahad",
+      "relation": "son",
+      "label": "Galahad"
+    },
+    {
+      "id": "lancelot",
+      "relation": "father of her son",
+      "label": "Lancelot"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "elaine-and-galahad",
+      "note": "the enchantment, and the child"
+    }
+  ]
+}

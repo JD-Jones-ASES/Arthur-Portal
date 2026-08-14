@@ -1,0 +1,31 @@
+{
+  "id": "lionel",
+  "name": "Sir Lionel",
+  "rank": "company",
+  "role": "knight of the Round Table",
+  "one_line": "Bors's brother, left to be beaten so that a stranger could be saved — and he never forgave it.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "french",
+  "dossier": "Lionel is captured and being flogged with thorns when Bors, riding past, sees at the same moment a woman about to be raped a little further on. Bors can only reach one. He chooses the woman. Lionel survives, and the grievance rots: he later attacks his own brother and kills a knight and a hermit who try to stop him, and Bors will not raise a sword against him. It is the best moral problem in the Grail quest and the cycle refuses to resolve it comfortably.",
+  "kin": [
+    {
+      "id": "bors",
+      "relation": "brother",
+      "label": "Bors"
+    },
+    {
+      "id": "lancelot",
+      "relation": "cousin",
+      "label": "Lancelot"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "percival-bors-and-the-sister",
+      "note": "left to be beaten, and never forgives it"
+    }
+  ]
+}

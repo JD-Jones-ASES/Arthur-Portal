@@ -1,0 +1,31 @@
+{
+  "id": "gaheris",
+  "name": "Sir Gaheris",
+  "rank": "company",
+  "role": "knight of the Round Table",
+  "one_line": "Gawain's brother, who beheaded his own mother — and died unarmed beside Gareth.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Gaheris finds his mother Morgause in bed with Lamorak and cuts off her head, sparing Lamorak because killing an unarmed man would be dishonourable. Malory records the reasoning without comment. He dies with Gareth in the crowd at the queen's burning, unarmed and unrecognised, killed by Lancelot.",
+  "kin": [
+    {
+      "id": "gawain",
+      "relation": "brother",
+      "label": "Gawain"
+    },
+    {
+      "id": "morgause",
+      "relation": "mother",
+      "label": "Morgause"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "gareth-slain",
+      "note": "killed unarmed, with his brother"
+    }
+  ]
+}

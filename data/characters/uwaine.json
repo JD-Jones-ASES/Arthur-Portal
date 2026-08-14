@@ -1,0 +1,38 @@
+{
+  "id": "uwaine",
+  "name": "Sir Uwaine",
+  "rank": "company",
+  "role": "knight of the Round Table",
+  "one_line": "Morgan le Fay's son, banished for his mother's crimes, and the best-tempered knight in the book.",
+  "traditions": [
+    "welsh",
+    "french",
+    "english"
+  ],
+  "branch": "french",
+  "dossier": "Uwaine is exiled from court merely for being Morgan's son, after her attempt on Arthur's life; Gawain, disgusted, leaves with him. He is the French Yvain, hero of Chretien's finest romance, where he wins a lady by killing her husband, loses her by forgetting a promise, goes mad in a forest, and rebuilds himself by rescuing a lion from a serpent — after which the lion follows him for the rest of the poem.",
+  "aka": [
+    {
+      "form": "Owain",
+      "tradition": "welsh"
+    },
+    {
+      "form": "Yvain",
+      "tradition": "french",
+      "note": "Chretien's Knight of the Lion"
+    }
+  ],
+  "kin": [
+    {
+      "id": "morgan",
+      "relation": "mother",
+      "label": "Morgan le Fay"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "yvain-and-the-lion",
+      "note": "the promise forgotten, the madness, and the lion"
+    }
+  ]
+}

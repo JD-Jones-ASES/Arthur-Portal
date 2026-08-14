@@ -1,0 +1,42 @@
+{
+  "id": "pelles",
+  "name": "King Pelles",
+  "rank": "company",
+  "role": "the Maimed King, keeper of the Grail",
+  "one_line": "The wounded king in the castle where the Grail is kept — Galahad's grandfather, and the author of the deception that produced him.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "french",
+  "dossier": "Pelles keeps the Grail at Corbenic and is wounded, in Malory, by the same stroke that laid three countries waste. He also arranges, knowingly, for his daughter Elaine to deceive Lancelot into her bed by enchantment, because he has been told that their child will achieve the Grail. It is a startling thing for the holiest household in the book to do, and Malory does not soften it: the Grail's own guardians engineer a rape by deception to produce the knight who will end the quest.",
+  "aka": [
+    {
+      "form": "the Fisher King",
+      "tradition": "french",
+      "note": "the roles of Pelles, Pellam and the Fisher King blur across the tradition"
+    }
+  ],
+  "kin": [
+    {
+      "id": "elaine-corbenic",
+      "relation": "daughter",
+      "label": "Elaine of Corbenic"
+    },
+    {
+      "id": "galahad",
+      "relation": "grandson",
+      "label": "Galahad"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "balin-and-the-dolorous-stroke",
+      "note": "struck with the spear that pierced Christ"
+    },
+    {
+      "episode": "elaine-and-galahad",
+      "note": "arranges the deception that produces the Grail knight"
+    }
+  ]
+}

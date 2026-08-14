@@ -1,0 +1,31 @@
+{
+  "id": "ector",
+  "name": "Sir Ector",
+  "rank": "company",
+  "role": "knight, Arthur's foster-father",
+  "one_line": "The man who raised the king without knowing it, and knelt to him when he found out.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Ector is given Arthur as an infant by Merlin, at Uther's order, and raises him alongside his own son Kay without being told whose child he has. When the sword comes out of the stone he makes the boy do it twice more to be sure, and then kneels — and Arthur, distraught, asks why his father is kneeling to him. Ector's request is simply that Kay be made seneschal. It is the most decent scene in the first book.",
+  "kin": [
+    {
+      "id": "kay",
+      "relation": "son",
+      "label": "Sir Kay"
+    },
+    {
+      "id": "arthur",
+      "relation": "foster-son",
+      "label": "Arthur"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "sword-in-the-stone",
+      "note": "makes the boy prove it twice more, then kneels"
+    }
+  ]
+}

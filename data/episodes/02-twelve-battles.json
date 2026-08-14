@@ -1,0 +1,46 @@
+{
+  "id": "twelve-battles",
+  "title": "The twelve battles",
+  "act": "before",
+  "order": 2,
+  "branch": "chronicle",
+  "summary": "The first Arthur on record is not a king but a war-leader with a list of victories.",
+  "retelling": "Around 830, in a Welsh compilation called the *Historia Brittonum* and attributed to a monk named Nennius, Arthur appears for the first time in a text we can date.\n\nHe is not a king. The word used is *dux bellorum* — leader of battles — and Nennius is explicit that he fought alongside the kings of the Britons rather than over them. What follows is a list of twelve engagements, given by place-name, most of which nobody has been able to identify since.\n\nThe twelfth is Badon, and Nennius's account of it is the reason the passage is so hard to use: *The twelfth was a most severe contest, when Arthur penetrated to the hill of Badon. In this engagement, nine hundred and forty fell by his hand alone, no one but the Lord affording him assistance.*\n\nNine hundred and forty men, by one hand, in one day.\n\nThis is the moment the historical question becomes genuinely difficult. The earliest surviving Arthur is already a figure of legend — the number is not a report, it is a battle-poem's boast, and it is being copied into what looks like a chronicle. Whatever lies underneath it, we are not reading a record. We are reading praise poetry that has been filed in the wrong drawer.\n\nWhat Nennius does establish is the *kind* of authority this Arthur has, and it is worth noticing how different it is from anything later. He is not elected, not crowned, not descended from anyone in particular. He wins. That is the whole of his claim, and it will be the last time the tradition is content with it.",
+  "voices": [
+    {
+      "voice": "chroniclers",
+      "term": "a war-leader, legitimated by winning",
+      "take": "Nennius gives Arthur no throne and no lineage — only a list of victories and a number no one can take literally.",
+      "quote_id": "nennius-twelve-battles"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "the war-leader promoted",
+      "take": "Geoffrey takes the battle-list and builds a reign on it: descent from Troy, a court, a conquest of Gaul, and a war with Rome.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    },
+    {
+      "voice": "mabinogion",
+      "term": "the head of a war-band",
+      "take": "The Welsh tales keep a version of this Arthur — surrounded by extraordinary retainers, claimed by kinsmen, and nothing like a sovereign presiding over a court.",
+      "gap_note": "Shown across Culhwch as a manner of dealing rather than stated in a line."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-19",
+      "why": "By Malory the war-leader has become a king who rides out and dreams — the Questing Beast in place of the battle-list."
+    }
+  ],
+  "cost": "A leader defined only by victory has no answer when he stops winning. Every later tradition adds a second source of legitimacy — election, descent, the otherworld — and each one of them becomes a fault line.",
+  "cuts": [
+    "source-of-rule"
+  ],
+  "characters": [
+    "arthur"
+  ],
+  "related": [
+    "gildas-silence",
+    "vortigerns-tower"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "green-knight",
+  "name": "The Green Knight",
+  "rank": "company",
+  "role": "a challenger",
+  "one_line": "A green giant who rides into Camelot at Christmas, is beheaded, picks up his head, and rides out again.",
+  "traditions": [
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "He arrives on New Year's, entirely green, holly in one hand and an axe in the other, and offers a game: any man may strike him, on condition of taking the return blow in a year and a day. Gawain takes it and beheads him; the body picks the head up, the head names the meeting place, and they ride out. A year later Gawain discovers that the giant is also Bertilak, the host who has been testing him for three days, and that the whole arrangement was designed by Morgan le Fay to frighten Guinevere. He lets Gawain go with a nick in the neck, for the one day he concealed the girdle, and thinks him the finest knight he has met.",
+  "aka": [
+    {
+      "form": "Bertilak de Hautdesert",
+      "tradition": "english",
+      "note": "his name in the host's shape"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "green-knight",
+      "note": "the beheading game"
+    },
+    {
+      "episode": "green-girdle",
+      "note": "the return blow, and the nick"
+    }
+  ]
+}

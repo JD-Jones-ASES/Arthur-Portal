@@ -1,0 +1,13 @@
+{
+  "id": "constantine",
+  "name": "Constantine",
+  "rank": "company",
+  "role": "King of Britain after Arthur",
+  "one_line": "The man handed the crown at the end, whom almost nobody remembers.",
+  "traditions": [
+    "chronicle",
+    "english"
+  ],
+  "branch": "chronicle",
+  "dossier": "In both Geoffrey and Malory, Arthur gives the kingdom to Constantine, his kinsman, before he is carried away. It is a small detail with a large implication: the succession is completed. Whatever Avalon is, the realm has been formally handed on, and the government of Britain proceeds — which sits oddly beside the promise that Arthur will return to it."
+}

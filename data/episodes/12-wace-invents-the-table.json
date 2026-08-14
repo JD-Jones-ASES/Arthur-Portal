@@ -1,0 +1,48 @@
+{
+  "id": "wace-invents-the-table",
+  "title": "Wace invents the Round Table",
+  "act": "making",
+  "order": 12,
+  "branch": "chronicle",
+  "summary": "In 1155 a Norman poet solves a seating problem, and creates the most durable image in the legend.",
+  "retelling": "The Round Table is not ancient. It has no place in Nennius, none in the Welsh tales, and none in Geoffrey of Monmouth. It appears for the first time in 1155, in a French verse rendering of Geoffrey made by a Jersey clerk called Wace, and he tells us exactly what it is for.\n\nArthur's barons, he writes, were each so proud of their own worth that no one could say which was the best. So Arthur made a round table, of which the Britons tell many tales — and Wace explains the mechanism: the knights sat *even about the board, and were served with equal courtesy. None of these could boast he sat higher than his peer* — the chairs high alike, the service equal, and none before or after his comrade.\n\nIt is a piece of furniture designed to solve a political problem. Precedence at a medieval table was not a nicety; it was a public statement of rank, and it produced quarrels, and quarrels between armed men produced deaths. A table with no head abolishes the question by abolishing the geometry that raises it.\n\nWhich means the Round Table enters the tradition already knowing what it is afraid of. Wace does not present it as a symbol of brotherhood or a mystical fellowship. He presents it as engineering, undertaken because Arthur's own knights could not be trusted not to fight about seating.\n\nEverything the later tradition builds on it — the sieges with names written on them, the Siege Perilous that kills the unworthy, the annual oath, the empty places after the Grail quest — is built on a solution to the problem of pride among violent men. And in the end the order is destroyed by pride among violent men.",
+  "voices": [
+    {
+      "voice": "chroniclers",
+      "term": "furniture as political engineering",
+      "take": "Wace states the purpose outright: so that no man could boast he was exalted above his fellow. The fracture is anticipated in the shape of the object.",
+      "quote_id": "wace-round-table"
+    },
+    {
+      "voice": "malory",
+      "term": "the table with a constitution attached",
+      "take": "By Malory it seats a hundred and fifty, arrives as a dowry, and has a sworn code — and every clause of the code is broken by the men in the chairs.",
+      "quote_id": "malory-pentecostal-oath"
+    },
+    {
+      "voice": "geoffrey",
+      "term": "no table at all",
+      "take": "The man who invented King Arthur has no Round Table. It is added twenty years after him, by his own translator.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-3-2",
+      "why": "The sieges ordained and blessed — the table as an institution with named places."
+    }
+  ],
+  "cost": "A device for suppressing rivalry among armed men works for exactly as long as nothing serious is at stake, and the tradition spends three centuries showing what happens afterwards.",
+  "cuts": [
+    "the-fellowship",
+    "source-of-rule"
+  ],
+  "characters": [
+    "arthur"
+  ],
+  "related": [
+    "the-round-table",
+    "pentecostal-oath"
+  ],
+  "divergence": "The most famous object in the legend is a twelfth-century invention with a stated practical purpose. Geoffrey, who created the King Arthur it belongs to, had never heard of it."
+}

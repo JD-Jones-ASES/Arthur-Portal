@@ -1,0 +1,53 @@
+{
+  "id": "uther-and-igraine",
+  "title": "Uther, Igraine, and the night at Tintagel",
+  "act": "before",
+  "order": 5,
+  "branch": "english",
+  "summary": "The king wants another man's wife, and a magician arranges it — for a fee.",
+  "retelling": "Uther Pendragon summons the Duke of Cornwall to court, with his wife Igraine, and Malory is unusually blunt about what happens next: the king *liked and loved this lady well … and desired to have lain by her.* She refuses. She tells her husband, and they leave without permission, at night.\n\nWar follows, over this. The duke shuts his wife in the castle at Tintagel and himself in another, and Uther besieges him — and falls sick with desire, which in this book is a literal illness that his knights discuss with concern.\n\nMerlin's solution is presented as a transaction, and Malory does not disguise it. Merlin will change Uther's shape to the duke's, so that he can enter Tintagel and lie with Igraine. His price, agreed in advance and sworn on the Gospels, is the child that will be conceived.\n\nThere is one further detail that both Geoffrey and Malory take care to include: the duke rides out that same night in a sortie and is killed some hours before Uther reaches Igraine's bed. It matters legally rather than morally — it means she is a widow at the moment of conception, so the marriage that follows within a fortnight is licit and the child is not a bastard. Nobody tells her any of this.\n\nThen the baby is delivered, unchristened, to a stranger at a postern gate. Igraine is not told where her son has gone. She will not find out for more than fifteen years.\n\nThis is the founding act of the kingdom: a deception, arranged for a fee, with a woman deceived at the centre of it and a magician holding the receipt.",
+  "voices": [
+    {
+      "voice": "malory",
+      "term": "a transaction, sworn on the Gospels",
+      "take": "Merlin's price is the child, agreed before the deception and paid at a postern gate. The kingdom's origin is a contract.",
+      "gap_note": "Told plainly across I.i–I.iii; the passage carries no single line short enough to serve as the ledger's quotation."
+    },
+    {
+      "voice": "geoffrey",
+      "term": "the same night, told as statecraft",
+      "take": "Geoffrey has the same shape-change and the same careful timing of the duke's death, but no sale of the child. The transaction is Malory's inheritance from the French.",
+      "quote_id": "geoffrey-caliburn-avalon"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-1",
+      "why": "Uther's desire, and Igraine's refusal, in her own words."
+    },
+    {
+      "unit": "malory-1-2",
+      "why": "The shape-change, and Merlin's fee."
+    },
+    {
+      "unit": "malory-1-3",
+      "why": "The child handed over at the postern gate."
+    }
+  ],
+  "cost": "Nothing in this story is legitimate all the way down. The king's title passes through a deception, the heir is bought by a magician before he is born, and the mother is told nothing for fifteen years.",
+  "cuts": [
+    "source-of-rule",
+    "foreknowledge-and-doom"
+  ],
+  "characters": [
+    "uther",
+    "igraine",
+    "merlin",
+    "arthur"
+  ],
+  "related": [
+    "sword-in-the-stone",
+    "may-day-children"
+  ],
+  "divergence": "Geoffrey's version is a piece of dynastic manoeuvring with a magician on staff. Malory's is a purchase, and he lets you see the price being agreed."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "culhwch",
+  "name": "Culhwch",
+  "rank": "company",
+  "role": "Arthur's cousin",
+  "one_line": "The young man whose stepmother curses him to love a giant's daughter — and who claims Arthur's help as kin.",
+  "traditions": [
+    "welsh"
+  ],
+  "branch": "welsh",
+  "dossier": "Culhwch is cursed to love Olwen, daughter of the giant Ysbaddaden, whom he has never seen. He rides to Arthur's court and claims a boon in the name of kinship — not as a petitioner but as family — and Arthur's warriors are assigned to him. Ysbaddaden sets forty impossible tasks as the bride price, culminating in the hunt for the boar Twrch Trwyth across Ireland and Wales to take a comb and shears from between its ears. It is the oldest Arthurian story that survives, and by some distance the strangest.",
+  "kin": [
+    {
+      "id": "arthur",
+      "relation": "cousin",
+      "label": "Arthur"
+    },
+    {
+      "id": "olwen",
+      "relation": "wife",
+      "label": "Olwen"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "culhwch-and-olwen",
+      "note": "the boon, the tasks, and the boar"
+    }
+  ]
+}

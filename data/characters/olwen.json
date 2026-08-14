@@ -1,0 +1,23 @@
+{
+  "id": "olwen",
+  "name": "Olwen",
+  "rank": "company",
+  "role": "daughter of Ysbaddaden",
+  "one_line": "The giant's daughter, four white trefoils springing up where she walks.",
+  "traditions": [
+    "welsh"
+  ],
+  "branch": "welsh",
+  "dossier": "Olwen is described in the most famous passage of Welsh prose: hair yellower than the flower of the broom, skin whiter than the foam of the wave, and four white trefoils springing up wherever she walks. Her father must die when she marries, which is why the bride price is a list of impossibilities. She tells Culhwch to ask for her anyway, and to promise her father whatever he demands.",
+  "kin": [
+    {
+      "id": "culhwch",
+      "relation": "husband",
+      "label": "Culhwch"
+    },
+    {
+      "relation": "father",
+      "label": "Ysbaddaden, chief of giants"
+    }
+  ]
+}

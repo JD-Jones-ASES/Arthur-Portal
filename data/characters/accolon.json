@@ -1,0 +1,26 @@
+{
+  "id": "accolon",
+  "name": "Sir Accolon",
+  "rank": "company",
+  "role": "knight of Gaul",
+  "one_line": "Morgan le Fay's lover, handed the real Excalibur and sent to kill her brother with it.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Morgan gives Accolon the true Excalibur and its scabbard, and gives Arthur a counterfeit, and arranges for them to fight without knowing each other. Arthur is cut to pieces and bleeding badly while Accolon takes no hurt at all, until Nimue intervenes and makes the false sword fall from his hand. Dying, Accolon tells Arthur the whole plot. Arthur sends the body to Morgan as a gift.",
+  "kin": [
+    {
+      "id": "morgan",
+      "relation": "lover",
+      "label": "Morgan le Fay"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "morgan-and-accolon",
+      "note": "the counterfeit sword, and the confession"
+    }
+  ]
+}

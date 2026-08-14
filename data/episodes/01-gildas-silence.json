@@ -1,0 +1,39 @@
+{
+  "id": "gildas-silence",
+  "title": "The silence of Gildas",
+  "act": "before",
+  "order": 1,
+  "branch": "chronicle",
+  "summary": "The one writer who might have known describes the great British victory and never mentions Arthur.",
+  "retelling": "Around the year 540, a British monk called Gildas wrote a furious book about the ruin of his country. It is not a history — it is a sermon, and its subject is that the Britons deserve everything that has happened to them. But in the middle of the invective he gives an account of the war against the Saxons, and he describes a British victory at a place he calls Mount Badon, which he says happened in the year of his own birth.\n\nHe names the British commander of the earlier resistance: Ambrosius Aurelianus, a Roman.\n\nHe does not name Arthur.\n\nThis is the single most important fact in the whole question of whether Arthur existed, and it is a negative. The only surviving writer who was alive within living memory of Badon, who cared enough about the war to write about it, and who was perfectly willing to name names, gives no indication that he had ever heard of the man to whom every later source attributes the victory.\n\nThree centuries later Nennius will make Badon Arthur's twelfth battle. Six centuries later Geoffrey of Monmouth will build an empire on him. The confidence increases steadily as the distance grows, which is exactly the wrong direction for evidence to travel.\n\nNone of this proves Arthur did not exist. Gildas omits a great deal; he is writing a polemic, not a chronicle, and he barely names anyone. But it does establish the shape of the problem, and it is the standing rebuke to every attempt to find the real King Arthur underneath the romances. The earliest witness is silent, and everything afterwards is downstream of a silence.",
+  "voices": [
+    {
+      "voice": "chroniclers",
+      "term": "a victory with no victor named",
+      "take": "Gildas describes Badon within living memory and attributes it to nobody. The absence is the evidence.",
+      "gap_note": "Held here as a search source only: this portal publishes Nennius from a better text than the collected volume that carries Gildas."
+    },
+    {
+      "voice": "geoffrey",
+      "term": "six centuries of confidence",
+      "take": "By 1136 the same war has a named king, a genealogy, a court and a conquest of Europe — supported by a source book Geoffrey says he translated and nobody else ever saw.",
+      "quote_id": "geoffrey-boar-of-cornwall"
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-1",
+      "why": "Malory begins where the confidence has become total: not with a question about whether there was an Arthur, but with his father's name."
+    }
+  ],
+  "cost": "Every later certainty about Arthur is purchased at the price of distance from the events. The tradition becomes more detailed exactly as it becomes less able to know.",
+  "cuts": [
+    "source-of-rule"
+  ],
+  "characters": [],
+  "related": [
+    "twelve-battles",
+    "merlins-prophecies"
+  ],
+  "divergence": "Gildas, closest to the events, names no Arthur. Nennius, three centuries later, gives him twelve battles. Geoffrey, six centuries later, gives him an empire."
+}

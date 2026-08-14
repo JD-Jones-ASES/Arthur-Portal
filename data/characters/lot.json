@@ -1,0 +1,26 @@
+{
+  "id": "lot",
+  "name": "King Lot",
+  "rank": "company",
+  "role": "King of Orkney",
+  "one_line": "One of the kings who fought Arthur, and the father of the house that will bring him down.",
+  "traditions": [
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Lot leads the rebellion of the eleven kings against the boy king, is defeated, and is later killed by King Pellinore. His sons — Gawain, Agravaine, Gaheris and Gareth — become the strongest and most dangerous bloc in the Round Table, and their feud with Pellinore's line, which produces Lamorak's murder, is a private war running under the whole book.",
+  "kin": [
+    {
+      "id": "morgause",
+      "relation": "wife",
+      "label": "Morgause"
+    },
+    {
+      "id": "gawain",
+      "relation": "son",
+      "label": "Gawain"
+    }
+  ]
+}

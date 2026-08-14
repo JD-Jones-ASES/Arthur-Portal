@@ -1,0 +1,31 @@
+{
+  "id": "agravaine",
+  "name": "Sir Agravaine",
+  "rank": "company",
+  "role": "knight of the Round Table",
+  "one_line": "The brother who insists on saying out loud what the whole court has agreed not to know.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Agravaine is the one who forces the ending. The affair between Lancelot and the queen is an open secret that Arthur has visibly declined to examine; Agravaine announces it, in public, in terms that make it impossible to ignore, and organises the ambush that catches them. Gawain refuses to take part and tells him plainly that no good will come of it. Lancelot kills him at the chamber door. Malory gives him no motive beyond malice and a long-standing grudge, which may be the point: the catastrophe needs only one person willing to say the thing.",
+  "kin": [
+    {
+      "id": "gawain",
+      "relation": "brother",
+      "label": "Gawain"
+    },
+    {
+      "id": "mordred",
+      "relation": "half-brother",
+      "label": "Mordred"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "the-queen-taken",
+      "note": "forces it into the open, and dies at the door"
+    }
+  ]
+}

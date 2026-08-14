@@ -1,0 +1,49 @@
+{
+  "id": "merlins-prophecies",
+  "title": "The prophecies of Merlin",
+  "act": "before",
+  "order": 4,
+  "branch": "chronicle",
+  "summary": "Prophecy as an instrument of state — the future deployed to justify the present.",
+  "retelling": "The *Prophecies of Merlin* were circulating on their own before Geoffrey's *History* was finished, and he inserted them into it as a self-contained book. They are written in the dense animal-heraldry of political prophecy: kingdoms are beasts, kings are boars and lions and dragons, and events are foretold in terms specific enough to be impressive and vague enough to be safe.\n\nThe line that matters for Arthur is this: *the Boar of Cornwall shall bring succour and shall trample their necks beneath his feet.*\n\nThat is the whole of Arthur in the prophecies — a boar from Cornwall who will relieve the Britons and trample their enemies. It is not a character. It is a warrant.\n\nAnd that is what these prophecies are for. Geoffrey is writing for a Norman court in the 1130s that had a considerable interest in the idea that the island's rightful, ancient, legitimate rulers were somebody other than the Saxons they had recently conquered. A prophecy that has already come true is the strongest form of legitimation available, because it makes the present arrangement look like the fulfilment of something arranged long ago.\n\nForeknowledge, in Geoffrey, works. It is a tool, it is used, and it produces the intended effect.\n\nIt is worth holding that next to what Malory does with the same gift three centuries later — where Merlin knows everything, tells everyone, and watches it all happen exactly as foretold. Between the two lies the entire difference between prophecy as a political instrument and prophecy as a tragedy.",
+  "voices": [
+    {
+      "voice": "geoffrey",
+      "term": "the future as a charter",
+      "take": "The Boar of Cornwall will trample their necks. Prophecy is deployed to make a present arrangement look like the fulfilment of an ancient one, and it works.",
+      "quote_id": "geoffrey-boar-of-cornwall"
+    },
+    {
+      "voice": "malory",
+      "term": "the prophet who cannot use it",
+      "take": "Malory keeps the gift and inverts its value. His Merlin foresees the ruin of the realm, says so repeatedly, and builds the realm anyway.",
+      "quote_id": "malory-merlin-and-nimue"
+    },
+    {
+      "voice": "vulgate",
+      "term": "doom built into the architecture",
+      "take": "The French cycle does not need a prophet to make the ending inevitable: it encodes the ending in the premises of the first branch.",
+      "gap_note": "The cycle's own Merlin branch is among the volumes this portal may quote but not publish."
+    }
+  ],
+  "passages": [
+    {
+      "unit": "malory-1-19",
+      "why": "Malory's Merlin tells Arthur to his face that he has begotten the child who will destroy him and all the knights of his realm."
+    }
+  ],
+  "cost": "Geoffrey's prophecy costs nothing because it is doing political work. Every later author who takes it seriously as knowledge discovers that it purchases nothing at all.",
+  "cuts": [
+    "foreknowledge-and-doom",
+    "source-of-rule"
+  ],
+  "characters": [
+    "merlin",
+    "arthur"
+  ],
+  "related": [
+    "vortigerns-tower",
+    "merlin-and-nimue",
+    "may-day-children"
+  ]
+}

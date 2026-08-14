@@ -1,0 +1,24 @@
+{
+  "id": "lamorak",
+  "name": "Sir Lamorak",
+  "rank": "company",
+  "role": "knight of the Round Table",
+  "one_line": "One of the three best knights alive, murdered by four brothers at once for his father's sake.",
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "branch": "english",
+  "dossier": "Lamorak is repeatedly ranked with Lancelot and Tristram as one of the greatest knights of the book. He is also the son of King Pellinore, who killed King Lot, and he takes Lot's widow Morgause as his lover — which is close to suicidal. The Orkney brothers set on him four to one and kill him. Malory has Tristram say what everybody is thinking: it was the foulest deed done in Arthur's days.",
+  "kin": [
+    {
+      "relation": "father",
+      "label": "King Pellinore"
+    },
+    {
+      "id": "morgause",
+      "relation": "lover",
+      "label": "Morgause"
+    }
+  ]
+}
