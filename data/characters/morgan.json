@@ -1,0 +1,79 @@
+{
+  "id": "morgan",
+  "name": "Morgan le Fay",
+  "rank": "principal",
+  "role": "enchantress, queen of Gore",
+  "house": "Pendragon",
+  "branch": "english",
+  "one_line": "Healer in the earliest sources, enemy in the latest — the clearest case of a woman's role being rewritten by the tradition that inherited her.",
+  "aka": [
+    {
+      "form": "Morgen",
+      "tradition": "chronicle",
+      "note": "Geoffrey's Vita Merlini: the chief of nine sisters who heal Arthur in Avalon"
+    },
+    {
+      "form": "Morgain la Fee",
+      "tradition": "french"
+    },
+    {
+      "form": "Morgne",
+      "tradition": "german",
+      "note": "named in Sir Gawain and the Green Knight as the author of the whole test"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "french",
+    "german",
+    "english"
+  ],
+  "first_text": "Geoffrey of Monmouth, Vita Merlini (c. 1150)",
+  "dossier": "Morgan's trajectory is the sharpest example in the canon of a character being turned inside out.\n\nWhen **Geoffrey** first names her, in the *Vita Merlini*, she is Morgen: the greatest of nine sisters on the Isle of Apples, skilled in healing and in flight, and it is to her that the wounded Arthur is carried. She is the cure.\n\nBy **Malory** she is Arthur's half-sister and his most persistent enemy. She steals Excalibur's scabbard, which protects him from bleeding, and throws it into a lake so that it can never be recovered. She arranges for her lover Accolon to fight Arthur with the real Excalibur while Arthur has a counterfeit. She sends a poisoned cloak. She keeps Lancelot prisoner.\n\nAnd then, at the end, when the barge comes to take the dying king away, she is in it — sitting beside him, calling him *dear brother*, asking why he has tarried so long. Malory does not explain this and does not need to. The oldest layer of the story survives underneath the later one, and the two never quite reconcile.\n\nIn *Sir Gawain and the Green Knight* she is revealed as the engine of the whole plot: the entire test was Morgan's, arranged to frighten Guinevere. She is not present for a single scene of it.",
+  "kin": [
+    {
+      "id": "arthur",
+      "relation": "half-brother",
+      "label": "Arthur"
+    },
+    {
+      "id": "igraine",
+      "relation": "mother",
+      "label": "Igraine"
+    },
+    {
+      "id": "morgause",
+      "relation": "sister",
+      "label": "Morgause"
+    },
+    {
+      "relation": "husband",
+      "label": "King Uriens of Gore"
+    },
+    {
+      "id": "uwaine",
+      "relation": "son",
+      "label": "Uwaine"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "morgan-and-accolon",
+      "note": "the stolen scabbard, and the counterfeit sword"
+    },
+    {
+      "episode": "green-knight",
+      "note": "the whole test is hers, and she never appears in it"
+    },
+    {
+      "episode": "the-passing",
+      "note": "she is in the barge, calling him dear brother"
+    }
+  ],
+  "cuts": [
+    "source-of-rule",
+    "foreknowledge-and-doom"
+  ],
+  "cost": "The scabbard she throws away is the thing that would have kept Arthur from bleeding to death, and she throws it away in Book IV. The wound in Book XXI is the one she prepared for.",
+  "divergence": "Geoffrey's Morgen heals Arthur in Avalon. Malory's Morgan spends the book trying to kill him, and then arrives to carry him to Avalon. Both are in the same tradition and neither cancels the other."
+}

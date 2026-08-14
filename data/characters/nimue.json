@@ -1,0 +1,64 @@
+{
+  "id": "nimue",
+  "name": "Nimue",
+  "rank": "principal",
+  "role": "the Lady of the Lake",
+  "branch": "english",
+  "one_line": "The damsel who learned Merlin's craft from Merlin and used it to shut him under a stone.",
+  "aka": [
+    {
+      "form": "Viviane",
+      "tradition": "french"
+    },
+    {
+      "form": "Nyneve",
+      "tradition": "english",
+      "note": "one of Malory's several spellings"
+    },
+    {
+      "form": "Vivien",
+      "tradition": "reception",
+      "note": "Tennyson's, and much the most hostile"
+    }
+  ],
+  "traditions": [
+    "french",
+    "english",
+    "reception"
+  ],
+  "first_text": "the Vulgate Cycle; developed by Malory",
+  "dossier": "Nimue is usually remembered as the woman who destroyed Merlin, which is true and is about a quarter of what Malory does with her.\n\nThe entrapment is not seduction and Malory does not romanticise it. Merlin *lay about the lady to have her maidenhood, and she was ever passing weary of him, and fain would have been delivered of him, for she was afeard of him because he was a devil's son.* She learns his craft because he cannot stop demonstrating it to her, and when she has enough of it she puts him under a stone and leaves him there. It reads less like a betrayal than like a woman getting rid of a man who will not go away.\n\nWhat is less often noticed is that she then takes his job, and does it better. It is Nimue who saves Arthur at the fight with Accolon by making the false Excalibur fall from his hand. It is Nimue who exposes the poisoned cloak Morgan sends, telling Arthur not to touch it and making the messenger put it on instead. It is Nimue who arrives to clear Guinevere of the poisoned apple. She is the court's protective magic for the rest of the book, and she is on the barge at the end.\n\nTennyson turned her into Vivien, a schemer who corrupts Merlin out of malice, which is a considerably smaller character.",
+  "kin": [
+    {
+      "id": "merlin",
+      "relation": "teacher, and victim",
+      "label": "Merlin"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "merlin-and-nimue",
+      "note": "she takes his craft and shuts him under a stone"
+    },
+    {
+      "episode": "morgan-and-accolon",
+      "note": "she saves Arthur's life"
+    },
+    {
+      "episode": "poisoned-apple",
+      "note": "she clears the queen"
+    },
+    {
+      "episode": "the-passing",
+      "note": "one of the queens in the barge"
+    }
+  ],
+  "quotes": [
+    "malory-merlin-and-nimue"
+  ],
+  "cuts": [
+    "foreknowledge-and-doom",
+    "disenchantment"
+  ],
+  "cost": "With Merlin under the stone, the enchantment drains out of the book. Nimue protects the court better than he ever did, but nobody can see the future any more, and nobody can be warned."
+}

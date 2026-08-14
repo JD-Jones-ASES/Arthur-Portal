@@ -1,0 +1,74 @@
+{
+  "id": "morgause",
+  "name": "Morgause",
+  "rank": "principal",
+  "role": "Queen of Orkney",
+  "house": "Pendragon / Orkney",
+  "branch": "english",
+  "one_line": "Arthur's half-sister and the mother of his son — and of the four brothers whose feud runs through the whole book.",
+  "aka": [
+    {
+      "form": "Anna",
+      "tradition": "chronicle",
+      "note": "Geoffrey names Arthur's sister Anna; the incest is a later French addition"
+    },
+    {
+      "form": "Morgause",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "named by Geoffrey as Anna; given her role in the French cycle",
+  "dossier": "Morgause is sent to Arthur's court as a spy for her husband King Lot, and stays a month, and neither she nor Arthur knows they share a mother. Malory is very brief about it. The child is Mordred.\n\nWhat she also produces is the house of Orkney: Gawain, Agravaine, Gaheris and Gareth, four brothers whose loyalty to each other is the strongest bond in the book and the most destructive. They murder Lamorak because his father killed theirs. Agravaine engineers the ambush of Lancelot. Gawain's grief for Gareth drives the final war.\n\nShe is murdered by her own son Gaheris, who finds her in bed with Lamorak and beheads her — and spares Lamorak, because killing an unarmed man would be dishonourable. Malory reports this without comment, which is somehow worse.",
+  "kin": [
+    {
+      "id": "igraine",
+      "relation": "mother",
+      "label": "Igraine"
+    },
+    {
+      "id": "arthur",
+      "relation": "half-brother",
+      "label": "Arthur"
+    },
+    {
+      "relation": "husband",
+      "label": "King Lot of Orkney"
+    },
+    {
+      "id": "gawain",
+      "relation": "son",
+      "label": "Gawain"
+    },
+    {
+      "id": "gareth",
+      "relation": "son",
+      "label": "Gareth"
+    },
+    {
+      "id": "agravaine",
+      "relation": "son",
+      "label": "Agravaine"
+    },
+    {
+      "id": "mordred",
+      "relation": "son",
+      "label": "Mordred"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "may-day-children",
+      "note": "the month at court, and its consequence"
+    }
+  ],
+  "cuts": [
+    "foreknowledge-and-doom",
+    "the-fellowship"
+  ],
+  "cost": "Every strand of the ending runs back through her: the son who takes the crown, and the sons whose loyalty to one another cannot be reasoned with."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "uther",
+  "name": "Uther Pendragon",
+  "rank": "principal",
+  "role": "King of Britain",
+  "house": "Pendragon",
+  "branch": "chronicle",
+  "one_line": "Arthur's father, who wanted another man's wife badly enough to take a magician's help — and started everything.",
+  "aka": [
+    {
+      "form": "Uther Pendragon",
+      "tradition": "chronicle"
+    },
+    {
+      "form": "Uterpendragon",
+      "tradition": "french"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "Geoffrey of Monmouth",
+  "dossier": "Uther's whole function is the begetting, and both the chronicle and the romance tell it the same way.\n\nHe summons the Duke of Cornwall and his wife Igraine to court, conceives an overwhelming desire for her, and is refused. War follows. While the duke is besieged in one castle and Igraine shut in another at Tintagel, Merlin changes Uther's shape to the duke's and lets him in. The duke is killed that same night, some hours before Uther reaches Igraine's bed — a detail both traditions are careful to include, because it makes the subsequent marriage legitimate and the child's conception not quite adulterous, on a technicality.\n\nMerlin's fee is the child.\n\nMalory's Uther dies early and badly, and the realm is left in confusion for years because nobody knows there is an heir. Everything that follows — the stone, the sword, the boy nobody has heard of — exists because of how this was arranged.",
+  "kin": [
+    {
+      "id": "igraine",
+      "relation": "wife",
+      "label": "Igraine"
+    },
+    {
+      "id": "arthur",
+      "relation": "son",
+      "label": "Arthur"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "uther-and-igraine",
+      "note": "the deception, and the price Merlin sets"
+    }
+  ],
+  "cuts": [
+    "source-of-rule"
+  ],
+  "cost": "The kingdom's founding act is a deception arranged by a magician who takes the resulting child as payment. Nothing in the story is legitimate all the way down."
+}

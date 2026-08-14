@@ -1,0 +1,69 @@
+{
+  "id": "galahad",
+  "name": "Galahad",
+  "rank": "principal",
+  "role": "the Grail knight",
+  "house": "Benwick / the Grail kings",
+  "branch": "french",
+  "one_line": "The knight invented to achieve the Grail — and, by design, to make everyone else's failure visible.",
+  "aka": [
+    {
+      "form": "Galaad",
+      "tradition": "french"
+    }
+  ],
+  "traditions": [
+    "french",
+    "english",
+    "reception"
+  ],
+  "first_text": "the Vulgate Cycle (c. 1220s)",
+  "blazon": {
+    "text": "Argent, a cross gules",
+    "source": "the Queste: the white shield with the red cross, made for him by Joseph of Arimathea"
+  },
+  "dossier": "Galahad is a solution to a problem the French cycle created for itself. Having made Lancelot the greatest knight in the world and then made his love for the queen the thing that disqualifies him from the sacred, the Vulgate needed someone who could actually finish the quest. So it produced Lancelot's son, conceived by deception at Corbenic, faultless from birth, and interested in nothing but the Grail.\n\nHe is not a character in the way Lancelot is. He does not doubt, learn, fail or change. He takes the Siege Perilous — the seat at the Round Table that kills anyone unworthy of it — and it has his name written on it. He draws a sword from a floating stone that no other knight can move. He achieves the Grail at Corbenic, sees what a man is not permitted to see, and asks to die.\n\nWhat he is for is comparison. His arrival dates the fellowship: from the moment he sits down, every other knight in the hall is measurably not him, and the quest that follows sorts them. Gawain is told he will find nothing. Lancelot gets as far as a door and is stopped. Bors and Percival reach the ship and go no further than they are allowed. Galahad walks through all of it because the story was built around him.\n\nThat is also the objection. He is the point at which the tradition stops being about people who might do otherwise, and readers who find the Queste cold are usually reacting to him. Malory keeps him and mourns what his arrival costs, which is a different book entirely.",
+  "kin": [
+    {
+      "id": "lancelot",
+      "relation": "father",
+      "label": "Lancelot"
+    },
+    {
+      "id": "elaine-corbenic",
+      "relation": "mother",
+      "label": "Elaine of Corbenic"
+    },
+    {
+      "id": "pelles",
+      "relation": "grandfather",
+      "label": "King Pelles"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "elaine-and-galahad",
+      "note": "conceived by a deception his father never forgave"
+    },
+    {
+      "episode": "siege-perilous",
+      "note": "takes the seat that kills the unworthy"
+    },
+    {
+      "episode": "grail-enters-camelot",
+      "note": "his arrival is what brings the vessel"
+    },
+    {
+      "episode": "corbenic",
+      "note": "achieves it, and asks to die"
+    }
+  ],
+  "quotes": [
+    "queste-judgment-purity"
+  ],
+  "cuts": [
+    "the-grail"
+  ],
+  "cost": "He achieves the highest thing in the world and the hall he left behind never recovers. His perfection is the instrument that measures everyone else's failure, and the measuring is what empties the Round Table.",
+  "divergence": "The Queste presents him as vindication. Malory keeps every word of the achievement and frames it as a bereavement. Nothing in the plot changes; the meaning inverts."
+}

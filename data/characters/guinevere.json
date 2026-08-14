@@ -1,0 +1,90 @@
+{
+  "id": "guinevere",
+  "name": "Guinevere",
+  "rank": "principal",
+  "role": "Queen of Britain",
+  "house": "Cameliard",
+  "branch": "english",
+  "one_line": "The queen whose love is the glory of the court and the fault line under it — and whom each tradition judges differently.",
+  "aka": [
+    {
+      "form": "Gwenhwyfar",
+      "tradition": "welsh"
+    },
+    {
+      "form": "Guenievre",
+      "tradition": "french"
+    },
+    {
+      "form": "Ginover",
+      "tradition": "german"
+    },
+    {
+      "form": "Guenever",
+      "tradition": "english",
+      "note": "Malory's spelling"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "welsh",
+    "french",
+    "german",
+    "english",
+    "reception"
+  ],
+  "first_text": "named in Welsh tradition; given her role by Geoffrey and then by Chretien",
+  "dossier": "Guinevere's treatment is the clearest test of what a given author thinks the story is about.\n\n**Geoffrey** gives her a straightforward political function: while Arthur is campaigning abroad, Mordred takes both the crown and the queen, and she retires to a convent. There is no love story. The betrayal is a coup.\n\n**Chrétien** invents the love, and invents it as an honour. In *The Knight of the Cart* Lancelot's devotion to her is what makes him the greatest knight alive, and his brief hesitation before disgracing himself for her sake is the only fault the poem finds in him. She is the standard against which he is measured.\n\nThe **Vulgate** makes the love mutual and makes it fatal: *the White Knight loved the queen and was fairly sure that the queen loved him as well.* Here it is both the engine of Lancelot's supremacy and the reason he cannot achieve the Grail.\n\n**Malory** gives her the most difficult and most human treatment. She is jealous, imperious and often wrong; she banishes Lancelot in a temper, is nearly burned twice, and is defended each time by the man whose love condemns her. And Malory will not join in condemning her. The famous digression on love — *the old love was not so; men and women could love together seven years* — arrives in her defence. At the end she takes the veil at Amesbury, refuses to see Lancelot again, and asks God that she may never look on him with her worldly eyes.\n\n**Tennyson** puts her on the floor at Arthur's feet and has him forgive her at length, which is the version most readers have absorbed without reading it, and which the Middle Ages never quite managed.",
+  "kin": [
+    {
+      "id": "arthur",
+      "relation": "husband",
+      "label": "Arthur"
+    },
+    {
+      "relation": "father",
+      "label": "King Leodegrance of Cameliard",
+      "note": "who sends the Round Table as her dowry"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "the-round-table",
+      "note": "married, with the Table as her dowry, over Merlin's warning"
+    },
+    {
+      "episode": "knight-of-the-cart",
+      "note": "the love, invented as a virtue"
+    },
+    {
+      "episode": "poisoned-apple",
+      "note": "accused of murder, and defended by Lancelot"
+    },
+    {
+      "episode": "maid-of-astolat",
+      "note": "her jealousy drives Lancelot away, and a girl dies of it"
+    },
+    {
+      "episode": "the-queen-taken",
+      "note": "the ambush, and the charge of treason"
+    },
+    {
+      "episode": "gareth-slain",
+      "note": "rescued at a cost that ends the fellowship"
+    },
+    {
+      "episode": "amesbury",
+      "note": "takes the veil, and refuses to see him again"
+    }
+  ],
+  "quotes": [
+    "vulgate-lancelot-loves-queen",
+    "malory-love-nowadays"
+  ],
+  "cuts": [
+    "courtly-love",
+    "the-fellowship"
+  ],
+  "cost": "Her love is real and is defended by the book that records what it destroys. Between her and the kingdom there is no arrangement that saves both, and Malory declines to pretend otherwise.",
+  "divergence": "In Geoffrey she is abducted in a coup and there is no affair at all. In Chretien the affair is the proof of Lancelot's worth. In the Vulgate it damns him. Three authors, one queen, and no agreement about whether she has done anything wrong."
+}

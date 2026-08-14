@@ -1,0 +1,83 @@
+{
+  "id": "merlin",
+  "name": "Merlin",
+  "rank": "principal",
+  "role": "prophet and enchanter",
+  "branch": "english",
+  "one_line": "The seer who knows everything, arranges everything, and is destroyed by the one future he saw most clearly.",
+  "aka": [
+    {
+      "form": "Myrddin",
+      "tradition": "welsh",
+      "note": "the Welsh prophet Geoffrey drew on"
+    },
+    {
+      "form": "Merlinus",
+      "tradition": "chronicle"
+    },
+    {
+      "form": "Merlin",
+      "tradition": "french",
+      "note": "given a whole branch of the Vulgate Cycle"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "french",
+    "english",
+    "reception"
+  ],
+  "first_text": "Geoffrey of Monmouth, History of the Kings of Britain (c. 1136)",
+  "dossier": "Merlin is Geoffrey's invention, assembled out of a Welsh prophet called Myrddin and a fatherless boy in Nennius, and he arrives fully formed: the prophet who explains the two dragons under Vortigern's tower, raises the Giants' Ring, and contrives Arthur's begetting.\n\nIn **Geoffrey** his prophecies are an instrument of state. *The Boar of Cornwall shall bring succour and shall trample their necks beneath his feet* — the future deployed to legitimate a dynasty, and it works.\n\nIn **Malory** the same gift is a catastrophe. His Merlin knows everything and it saves nobody, including himself. He knows Uther's desire for Igraine is ruinous and arranges it anyway, taking the child as his fee. He knows the boy born on May Day will destroy the realm and advises the slaughter that fails. He tells Arthur, out loud, before the wedding, that Guinevere will love Lancelot and Lancelot her — and Arthur marries her.\n\nAnd he knows exactly how he ends. Malory does not make it dignified: *always Merlin lay about the lady to have her maidenhood, and she was ever passing weary of him, and fain would have been delivered of him, for she was afeard of him because he was a devil's son.* He follows Nimue about, teaching her his craft because he cannot stop showing off, until she has enough of it to shut him under a stone. The greatest seer in the world, undone by a woman who was simply tired of him, in a future he had already seen.\n\nWhen he goes, something else goes with him. The first four books of the Morte are thick with enchantment; after the stone closes, the marvellous thins steadily, until the last books are almost entirely politics, kinship and grief.",
+  "kin": [
+    {
+      "relation": "father",
+      "label": "an incubus",
+      "note": "Malory's phrase is 'a devil's son'; the tradition makes his father a spirit and his mother a mortal woman"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "vortigerns-tower",
+      "note": "the two dragons: his first prophecy"
+    },
+    {
+      "episode": "merlins-prophecies",
+      "note": "the future as a dynastic charter"
+    },
+    {
+      "episode": "uther-and-igraine",
+      "note": "he arranges the deception, and takes the child as his fee"
+    },
+    {
+      "episode": "sword-in-the-stone",
+      "note": "he sets the test that makes Arthur king"
+    },
+    {
+      "episode": "may-day-children",
+      "note": "he foretells Mordred and counsels the slaughter"
+    },
+    {
+      "episode": "the-round-table",
+      "note": "he warns Arthur about Guinevere, and is ignored"
+    },
+    {
+      "episode": "balin-and-the-dolorous-stroke",
+      "note": "he names the damage and the debt"
+    },
+    {
+      "episode": "merlin-and-nimue",
+      "note": "he walks into the trap he foresaw"
+    }
+  ],
+  "quotes": [
+    "geoffrey-boar-of-cornwall",
+    "malory-merlin-and-nimue"
+  ],
+  "cuts": [
+    "foreknowledge-and-doom",
+    "source-of-rule"
+  ],
+  "cost": "He builds a kingdom he has already seen fall, and proves on his own body that foreknowledge is not a power but a form of early grief. And the enchantment of the world does not survive him.",
+  "divergence": "Geoffrey's Merlin is a successful political prophet. Malory's is a tragedy. Same character, same gift, opposite verdicts on what knowing the future is worth."
+}

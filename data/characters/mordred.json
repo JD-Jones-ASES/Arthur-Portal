@@ -1,0 +1,72 @@
+{
+  "id": "mordred",
+  "name": "Mordred",
+  "rank": "principal",
+  "role": "traitor, and the king's son",
+  "house": "Orkney / Pendragon",
+  "branch": "english",
+  "one_line": "Begotten in ignorance, foretold from birth, and the one prophecy in the canon that everybody believed and nobody prevented.",
+  "aka": [
+    {
+      "form": "Medraut",
+      "tradition": "welsh",
+      "note": "named with Arthur at Camlann in the Annales Cambriae, with no indication that either killed the other"
+    },
+    {
+      "form": "Modredus",
+      "tradition": "chronicle"
+    },
+    {
+      "form": "Mordret",
+      "tradition": "french"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "the Annales Cambriae; given his role by Geoffrey",
+  "dossier": "The oldest reference to Mordred is a single line in the Welsh annals recording that Arthur and Medraut fell at Camlann. It does not say they were enemies.\n\n**Geoffrey** makes him Arthur's nephew and a straightforward usurper: while the king is campaigning in Europe he seizes the crown and the queen. There is no incest in Geoffrey.\n\nThe **French cycle and Malory** make him Arthur's son by his half-sister Morgause, begotten before either knew who the other was — and put the prophecy immediately after. Merlin tells Arthur that a child born on May Day will destroy him and all the knights of his realm; Arthur has every child born that month put on a ship and set adrift; the ship wrecks and the one child who survives is Mordred, who is brought up elsewhere and returned to court.\n\nMalory's Mordred is not a monster with a plan. He is present for twenty books doing very little, and then joins his brother Agravaine's ambush of Lancelot, and then forges letters saying Arthur is dead and has himself crowned. The end is almost an accident: the two armies meet to negotiate, with orders on both sides to attack if a sword is drawn, and a knight is bitten by an adder and draws his sword to kill it.\n\nThat is how the kingdom ends. A snake, and a reflex.",
+  "kin": [
+    {
+      "id": "arthur",
+      "relation": "father",
+      "label": "Arthur"
+    },
+    {
+      "id": "morgause",
+      "relation": "mother",
+      "label": "Morgause"
+    },
+    {
+      "id": "gawain",
+      "relation": "half-brother",
+      "label": "Gawain"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "may-day-children",
+      "note": "foretold, and set adrift as an infant"
+    },
+    {
+      "episode": "the-queen-taken",
+      "note": "joins Agravaine's ambush"
+    },
+    {
+      "episode": "mordreds-usurpation",
+      "note": "forges the news of Arthur's death and takes the crown"
+    },
+    {
+      "episode": "camlann",
+      "note": "killed by his father, and kills him"
+    }
+  ],
+  "cuts": [
+    "foreknowledge-and-doom",
+    "source-of-rule"
+  ],
+  "cost": "He is the proof that foreknowledge saves nobody. Arthur is told exactly what will happen, commits an atrocity to prevent it, and brings about the thing he feared by the very act of trying to avoid it."
+}

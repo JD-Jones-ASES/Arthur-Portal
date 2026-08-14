@@ -1,0 +1,44 @@
+{
+  "id": "balin",
+  "name": "Balin",
+  "rank": "principal",
+  "role": "knight, called le Savage",
+  "branch": "english",
+  "one_line": "A good knight to whom everything goes wrong — who strikes the blow that lays three kingdoms waste without meaning any of it.",
+  "aka": [
+    {
+      "form": "Balin le Savage",
+      "tradition": "english"
+    },
+    {
+      "form": "the Knight with Two Swords",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "first_text": "the post-Vulgate Suite du Merlin; Malory, Book II",
+  "dossier": "Balin's story is the bleakest sequence in the Morte and it is placed very early, before the reader has grown attached to anything, like a warning.\n\nHe is poor, recently released from prison, and the only knight at court who can draw a sword from the belt of a damsel who has come looking for a man virtuous enough to do it. She warns him that the sword will kill the man he loves best in the world. He keeps it anyway.\n\nAfter that, nothing he does works. He beheads the Lady of the Lake in Arthur's hall over a blood feud and is banished. He kills a knight under Arthur's protection; the knight's lady kills herself over the body. He tries to rescue a knight who is killed by an invisible attacker while under his protection, and then the attacker's brother traps him, weaponless, in a castle.\n\nCornered, Balin snatches the nearest weapon off a chamber wall and strikes King Pellam with it. It is the spear that pierced Christ's side. The castle collapses on both of them, and Balin rides out through a country that has been turned into a desert. Merlin meets him and tells him what he has done: *for the dolorous stroke thou gavest unto King Pellam three countries are destroyed, and doubt not but the vengeance will fall on thee at the last.*\n\nAnd it does. He and his brother Balan meet in a field, in unfamiliar armour, do not recognise each other, and fight until both are dying. The sword kills the man he loved best in the world, as promised.\n\nBalin is not wicked. That is the entire point of him. The damage is enormous, permanent, and nobody's fault in any way that helps.",
+  "kin": [
+    {
+      "relation": "brother",
+      "label": "Balan",
+      "note": "whom he kills, and who kills him, neither knowing the other"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "balin-and-the-dolorous-stroke",
+      "note": "the whole arc, in one book"
+    }
+  ],
+  "quotes": [
+    "malory-dolorous-stroke"
+  ],
+  "cuts": [
+    "the-wound-and-wasteland"
+  ],
+  "cost": "Three kingdoms, sterilised by a man who was trying to defend himself. The wasteland at the centre of the Grail story is created by accident, in Book II, by somebody nobody remembers."
+}

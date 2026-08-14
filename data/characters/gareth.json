@@ -1,0 +1,52 @@
+{
+  "id": "gareth",
+  "name": "Sir Gareth",
+  "rank": "principal",
+  "role": "knight of the Round Table",
+  "house": "Orkney",
+  "branch": "english",
+  "one_line": "The kitchen boy who turned out to be Gawain's brother — and whose death, by the hand of the man he loved, is what makes the war unstoppable.",
+  "aka": [
+    {
+      "form": "Beaumains",
+      "tradition": "english",
+      "note": "'fair hands', the name Kay gives him in mockery"
+    }
+  ],
+  "traditions": [
+    "english"
+  ],
+  "first_text": "Malory, Book VII (no known French source)",
+  "dossier": "Gareth's book is the warmest thing in the Morte, and Malory may have written it himself: no source has ever been found for it.\n\nA young man arrives at court and asks for three gifts — food and drink for a year, and the other two withheld. Kay names him Beaumains, fair hands, and puts him in the kitchen. He serves there for a year without complaint. When a damsel comes asking for a champion he claims the adventure, and she spends the entire journey telling him he stinks of kitchen grease and should go home, while he defeats knight after knight and remains unfailingly courteous to her. He is Gawain's youngest brother, and he asked for the kitchen deliberately, so that nobody would give him anything for his family's sake.\n\nThe man he admires most is Lancelot, who knights him.\n\nAt the end, when Guinevere is tied to the stake and Lancelot's rescue party cuts its way to her, Gareth and his brother Gaheris are in the crowd — unarmed, because they refused to take arms against Lancelot, and present only because Arthur ordered them there. Lancelot kills them both without seeing who they are.\n\nThat is the hinge of the whole ending. Gawain forgives the adultery and cannot forgive this, and it is his grief, not the queen's guilt, that drags Arthur into the war across the sea that leaves Britain open for Mordred.",
+  "kin": [
+    {
+      "id": "gawain",
+      "relation": "brother",
+      "label": "Gawain"
+    },
+    {
+      "id": "morgause",
+      "relation": "mother",
+      "label": "Morgause"
+    },
+    {
+      "id": "lancelot",
+      "relation": "the knight who made him, and killed him",
+      "label": "Lancelot"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "gareth-beaumains",
+      "note": "a year in the kitchen, and the damsel who despised him"
+    },
+    {
+      "episode": "gareth-slain",
+      "note": "killed unarmed, by the man he loved most"
+    }
+  ],
+  "cuts": [
+    "the-fellowship"
+  ],
+  "cost": "He is the best-loved man in the book and he dies in a crowd, unarmed, by accident. Everything after it follows from that one stroke."
+}

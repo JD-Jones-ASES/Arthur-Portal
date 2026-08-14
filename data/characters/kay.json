@@ -1,0 +1,62 @@
+{
+  "id": "kay",
+  "name": "Sir Kay",
+  "rank": "principal",
+  "role": "seneschal of the Round Table",
+  "house": "Pendragon (foster)",
+  "branch": "welsh",
+  "one_line": "Arthur's foster-brother and steward: a giant-killing hero in Welsh, and a sour-tongued fool in French.",
+  "aka": [
+    {
+      "form": "Cai",
+      "tradition": "welsh",
+      "note": "in Culhwch, a hero with supernatural gifts"
+    },
+    {
+      "form": "Keu",
+      "tradition": "french"
+    },
+    {
+      "form": "Kay",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "Welsh tradition as Cai",
+  "dossier": "In the Welsh **Culhwch and Olwen**, Cai is formidable: he can go nine nights without sleep, hold his breath nine days underwater, make himself as tall as a tree, and no physician can heal a wound from his sword. He is one of the great warriors of Arthur's band.\n\nBy the time French romance is done with him he is the seneschal — the household steward — and the court's designated bad-tempered fool: quick with an insult, quick to volunteer, and reliably unhorsed within a page. Every romance needs someone to be wrong first so the hero can be right, and Kay drew the job.\n\nMalory keeps the French Kay but remembers the older one at the edges. He is the reason the sword comes out of the stone at all: he forgets his own sword at the tournament, sends his young foster-brother back for it, and briefly claims the one the boy returns with. And he is loyal to the end, dying with Arthur's household.",
+  "kin": [
+    {
+      "id": "ector",
+      "relation": "father",
+      "label": "Sir Ector"
+    },
+    {
+      "id": "arthur",
+      "relation": "foster-brother",
+      "label": "Arthur"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "sword-in-the-stone",
+      "note": "his forgotten sword is the reason for everything"
+    },
+    {
+      "episode": "culhwch-and-olwen",
+      "note": "the Welsh Cai, and what he could do"
+    },
+    {
+      "episode": "gareth-beaumains",
+      "note": "names the unknown boy Beaumains and puts him in the kitchen"
+    }
+  ],
+  "cuts": [
+    "the-fellowship"
+  ],
+  "divergence": "Culhwch's Cai can hold his breath for nine days and kill a giant. Chretien's Keu gets knocked off his horse to establish that the real hero is about to arrive."
+}

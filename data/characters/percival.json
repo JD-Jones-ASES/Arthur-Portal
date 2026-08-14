@@ -1,0 +1,74 @@
+{
+  "id": "percival",
+  "name": "Percival",
+  "rank": "principal",
+  "role": "knight of the Round Table",
+  "branch": "french",
+  "one_line": "The boy raised in a forest who asks nothing when it matters — the oldest Grail failure in the canon.",
+  "aka": [
+    {
+      "form": "Peredur",
+      "tradition": "welsh",
+      "note": "the Welsh tale; possibly older than Chretien, possibly derived from him"
+    },
+    {
+      "form": "Perceval",
+      "tradition": "french",
+      "note": "Chretien's hero"
+    },
+    {
+      "form": "Parzival",
+      "tradition": "german",
+      "note": "Wolfram's, and the most fully realised"
+    },
+    {
+      "form": "Percivale",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "french",
+    "german",
+    "english"
+  ],
+  "first_text": "Chretien de Troyes, Perceval (c. 1180, unfinished)",
+  "dossier": "Percival is the Grail's original hero, and his story is the same in every language: a boy is raised in ignorance of knighthood, becomes a knight anyway, and then fails at the one moment that counts.\n\nIn the Welsh **Peredur** the failure is bare. Two youths carry a bleeding spear through the hall, *with three streams of blood flowing from the point to the ground*, the whole company begins wailing, and Peredur says nothing — because he has been told that a knight does not ask questions. He is being polite. It ruins everything.\n\nIn **Chrétien** the same silence occurs before the grail and the lance, and the poem breaks off before we learn what asking would have done.\n\nIn **Wolfram** the failure is given its full moral weight and then forgiven. Parzival's silence at Munsalvaesche costs him years of wandering and his faith; when he finally returns and asks Anfortas what ails him, the king is healed. Wolfram's whole argument is that the question is one of compassion, and that a man who failed it once can be allowed to come back.\n\nThen the French cycle demoted him. Once Galahad exists, Percival cannot be the one who achieves the Grail, so he becomes one of the three who ride with him — with a sister who matters more to the plot than he does.",
+  "kin": [
+    {
+      "relation": "mother",
+      "label": "a widow who raised him in a forest to keep him from knighthood"
+    },
+    {
+      "id": "percivals-sister",
+      "relation": "sister",
+      "label": "Percival's sister"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "peredurs-spear",
+      "note": "the bleeding spear, and the question not asked"
+    },
+    {
+      "episode": "parzival-at-munsalvaesche",
+      "note": "the same silence, given its full weight"
+    },
+    {
+      "episode": "anfortas-healed",
+      "note": "he comes back and asks"
+    },
+    {
+      "episode": "percival-bors-and-the-sister",
+      "note": "demoted to a companion in the French cycle"
+    }
+  ],
+  "quotes": [
+    "mabinogion-peredur-spear"
+  ],
+  "cuts": [
+    "the-grail"
+  ],
+  "cost": "He is punished for obeying the rule he was taught. The tradition's oldest lesson is that good manners can be a moral failure, and that the price of not asking is a country.",
+  "divergence": "Wolfram lets him come back and heal the king. The Vulgate replaces him with someone who never needed to."
+}

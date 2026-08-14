@@ -1,0 +1,66 @@
+{
+  "id": "igraine",
+  "name": "Igraine",
+  "rank": "principal",
+  "role": "Duchess of Cornwall, then Queen",
+  "house": "Pendragon",
+  "branch": "chronicle",
+  "one_line": "The most consequential woman in the story, who is deceived into conceiving its hero and never told.",
+  "aka": [
+    {
+      "form": "Igerna",
+      "tradition": "chronicle"
+    },
+    {
+      "form": "Ygerne",
+      "tradition": "french"
+    },
+    {
+      "form": "Igraine",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "Geoffrey of Monmouth",
+  "dossier": "Igraine refuses Uther plainly and immediately, warns her husband, and leaves court — she is given no ambiguity at all. She is then deceived by magic into receiving a man she believes is her husband, on a night when her husband is already dead.\n\nMalory does something quietly devastating with the aftermath. Long after, when Arthur is king and the truth is finally established at court, Igraine is brought in and questioned about the child, and she answers that she was delivered of him and does not know where he went — because Uther had ordered the baby handed to Merlin at a postern gate, and she was never told what became of her son. The reunion, when it comes, is the only scene in the book where anybody thinks to ask her anything.\n\nShe is also the mother of Morgause and Morgan, by her first husband, which means that every catastrophe in the book — Mordred, Morgan's enmity, the Orkney feud — descends from her line.",
+  "kin": [
+    {
+      "id": "uther",
+      "relation": "second husband",
+      "label": "Uther Pendragon"
+    },
+    {
+      "relation": "first husband",
+      "label": "Gorlois, Duke of Cornwall"
+    },
+    {
+      "id": "arthur",
+      "relation": "son",
+      "label": "Arthur"
+    },
+    {
+      "id": "morgan",
+      "relation": "daughter",
+      "label": "Morgan le Fay"
+    },
+    {
+      "id": "morgause",
+      "relation": "daughter",
+      "label": "Morgause"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "uther-and-igraine",
+      "note": "deceived, widowed and remarried inside a fortnight"
+    }
+  ],
+  "cuts": [
+    "source-of-rule"
+  ],
+  "cost": "She loses a husband, a child and the truth in the same week, and the tradition mostly forgets to notice."
+}

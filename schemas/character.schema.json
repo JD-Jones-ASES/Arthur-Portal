@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "character.schema.json",
+  "title": "A figure in the Matter of Britain",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "rank", "role", "one_line", "traditions", "dossier"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "sort": { "type": "string", "description": "sort key, when the name does not sort well" },
+    "rank": { "enum": ["principal", "company"] },
+    "role": { "type": "string", "description": "a short label: king, queen, knight, enchanter…" },
+    "house": { "type": "string", "description": "Pendragon, Orkney, Benwick, the Grail kings…" },
+    "one_line": { "type": "string", "minLength": 15 },
+    "dossier": { "type": "string", "minLength": 100 },
+    "aka": {
+      "type": "array",
+      "description": "the same figure's name in other traditions",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["form", "tradition"],
+        "properties": {
+          "form": { "type": "string" },
+          "tradition": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "traditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "enum": ["chronicle", "welsh", "french", "german", "english", "reception"] }
+    },
+    "branch": { "enum": ["chronicle", "welsh", "french", "german", "english", "reception"] },
+    "first_text": { "type": "string" },
+    "blazon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "source"],
+      "properties": {
+        "text": { "type": "string", "description": "the traditional blazon" },
+        "source": { "type": "string", "description": "where the attribution comes from" },
+        "svg": { "type": "string", "description": "id of a shield design in Heraldry.astro" }
+      }
+    },
+    "arc": {
+      "type": "array",
+      "description": "ordered stops through this figure's story",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["episode"],
+        "properties": {
+          "episode": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "kin": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["relation", "label"],
+        "properties": {
+          "id": { "type": "string" },
+          "relation": { "type": "string" },
+          "label": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "quotes": { "type": "array", "items": { "type": "string" } },
+    "cuts": { "type": "array", "items": { "type": "string" } },
+    "cost": { "type": "string", "description": "what this figure's excellence depletes" },
+    "gap_note": { "type": "string" },
+    "divergence": { "type": "string", "description": "where the traditions disagree about this figure" }
+  }
+}

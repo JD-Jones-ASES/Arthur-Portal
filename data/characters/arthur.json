@@ -1,0 +1,47 @@
+{
+  "id": "arthur",
+  "name": "Arthur",
+  "rank": "principal",
+  "role": "King of Britain",
+  "house": "Pendragon",
+  "branch": "english",
+  "one_line": "The king every author reinvented — war-leader, conqueror, elected boy, and finally a man who outlives his own kingdom.",
+  "aka": [
+    { "form": "Arthur, dux bellorum", "tradition": "chronicle", "note": "Nennius: a war-leader, not a king" },
+    { "form": "Arthur", "tradition": "welsh", "note": "in Culhwch, the head of a war-band" },
+    { "form": "Artus", "tradition": "french" },
+    { "form": "Artûs", "tradition": "german" }
+  ],
+  "traditions": ["chronicle", "welsh", "french", "german", "english", "reception"],
+  "first_text": "Nennius, Historia Brittonum (c. 830)",
+  "blazon": {
+    "text": "Azure, three crowns or",
+    "source": "the late-medieval armorials of the Round Table; other rolls give thirteen crowns"
+  },
+  "dossier": "No figure in this canon changes more between authors, and it is worth being blunt about how far apart the versions are.\n\nIn **Nennius** he is not a king at all. He is a *dux bellorum*, a leader of battles, who fights twelve of them and kills nine hundred and forty men at Badon by himself. In the **Welsh tales** he is the head of a war-band — Culhwch does not petition him, he claims a boon as kin — surrounded by retainers whose abilities are more extraordinary than his own.\n\n**Geoffrey** makes him a king and then an emperor: a dynastic conqueror in a line from Troy, who takes most of Europe and is marching on Rome when the news comes from home. This Arthur is competent, formidable and almost entirely exterior. He has no interior life because the book he is in does not deal in interiors.\n\n**Chrétien and the French** put him in a chair. Once romance arrives, the interesting person is the knight on the quest, and Arthur becomes the court that the knight leaves and returns to — increasingly passive, occasionally foolish, the fixed point that gives the adventures their meaning.\n\n**Malory** does something none of them do: he lets Arthur be young. The first books have a boy who does not know who he is, pulls a sword from a stone because his brother forgot his, weeps when he is told what he has done, sleeps with his half-sister without knowing it, and orders every child born on May Day put to sea to drown the one who will kill him. He is not blameless. He is not wise. By the end he is a man presiding over the wreck of everything he built, being told by his own knight that the queen must burn, and going to a battle he has been warned about since Book One.\n\nAnd he is never quite allowed to die. Geoffrey has him *borne thence unto the island of Avalon for the healing of his wounds*; Layamon sends him to the elf-queen Argante; Malory reports that *many men say* there is written on his tomb that he is the once and future king, and declines to say so himself.",
+  "arc": [
+    { "episode": "uther-and-igraine", "note": "begotten by a deception Merlin arranges" },
+    { "episode": "sword-in-the-stone", "note": "drawn, unknowing, at a tournament" },
+    { "episode": "excalibur", "note": "given a second and better sword by the Lady of the Lake" },
+    { "episode": "may-day-children", "note": "his worst act, and it fails" },
+    { "episode": "the-round-table", "note": "marries Guinevere, and is warned about her" },
+    { "episode": "pentecostal-oath", "note": "binds the fellowship by an oath" },
+    { "episode": "grail-enters-camelot", "note": "watches the vow empty his hall" },
+    { "episode": "camlann", "note": "kills Mordred and takes his death-wound" },
+    { "episode": "the-passing", "note": "borne away, and not said to die" }
+  ],
+  "kin": [
+    { "id": "uther", "relation": "father", "label": "Uther Pendragon" },
+    { "id": "igraine", "relation": "mother", "label": "Igraine" },
+    { "id": "guinevere", "relation": "wife", "label": "Guinevere" },
+    { "id": "morgause", "relation": "half-sister", "label": "Morgause", "note": "and, unknowing, the mother of his son" },
+    { "id": "morgan", "relation": "half-sister", "label": "Morgan le Fay" },
+    { "id": "mordred", "relation": "son", "label": "Mordred", "note": "begotten in ignorance; foretold to destroy the realm" },
+    { "id": "kay", "relation": "foster-brother", "label": "Sir Kay" },
+    { "id": "ector", "relation": "foster-father", "label": "Sir Ector" }
+  ],
+  "quotes": ["malory-sword-in-stone", "malory-pentecostal-oath", "malory-grail-empties-fellowship", "malory-rex-quondam", "geoffrey-arthur-to-avalon", "nennius-twelve-battles"],
+  "cuts": ["source-of-rule", "the-fellowship", "once-and-future", "foreknowledge-and-doom"],
+  "cost": "He is warned about all of it. Merlin tells him Guinevere will love Lancelot before he marries her, and tells him the child born on May Day will destroy the realm before he tries to drown it. Arthur's tragedy is not ignorance; it is that knowing changed nothing.",
+  "divergence": "Nennius's Arthur kills nine hundred men in a day. Chrétien's sits at a table while other men have adventures. Geoffrey's conquers Rome. Malory's cries. The name is doing an enormous amount of work."
+}

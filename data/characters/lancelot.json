@@ -1,0 +1,113 @@
+{
+  "id": "lancelot",
+  "name": "Lancelot",
+  "rank": "principal",
+  "role": "the best knight of the world",
+  "house": "Benwick",
+  "branch": "french",
+  "one_line": "The greatest knight alive, built by his love and disqualified by it — and the only man in the canon who is best at everything except the thing that matters most.",
+  "aka": [
+    {
+      "form": "Lancelot du Lac",
+      "tradition": "french",
+      "note": "Chretien's coinage; raised by the Lady of the Lake"
+    },
+    {
+      "form": "Lanzelet",
+      "tradition": "german"
+    },
+    {
+      "form": "Launcelot",
+      "tradition": "english",
+      "note": "Malory's spelling"
+    }
+  ],
+  "traditions": [
+    "french",
+    "german",
+    "english",
+    "reception"
+  ],
+  "first_text": "Chretien de Troyes, Lancelot, or the Knight of the Cart (c. 1177)",
+  "blazon": {
+    "text": "Argent, three bends gules",
+    "source": "the late-medieval Round Table armorials"
+  },
+  "dossier": "Lancelot is not old. He has no Welsh ancestry and no place in the chronicles; Chrétien appears to have invented him around 1177, at a patron's direction, and within fifty years he is the centre of the entire French tradition.\n\nWhat Chrétien invented was a mechanism. In *The Knight of the Cart* Lancelot must ride in a cart used for condemned criminals in order to follow the abducted queen, and to do so is permanent disgrace. He hesitates for two steps. That hesitation is the only thing the poem holds against him: *Reason, which dares thus speak to him, reaches only his lips, but not his heart; but love is enclosed within his heart.* Love overrules reason, and the result is the best knight in the world.\n\nThe **Vulgate** then drew the conclusion Chrétien had avoided. If the Grail requires purity, the man made supreme by adulterous love is structurally disqualified from the highest thing there is. So Lancelot rides the quest and fails it — and the failure is the most affecting sequence in the cycle, because he is not a hypocrite. He tries. He confesses. He is told plainly that he will go no further, and he accepts it, and his son achieves what he cannot.\n\n**Malory** keeps all of this and adds the ending. Lancelot rescues the queen from the fire and kills Gareth and Gaheris doing it, unarmed men he loved, without seeing who they were — and that single accident, not the adultery, is what makes the war unstoppable, because Gawain will not forgive it. He gives the queen back, is exiled, is besieged, is called home too late, finds Arthur dead and Guinevere in a nunnery, becomes a priest, and starves himself to death.\n\nMalory's final judgement is put in Ector's mouth over the body: the courteoust knight that ever bare shield, the truest friend, the kindest man that ever struck with sword. He does not mention the queen.",
+  "kin": [
+    {
+      "relation": "father",
+      "label": "King Ban of Benwick"
+    },
+    {
+      "id": "galahad",
+      "relation": "son",
+      "label": "Galahad",
+      "note": "by Elaine of Corbenic, who deceived him"
+    },
+    {
+      "id": "bors",
+      "relation": "cousin",
+      "label": "Sir Bors"
+    },
+    {
+      "id": "lionel",
+      "relation": "cousin",
+      "label": "Sir Lionel"
+    },
+    {
+      "id": "elaine-corbenic",
+      "relation": "mother of his son",
+      "label": "Elaine of Corbenic"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "knight-of-the-cart",
+      "note": "the love, and the two steps of hesitation"
+    },
+    {
+      "episode": "elaine-and-galahad",
+      "note": "deceived into begetting the knight who will outdo him"
+    },
+    {
+      "episode": "lancelot-fails",
+      "note": "the best knight in the world is stopped at the chapel"
+    },
+    {
+      "episode": "maid-of-astolat",
+      "note": "a girl dies of loving him, and he cannot help it"
+    },
+    {
+      "episode": "poisoned-apple",
+      "note": "fights for the queen when nobody else will"
+    },
+    {
+      "episode": "the-queen-taken",
+      "note": "taken in the queen's chamber"
+    },
+    {
+      "episode": "gareth-slain",
+      "note": "kills the two men whose deaths make the war unstoppable"
+    },
+    {
+      "episode": "benwick-and-gawains-death",
+      "note": "besieged by the man who was his friend"
+    },
+    {
+      "episode": "amesbury",
+      "note": "finds her a nun, and does not survive it long"
+    }
+  ],
+  "quotes": [
+    "chretien-love-over-shame",
+    "vulgate-lancelot-loves-queen"
+  ],
+  "cuts": [
+    "courtly-love",
+    "the-grail",
+    "the-fellowship"
+  ],
+  "cost": "Everything that makes him the best knight in the world is the same thing that disqualifies him from the Grail and destroys the fellowship. There is no version of Lancelot who is great and harmless.",
+  "divergence": "Chretien's Lancelot is ennobled by the love. The Vulgate's is damned by it. Malory keeps both readings in the same book and refuses to choose between them."
+}

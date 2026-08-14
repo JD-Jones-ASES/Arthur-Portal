@@ -1,0 +1,66 @@
+{
+  "id": "tristram",
+  "name": "Tristram",
+  "rank": "principal",
+  "role": "knight of Cornwall",
+  "branch": "german",
+  "one_line": "The other adulterer — whose love was poured from a cup by mistake, and who is destroyed by it just the same.",
+  "aka": [
+    {
+      "form": "Tristan",
+      "tradition": "french"
+    },
+    {
+      "form": "Tristan",
+      "tradition": "german",
+      "note": "Gottfried's, the greatest version"
+    },
+    {
+      "form": "Tristram",
+      "tradition": "english",
+      "note": "Malory's, who makes him a knight of the Round Table"
+    },
+    {
+      "form": "Drystan",
+      "tradition": "welsh"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "french",
+    "german",
+    "english"
+  ],
+  "first_text": "the Tristan matter is older than Arthur's court; Gottfried's Tristan is c. 1210",
+  "blazon": {
+    "text": "Vert, a lion rampant or",
+    "source": "the late-medieval Round Table armorials"
+  },
+  "dossier": "Tristram's story began independently of Arthur and was pulled in later — most spectacularly by Malory, who gives him eighty-eight chapters in Book X alone and nearly derails his own book doing it.\n\nThe shape is fixed. Tristram fetches Iseult from Ireland as a bride for his uncle King Mark. On the ship they drink, by accident, a potion prepared for Mark and his bride: *a love potion of such power and magic that did any two drink thereof they must needs, without will of their own, love each other above all things.* Everything follows.\n\nThe potion is the whole argument. Lancelot and Guinevere chose each other, and eight centuries of readers have argued about their guilt. Tristram and Iseult did not choose. They cannot repent of a passion they never consented to, there is nothing for a confessor to work with, and they are destroyed exactly as thoroughly. Whatever the tragedy of adultery in this literature is about, Gottfried's version demonstrates that it is not about consent.\n\nMalory's Tristram is a different creature: a great knight, a hunter, a harper, funny in a way nobody else in the Morte is, and permanently at war with a contemptible uncle. Malory kills him almost offhandedly, in a line, reporting that Mark murdered him with a sword while he sat harping before Iseult.",
+  "kin": [
+    {
+      "id": "isoude",
+      "relation": "lover",
+      "label": "Iseult"
+    },
+    {
+      "id": "mark",
+      "relation": "uncle",
+      "label": "King Mark of Cornwall"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "tristram-and-isoude",
+      "note": "the potion, drunk by mistake on the ship"
+    }
+  ],
+  "quotes": [
+    "gottfried-love-potion"
+  ],
+  "cuts": [
+    "courtly-love"
+  ],
+  "cost": "He is given a passion he never chose and punished for it as though he had. And in Malory he is finally killed by a small man while playing the harp.",
+  "divergence": "Gottfried's Tristan is a philosophical instrument, the control experiment for the Lancelot story. Malory's is a beloved knight of the Round Table with a hunting manual attached."
+}

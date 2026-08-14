@@ -1,0 +1,53 @@
+{
+  "id": "bors",
+  "name": "Bors",
+  "rank": "principal",
+  "role": "knight of the Round Table",
+  "house": "Benwick",
+  "branch": "french",
+  "one_line": "The only man who achieves the Grail and comes home — because he is the only one who is merely good.",
+  "aka": [
+    {
+      "form": "Bohort",
+      "tradition": "french"
+    }
+  ],
+  "traditions": [
+    "french",
+    "english"
+  ],
+  "first_text": "the Vulgate Cycle",
+  "dossier": "Bors is the most interesting of the three Grail knights, precisely because he is the least remarkable. Galahad is faultless and Percival is a virgin; Bors is neither. He has fathered a child. He is Lancelot's cousin and loves him. He is not the best knight at anything.\n\nWhat he has is judgement under pressure, and the Queste tests it with a genuinely cruel problem: he must choose between rescuing his own brother Lionel, who is being beaten by two knights, and rescuing a woman about to be raped. He chooses the woman. Lionel survives and never forgives him, and later tries to kill him, and Bors will not lift a sword against his brother.\n\nHe is also the only one of the three who comes back. Galahad dies in ecstasy; Percival becomes a hermit and dies. Bors returns to Camelot alone and tells them what happened. He is the witness — the man who saw the highest thing there is and then went home to a court he knew was doomed, and stayed with it, and was at Lancelot's side to the end.\n\nHe is the tradition's quiet argument that you do not have to be exceptional to be worth something, made by a cycle otherwise devoted to the proposition that you do.",
+  "kin": [
+    {
+      "id": "lancelot",
+      "relation": "cousin",
+      "label": "Lancelot"
+    },
+    {
+      "id": "lionel",
+      "relation": "brother",
+      "label": "Lionel"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "percival-bors-and-the-sister",
+      "note": "the choice between his brother and a stranger"
+    },
+    {
+      "episode": "corbenic",
+      "note": "the only one of the three who comes home"
+    },
+    {
+      "episode": "the-queen-taken",
+      "note": "stands with Lancelot when the court turns"
+    }
+  ],
+  "cuts": [
+    "the-grail",
+    "the-fellowship"
+  ],
+  "cost": "He is the only man who both sees the Grail and has to live afterwards in the world it emptied.",
+  "gap_note": "His Queste material sits in the volumes of the Vulgate this portal may quote but not publish; the account here is drawn from Malory's Books XVI-XVII."
+}

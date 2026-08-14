@@ -1,0 +1,65 @@
+{
+  "id": "isoude",
+  "name": "Iseult",
+  "rank": "principal",
+  "role": "Queen of Cornwall",
+  "branch": "german",
+  "one_line": "Married to one man, bound to another by an accident with a cup, and the only lover in the canon with a defensible case.",
+  "aka": [
+    {
+      "form": "Iseult",
+      "tradition": "french"
+    },
+    {
+      "form": "Isolde",
+      "tradition": "german"
+    },
+    {
+      "form": "Isoud",
+      "tradition": "english",
+      "note": "Malory's spelling"
+    },
+    {
+      "form": "Essyllt",
+      "tradition": "welsh"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "french",
+    "german",
+    "english"
+  ],
+  "first_text": "the Tristan matter",
+  "dossier": "Iseult of Ireland is fetched across the sea to marry a man she has never met, and on the voyage she and her escort drink a potion her own mother brewed for the wedding night. From that point neither of them has a will in the matter.\n\nThe tradition is unusually kind to her as a result. Guinevere's affair is a choice and is judged as one; Iseult's is a chemical fact. Gottfried builds an entire poem on the distinction, and readers have argued ever since about whether it makes her innocent or merely doomed.\n\nMalory keeps her as a courtly figure and gives her a rival with almost the same name — Iseult of the White Hands, whom Tristram marries and does not touch, which is its own small cruelty. She survives Tristram's murder and dies over his body.",
+  "kin": [
+    {
+      "id": "tristram",
+      "relation": "lover",
+      "label": "Tristram"
+    },
+    {
+      "id": "mark",
+      "relation": "husband",
+      "label": "King Mark"
+    },
+    {
+      "relation": "mother",
+      "label": "the Queen of Ireland",
+      "note": "who brewed the potion"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "tristram-and-isoude",
+      "note": "the cup, and everything after it"
+    }
+  ],
+  "quotes": [
+    "gottfried-love-potion"
+  ],
+  "cuts": [
+    "courtly-love"
+  ],
+  "cost": "She is the proof that removing the choice does not remove the ruin."
+}

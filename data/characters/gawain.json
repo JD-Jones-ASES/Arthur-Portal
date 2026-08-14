@@ -1,0 +1,110 @@
+{
+  "id": "gawain",
+  "name": "Gawain",
+  "rank": "principal",
+  "role": "knight of the Round Table",
+  "house": "Orkney",
+  "branch": "english",
+  "one_line": "The best knight in England and a declining one in France — and in the finest poem of the tradition, a good man who fails because he does not want to die.",
+  "aka": [
+    {
+      "form": "Gwalchmai",
+      "tradition": "welsh",
+      "note": "'hawk of May'; the same figure in the Welsh tales"
+    },
+    {
+      "form": "Gauvain",
+      "tradition": "french"
+    },
+    {
+      "form": "Gawan",
+      "tradition": "german",
+      "note": "Wolfram gives him a long parallel quest"
+    },
+    {
+      "form": "Gawaine",
+      "tradition": "english",
+      "note": "Malory's spelling"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "chronicle",
+    "french",
+    "german",
+    "english"
+  ],
+  "first_text": "Welsh tradition as Gwalchmai; named by Geoffrey",
+  "blazon": {
+    "text": "Purpure, a double-headed eagle or",
+    "source": "the late-medieval Round Table armorials"
+  },
+  "dossier": "Gawain is the clearest case in the canon of a reputation moving in opposite directions in different countries.\n\nIn **Welsh and early tradition** he is Gwalchmai, and he is the courteous one — the knight sent when a matter needs handling well.\n\nIn **French romance** he steadily declines. As Lancelot rises, Gawain becomes the worldly foil: capable, likeable, and spiritually second-rate. In the *Queste* he is told outright that he will find nothing, because he has not confessed in years and does not intend to.\n\nIn **English poetry he is the hero**, and *Sir Gawain and the Green Knight* is the finest thing in the tradition. He accepts a beheading game nobody else will take, keeps his word for a year, rides out to what he believes is certain death, and resists his host's wife for three mornings. Then he accepts a green girdle he is told will save his life, and conceals it, and that is his entire failure. Not lust, not treason. He does not want to die. He wears the girdle afterwards as a badge of shame; the court laughs and adopts it as a fashion, which he finds no comfort at all.\n\n**Malory** makes him something harder. His Gawain is proud, quick to violence, kills a lady in his very first adventure, and murders Lamorak with his brothers. And at the end he is the engine of the catastrophe: when Lancelot kills Gareth and Gaheris in the rescue, Gawain will not accept any peace, drags Arthur into a war across the sea at the exact moment Mordred needs him gone, and dies of a wound Lancelot gave him — writing, at the last, to ask Lancelot's forgiveness and beg him to come and defend the realm.",
+  "kin": [
+    {
+      "id": "morgause",
+      "relation": "mother",
+      "label": "Morgause"
+    },
+    {
+      "relation": "father",
+      "label": "King Lot of Orkney"
+    },
+    {
+      "id": "arthur",
+      "relation": "uncle",
+      "label": "Arthur"
+    },
+    {
+      "id": "gareth",
+      "relation": "brother",
+      "label": "Gareth"
+    },
+    {
+      "id": "agravaine",
+      "relation": "brother",
+      "label": "Agravaine"
+    },
+    {
+      "id": "mordred",
+      "relation": "half-brother",
+      "label": "Mordred"
+    }
+  ],
+  "arc": [
+    {
+      "episode": "green-knight",
+      "note": "takes the beheading game when nobody else will"
+    },
+    {
+      "episode": "green-girdle",
+      "note": "fails, by wanting to live"
+    },
+    {
+      "episode": "dame-ragnelle",
+      "note": "marries a loathly lady to save the king, and gives her the choice"
+    },
+    {
+      "episode": "the-queen-taken",
+      "note": "refuses to join the ambush"
+    },
+    {
+      "episode": "gareth-slain",
+      "note": "his brothers killed, and no peace after it"
+    },
+    {
+      "episode": "benwick-and-gawains-death",
+      "note": "drives the war, and dies of the wound"
+    }
+  ],
+  "quotes": [
+    "sggk-green-girdle",
+    "ragnelle-sovereignty"
+  ],
+  "cuts": [
+    "the-fellowship",
+    "source-of-rule"
+  ],
+  "cost": "In England he carries the whole chivalric code and finds its one unlegislatable flaw. In Malory he becomes the mechanism of the ending — the good man whose grief for his brothers costs the kingdom the king it needed at home.",
+  "divergence": "The Queste's Gawain is a spiritual write-off who is told he will find nothing. The Gawain poet's is the best knight in Britain, and his single fault is that he does not want to be killed. These are not the same assessment of the same man."
+}

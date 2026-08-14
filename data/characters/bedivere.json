@@ -1,0 +1,53 @@
+{
+  "id": "bedivere",
+  "name": "Sir Bedivere",
+  "rank": "principal",
+  "role": "knight of the Round Table",
+  "branch": "welsh",
+  "one_line": "The last man standing at the end, ordered three times to throw a sword into a lake, and unable to do it twice.",
+  "aka": [
+    {
+      "form": "Bedwyr",
+      "tradition": "welsh",
+      "note": "one of Arthur's earliest companions, alongside Cai"
+    },
+    {
+      "form": "Bedoier",
+      "tradition": "french"
+    },
+    {
+      "form": "Bedivere",
+      "tradition": "english"
+    }
+  ],
+  "traditions": [
+    "welsh",
+    "chronicle",
+    "french",
+    "english"
+  ],
+  "first_text": "Welsh tradition as Bedwyr",
+  "dossier": "Bedivere is one of the two oldest companions — he and Cai are with Arthur in the Welsh material long before Lancelot exists — and he is given the last real scene in the book.\n\nAfter Camlann, with the army dead and Arthur dying, the king orders him to throw Excalibur into the water and report what he sees. Twice Bedivere goes, looks at the sword, decides that throwing away something so valuable would be a waste, hides it, and comes back with a lie: he saw nothing but waves and wind. Twice Arthur knows he is lying.\n\nThe third time he does it, and *there came an arm and an hand above the water and met it, and caught it, and so shook it thrice and brandished, and then vanished away the hand with the sword in the water.*\n\nIt is the most human moment in the ending. The world's last loyal knight cannot follow one simple instruction, because he is grieving and the object is beautiful and it seems like such a waste — and the marvellous is waiting the entire time for him to get on with it.",
+  "arc": [
+    {
+      "episode": "camlann",
+      "note": "one of the two survivors"
+    },
+    {
+      "episode": "excalibur-returned",
+      "note": "lies twice, and finally obeys"
+    },
+    {
+      "episode": "the-passing",
+      "note": "the last man on the shore"
+    }
+  ],
+  "quotes": [
+    "malory-excalibur-returned"
+  ],
+  "cuts": [
+    "source-of-rule",
+    "once-and-future"
+  ],
+  "cost": "He is left alive to be the one who watched. The barge goes, and the book gives him a hermitage and nothing else."
+}
