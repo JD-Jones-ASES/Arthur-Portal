@@ -102,6 +102,8 @@ export const stats = () => load("data/indexes/stats.json", {});
 
 /* ------------------------------------------------------------------ Grail */
 
+export const transmission = () => load("data/transmission.json", { edges: [], motifs: [] });
+
 export const grailThread = () => load("data/grail/thread.json", { stops: [] });
 export const grailVersions = () => load("data/grail/versions.json", { rows: [], columns: [] });
 export const grailQuesters = () => load("data/grail/questers.json", { people: [] });

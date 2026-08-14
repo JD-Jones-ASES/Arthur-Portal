@@ -1,0 +1,57 @@
+---
+import Layout from "../components/Layout.astro";
+import Ornament from "../components/Ornament.astro";
+import Transmission from "../islands/Transmission.svelte";
+import { withBase } from "../lib/site.js";
+import { voices, transmission } from "../lib/portal-data.js";
+
+const t = transmission();
+const vs = voices().map((v) => ({ id: v.id, name: v.name, short: v.short, branch: v.branch, floruit: v.floruit }));
+---
+
+<Layout
+  title="Transmission"
+  description="Who took what from whom, and what they changed — the descent of the legend, motif by motif."
+  current="/library"
+>
+  <div class="page-head">
+    <span class="rubric">Transmission</span>
+    <h1>One inheritance, many hands</h1>
+    <p class="lede">
+      This is the diagram the whole portal is arguing for. The lines are the routes along which the
+      material actually travelled, and the point of the exercise is what happens to an object as it
+      passes down one of them.
+    </p>
+    <p>
+      Pick a motif and watch it change. The sword starts as a Welsh war-leader&rsquo;s weapon, is
+      latinised and forged in Avalon, is demoted below the Grail, and ends up split in two &mdash; a
+      stone that elects a king, and a lake that lends him a blade and takes it back. Nobody
+      corrupted anything. Each of them made it mean something they needed it to mean.
+    </p>
+  </div>
+
+  <Transmission voices={vs} edges={t.edges} motifs={t.motifs} base={withBase("/")} client:visible />
+
+  <Ornament />
+
+  <section class="narrow narrow--flush">
+    <span class="rubric">Two lines worth noticing</span>
+    <h2>The dotted ones</h2>
+    <p>
+      One edge is drawn as unresolved: the Welsh tales and Chrétien tell two of the same stories,
+      and a century of scholarship has not settled who borrowed from whom. Treating the Welsh
+      material as straightforwardly the original is a reflex the evidence does not support, and so
+      is the reverse.
+    </p>
+    <p>
+      One edge is drawn as an absence. <em>Sir Gawain and the Green Knight</em> is the finest poem in
+      the tradition and it left no mark on Malory whatsoever &mdash; it survives in a single
+      manuscript and was effectively unread for four centuries. Influence is not a function of
+      quality, and a diagram that only drew the successful transmissions would imply that it is.
+    </p>
+    <p class="small">
+      <a href={withBase("/library/")}>The voices in order &rarr;</a> &middot;
+      <a href={withBase("/timeline/")}>The same material as dates &rarr;</a>
+    </p>
+  </section>
+</Layout>

@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "note": "The descent of the legend: who took what from whom, and what they changed. Edges are inheritance relations attested by the texts themselves or by uncontested scholarly consensus; where the direction of borrowing is genuinely unresolved it is marked `contested` and drawn as such. Motif paths trace one object through the tradition.",
+  "edges": [
+    {
+      "from": "chroniclers",
+      "to": "geoffrey",
+      "what": "the battle-list, and a name"
+    },
+    {
+      "from": "geoffrey",
+      "to": "chroniclers",
+      "what": "Wace and Layamon translate him into French and English"
+    },
+    {
+      "from": "geoffrey",
+      "to": "chretien",
+      "what": "the court, arriving through Wace"
+    },
+    {
+      "from": "mabinogion",
+      "to": "chretien",
+      "what": "Welsh matter — direction of borrowing unresolved",
+      "contested": true
+    },
+    {
+      "from": "chretien",
+      "to": "vulgate",
+      "what": "Lancelot, the love, and the Grail — systematised"
+    },
+    {
+      "from": "chretien",
+      "to": "wolfram",
+      "what": "the unfinished Perceval, completed in the opposite direction"
+    },
+    {
+      "from": "vulgate",
+      "to": "grail-romances",
+      "what": "the sacred vessel, turned into a judge"
+    },
+    {
+      "from": "vulgate",
+      "to": "malory",
+      "what": "almost everything: his principal source"
+    },
+    {
+      "from": "grail-romances",
+      "to": "malory",
+      "what": "the quest, translated closely and framed as a loss"
+    },
+    {
+      "from": "gottfried",
+      "to": "malory",
+      "what": "the Tristan matter, absorbed into the Round Table"
+    },
+    {
+      "from": "mortes",
+      "to": "malory",
+      "what": "the Roman war, and the whole of the ending"
+    },
+    {
+      "from": "gawain-romances",
+      "to": "malory",
+      "what": "nothing — the finest English poem left no mark on him",
+      "none": true
+    },
+    {
+      "from": "malory",
+      "to": "tennyson",
+      "what": "the entire narrative, reread as a civilisation in decline"
+    }
+  ],
+  "motifs": [
+    {
+      "id": "the-sword",
+      "label": "The sword",
+      "cut": "source-of-rule",
+      "path": [
+        {
+          "voice": "chroniclers",
+          "change": "Caledfwlch: a Welsh war-leader's weapon, no more"
+        },
+        {
+          "voice": "geoffrey",
+          "change": "latinised to Caliburn, and forged in Avalon — the otherworld arms the crown"
+        },
+        {
+          "voice": "vulgate",
+          "change": "outranked: the Grail is prized above the sword"
+        },
+        {
+          "voice": "malory",
+          "change": "split in two — a stone that elects, and a lake that lends and takes back"
+        }
+      ]
+    },
+    {
+      "id": "the-table",
+      "label": "The Round Table",
+      "cut": "the-fellowship",
+      "path": [
+        {
+          "voice": "chroniclers",
+          "change": "invented by Wace in 1155 as engineering against precedence"
+        },
+        {
+          "voice": "vulgate",
+          "change": "becomes a kin-network, and therefore a fault line"
+        },
+        {
+          "voice": "malory",
+          "change": "given a written constitution, and then eighteen books of its breach"
+        },
+        {
+          "voice": "tennyson",
+          "change": "reread as the founding institution of a civilisation that rots"
+        }
+      ]
+    },
+    {
+      "id": "the-grail",
+      "label": "The Grail",
+      "cut": "the-grail",
+      "path": [
+        {
+          "voice": "mabinogion",
+          "change": "a bleeding spear and a severed head — no vessel at all"
+        },
+        {
+          "voice": "chretien",
+          "change": "a graal, carried in procession, deliberately never explained"
+        },
+        {
+          "voice": "vulgate",
+          "change": "the vessel of the Last Supper, with a genealogy back to the Crucifixion"
+        },
+        {
+          "voice": "grail-romances",
+          "change": "a test with a pass mark: cleansed and purged, or nothing"
+        },
+        {
+          "voice": "wolfram",
+          "change": "refused entirely — a stone, healed by a question asked out of pity"
+        },
+        {
+          "voice": "malory",
+          "change": "kept sacred, and mourned: the vow that empties the hall"
+        },
+        {
+          "voice": "tennyson",
+          "change": "downgraded to a collective error"
+        }
+      ],
+      "note": "The first hop runs backwards on the axis, and that is deliberate. Peredur survives in manuscripts later than Chrétien's poem, but preserves a form of the scene with no vessel and no theology in it — which may mean it is older, or may mean it is a Welsh retelling. The direction has never been settled, so it is drawn as unresolved and placed where the material, not the parchment, suggests."
+    },
+    {
+      "id": "the-betrayal",
+      "label": "The betrayal",
+      "cut": "courtly-love",
+      "path": [
+        {
+          "voice": "geoffrey",
+          "change": "a coup: Mordred takes crown and queen while Arthur is abroad"
+        },
+        {
+          "voice": "chretien",
+          "change": "invented as a virtue — love overrules reason, and ennobles"
+        },
+        {
+          "voice": "gottfried",
+          "change": "the control experiment: a potion removes the choice, and ruins them anyway"
+        },
+        {
+          "voice": "vulgate",
+          "change": "made mutual, fatal, and Grail-disqualifying"
+        },
+        {
+          "voice": "malory",
+          "change": "kept tragic and defended in the author's own voice"
+        },
+        {
+          "voice": "tennyson",
+          "change": "condemned, with the weight put on the queen"
+        }
+      ]
+    },
+    {
+      "id": "the-wound",
+      "label": "The wound",
+      "cut": "the-wound-and-wasteland",
+      "path": [
+        {
+          "voice": "geoffrey",
+          "change": "the king wounded deadly, and Britain falls with him"
+        },
+        {
+          "voice": "chretien",
+          "change": "a maimed king whose cure is an unasked question"
+        },
+        {
+          "voice": "wolfram",
+          "change": "wounded for love, and healed by compassion"
+        },
+        {
+          "voice": "malory",
+          "change": "the Dolorous Stroke: one blow, three kingdoms, and no cure for eleven books"
+        }
+      ]
+    },
+    {
+      "id": "the-return",
+      "label": "The return",
+      "cut": "once-and-future",
+      "path": [
+        {
+          "voice": "geoffrey",
+          "change": "borne to Avalon for the healing of his wounds — asserting nothing"
+        },
+        {
+          "voice": "chroniclers",
+          "change": "Wace records the Bretons' hope; Layamon names Argante"
+        },
+        {
+          "voice": "malory",
+          "change": "reported as what many men say, and pointedly not endorsed"
+        },
+        {
+          "voice": "tennyson",
+          "change": "the passing as apotheosis, with a new sun rising"
+        }
+      ]
+    },
+    {
+      "id": "the-prophecy",
+      "label": "The prophecy",
+      "cut": "foreknowledge-and-doom",
+      "path": [
+        {
+          "voice": "geoffrey",
+          "change": "Merlin invented, and prophecy made into a dynastic charter"
+        },
+        {
+          "voice": "vulgate",
+          "change": "the prophet given his own branch, and the doom built into the architecture"
+        },
+        {
+          "voice": "malory",
+          "change": "the seer destroyed by the one future he saw most clearly"
+        },
+        {
+          "voice": "tennyson",
+          "change": "Vivien corrupts him deliberately, and the tragedy becomes a seduction"
+        }
+      ]
+    }
+  ]
+}
